@@ -1,64 +1,76 @@
-from taipy.gui import Gui
+from taipy.gui import Gui, notify
+import taipy.gui.builder as tgb
 import pandas as pd
-from dotenv import load_dotenv
-import os
-from sqlalchemy import create_engine
+from functions import create_map
+from functions import establish_connection_to_database
 
-page = """
-# Hospital Analysis Dashboard
-## Hospital Distance Map
-<|{min_hospital_beds}|slider|on_change=on_slider|min=0|max=1000|step=50|change_delay=1|>
-<|{data}|chart|type=scattermapbox|plot_config={config}|options={options}|layout={layout_map}|lat=latitude|lon=longitude|mode=markers|height=100%|>
-"""
+# Connect to  database
+engine = establish_connection_to_database()
 
-# Read data from SQL database into a DataFrame
-load_dotenv()
-DB_PW = os.getenv('DB_PW')
-
-username = 'root'
-password = DB_PW
-host = 'localhost'
-port = '3306'
-database = 'hospital_register'
-
-engine = create_engine(f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}')
-
-min_hospital_beds = 300
-
+# Define query to get hospital data
+min_hospital_beds = 500
 query = f"""
     SELECT name, beds_number, latitude, longitude
     FROM hospital_locations
     WHERE beds_number > {min_hospital_beds}
     """
 
-data = pd.read_sql(query, engine)
+# Read data from database to dataframe
+df_hospitals = pd.read_sql(query, engine)
 
-layout_map = {
-    'mapbox': {'style': 'open-street-map', 'center': {'lat': 51.2, 'lon': 10.5}, 'zoom': 4}
-}
+# Store initial min and max values of beds_number
+initial_min_beds = 0
+initial_max_beds = df_hospitals['beds_number'].max()
 
-options = {
-    'marker': {
-        'size': data['beds_number'] / 10,  # Adjust size for better visualization
-        'color': data['beds_number'],  # Use beds_number for color
-        'colorscale': 'OrRd',
-        'colorbar': {'title': 'Number of Beds'}
-    }
-}
+fig = create_map(df_hospitals)
 
-config = {
-    'displayModeBar': True,
-    'responsive': True
-}
-
-
+# Define callback function for min_hospital_beds slider
 def on_slider(state):
     query = f"""
     SELECT name, beds_number, latitude, longitude
     FROM hospital_locations
     WHERE beds_number > {state.min_hospital_beds}
     """
-    state.data = pd.read_sql(query, engine)
+    state.df_hospitals = pd.read_sql(query, engine)
+    state.fig = create_map(state.df_hospitals)
+    return state.fig
 
+
+mapstyle = 'carto-positron'
+
+def on_change(state, var_name, var_value):
+    if var_name == "theme" and var_value:
+        state.mapstyle = "carto-darkmatter"
+        notify(state, "info", "Switched to Dark Mode")
+    elif var_name == "theme" and not var_value:
+        state.mapstyle = "carto-positron"
+        notify(state, "info", "Switched to Light Mode")
+
+
+# Create GUI
+with tgb.Page() as page:
+    with tgb.layout(columns = '1 3 1', gap = '10px'):
+
+        with tgb.part():
+            tgb.html("h1", "") # placeholder
+
+        with tgb.part():
+            tgb.html("h1", "Klinikatlas Analysis Dashboard")
+
+            tgb.html("p", f"Minimum number of beds")
+            tgb.text("{min_hospital_beds}", mode='md')
+            tgb.slider(label="min_hospital_beds",
+               value="{min_hospital_beds}", min=0, max=1000, step=10,
+               change_delay=10, on_change=on_slider)
+
+            tgb.chart(figure="{fig}")
+            
+        with tgb.part():
+            tgb.html("h1", "") # placeholder
+            tgb.toggle(theme=True)
+            
+            
+
+# Run GUI
 if __name__ == "__main__":
     Gui(page).run(dark_mode=True, use_reloader=True)

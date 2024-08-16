@@ -1,0 +1,1101 @@
+hospital_id,treatment_code,count_number,count_label
+772341,KAHKO0,0,sehr wenige
+772341,KAHM0,0,sehr wenige
+772341,KAKIA,0,sehr wenige
+772341,KAKIB,236,mittel
+772341,KALE0,159,wenige
+772341,KABK0,0,sehr wenige
+772341,KALK0,0,sehr wenige
+772341,KADK0,20,sehr wenige
+772341,KAOM0,0,sehr wenige
+772341,KAPRK0,0,sehr wenige
+772341,KAPK0,0,sehr wenige
+772341,KAEH0,176,wenige
+772341,KARH0,13,sehr wenige
+772341,KARK0,16,sehr wenige
+772341,KAEK0,247,mittel
+772341,KASA0,0,sehr wenige
+772341,KAMUS0,0,sehr wenige
+772341,KAPAR0,0,sehr wenige
+772341,KAEN0,0,sehr wenige
+772341,KABAA0,0,sehr wenige
+772341,KASCHK0,0,sehr wenige
+772341,KAOH0,0,sehr wenige
+772342,KAHKO0,0,sehr wenige
+772342,KAHM0,0,sehr wenige
+772342,KAKIA,0,sehr wenige
+772342,KAKIB,326,viele
+772342,KALE0,249,mittel
+772342,KABK0,81,sehr wenige
+772342,KALK0,0,sehr wenige
+772342,KADK0,28,sehr wenige
+772342,KAOM0,0,sehr wenige
+772342,KAPRK0,0,sehr wenige
+772342,KAPK0,0,sehr wenige
+772342,KAEH0,5,sehr wenige
+772342,KARH0,0,sehr wenige
+772342,KARK0,0,sehr wenige
+772342,KAEK0,0,sehr wenige
+772342,KASA0,0,sehr wenige
+772342,KAMUS0,0,sehr wenige
+772342,KAPAR0,0,sehr wenige
+772342,KAEN0,701,sehr viele
+772342,KABAA0,0,sehr wenige
+772342,KASCHK0,82,sehr wenige
+772342,KAOH0,0,sehr wenige
+772347,KAHKO0,0,sehr wenige
+772347,KAHM0,0,sehr wenige
+772347,KAKIA,0,sehr wenige
+772347,KAKIB,0,sehr wenige
+772347,KALE0,235,mittel
+772347,KABK0,807,sehr viele
+772347,KALK0,0,sehr wenige
+772347,KADK0,80,sehr wenige
+772347,KAOM0,7,sehr wenige
+772347,KAPRK0,233,mittel
+772347,KAPK0,16,sehr wenige
+772347,KAEH0,4,sehr wenige
+772347,KARH0,0,sehr wenige
+772347,KARK0,0,sehr wenige
+772347,KAEK0,0,sehr wenige
+772347,KASA0,0,sehr wenige
+772347,KAMUS0,0,sehr wenige
+772347,KAPAR0,15,sehr wenige
+772347,KAEN0,1559,sehr viele
+772347,KABAA0,0,sehr wenige
+772347,KASCHK0,17,sehr wenige
+772347,KAOH0,0,sehr wenige
+772349,KAHKO0,0,sehr wenige
+772349,KAHM0,0,sehr wenige
+772349,KAKIA,0,sehr wenige
+772349,KAKIB,0,sehr wenige
+772349,KALE0,28,sehr wenige
+772349,KABK0,5,sehr wenige
+772349,KALK0,0,sehr wenige
+772349,KADK0,0,sehr wenige
+772349,KAOM0,0,sehr wenige
+772349,KAPRK0,0,sehr wenige
+772349,KAPK0,0,sehr wenige
+772349,KAEH0,75,sehr wenige
+772349,KARH0,0,sehr wenige
+772349,KARK0,5,sehr wenige
+772349,KAEK0,145,wenige
+772349,KASA0,0,sehr wenige
+772349,KAMUS0,0,sehr wenige
+772349,KAPAR0,0,sehr wenige
+772349,KAEN0,0,sehr wenige
+772349,KABAA0,0,sehr wenige
+772349,KASCHK0,0,sehr wenige
+772349,KAOH0,0,sehr wenige
+772350,KAHKO0,0,sehr wenige
+772350,KAHM0,0,sehr wenige
+772350,KAKIA,0,sehr wenige
+772350,KAKIB,0,sehr wenige
+772350,KALE0,0,sehr wenige
+772350,KABK0,0,sehr wenige
+772350,KALK0,0,sehr wenige
+772350,KADK0,0,sehr wenige
+772350,KAOM0,0,sehr wenige
+772350,KAPRK0,0,sehr wenige
+772350,KAPK0,0,sehr wenige
+772350,KAEH0,0,sehr wenige
+772350,KARH0,0,sehr wenige
+772350,KARK0,0,sehr wenige
+772350,KAEK0,0,sehr wenige
+772350,KASA0,0,sehr wenige
+772350,KAMUS0,13,sehr wenige
+772350,KAPAR0,20,sehr wenige
+772350,KAEN0,0,sehr wenige
+772350,KABAA0,0,sehr wenige
+772350,KASCHK0,0,sehr wenige
+772350,KAOH0,0,sehr wenige
+772351,KAHKO0,0,sehr wenige
+772351,KAHM0,0,sehr wenige
+772351,KAKIA,0,sehr wenige
+772351,KAKIB,0,sehr wenige
+772351,KALE0,282,viele
+772351,KABK0,22,sehr wenige
+772351,KALK0,0,sehr wenige
+772351,KADK0,10,sehr wenige
+772351,KAOM0,0,sehr wenige
+772351,KAPRK0,0,sehr wenige
+772351,KAPK0,0,sehr wenige
+772351,KAEH0,207,mittel
+772351,KARH0,12,sehr wenige
+772351,KARK0,14,sehr wenige
+772351,KAEK0,204,mittel
+772351,KASA0,0,sehr wenige
+772351,KAMUS0,0,sehr wenige
+772351,KAPAR0,6,sehr wenige
+772351,KAEN0,0,sehr wenige
+772351,KABAA0,0,sehr wenige
+772351,KASCHK0,0,sehr wenige
+772351,KAOH0,0,sehr wenige
+772352,KAHKO0,0,sehr wenige
+772352,KAHM0,0,sehr wenige
+772352,KAKIA,0,sehr wenige
+772352,KAKIB,357,sehr viele
+772352,KALE0,399,sehr viele
+772352,KABK0,0,sehr wenige
+772352,KALK0,0,sehr wenige
+772352,KADK0,50,sehr wenige
+772352,KAOM0,5,sehr wenige
+772352,KAPRK0,0,sehr wenige
+772352,KAPK0,5,sehr wenige
+772352,KAEH0,77,sehr wenige
+772352,KARH0,5,sehr wenige
+772352,KARK0,0,sehr wenige
+772352,KAEK0,94,sehr wenige
+772352,KASA0,211,mittel
+772352,KAMUS0,0,sehr wenige
+772352,KAPAR0,11,sehr wenige
+772352,KAEN0,0,sehr wenige
+772352,KABAA0,0,sehr wenige
+772352,KASCHK0,102,sehr wenige
+772352,KAOH0,4,sehr wenige
+772356,KAHKO0,0,sehr wenige
+772356,KAHM0,0,sehr wenige
+772356,KAKIA,0,sehr wenige
+772356,KAKIB,460,sehr viele
+772356,KALE0,468,sehr viele
+772356,KABK0,200,wenige
+772356,KALK0,157,wenige
+772356,KADK0,74,sehr wenige
+772356,KAOM0,15,sehr wenige
+772356,KAPRK0,158,wenige
+772356,KAPK0,15,sehr wenige
+772356,KAEH0,216,mittel
+772356,KARH0,33,sehr wenige
+772356,KARK0,28,sehr wenige
+772356,KAEK0,260,viele
+772356,KASA0,952,sehr viele
+772356,KAMUS0,131,wenige
+772356,KAPAR0,45,sehr wenige
+772356,KAEN0,1398,sehr viele
+772356,KABAA0,28,sehr wenige
+772356,KASCHK0,366,sehr viele
+772356,KAOH0,34,sehr wenige
+772358,KAHKO0,0,sehr wenige
+772358,KAHM0,0,sehr wenige
+772358,KAKIA,0,sehr wenige
+772358,KAKIB,238,mittel
+772358,KALE0,321,viele
+772358,KABK0,226,mittel
+772358,KALK0,7,sehr wenige
+772358,KADK0,107,sehr wenige
+772358,KAOM0,0,sehr wenige
+772358,KAPRK0,169,wenige
+772358,KAPK0,0,sehr wenige
+772358,KAEH0,0,sehr wenige
+772358,KARH0,0,sehr wenige
+772358,KARK0,0,sehr wenige
+772358,KAEK0,0,sehr wenige
+772358,KASA0,0,sehr wenige
+772358,KAMUS0,0,sehr wenige
+772358,KAPAR0,12,sehr wenige
+772358,KAEN0,741,sehr viele
+772358,KABAA0,0,sehr wenige
+772358,KASCHK0,211,mittel
+772358,KAOH0,14,sehr wenige
+772359,KAHKO0,0,sehr wenige
+772359,KAHM0,0,sehr wenige
+772359,KAKIA,0,sehr wenige
+772359,KAKIB,559,sehr viele
+772359,KALE0,310,viele
+772359,KABK0,150,wenige
+772359,KALK0,0,sehr wenige
+772359,KADK0,40,sehr wenige
+772359,KAOM0,4,sehr wenige
+772359,KAPRK0,95,sehr wenige
+772359,KAPK0,6,sehr wenige
+772359,KAEH0,108,sehr wenige
+772359,KARH0,18,sehr wenige
+772359,KARK0,19,sehr wenige
+772359,KAEK0,66,sehr wenige
+772359,KASA0,0,sehr wenige
+772359,KAMUS0,0,sehr wenige
+772359,KAPAR0,4,sehr wenige
+772359,KAEN0,1400,sehr viele
+772359,KABAA0,28,sehr wenige
+772359,KASCHK0,368,sehr viele
+772359,KAOH0,72,sehr wenige
+772361,KAHKO0,0,sehr wenige
+772361,KAHM0,0,sehr wenige
+772361,KAKIA,0,sehr wenige
+772361,KAKIB,0,sehr wenige
+772361,KALE0,303,viele
+772361,KABK0,0,sehr wenige
+772361,KALK0,0,sehr wenige
+772361,KADK0,78,sehr wenige
+772361,KAOM0,4,sehr wenige
+772361,KAPRK0,0,sehr wenige
+772361,KAPK0,0,sehr wenige
+772361,KAEH0,6,sehr wenige
+772361,KARH0,4,sehr wenige
+772361,KARK0,0,sehr wenige
+772361,KAEK0,0,sehr wenige
+772361,KASA0,0,sehr wenige
+772361,KAMUS0,0,sehr wenige
+772361,KAPAR0,0,sehr wenige
+772361,KAEN0,698,sehr viele
+772361,KABAA0,17,sehr wenige
+772361,KASCHK0,176,wenige
+772361,KAOH0,0,sehr wenige
+772363,KAHKO0,225,mittel
+772363,KAHM0,213,mittel
+772363,KAKIA,342,viele
+772363,KAKIB,562,sehr viele
+772363,KALE0,593,sehr viele
+772363,KABK0,0,sehr wenige
+772363,KALK0,118,wenige
+772363,KADK0,106,sehr wenige
+772363,KAOM0,56,sehr wenige
+772363,KAPRK0,296,viele
+772363,KAPK0,21,sehr wenige
+772363,KAEH0,0,sehr wenige
+772363,KARH0,0,sehr wenige
+772363,KARK0,0,sehr wenige
+772363,KAEK0,0,sehr wenige
+772363,KASA0,1264,sehr viele
+772363,KAMUS0,141,wenige
+772363,KAPAR0,29,sehr wenige
+772363,KAEN0,0,sehr wenige
+772363,KABAA0,71,sehr wenige
+772363,KASCHK0,269,viele
+772363,KAOH0,109,sehr wenige
+772364,KAHKO0,0,sehr wenige
+772364,KAHM0,0,sehr wenige
+772364,KAKIA,0,sehr wenige
+772364,KAKIB,44,sehr wenige
+772364,KALE0,41,sehr wenige
+772364,KABK0,0,sehr wenige
+772364,KALK0,0,sehr wenige
+772364,KADK0,0,sehr wenige
+772364,KAOM0,0,sehr wenige
+772364,KAPRK0,0,sehr wenige
+772364,KAPK0,0,sehr wenige
+772364,KAEH0,43,sehr wenige
+772364,KARH0,0,sehr wenige
+772364,KARK0,0,sehr wenige
+772364,KAEK0,0,sehr wenige
+772364,KASA0,0,sehr wenige
+772364,KAMUS0,0,sehr wenige
+772364,KAPAR0,0,sehr wenige
+772364,KAEN0,0,sehr wenige
+772364,KABAA0,0,sehr wenige
+772364,KASCHK0,0,sehr wenige
+772364,KAOH0,0,sehr wenige
+772365,KAHKO0,0,sehr wenige
+772365,KAHM0,0,sehr wenige
+772365,KAKIA,0,sehr wenige
+772365,KAKIB,839,sehr viele
+772365,KALE0,482,sehr viele
+772365,KABK0,51,sehr wenige
+772365,KALK0,41,sehr wenige
+772365,KADK0,105,sehr wenige
+772365,KAOM0,16,sehr wenige
+772365,KAPRK0,47,sehr wenige
+772365,KAPK0,8,sehr wenige
+772365,KAEH0,285,viele
+772365,KARH0,50,sehr wenige
+772365,KARK0,71,sehr wenige
+772365,KAEK0,285,viele
+772365,KASA0,591,sehr viele
+772365,KAMUS0,35,sehr wenige
+772365,KAPAR0,48,sehr wenige
+772365,KAEN0,913,sehr viele
+772365,KABAA0,20,sehr wenige
+772365,KASCHK0,330,viele
+772365,KAOH0,45,sehr wenige
+772366,KAHKO0,0,sehr wenige
+772366,KAHM0,0,sehr wenige
+772366,KAKIA,0,sehr wenige
+772366,KAKIB,0,sehr wenige
+772366,KALE0,0,sehr wenige
+772366,KABK0,0,sehr wenige
+772366,KALK0,0,sehr wenige
+772366,KADK0,0,sehr wenige
+772366,KAOM0,0,sehr wenige
+772366,KAPRK0,0,sehr wenige
+772366,KAPK0,0,sehr wenige
+772366,KAEH0,0,sehr wenige
+772366,KARH0,0,sehr wenige
+772366,KARK0,0,sehr wenige
+772366,KAEK0,0,sehr wenige
+772366,KASA0,0,sehr wenige
+772366,KAMUS0,0,sehr wenige
+772366,KAPAR0,0,sehr wenige
+772366,KAEN0,0,sehr wenige
+772366,KABAA0,0,sehr wenige
+772366,KASCHK0,0,sehr wenige
+772366,KAOH0,0,sehr wenige
+772367,KAHKO0,0,sehr wenige
+772367,KAHM0,0,sehr wenige
+772367,KAKIA,0,sehr wenige
+772367,KAKIB,0,sehr wenige
+772367,KALE0,0,sehr wenige
+772367,KABK0,0,sehr wenige
+772367,KALK0,0,sehr wenige
+772367,KADK0,0,sehr wenige
+772367,KAOM0,0,sehr wenige
+772367,KAPRK0,0,sehr wenige
+772367,KAPK0,0,sehr wenige
+772367,KAEH0,458,sehr viele
+772367,KARH0,29,sehr wenige
+772367,KARK0,46,sehr wenige
+772367,KAEK0,495,sehr viele
+772367,KASA0,0,sehr wenige
+772367,KAMUS0,0,sehr wenige
+772367,KAPAR0,0,sehr wenige
+772367,KAEN0,0,sehr wenige
+772367,KABAA0,0,sehr wenige
+772367,KASCHK0,0,sehr wenige
+772367,KAOH0,0,sehr wenige
+772368,KAHKO0,0,sehr wenige
+772368,KAHM0,0,sehr wenige
+772368,KAKIA,0,sehr wenige
+772368,KAKIB,324,viele
+772368,KALE0,412,sehr viele
+772368,KABK0,135,wenige
+772368,KALK0,0,sehr wenige
+772368,KADK0,63,sehr wenige
+772368,KAOM0,13,sehr wenige
+772368,KAPRK0,38,sehr wenige
+772368,KAPK0,15,sehr wenige
+772368,KAEH0,179,wenige
+772368,KARH0,14,sehr wenige
+772368,KARK0,18,sehr wenige
+772368,KAEK0,104,sehr wenige
+772368,KASA0,247,mittel
+772368,KAMUS0,33,sehr wenige
+772368,KAPAR0,30,sehr wenige
+772368,KAEN0,509,sehr viele
+772368,KABAA0,0,sehr wenige
+772368,KASCHK0,15,sehr wenige
+772368,KAOH0,0,sehr wenige
+772369,KAHKO0,0,sehr wenige
+772369,KAHM0,0,sehr wenige
+772369,KAKIA,0,sehr wenige
+772369,KAKIB,0,sehr wenige
+772369,KALE0,0,sehr wenige
+772369,KABK0,0,sehr wenige
+772369,KALK0,0,sehr wenige
+772369,KADK0,0,sehr wenige
+772369,KAOM0,0,sehr wenige
+772369,KAPRK0,0,sehr wenige
+772369,KAPK0,0,sehr wenige
+772369,KAEH0,0,sehr wenige
+772369,KARH0,0,sehr wenige
+772369,KARK0,0,sehr wenige
+772369,KAEK0,0,sehr wenige
+772369,KASA0,0,sehr wenige
+772369,KAMUS0,0,sehr wenige
+772369,KAPAR0,0,sehr wenige
+772369,KAEN0,0,sehr wenige
+772369,KABAA0,0,sehr wenige
+772369,KASCHK0,0,sehr wenige
+772369,KAOH0,0,sehr wenige
+772372,KAHKO0,0,sehr wenige
+772372,KAHM0,0,sehr wenige
+772372,KAKIA,0,sehr wenige
+772372,KAKIB,435,sehr viele
+772372,KALE0,438,sehr viele
+772372,KABK0,0,sehr wenige
+772372,KALK0,0,sehr wenige
+772372,KADK0,36,sehr wenige
+772372,KAOM0,6,sehr wenige
+772372,KAPRK0,718,sehr viele
+772372,KAPK0,5,sehr wenige
+772372,KAEH0,0,sehr wenige
+772372,KARH0,0,sehr wenige
+772372,KARK0,0,sehr wenige
+772372,KAEK0,0,sehr wenige
+772372,KASA0,0,sehr wenige
+772372,KAMUS0,0,sehr wenige
+772372,KAPAR0,29,sehr wenige
+772372,KAEN0,619,sehr viele
+772372,KABAA0,15,sehr wenige
+772372,KASCHK0,210,mittel
+772372,KAOH0,26,sehr wenige
+772373,KAHKO0,0,sehr wenige
+772373,KAHM0,0,sehr wenige
+772373,KAKIA,0,sehr wenige
+772373,KAKIB,0,sehr wenige
+772373,KALE0,0,sehr wenige
+772373,KABK0,0,sehr wenige
+772373,KALK0,0,sehr wenige
+772373,KADK0,0,sehr wenige
+772373,KAOM0,0,sehr wenige
+772373,KAPRK0,0,sehr wenige
+772373,KAPK0,0,sehr wenige
+772373,KAEH0,0,sehr wenige
+772373,KARH0,0,sehr wenige
+772373,KARK0,0,sehr wenige
+772373,KAEK0,0,sehr wenige
+772373,KASA0,0,sehr wenige
+772373,KAMUS0,0,sehr wenige
+772373,KAPAR0,0,sehr wenige
+772373,KAEN0,0,sehr wenige
+772373,KABAA0,0,sehr wenige
+772373,KASCHK0,0,sehr wenige
+772373,KAOH0,0,sehr wenige
+772374,KAHKO0,0,sehr wenige
+772374,KAHM0,0,sehr wenige
+772374,KAKIA,0,sehr wenige
+772374,KAKIB,0,sehr wenige
+772374,KALE0,0,sehr wenige
+772374,KABK0,0,sehr wenige
+772374,KALK0,0,sehr wenige
+772374,KADK0,0,sehr wenige
+772374,KAOM0,0,sehr wenige
+772374,KAPRK0,0,sehr wenige
+772374,KAPK0,0,sehr wenige
+772374,KAEH0,0,sehr wenige
+772374,KARH0,0,sehr wenige
+772374,KARK0,0,sehr wenige
+772374,KAEK0,0,sehr wenige
+772374,KASA0,0,sehr wenige
+772374,KAMUS0,0,sehr wenige
+772374,KAPAR0,5,sehr wenige
+772374,KAEN0,0,sehr wenige
+772374,KABAA0,0,sehr wenige
+772374,KASCHK0,0,sehr wenige
+772374,KAOH0,0,sehr wenige
+772375,KAHKO0,0,sehr wenige
+772375,KAHM0,0,sehr wenige
+772375,KAKIA,0,sehr wenige
+772375,KAKIB,0,sehr wenige
+772375,KALE0,0,sehr wenige
+772375,KABK0,0,sehr wenige
+772375,KALK0,0,sehr wenige
+772375,KADK0,0,sehr wenige
+772375,KAOM0,0,sehr wenige
+772375,KAPRK0,0,sehr wenige
+772375,KAPK0,0,sehr wenige
+772375,KAEH0,555,sehr viele
+772375,KARH0,86,sehr wenige
+772375,KARK0,60,sehr wenige
+772375,KAEK0,276,viele
+772375,KASA0,0,sehr wenige
+772375,KAMUS0,0,sehr wenige
+772375,KAPAR0,0,sehr wenige
+772375,KAEN0,0,sehr wenige
+772375,KABAA0,0,sehr wenige
+772375,KASCHK0,0,sehr wenige
+772375,KAOH0,0,sehr wenige
+772376,KAHKO0,249,mittel
+772376,KAHM0,232,mittel
+772376,KAKIA,423,sehr viele
+772376,KAKIB,1521,sehr viele
+772376,KALE0,179,wenige
+772376,KABK0,0,sehr wenige
+772376,KALK0,82,sehr wenige
+772376,KADK0,0,sehr wenige
+772376,KAOM0,0,sehr wenige
+772376,KAPRK0,144,wenige
+772376,KAPK0,0,sehr wenige
+772376,KAEH0,0,sehr wenige
+772376,KARH0,0,sehr wenige
+772376,KARK0,0,sehr wenige
+772376,KAEK0,0,sehr wenige
+772376,KASA0,0,sehr wenige
+772376,KAMUS0,0,sehr wenige
+772376,KAPAR0,0,sehr wenige
+772376,KAEN0,0,sehr wenige
+772376,KABAA0,31,sehr wenige
+772376,KASCHK0,200,wenige
+772376,KAOH0,61,sehr wenige
+772377,KAHKO0,0,sehr wenige
+772377,KAHM0,0,sehr wenige
+772377,KAKIA,0,sehr wenige
+772377,KAKIB,0,sehr wenige
+772377,KALE0,0,sehr wenige
+772377,KABK0,191,wenige
+772377,KALK0,0,sehr wenige
+772377,KADK0,0,sehr wenige
+772377,KAOM0,0,sehr wenige
+772377,KAPRK0,0,sehr wenige
+772377,KAPK0,0,sehr wenige
+772377,KAEH0,0,sehr wenige
+772377,KARH0,0,sehr wenige
+772377,KARK0,0,sehr wenige
+772377,KAEK0,0,sehr wenige
+772377,KASA0,0,sehr wenige
+772377,KAMUS0,0,sehr wenige
+772377,KAPAR0,0,sehr wenige
+772377,KAEN0,2292,sehr viele
+772377,KABAA0,0,sehr wenige
+772377,KASCHK0,0,sehr wenige
+772377,KAOH0,0,sehr wenige
+772378,KAHKO0,0,sehr wenige
+772378,KAHM0,0,sehr wenige
+772378,KAKIA,0,sehr wenige
+772378,KAKIB,308,viele
+772378,KALE0,380,sehr viele
+772378,KABK0,110,sehr wenige
+772378,KALK0,0,sehr wenige
+772378,KADK0,36,sehr wenige
+772378,KAOM0,4,sehr wenige
+772378,KAPRK0,119,wenige
+772378,KAPK0,6,sehr wenige
+772378,KAEH0,26,sehr wenige
+772378,KARH0,0,sehr wenige
+772378,KARK0,0,sehr wenige
+772378,KAEK0,13,sehr wenige
+772378,KASA0,349,sehr viele
+772378,KAMUS0,37,sehr wenige
+772378,KAPAR0,32,sehr wenige
+772378,KAEN0,594,sehr viele
+772378,KABAA0,10,sehr wenige
+772378,KASCHK0,212,mittel
+772378,KAOH0,26,sehr wenige
+772380,KAHKO0,0,sehr wenige
+772380,KAHM0,0,sehr wenige
+772380,KAKIA,0,sehr wenige
+772380,KAKIB,0,sehr wenige
+772380,KALE0,0,sehr wenige
+772380,KABK0,0,sehr wenige
+772380,KALK0,0,sehr wenige
+772380,KADK0,0,sehr wenige
+772380,KAOM0,0,sehr wenige
+772380,KAPRK0,0,sehr wenige
+772380,KAPK0,0,sehr wenige
+772380,KAEH0,607,sehr viele
+772380,KARH0,95,sehr wenige
+772380,KARK0,45,sehr wenige
+772380,KAEK0,456,sehr viele
+772380,KASA0,0,sehr wenige
+772380,KAMUS0,0,sehr wenige
+772380,KAPAR0,0,sehr wenige
+772380,KAEN0,0,sehr wenige
+772380,KABAA0,0,sehr wenige
+772380,KASCHK0,0,sehr wenige
+772380,KAOH0,0,sehr wenige
+772383,KAHKO0,0,sehr wenige
+772383,KAHM0,0,sehr wenige
+772383,KAKIA,0,sehr wenige
+772383,KAKIB,399,sehr viele
+772383,KALE0,412,sehr viele
+772383,KABK0,150,wenige
+772383,KALK0,0,sehr wenige
+772383,KADK0,54,sehr wenige
+772383,KAOM0,6,sehr wenige
+772383,KAPRK0,75,sehr wenige
+772383,KAPK0,0,sehr wenige
+772383,KAEH0,235,mittel
+772383,KARH0,39,sehr wenige
+772383,KARK0,25,sehr wenige
+772383,KAEK0,191,wenige
+772383,KASA0,428,sehr viele
+772383,KAMUS0,123,wenige
+772383,KAPAR0,40,sehr wenige
+772383,KAEN0,1303,sehr viele
+772383,KABAA0,0,sehr wenige
+772383,KASCHK0,231,mittel
+772383,KAOH0,4,sehr wenige
+772384,KAHKO0,0,sehr wenige
+772384,KAHM0,0,sehr wenige
+772384,KAKIA,0,sehr wenige
+772384,KAKIB,713,sehr viele
+772384,KALE0,1349,sehr viele
+772384,KABK0,138,wenige
+772384,KALK0,32,sehr wenige
+772384,KADK0,121,wenige
+772384,KAOM0,25,sehr wenige
+772384,KAPRK0,116,wenige
+772384,KAPK0,22,sehr wenige
+772384,KAEH0,206,mittel
+772384,KARH0,35,sehr wenige
+772384,KARK0,25,sehr wenige
+772384,KAEK0,159,wenige
+772384,KASA0,0,sehr wenige
+772384,KAMUS0,0,sehr wenige
+772384,KAPAR0,0,sehr wenige
+772384,KAEN0,1723,sehr viele
+772384,KABAA0,36,sehr wenige
+772384,KASCHK0,378,sehr viele
+772384,KAOH0,56,sehr wenige
+772386,KAHKO0,0,sehr wenige
+772386,KAHM0,0,sehr wenige
+772386,KAKIA,0,sehr wenige
+772386,KAKIB,1064,sehr viele
+772386,KALE0,233,mittel
+772386,KABK0,0,sehr wenige
+772386,KALK0,0,sehr wenige
+772386,KADK0,25,sehr wenige
+772386,KAOM0,0,sehr wenige
+772386,KAPRK0,0,sehr wenige
+772386,KAPK0,0,sehr wenige
+772386,KAEH0,32,sehr wenige
+772386,KARH0,0,sehr wenige
+772386,KARK0,6,sehr wenige
+772386,KAEK0,61,sehr wenige
+772386,KASA0,466,sehr viele
+772386,KAMUS0,184,wenige
+772386,KAPAR0,64,sehr wenige
+772386,KAEN0,0,sehr wenige
+772386,KABAA0,0,sehr wenige
+772386,KASCHK0,950,sehr viele
+772386,KAOH0,115,wenige
+772387,KAHKO0,0,sehr wenige
+772387,KAHM0,0,sehr wenige
+772387,KAKIA,0,sehr wenige
+772387,KAKIB,425,sehr viele
+772387,KALE0,327,viele
+772387,KABK0,81,sehr wenige
+772387,KALK0,0,sehr wenige
+772387,KADK0,40,sehr wenige
+772387,KAOM0,5,sehr wenige
+772387,KAPRK0,47,sehr wenige
+772387,KAPK0,0,sehr wenige
+772387,KAEH0,66,sehr wenige
+772387,KARH0,8,sehr wenige
+772387,KARK0,0,sehr wenige
+772387,KAEK0,59,sehr wenige
+772387,KASA0,179,wenige
+772387,KAMUS0,14,sehr wenige
+772387,KAPAR0,20,sehr wenige
+772387,KAEN0,622,sehr viele
+772387,KABAA0,15,sehr wenige
+772387,KASCHK0,171,wenige
+772387,KAOH0,14,sehr wenige
+772389,KAHKO0,0,sehr wenige
+772389,KAHM0,0,sehr wenige
+772389,KAKIA,0,sehr wenige
+772389,KAKIB,552,sehr viele
+772389,KALE0,855,sehr viele
+772389,KABK0,185,wenige
+772389,KALK0,19,sehr wenige
+772389,KADK0,130,wenige
+772389,KAOM0,43,sehr wenige
+772389,KAPRK0,442,sehr viele
+772389,KAPK0,29,sehr wenige
+772389,KAEH0,70,sehr wenige
+772389,KARH0,47,sehr wenige
+772389,KARK0,60,sehr wenige
+772389,KAEK0,53,sehr wenige
+772389,KASA0,809,sehr viele
+772389,KAMUS0,73,sehr wenige
+772389,KAPAR0,65,sehr wenige
+772389,KAEN0,2773,sehr viele
+772389,KABAA0,30,sehr wenige
+772389,KASCHK0,250,mittel
+772389,KAOH0,22,sehr wenige
+772390,KAHKO0,0,sehr wenige
+772390,KAHM0,0,sehr wenige
+772390,KAKIA,0,sehr wenige
+772390,KAKIB,0,sehr wenige
+772390,KALE0,0,sehr wenige
+772390,KABK0,0,sehr wenige
+772390,KALK0,0,sehr wenige
+772390,KADK0,0,sehr wenige
+772390,KAOM0,0,sehr wenige
+772390,KAPRK0,0,sehr wenige
+772390,KAPK0,0,sehr wenige
+772390,KAEH0,0,sehr wenige
+772390,KARH0,0,sehr wenige
+772390,KARK0,0,sehr wenige
+772390,KAEK0,0,sehr wenige
+772390,KASA0,0,sehr wenige
+772390,KAMUS0,0,sehr wenige
+772390,KAPAR0,0,sehr wenige
+772390,KAEN0,0,sehr wenige
+772390,KABAA0,0,sehr wenige
+772390,KASCHK0,0,sehr wenige
+772390,KAOH0,0,sehr wenige
+772392,KAHKO0,0,sehr wenige
+772392,KAHM0,0,sehr wenige
+772392,KAKIA,0,sehr wenige
+772392,KAKIB,377,sehr viele
+772392,KALE0,335,viele
+772392,KABK0,161,wenige
+772392,KALK0,13,sehr wenige
+772392,KADK0,56,sehr wenige
+772392,KAOM0,9,sehr wenige
+772392,KAPRK0,92,sehr wenige
+772392,KAPK0,4,sehr wenige
+772392,KAEH0,100,sehr wenige
+772392,KARH0,9,sehr wenige
+772392,KARK0,13,sehr wenige
+772392,KAEK0,122,wenige
+772392,KASA0,92,sehr wenige
+772392,KAMUS0,0,sehr wenige
+772392,KAPAR0,7,sehr wenige
+772392,KAEN0,0,sehr wenige
+772392,KABAA0,0,sehr wenige
+772392,KASCHK0,132,wenige
+772392,KAOH0,13,sehr wenige
+772393,KAHKO0,0,sehr wenige
+772393,KAHM0,0,sehr wenige
+772393,KAKIA,0,sehr wenige
+772393,KAKIB,277,viele
+772393,KALE0,429,sehr viele
+772393,KABK0,36,sehr wenige
+772393,KALK0,0,sehr wenige
+772393,KADK0,37,sehr wenige
+772393,KAOM0,4,sehr wenige
+772393,KAPRK0,26,sehr wenige
+772393,KAPK0,0,sehr wenige
+772393,KAEH0,96,sehr wenige
+772393,KARH0,0,sehr wenige
+772393,KARK0,10,sehr wenige
+772393,KAEK0,208,mittel
+772393,KASA0,1224,sehr viele
+772393,KAMUS0,45,sehr wenige
+772393,KAPAR0,41,sehr wenige
+772393,KAEN0,364,sehr viele
+772393,KABAA0,9,sehr wenige
+772393,KASCHK0,127,wenige
+772393,KAOH0,10,sehr wenige
+772394,KAHKO0,0,sehr wenige
+772394,KAHM0,0,sehr wenige
+772394,KAKIA,0,sehr wenige
+772394,KAKIB,0,sehr wenige
+772394,KALE0,116,wenige
+772394,KABK0,0,sehr wenige
+772394,KALK0,0,sehr wenige
+772394,KADK0,0,sehr wenige
+772394,KAOM0,0,sehr wenige
+772394,KAPRK0,0,sehr wenige
+772394,KAPK0,0,sehr wenige
+772394,KAEH0,78,sehr wenige
+772394,KARH0,8,sehr wenige
+772394,KARK0,12,sehr wenige
+772394,KAEK0,85,sehr wenige
+772394,KASA0,0,sehr wenige
+772394,KAMUS0,0,sehr wenige
+772394,KAPAR0,0,sehr wenige
+772394,KAEN0,0,sehr wenige
+772394,KABAA0,0,sehr wenige
+772394,KASCHK0,0,sehr wenige
+772394,KAOH0,0,sehr wenige
+772395,KAHKO0,0,sehr wenige
+772395,KAHM0,0,sehr wenige
+772395,KAKIA,0,sehr wenige
+772395,KAKIB,0,sehr wenige
+772395,KALE0,103,sehr wenige
+772395,KABK0,0,sehr wenige
+772395,KALK0,0,sehr wenige
+772395,KADK0,0,sehr wenige
+772395,KAOM0,0,sehr wenige
+772395,KAPRK0,0,sehr wenige
+772395,KAPK0,0,sehr wenige
+772395,KAEH0,0,sehr wenige
+772395,KARH0,0,sehr wenige
+772395,KARK0,0,sehr wenige
+772395,KAEK0,0,sehr wenige
+772395,KASA0,722,sehr viele
+772395,KAMUS0,34,sehr wenige
+772395,KAPAR0,58,sehr wenige
+772395,KAEN0,1335,sehr viele
+772395,KABAA0,0,sehr wenige
+772395,KASCHK0,0,sehr wenige
+772395,KAOH0,0,sehr wenige
+772396,KAHKO0,0,sehr wenige
+772396,KAHM0,0,sehr wenige
+772396,KAKIA,0,sehr wenige
+772396,KAKIB,0,sehr wenige
+772396,KALE0,270,viele
+772396,KABK0,237,mittel
+772396,KALK0,0,sehr wenige
+772396,KADK0,49,sehr wenige
+772396,KAOM0,0,sehr wenige
+772396,KAPRK0,100,sehr wenige
+772396,KAPK0,0,sehr wenige
+772396,KAEH0,227,mittel
+772396,KARH0,54,sehr wenige
+772396,KARK0,67,sehr wenige
+772396,KAEK0,169,wenige
+772396,KASA0,0,sehr wenige
+772396,KAMUS0,0,sehr wenige
+772396,KAPAR0,5,sehr wenige
+772396,KAEN0,793,sehr viele
+772396,KABAA0,0,sehr wenige
+772396,KASCHK0,0,sehr wenige
+772396,KAOH0,0,sehr wenige
+772397,KAHKO0,0,sehr wenige
+772397,KAHM0,0,sehr wenige
+772397,KAKIA,0,sehr wenige
+772397,KAKIB,0,sehr wenige
+772397,KALE0,140,wenige
+772397,KABK0,0,sehr wenige
+772397,KALK0,0,sehr wenige
+772397,KADK0,0,sehr wenige
+772397,KAOM0,0,sehr wenige
+772397,KAPRK0,0,sehr wenige
+772397,KAPK0,0,sehr wenige
+772397,KAEH0,143,wenige
+772397,KARH0,5,sehr wenige
+772397,KARK0,5,sehr wenige
+772397,KAEK0,166,wenige
+772397,KASA0,0,sehr wenige
+772397,KAMUS0,0,sehr wenige
+772397,KAPAR0,0,sehr wenige
+772397,KAEN0,0,sehr wenige
+772397,KABAA0,0,sehr wenige
+772397,KASCHK0,0,sehr wenige
+772397,KAOH0,0,sehr wenige
+772400,KAHKO0,0,sehr wenige
+772400,KAHM0,0,sehr wenige
+772400,KAKIA,0,sehr wenige
+772400,KAKIB,283,viele
+772400,KALE0,156,wenige
+772400,KABK0,24,sehr wenige
+772400,KALK0,0,sehr wenige
+772400,KADK0,25,sehr wenige
+772400,KAOM0,0,sehr wenige
+772400,KAPRK0,0,sehr wenige
+772400,KAPK0,0,sehr wenige
+772400,KAEH0,95,sehr wenige
+772400,KARH0,11,sehr wenige
+772400,KARK0,5,sehr wenige
+772400,KAEK0,66,sehr wenige
+772400,KASA0,417,sehr viele
+772400,KAMUS0,30,sehr wenige
+772400,KAPAR0,177,wenige
+772400,KAEN0,449,sehr viele
+772400,KABAA0,0,sehr wenige
+772400,KASCHK0,176,wenige
+772400,KAOH0,13,sehr wenige
+772401,KAHKO0,0,sehr wenige
+772401,KAHM0,0,sehr wenige
+772401,KAKIA,0,sehr wenige
+772401,KAKIB,0,sehr wenige
+772401,KALE0,76,sehr wenige
+772401,KABK0,0,sehr wenige
+772401,KALK0,0,sehr wenige
+772401,KADK0,6,sehr wenige
+772401,KAOM0,0,sehr wenige
+772401,KAPRK0,0,sehr wenige
+772401,KAPK0,0,sehr wenige
+772401,KAEH0,0,sehr wenige
+772401,KARH0,0,sehr wenige
+772401,KARK0,0,sehr wenige
+772401,KAEK0,0,sehr wenige
+772401,KASA0,0,sehr wenige
+772401,KAMUS0,0,sehr wenige
+772401,KAPAR0,0,sehr wenige
+772401,KAEN0,102,sehr wenige
+772401,KABAA0,0,sehr wenige
+772401,KASCHK0,0,sehr wenige
+772401,KAOH0,0,sehr wenige
+772402,KAHKO0,0,sehr wenige
+772402,KAHM0,0,sehr wenige
+772402,KAKIA,0,sehr wenige
+772402,KAKIB,324,viele
+772402,KALE0,125,wenige
+772402,KABK0,0,sehr wenige
+772402,KALK0,0,sehr wenige
+772402,KADK0,0,sehr wenige
+772402,KAOM0,0,sehr wenige
+772402,KAPRK0,0,sehr wenige
+772402,KAPK0,0,sehr wenige
+772402,KAEH0,281,viele
+772402,KARH0,32,sehr wenige
+772402,KARK0,52,sehr wenige
+772402,KAEK0,308,viele
+772402,KASA0,0,sehr wenige
+772402,KAMUS0,0,sehr wenige
+772402,KAPAR0,0,sehr wenige
+772402,KAEN0,680,sehr viele
+772402,KABAA0,0,sehr wenige
+772402,KASCHK0,0,sehr wenige
+772402,KAOH0,0,sehr wenige
+772403,KAHKO0,0,sehr wenige
+772403,KAHM0,0,sehr wenige
+772403,KAKIA,0,sehr wenige
+772403,KAKIB,0,sehr wenige
+772403,KALE0,142,wenige
+772403,KABK0,0,sehr wenige
+772403,KALK0,0,sehr wenige
+772403,KADK0,11,sehr wenige
+772403,KAOM0,0,sehr wenige
+772403,KAPRK0,6,sehr wenige
+772403,KAPK0,0,sehr wenige
+772403,KAEH0,0,sehr wenige
+772403,KARH0,0,sehr wenige
+772403,KARK0,0,sehr wenige
+772403,KAEK0,0,sehr wenige
+772403,KASA0,0,sehr wenige
+772403,KAMUS0,0,sehr wenige
+772403,KAPAR0,0,sehr wenige
+772403,KAEN0,0,sehr wenige
+772403,KABAA0,0,sehr wenige
+772403,KASCHK0,0,sehr wenige
+772403,KAOH0,0,sehr wenige
+772404,KAHKO0,0,sehr wenige
+772404,KAHM0,0,sehr wenige
+772404,KAKIA,0,sehr wenige
+772404,KAKIB,0,sehr wenige
+772404,KALE0,69,sehr wenige
+772404,KABK0,0,sehr wenige
+772404,KALK0,0,sehr wenige
+772404,KADK0,0,sehr wenige
+772404,KAOM0,0,sehr wenige
+772404,KAPRK0,0,sehr wenige
+772404,KAPK0,0,sehr wenige
+772404,KAEH0,0,sehr wenige
+772404,KARH0,0,sehr wenige
+772404,KARK0,0,sehr wenige
+772404,KAEK0,0,sehr wenige
+772404,KASA0,0,sehr wenige
+772404,KAMUS0,0,sehr wenige
+772404,KAPAR0,0,sehr wenige
+772404,KAEN0,0,sehr wenige
+772404,KABAA0,0,sehr wenige
+772404,KASCHK0,0,sehr wenige
+772404,KAOH0,0,sehr wenige
+772412,KAHKO0,0,sehr wenige
+772412,KAHM0,0,sehr wenige
+772412,KAKIA,0,sehr wenige
+772412,KAKIB,125,wenige
+772412,KALE0,155,wenige
+772412,KABK0,0,sehr wenige
+772412,KALK0,0,sehr wenige
+772412,KADK0,8,sehr wenige
+772412,KAOM0,0,sehr wenige
+772412,KAPRK0,12,sehr wenige
+772412,KAPK0,0,sehr wenige
+772412,KAEH0,51,sehr wenige
+772412,KARH0,0,sehr wenige
+772412,KARK0,0,sehr wenige
+772412,KAEK0,73,sehr wenige
+772412,KASA0,0,sehr wenige
+772412,KAMUS0,0,sehr wenige
+772412,KAPAR0,5,sehr wenige
+772412,KAEN0,0,sehr wenige
+772412,KABAA0,0,sehr wenige
+772412,KASCHK0,29,sehr wenige
+772412,KAOH0,0,sehr wenige
+772413,KAHKO0,0,sehr wenige
+772413,KAHM0,0,sehr wenige
+772413,KAKIA,0,sehr wenige
+772413,KAKIB,0,sehr wenige
+772413,KALE0,188,wenige
+772413,KABK0,0,sehr wenige
+772413,KALK0,0,sehr wenige
+772413,KADK0,0,sehr wenige
+772413,KAOM0,0,sehr wenige
+772413,KAPRK0,4,sehr wenige
+772413,KAPK0,0,sehr wenige
+772413,KAEH0,32,sehr wenige
+772413,KARH0,0,sehr wenige
+772413,KARK0,0,sehr wenige
+772413,KAEK0,43,sehr wenige
+772413,KASA0,0,sehr wenige
+772413,KAMUS0,0,sehr wenige
+772413,KAPAR0,6,sehr wenige
+772413,KAEN0,0,sehr wenige
+772413,KABAA0,0,sehr wenige
+772413,KASCHK0,0,sehr wenige
+772413,KAOH0,0,sehr wenige
+772414,KAHKO0,0,sehr wenige
+772414,KAHM0,0,sehr wenige
+772414,KAKIA,0,sehr wenige
+772414,KAKIB,322,viele
+772414,KALE0,362,sehr viele
+772414,KABK0,80,sehr wenige
+772414,KALK0,22,sehr wenige
+772414,KADK0,71,sehr wenige
+772414,KAOM0,10,sehr wenige
+772414,KAPRK0,66,sehr wenige
+772414,KAPK0,7,sehr wenige
+772414,KAEH0,50,sehr wenige
+772414,KARH0,9,sehr wenige
+772414,KARK0,10,sehr wenige
+772414,KAEK0,43,sehr wenige
+772414,KASA0,650,sehr viele
+772414,KAMUS0,28,sehr wenige
+772414,KAPAR0,15,sehr wenige
+772414,KAEN0,1914,sehr viele
+772414,KABAA0,13,sehr wenige
+772414,KASCHK0,164,wenige
+772414,KAOH0,25,sehr wenige
+772415,KAHKO0,0,sehr wenige
+772415,KAHM0,0,sehr wenige
+772415,KAKIA,0,sehr wenige
+772415,KAKIB,294,viele
+772415,KALE0,210,mittel
+772415,KABK0,0,sehr wenige
+772415,KALK0,0,sehr wenige
+772415,KADK0,0,sehr wenige
+772415,KAOM0,0,sehr wenige
+772415,KAPRK0,0,sehr wenige
+772415,KAPK0,0,sehr wenige
+772415,KAEH0,0,sehr wenige
+772415,KARH0,0,sehr wenige
+772415,KARK0,0,sehr wenige
+772415,KAEK0,0,sehr wenige
+772415,KASA0,296,viele
+772415,KAMUS0,0,sehr wenige
+772415,KAPAR0,5,sehr wenige
+772415,KAEN0,412,sehr viele
+772415,KABAA0,0,sehr wenige
+772415,KASCHK0,0,sehr wenige
+772415,KAOH0,0,sehr wenige
+772416,KAHKO0,0,sehr wenige
+772416,KAHM0,0,sehr wenige
+772416,KAKIA,0,sehr wenige
+772416,KAKIB,269,viele
+772416,KALE0,14,sehr wenige
+772416,KABK0,44,sehr wenige
+772416,KALK0,0,sehr wenige
+772416,KADK0,55,sehr wenige
+772416,KAOM0,5,sehr wenige
+772416,KAPRK0,113,sehr wenige
+772416,KAPK0,0,sehr wenige
+772416,KAEH0,93,sehr wenige
+772416,KARH0,0,sehr wenige
+772416,KARK0,11,sehr wenige
+772416,KAEK0,161,wenige
+772416,KASA0,0,sehr wenige
+772416,KAMUS0,0,sehr wenige
+772416,KAPAR0,0,sehr wenige
+772416,KAEN0,0,sehr wenige
+772416,KABAA0,21,sehr wenige
+772416,KASCHK0,264,viele
+772416,KAOH0,9,sehr wenige
+772417,KAHKO0,0,sehr wenige
+772417,KAHM0,0,sehr wenige
+772417,KAKIA,0,sehr wenige
+772417,KAKIB,0,sehr wenige
+772417,KALE0,141,wenige
+772417,KABK0,0,sehr wenige
+772417,KALK0,252,mittel
+772417,KADK0,0,sehr wenige
+772417,KAOM0,0,sehr wenige
+772417,KAPRK0,0,sehr wenige
+772417,KAPK0,0,sehr wenige
+772417,KAEH0,0,sehr wenige
+772417,KARH0,0,sehr wenige
+772417,KARK0,0,sehr wenige
+772417,KAEK0,0,sehr wenige
+772417,KASA0,0,sehr wenige
+772417,KAMUS0,0,sehr wenige
+772417,KAPAR0,0,sehr wenige
+772417,KAEN0,0,sehr wenige
+772417,KABAA0,0,sehr wenige
+772417,KASCHK0,0,sehr wenige
+772417,KAOH0,0,sehr wenige
+772418,KAHKO0,0,sehr wenige
+772418,KAHM0,0,sehr wenige
+772418,KAKIA,0,sehr wenige
+772418,KAKIB,0,sehr wenige
+772418,KALE0,125,wenige
+772418,KABK0,88,sehr wenige
+772418,KALK0,0,sehr wenige
+772418,KADK0,81,sehr wenige
+772418,KAOM0,37,sehr wenige
+772418,KAPRK0,0,sehr wenige
+772418,KAPK0,9,sehr wenige
+772418,KAEH0,602,sehr viele
+772418,KARH0,105,sehr wenige
+772418,KARK0,55,sehr wenige
+772418,KAEK0,661,sehr viele
+772418,KASA0,0,sehr wenige
+772418,KAMUS0,0,sehr wenige
+772418,KAPAR0,5,sehr wenige
+772418,KAEN0,1154,sehr viele
+772418,KABAA0,0,sehr wenige
+772418,KASCHK0,0,sehr wenige
+772418,KAOH0,0,sehr wenige
