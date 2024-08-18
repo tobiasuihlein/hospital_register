@@ -73,7 +73,7 @@ def get_details(soup, hospital_id):
     Returns:
         df (pd.DataFrame): DataFrame with the extracted data
     """
-    # extract data from soup
+    # extract data from soup for treatment count and nursing staff quotient
     result_list = soup.find_all(name='div', class_='c-tacho-text__text')
 
     # extract total treatment count

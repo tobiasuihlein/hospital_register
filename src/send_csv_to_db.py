@@ -12,7 +12,7 @@ federal_states = pd.read_csv('../data/db_csv/federal_states.csv', encoding='utf-
 federal_states = federal_states.copy()[['federal_state_code', 'federal_state_name', 'area', 'population']]
 
 hospital_locations_df = pd.read_csv('../data/db_csv/hospital_locations.csv', encoding='utf-8', dtype={'hospital_id': str, 'zip': str})
-hospital_locations_df = hospital_locations_df.copy()[['hospital_id', 'name', 'street', 'city', 'zip', 'federal_state_code', 'phone', 'mail', 'beds_number', 'latitude', 'longitude', 'link']]
+hospital_locations_df = hospital_locations_df.copy()[['hospital_id', 'name', 'street', 'city', 'zip', 'federal_state_code', 'phone', 'mail', 'latitude', 'longitude', 'link']]
 
 departments_dict_df = pd.read_csv('../data/db_csv/departments_dict.csv', encoding='utf-8', dtype={'department_id': str})
 departments_dict_df = departments_dict_df.copy()[['department_id', 'department_name']]
@@ -65,12 +65,12 @@ for index, row in federal_states.iterrows():
 # hospital_locations
 print("Inserting locations data")
 insert_query_locations = """
-INSERT INTO hospital_locations (hospital_id, name, street, city, zip, federal_state_code, phone, mail, beds_number, latitude, longitude, link)
-VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+INSERT INTO hospital_locations (hospital_id, name, street, city, zip, federal_state_code, phone, mail, latitude, longitude, link)
+VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
 """
 
 for index, row in hospital_locations_df.iterrows():
-    cursor.execute(insert_query_locations, (row['hospital_id'], row['name'], row['street'], row['city'], row['zip'], row['federal_state_code'], row['phone'], row['mail'], row['beds_number'], row['latitude'], row['longitude'], row['link']))
+    cursor.execute(insert_query_locations, (row['hospital_id'], row['name'], row['street'], row['city'], row['zip'], row['federal_state_code'], row['phone'], row['mail'], row['latitude'], row['longitude'], row['link']))
 
 
 # departments_dict

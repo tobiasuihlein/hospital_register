@@ -1,23 +1,45 @@
-treatment_code,treatment_name
-KAHKO0,Chirurgischer Herzklappenersatz
-KAHM0,Minimal-invasiver Herzklappenersatz
-KAKIA,Bypassoperation des Herzens
-KAKIB,Herzkatheter mit Stent
-KALE0,Lungenentzündung
-KABK0,Brustkrebs-Operation
-KALK0,Lungenkrebs-Operation
-KADK0,Darmkrebs-Operation
-KAOM0,Speiseröhren und Magenkrebs-Operation
-KAPRK0,Prostatakrebs-Operation
-KAPK0,Pankreaskarzinom-Operation
-KAEH0,Totalendoprothese der Hüfte
-KARH0,Totalendoprothesen-Wechsel der Hüfte
-KARK0,Totalendoprothesen-Wechsel des Knies
-KAEK0,Totalendoprothese des Knies
-KASA0,Behandlung auf einer Schlaganfalleinheit
-KAMUS0,Multiple Sklerose
-KAPAR0,Parkinson
-KAEN0,Entbindungen
-KABAA0,Bauchschlagader: Operation und Stent
-KASCHK0,Durchblutungsstörung der Beine: Operation und Stent
-KAOH0,Halsschlagader: Operation und Stent
+treatment_code,treatment_name,lang
+KAHKO0,Chirurgischer Herzklappenersatz,de
+KAHM0,Minimal-invasiver Herzklappenersatz,de
+KAKIA,Bypassoperation des Herzens,de
+KAKIB,Herzkatheter mit Stent,de
+KALE0,Lungenentzündung,de
+KABK0,Brustkrebs-Operation,de
+KALK0,Lungenkrebs-Operation,de
+KADK0,Darmkrebs-Operation,de
+KAOM0,Speiseröhren und Magenkrebs-Operation,de
+KAPRK0,Prostatakrebs-Operation,de
+KAPK0,Pankreaskarzinom-Operation,de
+KAEH0,Totalendoprothese der Hüfte,de
+KARH0,Totalendoprothesen-Wechsel der Hüfte,de
+KARK0,Totalendoprothesen-Wechsel des Knies,de
+KAEK0,Totalendoprothese des Knies,de
+KASA0,Behandlung auf einer Schlaganfalleinheit,de
+KAMUS0,Multiple Sklerose,de
+KAPAR0,Parkinson,de
+KAEN0,Entbindungen,de
+KABAA0,Bauchschlagader: Operation und Stent,de
+KASCHK0,Durchblutungsstörung der Beine: Operation und Stent,de
+KAOH0,Halsschlagader: Operation und Stent,de
+KAHKO0,Surgical Heart Valve Replacement,en
+KAHM0,Minimally Invasive Heart Valve Replacement,en
+KAKIA,Heart Bypass Surgery,en
+KAKIB,Cardiac Catheterization with Stent,en
+KALE0,Pneumonia,en
+KABK0,Breast Cancer Surgery,en
+KALK0,Lung Cancer Surgery,en
+KADK0,Colon Cancer Surgery,en
+KAOM0,Esophageal and Stomach Cancer Surgery,en
+KAPRK0,Prostate Cancer Surgery,en
+KAPK0,Pancreatic Cancer Surgery,en
+KAEH0,Total Hip Replacement,en
+KARH0,Hip Revision Surgery,en
+KARK0,Knee Revision Surgery,en
+KAEK0,Total Knee Replacement,en
+KASA0,Treatment in a Stroke Unit,en
+KAMUS0,Multiple Sclerosis,en
+KAPAR0,Parkinson's Disease,en
+KAEN0,Childbirth,en
+KABAA0,Abdominal Aortic Aneurysm: Surgery and Stent,en
+KASCHK0,Peripheral Artery Disease: Surgery and Stent,en
+KAOH0,Carotid Artery: Surgery and Stent,en

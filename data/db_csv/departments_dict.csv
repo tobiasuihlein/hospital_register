@@ -1,150 +1,299 @@
-department_id,department_name
-0100,Innere Medizin
-0200,Geriatrie
-0300,Kardiologie
-0400,Nephrologie
-0500,Hämatologie und internistische Onkologie
-0600,Endokrinologie
-0700,Gastroenterologie
-0800,Pneumologie
-0900,Rheumatologie
-1000,Pädiatrie
-1100,Kinderkardiologie
-1200,Neonatologie
-1300,Kinderchirurgie
-1400,Lungen- und Bronchialheilkunde
-1500,Allgemeine Chirurgie
-1600,Unfallchirurgie
-1700,Neurochirurgie
-1800,Gefäßchirurgie
-1900,Plastische Chirurgie
-2000,Thoraxchirurgie
-2100,Herzchirurgie
-2200,Urologie
-2300,Orthopädie
-2400,Frauenheilkunde und Geburtshilfe
-2500,Geburtshilfe
-2600,"Hals-, Nasen-, Ohrenheilkunde"
-2700,Augenheilkunde
-2800,Neurologie
-2900,Allgemeine Psychiatrie
-3000,Kinder- und Jugendpsychiatrie
-3100,Psychosomatik/Psychotherapie
-3200,Nuklearmedizin
-3300,Strahlenheilkunde
-3400,Dermatologie
-3500,"Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie"
-3600,Intensivmedizin
-2316,Orthopädie und Unfallchirurgie
-2425,Frauenheilkunde
-3700,Sonstige Fachabteilung
-0102,Innere Medizin/Schwerpunkt Geriatrie
-0103,Innere Medizin/Schwerpunkt Kardiologie
-0104,Innere Medizin/Schwerpunkt Nephrologie
-0105,Innere Medizin/Schwerpunkt Hämatologie und internistische Onkologie
-0106,Innere Medizin/Schwerpunkt Endokrinologie
-0107,Innere Medizin/Schwerpunkt Gastroenterologie
-0108,Innere Medizin/Schwerpunkt Pneumologie
-0109,Innere Medizin/Schwerpunkt Rheumatologie
-0114,Innere Medizin/Schwerpunkt Lungen- und Bronchialheilkunde
-0150,Innere Medizin/Tumorforschung
-0151,Innere Medizin/Schwerpunkt Coloproktologie
-0152,Innere Medizin/Schwerpunkt Infektionskrankheiten
-0153,Innere Medizin/Schwerpunkt Diabetes
-0154,Innere Medizin/Schwerpunkt Naturheilkunde
-0156,Innere Medizin/Schwerpunkt Schlaganfallpatienten
-0224,Geriatrie/Schwerpunkt Frauenheilkunde
-0260,Geriatrie/Tagesklinik (für teilstationäre Pflegesätze)
-0261,Geriatrie/Nachtklinik (für teilstationäre Pflegesätze)
-0410,Nephrologie/Schwerpunkt Pädiatrie
-0436,Nephrologie/Intensivmedizin
-0510,Hämatologie und internistische Onkologie/Schwerpunkt Pädiatrie
-0524,Hämatologie und internistische Onkologie/Schwerpunkt Frauenheilkunde
-0533,Hämatologie und internistische Onkologie/Schwerpunkt Strahlenheilkunde
-0607,Endokrinologie/Schwerpunkt Gastroenterologie
-0610,Endokrinologie/Schwerpunkt Pädiatrie
-0706,Gastroenterologie/Schwerpunkt Endokrinologie
-0710,Gastroenterologie/Schwerpunkt Pädiatrie
-0910,Rheumatologie/Schwerpunkt Pädiatrie
-1004,Pädiatrie/Schwerpunkt Nephrologie
-1005,Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie
-1006,Pädiatrie/Schwerpunkt Endokrinologie
-1007,Pädiatrie/Schwerpunkt Gastroenterologie
-1009,Pädiatrie/Schwerpunkt Rheumatologie
-1011,Pädiatrie/Schwerpunkt Kinderkardiologie
-1012,Pädiatrie/Schwerpunkt Neonatologie
-1014,Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde
-1028,Pädiatrie/Schwerpunkt Kinderneurologie
-1050,Pädiatrie/Schwerpunkt Perinatalmedizin
-1051,Langzeitbereich Kinder
-1136,Kinderkardiologie/Schwerpunkt Intensivmedizin
-1410,Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie
-1513,Allgemeine Chirurgie/Schwerpunkt Kinderchirurgie
-1516,Allgemeine Chirurgie/Schwerpunkt Unfallchirurgie
-1518,Allgemeine Chirurgie/Schwerpunkt Gefäßchirurgie
-1519,Allgemeine Chirurgie/Schwerpunkt Plastische Chirurgie
-1520,Allgemeine Chirurgie/Schwerpunkt Thoraxchirurgie
-1523,Chirurgie/Schwerpunkt Orthopädie
-1536,Allgemeine Chirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung)
-1550,Allgemeine Chirurgie/Schwerpunkt Abdominal- und Gefäßchirurgie
-1551,Allgemeine Chirurgie/Schwerpunkt Handchirurgie
-2021,Thoraxchirurgie/Schwerpunkt Herzchirurgie
-2036,Thoraxchirurgie/Intensivmedizin
-2050,Thoraxchirurgie/Schwerpunkt Herzchirurgie/Intensivmedizin
-2108,Herzchirurgie/Schwerpunkt Gefäßchirurgie
-2120,Herzchirurgie/Schwerpunkt Thoraxchirurgie
-2136,Herzchirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung)
-2150,Herzchirurgie/Schwerpunkt Thoraxchirurgie/Intensivmedizin
-2309,Orthopädie/Schwerpunkt Rheumatologie
-2315,Orthopädie/Schwerpunkt Chirurgie
-2402,Frauenheilkunde/Schwerpunkt Geriatrie
-2405,Frauenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie
-2406,Frauenheilkunde/Schwerpunkt Endokrinologie
-2810,Neurologie/Schwerpunkt Pädiatrie
-2851,Neurologie/Schwerpunkt Gerontologie
-2852,Neurologie/Schwerpunkt Neurologische Frührehabilitation
-2856,Neurologie/Schwerpunkt Schlaganfallpatienten
-2928,Allgemeine Psychiatrie/Schwerpunkt Neurologie
-2930,Allgemeine Psychiatrie/Schwerpunkt Kinder- und Jugendpsychiatrie
-2931,Allgemeine Psychiatrie/Schwerpunkt Psychosomatik/Psychotherapie
-2950,Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung
-2951,Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie
-2952,Allgemeine Psychiatrie/Schwerpunkt Forensische Behandlung
-2953,"Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik"
-2954,"Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Nachtklinik"
-2955,"Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Tagesklinik"
-2956,"Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Nachtklinik"
-2960,Allgemeine Psychiatrie/Tagesklinik (für teilstationäre Pflegesätze)
-2961,Allgemeine Psychiatrie/Nachtklinik (für teilstationäre Pflegesätze)
-3060,Kinder- und Jugendpsychiatrie/Tagesklinik (für teilstationäre Pflegesätze)
-3061,Kinder- und Jugendpsychiatrie/Nachtklinik (für teilstationäre Pflegesätze)
-3110,Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik
-3160,Psychosomatik/Psychotherapie/Tagesklinik (für teilstationäre Pflegesätze)
-3161,Psychosomatik/Psychotherapie/Nachtklinik (für teilstationäre Pflegesätze)
-3233,Nuklearmedizin/Schwerpunkt Strahlenheilkunde
-3305,Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie
-3350,Strahlenheilkunde/Schwerpunkt Radiologie
-3460,Dermatologie/Tagesklinik (für teilstationäre Pflegesätze)
-3601,Intensivmedizin/Schwerpunkt Innere Medizin
-3603,Intensivmedizin/Schwerpunkt Kardiologie
-3610,Intensivmedizin/Schwerpunkt Pädiatrie
-3617,Intensivmedizin/Schwerpunkt Neurochirurgie
-3618,Intensivmedizin/Schwerpunkt Chirurgie
-3621,Intensivmedizin/Schwerpunkt Herzchirurgie
-3622,Intensivmedizin/Schwerpunkt Urologie
-3624,Intensivmedizin/Schwerpunkt Frauenheilkunde und Geburtshilfe
-3626,"Intensivmedizin/Schwerpunkt Hals-, Nasen-, Ohrenheilkunde"
-3628,Intensivmedizin/Schwerpunkt Neurologie
-3650,Operative Intensivmedizin/Schwerpunkt Chirurgie
-3651,Intensivmedizin/Thorax-Herzchirurgie
-3652,Intensivmedizin/Herz-Thoraxchirurgie
-3750,Angiologie
-3751,Radiologie
-3752,Palliativmedizin
-3753,Schmerztherapie
-3754,Heiltherapeutische Abteilung
-3755,Wirbelsäulenchirurgie
-3756,Suchtmedizin
-3757,Visceralchirurgie
-3758,Weaningeinheit
-3759,Schmerztherapie/Tagesklinik
+department_id,department_name,parent_department_id,parent_department_name,lang
+0100,Innere Medizin,0100,Innere Medizin,de
+0200,Geriatrie,0200,Geriatrie,de
+0300,Kardiologie,0300,Kardiologie,de
+0400,Nephrologie,0400,Nephrologie,de
+0500,Hämatologie und internistische Onkologie,0500,Hämatologie und internistische Onkologie,de
+0600,Endokrinologie,0600,Endokrinologie,de
+0700,Gastroenterologie,0700,Gastroenterologie,de
+0800,Pneumologie,0800,Pneumologie,de
+0900,Rheumatologie,0900,Rheumatologie,de
+1000,Pädiatrie,1000,Pädiatrie,de
+1100,Kinderkardiologie,1100,Kinderkardiologie,de
+1200,Neonatologie,1200,Neonatologie,de
+1300,Kinderchirurgie,1300,Kinderchirurgie,de
+1400,Lungen- und Bronchialheilkunde,1400,Lungen- und Bronchialheilkunde,de
+1500,Allgemeine Chirurgie,1500,Allgemeine Chirurgie,de
+1600,Unfallchirurgie,1600,Unfallchirurgie,de
+1700,Neurochirurgie,1700,Neurochirurgie,de
+1800,Gefäßchirurgie,1800,Gefäßchirurgie,de
+1900,Plastische Chirurgie,1900,Plastische Chirurgie,de
+2000,Thoraxchirurgie,2000,Thoraxchirurgie,de
+2100,Herzchirurgie,2100,Herzchirurgie,de
+2200,Urologie,2200,Urologie,de
+2300,Orthopädie,2300,Orthopädie,de
+2400,Frauenheilkunde und Geburtshilfe,2400,Frauenheilkunde und Geburtshilfe,de
+2500,Geburtshilfe,2500,Geburtshilfe,de
+2600,"Hals-, Nasen-, Ohrenheilkunde",2600,"Hals-, Nasen-, Ohrenheilkunde",de
+2700,Augenheilkunde,2700,Augenheilkunde,de
+2800,Neurologie,2800,Neurologie,de
+2900,Allgemeine Psychiatrie,2900,Allgemeine Psychiatrie,de
+3000,Kinder- und Jugendpsychiatrie,3000,Kinder- und Jugendpsychiatrie,de
+3100,Psychosomatik/Psychotherapie,3100,Psychosomatik/Psychotherapie,de
+3200,Nuklearmedizin,3200,Nuklearmedizin,de
+3300,Strahlenheilkunde,3300,Strahlenheilkunde,de
+3400,Dermatologie,3400,Dermatologie,de
+3500,"Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie",3500,"Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie",de
+3600,Intensivmedizin,3600,Intensivmedizin,de
+2316,Orthopädie und Unfallchirurgie,2300,Orthopädie,de
+2425,Frauenheilkunde,2400,Frauenheilkunde und Geburtshilfe,de
+3700,Sonstige Fachabteilung,3700,Sonstige Fachabteilung,de
+0102,Innere Medizin/Schwerpunkt Geriatrie,0100,Innere Medizin,de
+0103,Innere Medizin/Schwerpunkt Kardiologie,0100,Innere Medizin,de
+0104,Innere Medizin/Schwerpunkt Nephrologie,0100,Innere Medizin,de
+0105,Innere Medizin/Schwerpunkt Hämatologie und internistische Onkologie,0100,Innere Medizin,de
+0106,Innere Medizin/Schwerpunkt Endokrinologie,0100,Innere Medizin,de
+0107,Innere Medizin/Schwerpunkt Gastroenterologie,0100,Innere Medizin,de
+0108,Innere Medizin/Schwerpunkt Pneumologie,0100,Innere Medizin,de
+0109,Innere Medizin/Schwerpunkt Rheumatologie,0100,Innere Medizin,de
+0114,Innere Medizin/Schwerpunkt Lungen- und Bronchialheilkunde,0100,Innere Medizin,de
+0150,Innere Medizin/Tumorforschung,0100,Innere Medizin,de
+0151,Innere Medizin/Schwerpunkt Coloproktologie,0100,Innere Medizin,de
+0152,Innere Medizin/Schwerpunkt Infektionskrankheiten,0100,Innere Medizin,de
+0153,Innere Medizin/Schwerpunkt Diabetes,0100,Innere Medizin,de
+0154,Innere Medizin/Schwerpunkt Naturheilkunde,0100,Innere Medizin,de
+0156,Innere Medizin/Schwerpunkt Schlaganfallpatienten,0100,Innere Medizin,de
+0224,Geriatrie/Schwerpunkt Frauenheilkunde,0200,Geriatrie,de
+0260,Geriatrie/Tagesklinik (für teilstationäre Pflegesätze),0200,Geriatrie,de
+0261,Geriatrie/Nachtklinik (für teilstationäre Pflegesätze),0200,Geriatrie,de
+0410,Nephrologie/Schwerpunkt Pädiatrie,0400,Nephrologie,de
+0436,Nephrologie/Intensivmedizin,0400,Nephrologie,de
+0510,Hämatologie und internistische Onkologie/Schwerpunkt Pädiatrie,0500,Hämatologie und internistische Onkologie,de
+0524,Hämatologie und internistische Onkologie/Schwerpunkt Frauenheilkunde,0500,Hämatologie und internistische Onkologie,de
+0533,Hämatologie und internistische Onkologie/Schwerpunkt Strahlenheilkunde,0500,Hämatologie und internistische Onkologie,de
+0607,Endokrinologie/Schwerpunkt Gastroenterologie,0600,Endokrinologie,de
+0610,Endokrinologie/Schwerpunkt Pädiatrie,0600,Endokrinologie,de
+0706,Gastroenterologie/Schwerpunkt Endokrinologie,0700,Gastroenterologie,de
+0710,Gastroenterologie/Schwerpunkt Pädiatrie,0700,Gastroenterologie,de
+0910,Rheumatologie/Schwerpunkt Pädiatrie,0900,Rheumatologie,de
+1004,Pädiatrie/Schwerpunkt Nephrologie,1000,Pädiatrie,de
+1005,Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie,1000,Pädiatrie,de
+1006,Pädiatrie/Schwerpunkt Endokrinologie,1000,Pädiatrie,de
+1007,Pädiatrie/Schwerpunkt Gastroenterologie,1000,Pädiatrie,de
+1009,Pädiatrie/Schwerpunkt Rheumatologie,1000,Pädiatrie,de
+1011,Pädiatrie/Schwerpunkt Kinderkardiologie,1000,Pädiatrie,de
+1012,Pädiatrie/Schwerpunkt Neonatologie,1000,Pädiatrie,de
+1014,Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde,1000,Pädiatrie,de
+1028,Pädiatrie/Schwerpunkt Kinderneurologie,1000,Pädiatrie,de
+1050,Pädiatrie/Schwerpunkt Perinatalmedizin,1000,Pädiatrie,de
+1051,Langzeitbereich Kinder,1000,Pädiatrie,de
+1136,Kinderkardiologie/Schwerpunkt Intensivmedizin,1100,Kinderkardiologie,de
+1410,Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie,1400,Lungen- und Bronchialheilkunde,de
+1513,Allgemeine Chirurgie/Schwerpunkt Kinderchirurgie,1500,Allgemeine Chirurgie,de
+1516,Allgemeine Chirurgie/Schwerpunkt Unfallchirurgie,1500,Allgemeine Chirurgie,de
+1518,Allgemeine Chirurgie/Schwerpunkt Gefäßchirurgie,1500,Allgemeine Chirurgie,de
+1519,Allgemeine Chirurgie/Schwerpunkt Plastische Chirurgie,1500,Allgemeine Chirurgie,de
+1520,Allgemeine Chirurgie/Schwerpunkt Thoraxchirurgie,1500,Allgemeine Chirurgie,de
+1523,Chirurgie/Schwerpunkt Orthopädie,1500,Allgemeine Chirurgie,de
+1536,Allgemeine Chirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung),1500,Allgemeine Chirurgie,de
+1550,Allgemeine Chirurgie/Schwerpunkt Abdominal- und Gefäßchirurgie,1500,Allgemeine Chirurgie,de
+1551,Allgemeine Chirurgie/Schwerpunkt Handchirurgie,1500,Allgemeine Chirurgie,de
+2021,Thoraxchirurgie/Schwerpunkt Herzchirurgie,2000,Thoraxchirurgie,de
+2036,Thoraxchirurgie/Intensivmedizin,2000,Thoraxchirurgie,de
+2050,Thoraxchirurgie/Schwerpunkt Herzchirurgie/Intensivmedizin,2000,Thoraxchirurgie,de
+2108,Herzchirurgie/Schwerpunkt Gefäßchirurgie,2100,Herzchirurgie,de
+2120,Herzchirurgie/Schwerpunkt Thoraxchirurgie,2100,Herzchirurgie,de
+2136,Herzchirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung),2100,Herzchirurgie,de
+2150,Herzchirurgie/Schwerpunkt Thoraxchirurgie/Intensivmedizin,2100,Herzchirurgie,de
+2309,Orthopädie/Schwerpunkt Rheumatologie,2300,Orthopädie,de
+2315,Orthopädie/Schwerpunkt Chirurgie,2300,Orthopädie,de
+2402,Frauenheilkunde/Schwerpunkt Geriatrie,2400,Frauenheilkunde und Geburtshilfe,de
+2405,Frauenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie,2400,Frauenheilkunde und Geburtshilfe,de
+2406,Frauenheilkunde/Schwerpunkt Endokrinologie,2400,Frauenheilkunde und Geburtshilfe,de
+2810,Neurologie/Schwerpunkt Pädiatrie,2800,Neurologie,de
+2851,Neurologie/Schwerpunkt Gerontologie,2800,Neurologie,de
+2852,Neurologie/Schwerpunkt Neurologische Frührehabilitation,2800,Neurologie,de
+2856,Neurologie/Schwerpunkt Schlaganfallpatienten,2800,Neurologie,de
+2928,Allgemeine Psychiatrie/Schwerpunkt Neurologie,2900,Allgemeine Psychiatrie,de
+2930,Allgemeine Psychiatrie/Schwerpunkt Kinder- und Jugendpsychiatrie,2900,Allgemeine Psychiatrie,de
+2931,Allgemeine Psychiatrie/Schwerpunkt Psychosomatik/Psychotherapie,2900,Allgemeine Psychiatrie,de
+2950,Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung,2900,Allgemeine Psychiatrie,de
+2951,Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie,2900,Allgemeine Psychiatrie,de
+2952,Allgemeine Psychiatrie/Schwerpunkt Forensische Behandlung,2900,Allgemeine Psychiatrie,de
+2953,"Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik",2900,Allgemeine Psychiatrie,de
+2954,"Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Nachtklinik",2900,Allgemeine Psychiatrie,de
+2955,"Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Tagesklinik",2900,Allgemeine Psychiatrie,de
+2956,"Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Nachtklinik",2900,Allgemeine Psychiatrie,de
+2960,Allgemeine Psychiatrie/Tagesklinik (für teilstationäre Pflegesätze),2900,Allgemeine Psychiatrie,de
+2961,Allgemeine Psychiatrie/Nachtklinik (für teilstationäre Pflegesätze),2900,Allgemeine Psychiatrie,de
+3060,Kinder- und Jugendpsychiatrie/Tagesklinik (für teilstationäre Pflegesätze),3000,Kinder- und Jugendpsychiatrie,de
+3061,Kinder- und Jugendpsychiatrie/Nachtklinik (für teilstationäre Pflegesätze),3000,Kinder- und Jugendpsychiatrie,de
+3110,Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik,3100,Psychosomatik/Psychotherapie,de
+3160,Psychosomatik/Psychotherapie/Tagesklinik (für teilstationäre Pflegesätze),3100,Psychosomatik/Psychotherapie,de
+3161,Psychosomatik/Psychotherapie/Nachtklinik (für teilstationäre Pflegesätze),3100,Psychosomatik/Psychotherapie,de
+3233,Nuklearmedizin/Schwerpunkt Strahlenheilkunde,3200,Nuklearmedizin,de
+3305,Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie,3300,Strahlenheilkunde,de
+3350,Strahlenheilkunde/Schwerpunkt Radiologie,3300,Strahlenheilkunde,de
+3460,Dermatologie/Tagesklinik (für teilstationäre Pflegesätze),3400,Dermatologie,de
+3601,Intensivmedizin/Schwerpunkt Innere Medizin,3600,Intensivmedizin,de
+3603,Intensivmedizin/Schwerpunkt Kardiologie,3600,Intensivmedizin,de
+3610,Intensivmedizin/Schwerpunkt Pädiatrie,3600,Intensivmedizin,de
+3617,Intensivmedizin/Schwerpunkt Neurochirurgie,3600,Intensivmedizin,de
+3618,Intensivmedizin/Schwerpunkt Chirurgie,3600,Intensivmedizin,de
+3621,Intensivmedizin/Schwerpunkt Herzchirurgie,3600,Intensivmedizin,de
+3622,Intensivmedizin/Schwerpunkt Urologie,3600,Intensivmedizin,de
+3624,Intensivmedizin/Schwerpunkt Frauenheilkunde und Geburtshilfe,3600,Intensivmedizin,de
+3626,"Intensivmedizin/Schwerpunkt Hals-, Nasen-, Ohrenheilkunde",3600,Intensivmedizin,de
+3628,Intensivmedizin/Schwerpunkt Neurologie,3600,Intensivmedizin,de
+3650,Operative Intensivmedizin/Schwerpunkt Chirurgie,3600,Intensivmedizin,de
+3651,Intensivmedizin/Thorax-Herzchirurgie,3600,Intensivmedizin,de
+3652,Intensivmedizin/Herz-Thoraxchirurgie,3600,Intensivmedizin,de
+3750,Angiologie,3700,Sonstige Fachabteilung,de
+3751,Radiologie,3700,Sonstige Fachabteilung,de
+3752,Palliativmedizin,3700,Sonstige Fachabteilung,de
+3753,Schmerztherapie,3700,Sonstige Fachabteilung,de
+3754,Heiltherapeutische Abteilung,3700,Sonstige Fachabteilung,de
+3755,Wirbelsäulenchirurgie,3700,Sonstige Fachabteilung,de
+3756,Suchtmedizin,3700,Sonstige Fachabteilung,de
+3757,Visceralchirurgie,3700,Sonstige Fachabteilung,de
+3758,Weaningeinheit,3700,Sonstige Fachabteilung,de
+3759,Schmerztherapie/Tagesklinik,3700,Sonstige Fachabteilung,de
+0100,Internal Medicine,0100,Internal Medicine,en
+0200,Geriatrics,0200,Geriatrics,en
+0300,Cardiology,0300,Cardiology,en
+0400,Nephrology,0400,Nephrology,en
+0500,Hematology and Internal Oncology,0500,Hematology and Internal Oncology,en
+0600,Endocrinology,0600,Endocrinology,en
+0700,Gastroenterology,0700,Gastroenterology,en
+0800,Pulmonology,0800,Pulmonology,en
+0900,Rheumatology,0900,Rheumatology,en
+1000,Pediatrics,1000,Pediatrics,en
+1100,Pediatric Cardiology,1100,Pediatric Cardiology,en
+1200,Neonatology,1200,Neonatology,en
+1300,Pediatric Surgery,1300,Pediatric Surgery,en
+1400,Pulmonology and Bronchial Medicine,1400,Pulmonology and Bronchial Medicine,en
+1500,General Surgery,1500,General Surgery,en
+1600,Trauma Surgery,1600,Trauma Surgery,en
+1700,Neurosurgery,1700,Neurosurgery,en
+1800,Vascular Surgery,1800,Vascular Surgery,en
+1900,Plastic Surgery,1900,Plastic Surgery,en
+2000,Thoracic Surgery,2000,Thoracic Surgery,en
+2100,Cardiac Surgery,2100,Cardiac Surgery,en
+2200,Urology,2200,Urology,en
+2300,Orthopedics,2300,Orthopedics,en
+2400,Gynecology and Obstetrics,2400,Gynecology and Obstetrics,en
+2500,Obstetrics,2500,Obstetrics,en
+2600,Otorhinolaryngology,2600,Otorhinolaryngology,en
+2700,Ophthalmology,2700,Ophthalmology,en
+2800,Neurology,2800,Neurology,en
+2900,General Psychiatry,2900,General Psychiatry,en
+3000,Child and Adolescent Psychiatry,3000,Child and Adolescent Psychiatry,en
+3100,Psychosomatics/Psychotherapy,3100,Psychosomatics/Psychotherapy,en
+3200,Nuclear Medicine,3200,Nuclear Medicine,en
+3300,Radiation Therapy,3300,Radiation Therapy,en
+3400,Dermatology,3400,Dermatology,en
+3500,Dentistry and Oral and Maxillofacial Surgery,3500,Dentistry and Oral and Maxillofacial Surgery,en
+3600,Intensive Care Medicine,3600,Intensive Care Medicine,en
+2316,Orthopedics and Trauma Surgery,2300,Orthopedics,en
+2425,Gynecology,2400,Gynecology and Obstetrics,en
+3700,Other Specialty Department,3700,Other Specialty Department,en
+0102,Internal Medicine/Specialization in Geriatrics,0100,Internal Medicine,en
+0103,Internal Medicine/Specialization in Cardiology,0100,Internal Medicine,en
+0104,Internal Medicine/Specialization in Nephrology,0100,Internal Medicine,en
+0105,Internal Medicine/Specialization in Hematology and Internal Oncology,0100,Internal Medicine,en
+0106,Internal Medicine/Specialization in Endocrinology,0100,Internal Medicine,en
+0107,Internal Medicine/Specialization in Gastroenterology,0100,Internal Medicine,en
+0108,Internal Medicine/Specialization in Pulmonology,0100,Internal Medicine,en
+0109,Internal Medicine/Specialization in Rheumatology,0100,Internal Medicine,en
+0114,Internal Medicine/Specialization in Pulmonology and Bronchial Medicine,0100,Internal Medicine,en
+0150,Internal Medicine/Tumor Research,0100,Internal Medicine,en
+0151,Internal Medicine/Specialization in Coloproctology,0100,Internal Medicine,en
+0152,Internal Medicine/Specialization in Infectious Diseases,0100,Internal Medicine,en
+0153,Internal Medicine/Specialization in Diabetes,0100,Internal Medicine,en
+0154,Internal Medicine/Specialization in Naturopathy,0100,Internal Medicine,en
+0156,Internal Medicine/Specialization in Stroke Patients,0100,Internal Medicine,en
+0224,Geriatrics/Specialization in Gynecology,0200,Geriatrics,en
+0260,Geriatrics/Day Clinic (for partial inpatient care rates),0200,Geriatrics,en
+0261,Geriatrics/Night Clinic (for partial inpatient care rates),0200,Geriatrics,en
+0410,Nephrology/Specialization in Pediatrics,0400,Nephrology,en
+0436,Nephrology/Intensive Care Medicine,0400,Nephrology,en
+0510,Hematology and Internal Oncology/Specialization in Pediatrics,0500,Hematology and Internal Oncology,en
+0524,Hematology and Internal Oncology/Specialization in Gynecology,0500,Hematology and Internal Oncology,en
+0533,Hematology and Internal Oncology/Specialization in Radiation Therapy,0500,Hematology and Internal Oncology,en
+0607,Endocrinology/Specialization in Gastroenterology,0600,Endocrinology,en
+0610,Endocrinology/Specialization in Pediatrics,0600,Endocrinology,en
+0706,Gastroenterology/Specialization in Endocrinology,0700,Gastroenterology,en
+0710,Gastroenterology/Specialization in Pediatrics,0700,Gastroenterology,en
+0910,Rheumatology/Specialization in Pediatrics,0900,Rheumatology,en
+1004,Pediatrics/Specialization in Nephrology,1000,Pediatrics,en
+1005,Pediatrics/Specialization in Hematology and Internal Oncology,1000,Pediatrics,en
+1006,Pediatrics/Specialization in Endocrinology,1000,Pediatrics,en
+1007,Pediatrics/Specialization in Gastroenterology,1000,Pediatrics,en
+1009,Pediatrics/Specialization in Rheumatology,1000,Pediatrics,en
+1011,Pediatrics/Specialization in Pediatric Cardiology,1000,Pediatrics,en
+1012,Pediatrics/Specialization in Neonatology,1000,Pediatrics,en
+1014,Pediatrics/Specialization in Pulmonology and Bronchial Medicine,1000,Pediatrics,en
+1028,Pediatrics/Specialization in Pediatric Neurology,1000,Pediatrics,en
+1050,Pediatrics/Specialization in Perinatal Medicine,1000,Pediatrics,en
+1051,Long-Term Care for Children,1000,Pediatrics,en
+1136,Pediatric Cardiology/Specialization in Intensive Care Medicine,1100,Pediatric Cardiology,en
+1410,Pulmonology and Bronchial Medicine/Specialization in Pediatrics,1400,Pulmonology and Bronchial Medicine,en
+1513,General Surgery/Specialization in Pediatric Surgery,1500,General Surgery,en
+1516,General Surgery/Specialization in Trauma Surgery,1500,General Surgery,en
+1518,General Surgery/Specialization in Vascular Surgery,1500,General Surgery,en
+1519,General Surgery/Specialization in Plastic Surgery,1500,General Surgery,en
+1520,General Surgery/Specialization in Thoracic Surgery,1500,General Surgery,en
+1523,Surgery/Specialization in Orthopedics,1500,General Surgery,en
+1536,General Surgery/Intensive Care Medicine (§ 13 Abs. 2 Sentence 3 2nd Clause BPflV as of 12/31/2003),1500,General Surgery,en
+1550,General Surgery/Specialization in Abdominal and Vascular Surgery,1500,General Surgery,en
+1551,General Surgery/Specialization in Hand Surgery,1500,General Surgery,en
+2021,Thoracic Surgery/Specialization in Cardiac Surgery,2000,Thoracic Surgery,en
+2036,Thoracic Surgery/Intensive Care Medicine,2000,Thoracic Surgery,en
+2050,Thoracic Surgery/Specialization in Cardiac Surgery/Intensive Care Medicine,2000,Thoracic Surgery,en
+2108,Cardiac Surgery/Specialization in Vascular Surgery,2100,Cardiac Surgery,en
+2120,Cardiac Surgery/Specialization in Thoracic Surgery,2100,Cardiac Surgery,en
+2136,Cardiac Surgery/Intensive Care Medicine (§ 13 Abs. 2 Sentence 3 2nd Clause BPflV as of 12/31/2003),2100,Cardiac Surgery,en
+2150,Cardiac Surgery/Specialization in Thoracic Surgery/Intensive Care Medicine,2100,Cardiac Surgery,en
+2309,Orthopedics/Specialization in Rheumatology,2300,Orthopedics,en
+2315,Orthopedics/Specialization in Surgery,2300,Orthopedics,en
+2402,Gynecology/Specialization in Geriatrics,2400,Gynecology and Obstetrics,en
+2405,Gynecology/Specialization in Hematology and Internal Oncology,2400,Gynecology and Obstetrics,en
+2406,Gynecology/Specialization in Endocrinology,2400,Gynecology and Obstetrics,en
+2810,Neurology/Specialization in Pediatrics,2800,Neurology,en
+2851,Neurology/Specialization in Gerontology,2800,Neurology,en
+2852,Neurology/Specialization in Early Neurological Rehabilitation,2800,Neurology,en
+2856,Neurology/Specialization in Stroke Patients,2800,Neurology,en
+2928,General Psychiatry/Specialization in Neurology,2900,General Psychiatry,en
+2930,General Psychiatry/Specialization in Child and Adolescent Psychiatry,2900,General Psychiatry,en
+2931,General Psychiatry/Specialization in Psychosomatics/Psychotherapy,2900,General Psychiatry,en
+2950,General Psychiatry/Specialization in Addiction Treatment,2900,General Psychiatry,en
+2951,General Psychiatry/Specialization in Geriatric Psychiatry,2900,General Psychiatry,en
+2952,General Psychiatry/Specialization in Forensic Treatment,2900,General Psychiatry,en
+2953,"General Psychiatry/Specialization in Addiction Treatment, Day Clinic",2900,General Psychiatry,en
+2954,"General Psychiatry/Specialization in Addiction Treatment, Night Clinic",2900,General Psychiatry,en
+2955,"General Psychiatry/Specialization in Geriatric Psychiatry, Day Clinic",2900,General Psychiatry,en
+2956,"General Psychiatry/Specialization in Geriatric Psychiatry, Night Clinic",2900,General Psychiatry,en
+2960,General Psychiatry/Day Clinic (for partial inpatient care rates),2900,General Psychiatry,en
+2961,General Psychiatry/Night Clinic (for partial inpatient care rates),2900,General Psychiatry,en
+3060,Child and Adolescent Psychiatry/Day Clinic (for partial inpatient care rates),3000,Child and Adolescent Psychiatry,en
+3061,Child and Adolescent Psychiatry/Night Clinic (for partial inpatient care rates),3000,Child and Adolescent Psychiatry,en
+3110,Psychosomatics/Psychotherapy/Specialization in Child and Adolescent Psychosomatics,3100,Psychosomatics/Psychotherapy,en
+3160,Psychosomatics/Psychotherapy/Day Clinic (for partial inpatient care rates),3100,Psychosomatics/Psychotherapy,en
+3161,Psychosomatics/Psychotherapy/Night Clinic (for partial inpatient care rates),3100,Psychosomatics/Psychotherapy,en
+3233,Nuclear Medicine/Specialization in Radiation Therapy,3200,Nuclear Medicine,en
+3305,Radiation Therapy/Specialization in Hematology and Internal Oncology,3300,Radiation Therapy,en
+3350,Radiation Therapy/Specialization in Radiology,3300,Radiation Therapy,en
+3460,Dermatology/Day Clinic (for partial inpatient care rates),3400,Dermatology,en
+3601,Intensive Care Medicine/Specialization in Internal Medicine,3600,Intensive Care Medicine,en
+3603,Intensive Care Medicine/Specialization in Cardiology,3600,Intensive Care Medicine,en
+3610,Intensive Care Medicine/Specialization in Pediatrics,3600,Intensive Care Medicine,en
+3617,Intensive Care Medicine/Specialization in Neurosurgery,3600,Intensive Care Medicine,en
+3618,Intensive Care Medicine/Specialization in Surgery,3600,Intensive Care Medicine,en
+3621,Intensive Care Medicine/Specialization in Cardiac Surgery,3600,Intensive Care Medicine,en
+3622,Intensive Care Medicine/Specialization in Urology,3600,Intensive Care Medicine,en
+3624,Intensive Care Medicine/Specialization in Gynecology and Obstetrics,3600,Intensive Care Medicine,en
+3626,Intensive Care Medicine/Specialization in Otorhinolaryngology,3600,Intensive Care Medicine,en
+3628,Intensive Care Medicine/Specialization in Neurology,3600,Intensive Care Medicine,en
+3650,Operative Intensive Care Medicine/Specialization in Surgery,3600,Intensive Care Medicine,en
+3651,Intensive Care Medicine/Thoracic-Cardiac Surgery,3600,Intensive Care Medicine,en
+3652,Intensive Care Medicine/Cardiac-Thoracic Surgery,3600,Intensive Care Medicine,en
+3750,Angiology,3700,Other Specialty Department,en
+3751,Radiology,3700,Other Specialty Department,en
+3752,Palliative Medicine,3700,Other Specialty Department,en
+3753,Pain Therapy,3700,Other Specialty Department,en
+3754,Therapeutic Department,3700,Other Specialty Department,en
+3755,Spine Surgery,3700,Other Specialty Department,en
+3756,Addiction Medicine,3700,Other Specialty Department,en
+3757,Visceral Surgery,3700,Other Specialty Department,en
+3758,Weaning Unit,3700,Other Specialty Department,en
+3759,Pain Therapy/Day Clinic,3700,Other Specialty Department,en

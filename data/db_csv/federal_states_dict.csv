@@ -1,0 +1,33 @@
+federal_state_code,federal_state_name,lang
+BW,Baden-Württemberg,de
+BY,Bayern,de
+BE,Berlin,de
+BB,Brandenburg,de
+HB,Bremen,de
+HH,Hamburg,de
+HE,Hessen,de
+NI,Niedersachsen,de
+MV,Mecklenburg-Vorpommern,de
+NW,Nordrhein-Westfalen,de
+RP,Rheinland-Pfalz,de
+SL,Saarland,de
+SN,Sachsen,de
+ST,Sachsen-Anhalt,de
+SH,Schleswig-Holstein,de
+TH,Thüringen,de
+BW,Baden-Württemberg,en
+BY,Bavaria,en
+BE,Berlin,en
+BB,Brandenburg,en
+HB,Bremen,en
+HH,Hamburg,en
+HE,Hesse,en
+NI,Lower Saxony,en
+MV,Mecklenburg-Western Pomerania,en
+NW,North Rhine-Westphalia,en
+RP,Rhineland-Palatinate,en
+SL,Saarland,en
+SN,Saxony,en
+ST,Saxony-Anhalt,en
+SH,Schleswig-Holstein,en
+TH,Thuringia,en

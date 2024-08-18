@@ -1,0 +1,23 @@
+treatment_code,treatment_name
+KAHKO0,Chirurgischer Herzklappenersatz
+KAHM0,Minimal-invasiver Herzklappenersatz
+KAKIA,Bypassoperation des Herzens
+KAKIB,Herzkatheter mit Stent
+KALE0,Lungenentzündung
+KABK0,Brustkrebs-Operation
+KALK0,Lungenkrebs-Operation
+KADK0,Darmkrebs-Operation
+KAOM0,Speiseröhren und Magenkrebs-Operation
+KAPRK0,Prostatakrebs-Operation
+KAPK0,Pankreaskarzinom-Operation
+KAEH0,Totalendoprothese der Hüfte
+KARH0,Totalendoprothesen-Wechsel der Hüfte
+KARK0,Totalendoprothesen-Wechsel des Knies
+KAEK0,Totalendoprothese des Knies
+KASA0,Behandlung auf einer Schlaganfalleinheit
+KAMUS0,Multiple Sklerose
+KAPAR0,Parkinson
+KAEN0,Entbindungen
+KABAA0,Bauchschlagader: Operation und Stent
+KASCHK0,Durchblutungsstörung der Beine: Operation und Stent
+KAOH0,Halsschlagader: Operation und Stent
