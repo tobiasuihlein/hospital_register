@@ -1,0 +1,1659 @@
+hospital_id,total_treatments,total_treatments_label,nursing_quotient,nursing_quotient_label,nursing_count,provider_type,bed_count,semi_residential_count,emergency_service_level,has_emergency_service
+771003,23479,sehr viele,60.11,weit unterdurchschnittlich,363.0,öffentlich,539,52,2,True
+771011,13563,viele,55.68,unterdurchschnittlich,227.0,öffentlich,320,20,2,True
+771012,15347,viele,48.69,überdurchschnittlich,268.0,öffentlich,300,8,2,True
+771015,1422,sehr wenige,39.15,weit überdurchschnittlich,40.0,privat,59,10,0,True
+771016,21996,sehr viele,46.59,überdurchschnittlich,352.0,privat,508,8,2,True
+771021,1760,sehr wenige,52.03,mittel,127.0,freigemeinnützig,146,15,0,True
+771028,4763,wenige,45.15,überdurchschnittlich,79.0,freigemeinnützig,145,0,1,True
+771029,8517,mittel,52.27,mittel,132.0,öffentlich,223,0,1,True
+771030,11509,viele,59.81,weit unterdurchschnittlich,225.0,öffentlich,318,10,2,True
+771031,131,sehr wenige,0.0,weit überdurchschnittlich,2.0,öffentlich,0,10,-1,False
+771039,15997,sehr viele,39.34,weit überdurchschnittlich,256.0,freigemeinnützig,298,28,2,True
+771040,6602,mittel,39.91,weit überdurchschnittlich,123.0,freigemeinnützig,182,0,1,True
+771041,4115,wenige,51.31,mittel,89.0,öffentlich,129,10,-1,False
+771042,20766,sehr viele,52.26,mittel,511.0,öffentlich,574,38,3,True
+771043,12621,viele,52.44,mittel,196.0,freigemeinnützig,269,13,1,True
+771052,3471,wenige,50.0,mittel,45.0,öffentlich,70,0,1,True
+771053,10634,viele,42.01,weit überdurchschnittlich,209.0,privat,223,0,1,True
+771054,888,sehr wenige,15.38,weit überdurchschnittlich,11.0,privat,48,0,0,True
+771056,13835,viele,54.02,unterdurchschnittlich,608.0,öffentlich,504,0,1,True
+771057,25573,sehr viele,48.1,überdurchschnittlich,462.0,freigemeinnützig,449,32,2,True
+771059,1499,sehr wenige,60.89,weit unterdurchschnittlich,71.0,freigemeinnützig,124,0,-1,False
+771060,752,sehr wenige,29.19,weit überdurchschnittlich,8.0,privat,17,0,-1,False
+771061,23120,sehr viele,62.11,weit unterdurchschnittlich,328.0,öffentlich,401,5,2,True
+771062,954,sehr wenige,22.61,weit überdurchschnittlich,14.0,privat,30,0,-1,False
+771064,4799,wenige,35.76,weit überdurchschnittlich,102.0,öffentlich,165,0,1,True
+771065,3243,wenige,35.53,weit überdurchschnittlich,55.0,privat,75,3,0,True
+771069,1046,sehr wenige,90.56,weit unterdurchschnittlich,47.0,privat,115,0,-1,False
+771070,10014,viele,37.1,weit überdurchschnittlich,213.0,privat,240,0,1,True
+771071,7633,mittel,57.2,unterdurchschnittlich,145.0,freigemeinnützig,223,0,-1,False
+771072,12109,viele,51.2,mittel,191.0,freigemeinnützig,245,0,1,True
+771073,1183,sehr wenige,42.03,weit überdurchschnittlich,33.0,freigemeinnützig,48,0,-1,False
+771074,1723,sehr wenige,49.95,mittel,97.0,privat,53,0,-1,False
+771075,271,sehr wenige,51.57,mittel,84.0,privat,64,0,-1,False
+771076,8747,mittel,52.24,mittel,144.0,freigemeinnützig,234,0,1,True
+771077,12726,viele,40.67,weit überdurchschnittlich,239.0,freigemeinnützig,241,0,2,True
+771078,10279,viele,55.63,unterdurchschnittlich,159.0,öffentlich,281,0,1,True
+771079,4678,wenige,56.82,unterdurchschnittlich,78.0,freigemeinnützig,160,10,1,True
+771080,26329,sehr viele,56.74,unterdurchschnittlich,641.0,öffentlich,911,31,3,True
+771081,1242,sehr wenige,36.12,weit überdurchschnittlich,29.0,privat,51,0,-1,False
+771082,7237,mittel,57.39,unterdurchschnittlich,66.0,öffentlich,100,40,-1,False
+771083,25274,sehr viele,48.6,überdurchschnittlich,487.0,öffentlich,465,43,3,True
+771084,20653,sehr viele,52.66,mittel,358.0,öffentlich,460,52,2,True
+771085,26970,sehr viele,49.13,mittel,468.0,öffentlich,522,51,2,True
+771087,8843,mittel,52.89,mittel,157.0,freigemeinnützig,260,10,1,True
+771088,1577,sehr wenige,89.01,weit unterdurchschnittlich,68.0,privat,127,0,-1,False
+771090,23087,sehr viele,54.81,unterdurchschnittlich,459.0,öffentlich,540,0,3,True
+771091,258,sehr wenige,55.24,unterdurchschnittlich,12.0,öffentlich,25,0,-1,False
+771093,7062,mittel,48.9,überdurchschnittlich,117.0,öffentlich,150,0,1,True
+771094,1198,sehr wenige,34.0,weit überdurchschnittlich,27.0,öffentlich,50,0,-1,False
+771095,19300,sehr viele,47.42,überdurchschnittlich,364.0,privat,397,5,3,True
+771096,20473,sehr viele,41.41,weit überdurchschnittlich,434.0,öffentlich,500,23,2,True
+771098,6365,mittel,40.55,weit überdurchschnittlich,112.0,öffentlich,120,0,1,True
+771099,1188,sehr wenige,61.31,weit unterdurchschnittlich,17.0,öffentlich,40,0,-1,False
+771100,25330,sehr viele,52.57,mittel,499.0,öffentlich,600,0,3,True
+771101,26772,sehr viele,60.51,weit unterdurchschnittlich,495.0,öffentlich,546,87,3,True
+771102,13707,viele,57.24,unterdurchschnittlich,264.0,freigemeinnützig,339,8,1,True
+771103,5947,mittel,52.72,mittel,66.0,öffentlich,146,0,1,True
+771104,3624,wenige,59.32,weit unterdurchschnittlich,57.0,privat,94,0,1,True
+771105,3667,wenige,63.49,weit unterdurchschnittlich,112.0,öffentlich,196,0,0,True
+771106,6951,mittel,56.66,unterdurchschnittlich,117.0,öffentlich,170,0,1,True
+771107,5343,mittel,53.05,mittel,142.0,öffentlich,135,0,1,True
+771108,19488,sehr viele,51.36,mittel,409.0,öffentlich,530,0,3,True
+771109,8445,mittel,46.57,überdurchschnittlich,114.0,öffentlich,184,0,1,True
+771112,2046,wenige,81.6,weit unterdurchschnittlich,138.0,freigemeinnützig,148,0,-1,False
+771113,13293,viele,50.64,mittel,225.0,freigemeinnützig,267,0,2,True
+771114,1395,sehr wenige,74.9,weit unterdurchschnittlich,36.0,freigemeinnützig,55,10,-1,False
+771115,9975,viele,64.0,weit unterdurchschnittlich,171.0,freigemeinnützig,288,0,1,True
+771116,4010,wenige,68.44,weit unterdurchschnittlich,111.0,freigemeinnützig,161,15,1,True
+771119,11565,viele,67.31,weit unterdurchschnittlich,154.0,freigemeinnützig,224,10,2,True
+771123,13625,viele,48.16,überdurchschnittlich,303.0,freigemeinnützig,375,0,2,True
+771124,18999,sehr viele,58.37,unterdurchschnittlich,362.0,privat,438,22,3,True
+771125,24905,sehr viele,46.1,überdurchschnittlich,748.0,privat,810,12,2,True
+771127,7578,mittel,54.49,unterdurchschnittlich,145.0,freigemeinnützig,117,15,3,True
+771128,195,sehr wenige,61.36,weit unterdurchschnittlich,21.0,freigemeinnützig,14,0,-1,False
+771129,21928,sehr viele,51.98,mittel,381.0,öffentlich,501,0,3,True
+771132,509,sehr wenige,0.0,weit überdurchschnittlich,4.0,privat,0,60,-1,False
+771136,14098,viele,40.34,weit überdurchschnittlich,570.0,privat,440,10,1,True
+771138,8674,mittel,59.99,weit unterdurchschnittlich,138.0,privat,234,15,1,True
+771139,8920,mittel,41.21,weit überdurchschnittlich,273.0,privat,310,10,1,True
+771144,17654,sehr viele,44.66,überdurchschnittlich,305.0,freigemeinnützig,325,0,2,True
+771145,2412,wenige,48.05,überdurchschnittlich,53.0,öffentlich,79,0,-1,False
+771150,2465,wenige,30.1,weit überdurchschnittlich,25.0,privat,44,0,-1,False
+771151,12759,viele,53.53,unterdurchschnittlich,227.0,öffentlich,294,12,1,True
+771152,1853,sehr wenige,49.8,mittel,30.0,öffentlich,48,0,-1,False
+771153,164,sehr wenige,42.52,weit überdurchschnittlich,35.0,öffentlich,20,0,-1,False
+771157,11317,viele,54.08,unterdurchschnittlich,205.0,öffentlich,326,4,1,True
+771160,4785,wenige,60.03,weit unterdurchschnittlich,88.0,privat,106,0,1,True
+771161,228,sehr wenige,0.0,weit überdurchschnittlich,3.0,öffentlich,0,5,-1,False
+771162,12535,viele,74.9,weit unterdurchschnittlich,276.0,öffentlich,419,3,1,True
+771166,5817,mittel,49.16,mittel,161.0,freigemeinnützig,205,0,1,True
+771167,19361,sehr viele,59.59,weit unterdurchschnittlich,284.0,freigemeinnützig,420,0,2,True
+771168,5543,mittel,50.16,mittel,110.0,öffentlich,166,0,1,True
+771172,3478,wenige,63.92,weit unterdurchschnittlich,63.0,öffentlich,101,0,1,True
+771173,5969,mittel,48.44,überdurchschnittlich,102.0,öffentlich,153,7,-1,False
+771174,7837,mittel,61.99,weit unterdurchschnittlich,129.0,öffentlich,220,0,1,True
+771175,66698,sehr viele,47.78,überdurchschnittlich,1.445,öffentlich,1172,84,3,True
+771176,25421,sehr viele,52.62,mittel,447.0,öffentlich,465,6,2,True
+771177,28588,sehr viele,57.29,unterdurchschnittlich,399.0,freigemeinnützig,574,17,2,True
+771178,342,sehr wenige,0.0,weit überdurchschnittlich,4.0,freigemeinnützig,0,27,-1,False
+771179,18164,sehr viele,49.19,mittel,284.0,öffentlich,410,0,2,True
+771181,1088,sehr wenige,37.73,weit überdurchschnittlich,66.0,freigemeinnützig,53,0,-1,False
+771182,2798,wenige,48.98,überdurchschnittlich,92.0,freigemeinnützig,172,0,-1,False
+771183,14397,viele,63.74,weit unterdurchschnittlich,205.0,freigemeinnützig,325,0,1,True
+771184,28626,sehr viele,66.78,weit unterdurchschnittlich,382.0,öffentlich,607,1,2,True
+771186,7858,mittel,58.85,unterdurchschnittlich,127.0,öffentlich,188,0,1,True
+771187,7692,mittel,52.51,mittel,121.0,öffentlich,166,0,1,True
+771189,1301,sehr wenige,37.2,weit überdurchschnittlich,34.0,privat,40,0,0,True
+771190,3974,wenige,45.6,überdurchschnittlich,109.0,privat,75,0,1,True
+771191,18770,sehr viele,49.99,mittel,314.0,freigemeinnützig,343,0,2,True
+771192,8108,mittel,52.5,mittel,144.0,freigemeinnützig,198,0,1,True
+771193,2506,wenige,68.69,weit unterdurchschnittlich,69.0,freigemeinnützig,93,12,-1,False
+771197,12165,viele,48.07,überdurchschnittlich,243.0,freigemeinnützig,303,27,1,True
+771199,9016,viele,56.84,unterdurchschnittlich,147.0,privat,210,0,1,True
+771200,12510,viele,50.73,mittel,251.0,privat,303,0,2,True
+771201,17741,sehr viele,54.72,unterdurchschnittlich,296.0,freigemeinnützig,382,10,2,True
+771204,1119,sehr wenige,37.75,weit überdurchschnittlich,80.0,freigemeinnützig,101,0,-1,False
+771209,4530,wenige,53.58,unterdurchschnittlich,83.0,freigemeinnützig,131,0,1,True
+771217,10982,viele,49.25,mittel,255.0,öffentlich,244,0,-1,False
+771218,2555,wenige,46.04,überdurchschnittlich,51.0,privat,55,0,1,True
+771219,14375,viele,52.62,mittel,228.0,freigemeinnützig,407,0,1,True
+771220,9122,viele,42.14,weit überdurchschnittlich,190.0,freigemeinnützig,235,0,2,True
+771221,5220,mittel,53.2,mittel,149.0,freigemeinnützig,163,4,1,True
+771222,23918,sehr viele,50.93,mittel,440.0,öffentlich,351,12,3,True
+771223,10771,viele,55.29,unterdurchschnittlich,160.0,öffentlich,154,0,2,True
+771224,398,sehr wenige,51.45,mittel,17.0,öffentlich,18,0,-1,False
+771225,2630,wenige,57.03,unterdurchschnittlich,33.0,öffentlich,43,0,-1,False
+771226,16702,sehr viele,65.37,weit unterdurchschnittlich,226.0,freigemeinnützig,388,0,2,True
+771230,2246,wenige,39.08,weit überdurchschnittlich,42.0,öffentlich,78,0,-1,False
+771235,11789,viele,52.15,mittel,197.0,öffentlich,274,1,1,True
+771236,7755,mittel,42.74,weit überdurchschnittlich,119.0,öffentlich,128,0,1,True
+771237,18086,sehr viele,56.23,unterdurchschnittlich,396.0,freigemeinnützig,438,0,3,True
+771238,10386,viele,55.78,unterdurchschnittlich,138.0,freigemeinnützig,195,0,1,True
+771239,12845,viele,63.43,weit unterdurchschnittlich,257.0,freigemeinnützig,400,12,1,True
+771240,20664,sehr viele,57.12,unterdurchschnittlich,284.0,freigemeinnützig,420,0,2,True
+771241,3986,wenige,53.27,mittel,152.0,freigemeinnützig,200,0,-1,False
+771242,9702,viele,40.9,weit überdurchschnittlich,143.0,freigemeinnützig,238,0,1,True
+771243,10667,viele,41.69,weit überdurchschnittlich,134.0,freigemeinnützig,166,0,1,True
+771245,13952,viele,51.71,mittel,224.0,öffentlich,280,0,1,True
+771246,9427,viele,58.17,unterdurchschnittlich,139.0,öffentlich,225,0,1,True
+771247,7578,mittel,60.59,weit unterdurchschnittlich,133.0,freigemeinnützig,183,0,1,True
+771248,10119,viele,49.1,mittel,147.0,öffentlich,242,0,1,True
+771249,1893,wenige,33.68,weit überdurchschnittlich,30.0,privat,38,0,-1,False
+771251,11091,viele,46.92,überdurchschnittlich,288.0,freigemeinnützig,406,0,2,True
+771252,5226,mittel,39.19,weit überdurchschnittlich,99.0,freigemeinnützig,155,0,-1,False
+771253,6079,mittel,54.41,unterdurchschnittlich,176.0,freigemeinnützig,218,0,1,True
+771254,21965,sehr viele,44.22,überdurchschnittlich,450.0,freigemeinnützig,459,0,3,True
+771256,1467,sehr wenige,18.59,weit überdurchschnittlich,12.0,privat,22,0,-1,False
+771257,1342,sehr wenige,47.2,überdurchschnittlich,45.0,öffentlich,45,0,1,True
+771258,7230,mittel,50.64,mittel,154.0,freigemeinnützig,310,0,1,True
+771259,19237,sehr viele,77.49,weit unterdurchschnittlich,266.0,privat,400,16,-1,False
+771261,44870,sehr viele,55.31,unterdurchschnittlich,1.107,öffentlich,1075,21,3,True
+771262,15572,viele,58.86,unterdurchschnittlich,210.0,freigemeinnützig,364,0,1,True
+771263,5417,mittel,54.08,unterdurchschnittlich,108.0,freigemeinnützig,80,5,2,True
+771264,4906,wenige,71.5,weit unterdurchschnittlich,73.0,freigemeinnützig,111,0,1,True
+771265,10764,viele,55.49,unterdurchschnittlich,177.0,freigemeinnützig,278,0,2,True
+771266,8368,mittel,69.44,weit unterdurchschnittlich,101.0,öffentlich,200,0,1,True
+771267,4248,wenige,54.34,unterdurchschnittlich,136.0,öffentlich,183,0,1,True
+771268,545,sehr wenige,53.07,mittel,58.0,freigemeinnützig,42,0,0,True
+771269,13878,viele,57.85,unterdurchschnittlich,196.0,öffentlich,256,0,2,True
+771284,12004,viele,49.35,mittel,188.0,freigemeinnützig,285,0,2,True
+771285,2062,wenige,42.96,überdurchschnittlich,66.0,freigemeinnützig,112,0,0,True
+771286,18828,sehr viele,49.74,mittel,356.0,freigemeinnützig,450,0,2,True
+771288,11123,viele,55.87,unterdurchschnittlich,230.0,freigemeinnützig,318,10,1,True
+771294,6049,mittel,44.7,überdurchschnittlich,116.0,freigemeinnützig,159,0,1,True
+771296,1599,sehr wenige,31.72,weit überdurchschnittlich,40.0,öffentlich,32,0,1,True
+771297,1224,sehr wenige,54.75,unterdurchschnittlich,23.0,öffentlich,33,0,-1,False
+771298,10828,viele,56.08,unterdurchschnittlich,154.0,privat,293,0,1,True
+771299,12234,viele,52.83,mittel,169.0,freigemeinnützig,266,0,1,True
+771300,19580,sehr viele,62.41,weit unterdurchschnittlich,288.0,freigemeinnützig,402,15,2,True
+771301,20894,sehr viele,52.39,mittel,365.0,freigemeinnützig,533,18,2,True
+771303,7578,mittel,40.79,weit überdurchschnittlich,289.0,privat,194,0,1,True
+771304,7075,mittel,36.84,weit überdurchschnittlich,137.0,privat,171,0,1,True
+771306,12493,viele,52.14,mittel,256.0,freigemeinnützig,301,0,2,True
+771307,1151,sehr wenige,56.41,unterdurchschnittlich,57.0,freigemeinnützig,74,0,-1,False
+771308,12250,viele,61.92,weit unterdurchschnittlich,160.0,öffentlich,263,0,1,True
+771309,3446,wenige,57.4,unterdurchschnittlich,79.0,öffentlich,115,0,1,True
+771310,3341,wenige,44.01,überdurchschnittlich,56.0,freigemeinnützig,105,0,-1,False
+771311,8185,mittel,46.55,überdurchschnittlich,173.0,freigemeinnützig,198,0,1,True
+771312,1288,sehr wenige,55.63,unterdurchschnittlich,51.0,freigemeinnützig,76,0,-1,False
+771313,16674,sehr viele,56.01,unterdurchschnittlich,341.0,öffentlich,434,6,2,True
+771314,18447,sehr viele,48.36,überdurchschnittlich,264.0,öffentlich,335,0,1,True
+771315,9997,viele,70.78,weit unterdurchschnittlich,139.0,öffentlich,239,0,1,True
+771316,7993,mittel,58.87,unterdurchschnittlich,142.0,öffentlich,199,0,1,True
+771317,8311,mittel,52.76,mittel,144.0,öffentlich,227,0,1,True
+771318,7353,mittel,49.98,mittel,101.0,öffentlich,150,0,1,True
+771320,11409,viele,44.31,überdurchschnittlich,321.0,freigemeinnützig,340,30,1,True
+771321,0,sehr wenige,0.0,weit überdurchschnittlich,1.0,freigemeinnützig,0,15,-1,False
+771322,950,sehr wenige,85.98,weit unterdurchschnittlich,11.0,privat,42,0,-1,False
+771328,6837,mittel,56.06,unterdurchschnittlich,128.0,privat,165,6,-1,False
+771338,5490,mittel,58.73,unterdurchschnittlich,114.0,freigemeinnützig,208,0,1,True
+771339,4898,wenige,51.53,mittel,77.0,freigemeinnützig,95,0,1,True
+771340,15989,sehr viele,44.63,überdurchschnittlich,235.0,privat,344,40,2,True
+771341,1870,wenige,62.72,weit unterdurchschnittlich,84.0,freigemeinnützig,97,13,-1,False
+771342,10728,viele,45.99,überdurchschnittlich,224.0,freigemeinnützig,248,0,2,True
+771343,18636,sehr viele,54.48,unterdurchschnittlich,292.0,freigemeinnützig,366,0,2,True
+771347,9130,viele,44.43,überdurchschnittlich,153.0,freigemeinnützig,182,0,1,True
+771348,7212,mittel,54.42,unterdurchschnittlich,123.0,freigemeinnützig,221,7,1,True
+771351,4042,wenige,30.55,weit überdurchschnittlich,70.0,öffentlich,100,0,-1,False
+771354,4805,wenige,51.3,mittel,171.0,öffentlich,189,0,-1,False
+771355,14245,viele,44.76,überdurchschnittlich,251.0,öffentlich,303,6,1,True
+771356,16,sehr wenige,0.0,weit überdurchschnittlich,0.0,öffentlich,0,0,2,True
+771357,8285,mittel,58.89,unterdurchschnittlich,114.0,öffentlich,194,0,1,True
+771358,7592,mittel,37.83,weit überdurchschnittlich,137.0,privat,233,0,0,True
+771359,664,sehr wenige,24.33,weit überdurchschnittlich,11.0,öffentlich,17,0,2,True
+771360,1022,sehr wenige,64.14,weit unterdurchschnittlich,232.0,privat,183,0,0,True
+771362,35234,sehr viele,48.44,überdurchschnittlich,629.0,öffentlich,631,13,3,True
+771364,6875,mittel,52.65,mittel,105.0,öffentlich,128,0,1,True
+771367,1203,sehr wenige,53.93,unterdurchschnittlich,18.0,öffentlich,32,0,1,True
+771369,2181,wenige,68.24,weit unterdurchschnittlich,24.0,öffentlich,41,0,-1,False
+771373,1364,sehr wenige,21.4,weit überdurchschnittlich,21.0,privat,40,0,-1,False
+771374,40806,sehr viele,49.37,mittel,865.0,öffentlich,933,77,2,True
+771375,37798,sehr viele,54.01,unterdurchschnittlich,925.0,öffentlich,915,20,3,True
+771376,1717,sehr wenige,63.37,weit unterdurchschnittlich,47.0,freigemeinnützig,91,0,-1,False
+771378,19947,sehr viele,42.91,weit überdurchschnittlich,389.0,öffentlich,397,18,3,True
+771379,6085,mittel,57.13,unterdurchschnittlich,85.0,privat,118,0,1,True
+771382,7038,mittel,51.68,mittel,112.0,öffentlich,147,0,1,True
+771388,15189,viele,52.78,mittel,248.0,öffentlich,328,6,2,True
+771389,5814,mittel,38.28,weit überdurchschnittlich,151.0,privat,175,5,1,True
+771392,54318,sehr viele,49.36,mittel,1.339,öffentlich,1294,49,3,True
+771393,12337,viele,46.56,überdurchschnittlich,286.0,freigemeinnützig,290,0,2,True
+771395,18691,sehr viele,50.84,mittel,405.0,freigemeinnützig,578,18,3,True
+771396,8146,mittel,51.48,mittel,140.0,freigemeinnützig,241,0,0,True
+771397,6409,mittel,55.15,unterdurchschnittlich,121.0,öffentlich,181,4,1,True
+771398,12198,viele,41.95,weit überdurchschnittlich,260.0,freigemeinnützig,316,0,1,True
+771399,2067,wenige,55.08,unterdurchschnittlich,85.0,freigemeinnützig,105,13,-1,False
+771402,34057,sehr viele,44.02,überdurchschnittlich,1.006,öffentlich,844,52,3,True
+771411,6668,mittel,62.32,weit unterdurchschnittlich,85.0,freigemeinnützig,165,0,1,True
+771413,74,sehr wenige,16.7,weit überdurchschnittlich,4.0,freigemeinnützig,11,0,-1,False
+771415,14338,viele,40.36,weit überdurchschnittlich,329.0,öffentlich,323,0,3,True
+771416,11626,viele,60.03,weit unterdurchschnittlich,171.0,öffentlich,303,0,2,True
+771417,24508,sehr viele,63.55,weit unterdurchschnittlich,314.0,freigemeinnützig,447,0,2,True
+771418,398,sehr wenige,49.18,mittel,73.0,öffentlich,50,0,-1,False
+771419,5587,mittel,35.07,weit überdurchschnittlich,114.0,privat,147,0,1,True
+771420,35313,sehr viele,45.8,überdurchschnittlich,752.0,öffentlich,858,0,3,True
+771421,627,sehr wenige,52.68,mittel,22.0,öffentlich,22,0,-1,False
+771424,14703,viele,54.38,unterdurchschnittlich,304.0,öffentlich,331,6,1,True
+771427,1671,sehr wenige,44.81,überdurchschnittlich,63.0,öffentlich,48,5,1,True
+771429,13244,viele,46.4,überdurchschnittlich,249.0,öffentlich,275,10,2,True
+771430,13216,viele,43.36,überdurchschnittlich,172.0,freigemeinnützig,222,0,1,True
+771431,1433,sehr wenige,69.65,weit unterdurchschnittlich,46.0,öffentlich,93,3,-1,False
+771432,11689,viele,40.14,weit überdurchschnittlich,120.0,freigemeinnützig,146,0,1,True
+771433,2412,wenige,33.84,weit überdurchschnittlich,17.0,privat,20,40,-1,False
+771435,3087,wenige,47.9,überdurchschnittlich,59.0,öffentlich,81,0,-1,False
+771436,23000,sehr viele,56.66,unterdurchschnittlich,433.0,privat,436,48,3,True
+771437,133,sehr wenige,0.0,weit überdurchschnittlich,1.0,privat,0,8,0,True
+771443,1086,sehr wenige,61.54,weit unterdurchschnittlich,44.0,freigemeinnützig,87,0,-1,False
+771446,7353,mittel,47.29,überdurchschnittlich,191.0,privat,231,0,-1,False
+771447,2013,wenige,31.91,weit überdurchschnittlich,44.0,privat,51,0,-1,False
+771450,37377,sehr viele,50.33,mittel,1.157,öffentlich,977,13,3,True
+771451,6102,mittel,63.97,weit unterdurchschnittlich,99.0,freigemeinnützig,185,0,1,True
+771452,10314,viele,53.45,mittel,164.0,freigemeinnützig,230,0,2,True
+771453,18099,sehr viele,42.79,weit überdurchschnittlich,266.0,freigemeinnützig,273,6,1,True
+771454,716,sehr wenige,32.3,weit überdurchschnittlich,10.0,freigemeinnützig,12,0,-1,False
+771455,376,sehr wenige,56.8,unterdurchschnittlich,32.0,freigemeinnützig,45,0,-1,False
+771457,3684,wenige,50.36,mittel,66.0,privat,90,0,1,True
+771462,610,sehr wenige,75.69,weit unterdurchschnittlich,18.0,privat,44,0,-1,False
+771463,32143,sehr viele,52.56,mittel,489.0,freigemeinnützig,684,10,2,True
+771467,8207,mittel,50.42,mittel,150.0,privat,206,0,1,True
+771469,16686,sehr viele,55.47,unterdurchschnittlich,235.0,öffentlich,277,0,2,True
+771470,16758,sehr viele,60.36,weit unterdurchschnittlich,257.0,öffentlich,321,0,2,True
+771472,3626,wenige,42.19,weit überdurchschnittlich,73.0,öffentlich,122,0,1,True
+771473,16432,sehr viele,53.3,mittel,247.0,privat,282,0,2,True
+771474,7479,mittel,46.78,überdurchschnittlich,152.0,privat,317,0,-1,False
+771492,7134,mittel,48.37,überdurchschnittlich,199.0,privat,215,0,1,True
+771493,12375,viele,41.13,weit überdurchschnittlich,188.0,freigemeinnützig,266,0,1,True
+771495,5026,wenige,46.18,überdurchschnittlich,356.0,freigemeinnützig,468,0,2,True
+771496,5124,mittel,41.48,weit überdurchschnittlich,61.0,privat,117,0,-1,False
+771497,13680,viele,57.35,unterdurchschnittlich,175.0,öffentlich,261,22,1,True
+771498,3215,wenige,44.37,überdurchschnittlich,93.0,öffentlich,151,0,-1,False
+771499,9793,viele,44.5,überdurchschnittlich,190.0,öffentlich,206,0,2,True
+771503,26706,sehr viele,56.56,unterdurchschnittlich,373.0,öffentlich,500,0,3,True
+771507,17810,sehr viele,53.34,mittel,360.0,freigemeinnützig,399,0,2,True
+771508,17564,sehr viele,49.17,mittel,295.0,öffentlich,340,10,3,True
+771510,6933,mittel,64.76,weit unterdurchschnittlich,97.0,freigemeinnützig,186,0,1,True
+771511,21926,sehr viele,54.11,unterdurchschnittlich,394.0,öffentlich,472,5,3,True
+771514,2147,wenige,61.81,weit unterdurchschnittlich,83.0,öffentlich,92,0,1,True
+771516,7550,mittel,47.66,überdurchschnittlich,136.0,öffentlich,215,0,1,True
+771517,7927,mittel,62.2,weit unterdurchschnittlich,142.0,öffentlich,267,0,1,True
+771519,56071,sehr viele,51.91,mittel,1.421,öffentlich,1384,59,3,True
+771520,5213,mittel,57.69,unterdurchschnittlich,58.0,freigemeinnützig,141,0,0,True
+771521,12484,viele,54.87,unterdurchschnittlich,299.0,privat,275,0,1,True
+771524,9473,viele,46.3,überdurchschnittlich,161.0,freigemeinnützig,220,0,2,True
+771525,4708,wenige,44.62,überdurchschnittlich,84.0,privat,150,0,1,True
+771526,1870,wenige,74.4,weit unterdurchschnittlich,32.0,privat,87,0,1,True
+771527,13841,viele,42.97,überdurchschnittlich,303.0,freigemeinnützig,338,8,1,True
+771528,15153,viele,52.41,mittel,248.0,öffentlich,316,0,2,True
+771529,27779,sehr viele,55.68,unterdurchschnittlich,504.0,öffentlich,631,22,3,True
+771534,9284,viele,49.99,mittel,164.0,öffentlich,226,5,1,True
+771535,15221,viele,58.89,unterdurchschnittlich,242.0,privat,401,0,2,True
+771536,442,sehr wenige,62.12,weit unterdurchschnittlich,76.0,privat,56,0,-1,False
+771537,22320,sehr viele,46.77,überdurchschnittlich,415.0,privat,561,8,3,True
+771543,7751,mittel,41.1,weit überdurchschnittlich,125.0,privat,209,0,1,True
+771544,3642,wenige,51.31,mittel,50.0,öffentlich,95,0,1,True
+771546,2665,wenige,47.07,überdurchschnittlich,17.0,freigemeinnützig,40,0,-1,False
+771547,2355,wenige,55.41,unterdurchschnittlich,83.0,freigemeinnützig,67,0,0,True
+771548,22197,sehr viele,45.88,überdurchschnittlich,399.0,privat,551,0,2,True
+771549,5045,wenige,50.4,mittel,123.0,privat,206,30,1,True
+771550,10350,viele,54.09,unterdurchschnittlich,187.0,freigemeinnützig,272,0,1,True
+771551,6477,mittel,38.06,weit überdurchschnittlich,159.0,öffentlich,175,10,1,True
+771552,9287,viele,53.59,unterdurchschnittlich,151.0,öffentlich,272,0,1,True
+771553,5624,mittel,50.13,mittel,128.0,öffentlich,172,0,1,True
+771554,8076,mittel,30.98,weit überdurchschnittlich,255.0,öffentlich,223,0,1,True
+771555,27024,sehr viele,60.76,weit unterdurchschnittlich,613.0,freigemeinnützig,668,17,2,True
+771556,1514,sehr wenige,59.54,weit unterdurchschnittlich,54.0,privat,82,0,-1,False
+771557,5836,mittel,44.41,überdurchschnittlich,84.0,freigemeinnützig,116,0,1,True
+771558,14441,viele,47.11,überdurchschnittlich,267.0,freigemeinnützig,319,0,1,True
+771559,8394,mittel,50.36,mittel,139.0,freigemeinnützig,165,0,1,True
+771560,1628,sehr wenige,73.76,weit unterdurchschnittlich,33.0,privat,100,0,-1,False
+771561,14726,viele,45.92,überdurchschnittlich,227.0,freigemeinnützig,334,36,1,True
+771562,16588,sehr viele,68.79,weit unterdurchschnittlich,333.0,freigemeinnützig,492,0,2,True
+771563,8550,mittel,65.09,weit unterdurchschnittlich,160.0,freigemeinnützig,243,34,1,True
+771565,24531,sehr viele,47.11,überdurchschnittlich,481.0,öffentlich,515,0,3,True
+771567,7362,mittel,58.85,unterdurchschnittlich,189.0,freigemeinnützig,206,15,1,True
+771568,1704,sehr wenige,45.08,überdurchschnittlich,131.0,freigemeinnützig,121,0,-1,False
+771569,10348,viele,44.75,überdurchschnittlich,211.0,öffentlich,279,0,1,True
+771570,1689,sehr wenige,65.61,weit unterdurchschnittlich,27.0,öffentlich,36,0,1,True
+771573,5448,mittel,47.74,überdurchschnittlich,102.0,freigemeinnützig,140,0,1,True
+771574,20206,sehr viele,59.3,weit unterdurchschnittlich,300.0,freigemeinnützig,409,0,2,True
+771575,5531,mittel,53.85,unterdurchschnittlich,129.0,öffentlich,160,0,1,True
+771576,5547,mittel,51.37,mittel,108.0,öffentlich,124,0,1,True
+771577,6749,mittel,51.96,mittel,100.0,öffentlich,114,0,1,True
+771578,13644,viele,44.9,überdurchschnittlich,230.0,privat,267,0,1,True
+771580,22220,sehr viele,65.24,weit unterdurchschnittlich,350.0,freigemeinnützig,498,0,3,True
+771581,6803,mittel,58.01,unterdurchschnittlich,93.0,freigemeinnützig,182,0,1,True
+771582,7597,mittel,57.66,unterdurchschnittlich,129.0,freigemeinnützig,167,0,1,True
+771583,28085,sehr viele,57.17,unterdurchschnittlich,415.0,freigemeinnützig,486,0,2,True
+771585,13428,viele,43.54,überdurchschnittlich,259.0,privat,365,0,2,True
+771587,5129,mittel,45.08,überdurchschnittlich,85.0,öffentlich,126,0,1,True
+771588,5974,mittel,38.07,weit überdurchschnittlich,114.0,öffentlich,130,0,1,True
+771589,4493,wenige,53.96,unterdurchschnittlich,88.0,öffentlich,233,0,-1,False
+771591,7900,mittel,48.83,überdurchschnittlich,168.0,privat,275,11,1,True
+771597,45595,sehr viele,49.8,mittel,875.0,freigemeinnützig,905,7,3,True
+771598,3840,wenige,62.68,weit unterdurchschnittlich,72.0,privat,114,0,1,True
+771599,3425,wenige,50.02,mittel,106.0,privat,137,8,1,True
+771600,6981,mittel,51.91,mittel,110.0,privat,169,6,1,True
+771601,23044,sehr viele,54.91,unterdurchschnittlich,494.0,freigemeinnützig,551,0,2,True
+771604,8156,mittel,50.94,mittel,286.0,freigemeinnützig,232,0,2,True
+771605,9806,viele,43.14,überdurchschnittlich,175.0,freigemeinnützig,202,0,1,True
+771606,8856,mittel,69.89,weit unterdurchschnittlich,64.0,privat,0,0,1,True
+771608,9381,viele,49.01,überdurchschnittlich,149.0,freigemeinnützig,221,0,1,True
+771610,9880,viele,53.28,mittel,136.0,öffentlich,211,0,1,True
+771615,17457,sehr viele,62.91,weit unterdurchschnittlich,234.0,freigemeinnützig,369,34,1,True
+771617,2197,wenige,49.03,überdurchschnittlich,37.0,freigemeinnützig,40,0,-1,False
+771618,5867,mittel,48.01,überdurchschnittlich,132.0,freigemeinnützig,186,24,1,True
+771619,4643,wenige,44.67,überdurchschnittlich,63.0,freigemeinnützig,112,0,1,True
+771620,7208,mittel,49.9,mittel,154.0,freigemeinnützig,259,0,1,True
+771621,61333,sehr viele,48.02,überdurchschnittlich,1.374,öffentlich,1354,42,3,True
+771622,1234,sehr wenige,61.38,weit unterdurchschnittlich,112.0,freigemeinnützig,106,0,0,True
+771623,502,sehr wenige,58.29,unterdurchschnittlich,8.0,freigemeinnützig,25,0,0,True
+771624,17942,sehr viele,55.01,unterdurchschnittlich,281.0,privat,352,0,2,True
+771625,1416,sehr wenige,48.36,überdurchschnittlich,31.0,freigemeinnützig,46,0,-1,False
+771632,20793,sehr viele,43.92,überdurchschnittlich,474.0,privat,631,16,3,True
+771636,1393,sehr wenige,34.27,weit überdurchschnittlich,43.0,freigemeinnützig,90,0,-1,False
+771637,21163,sehr viele,58.03,unterdurchschnittlich,399.0,freigemeinnützig,514,10,2,True
+771638,3317,wenige,36.41,weit überdurchschnittlich,113.0,öffentlich,92,0,3,True
+771639,9161,viele,50.84,mittel,224.0,freigemeinnützig,167,0,2,True
+771640,7519,mittel,59.53,weit unterdurchschnittlich,151.0,freigemeinnützig,218,0,1,True
+771641,8666,mittel,63.52,weit unterdurchschnittlich,152.0,freigemeinnützig,216,0,1,True
+771642,10529,viele,64.99,weit unterdurchschnittlich,126.0,freigemeinnützig,226,0,0,True
+771643,9499,viele,64.63,weit unterdurchschnittlich,164.0,freigemeinnützig,291,0,0,True
+771644,207,sehr wenige,83.64,weit unterdurchschnittlich,37.0,privat,56,0,-1,False
+771645,817,sehr wenige,46.06,überdurchschnittlich,206.0,privat,133,0,-1,False
+771647,10910,viele,53.84,unterdurchschnittlich,176.0,freigemeinnützig,259,0,2,True
+771648,26973,sehr viele,54.83,unterdurchschnittlich,445.0,öffentlich,525,0,3,True
+771651,730,sehr wenige,32.65,weit überdurchschnittlich,9.0,privat,13,0,-1,False
+771652,7611,mittel,37.47,weit überdurchschnittlich,182.0,öffentlich,258,0,1,True
+771653,11573,viele,49.24,mittel,144.0,freigemeinnützig,175,0,1,True
+771654,2028,wenige,70.75,weit unterdurchschnittlich,28.0,öffentlich,45,5,1,True
+771656,1140,sehr wenige,47.62,überdurchschnittlich,71.0,freigemeinnützig,91,0,-1,False
+771657,26133,sehr viele,59.01,weit unterdurchschnittlich,369.0,freigemeinnützig,530,0,2,True
+771658,21527,sehr viele,47.71,überdurchschnittlich,409.0,freigemeinnützig,454,0,2,True
+771661,9761,viele,48.54,überdurchschnittlich,169.0,öffentlich,244,0,2,True
+771662,7788,mittel,56.42,unterdurchschnittlich,110.0,öffentlich,187,0,1,True
+771663,5746,mittel,39.34,weit überdurchschnittlich,123.0,privat,167,0,1,True
+771664,5701,mittel,44.4,überdurchschnittlich,103.0,öffentlich,135,0,1,True
+771665,4179,wenige,44.28,überdurchschnittlich,78.0,öffentlich,135,0,1,True
+771666,2618,wenige,34.94,weit überdurchschnittlich,60.0,öffentlich,80,0,1,True
+771667,8179,mittel,48.28,überdurchschnittlich,154.0,öffentlich,172,0,1,True
+771668,8620,mittel,53.76,unterdurchschnittlich,116.0,freigemeinnützig,127,15,2,True
+771670,289,sehr wenige,79.21,weit unterdurchschnittlich,36.0,freigemeinnützig,19,0,-1,False
+771671,147,sehr wenige,54.6,unterdurchschnittlich,5.0,freigemeinnützig,4,0,-1,False
+771672,124,sehr wenige,37.45,weit überdurchschnittlich,1.0,freigemeinnützig,3,0,-1,False
+771675,1254,sehr wenige,46.11,überdurchschnittlich,33.0,freigemeinnützig,49,0,-1,False
+771676,7608,mittel,48.37,überdurchschnittlich,361.0,freigemeinnützig,273,8,1,True
+771677,3718,wenige,45.71,überdurchschnittlich,150.0,freigemeinnützig,229,20,1,True
+771678,9263,viele,59.96,weit unterdurchschnittlich,339.0,öffentlich,444,0,2,True
+771679,22886,sehr viele,54.36,unterdurchschnittlich,403.0,freigemeinnützig,439,10,2,True
+771680,6315,mittel,62.33,weit unterdurchschnittlich,129.0,freigemeinnützig,233,0,2,True
+771682,9512,viele,54.91,unterdurchschnittlich,97.0,privat,133,0,0,True
+771683,3754,wenige,44.82,überdurchschnittlich,118.0,privat,89,0,1,True
+771684,1749,sehr wenige,47.7,überdurchschnittlich,19.0,freigemeinnützig,64,0,1,True
+771685,692,sehr wenige,37.96,weit überdurchschnittlich,34.0,privat,35,0,0,True
+771686,17369,sehr viele,54.05,unterdurchschnittlich,335.0,privat,435,6,2,True
+771693,29558,sehr viele,58.54,unterdurchschnittlich,525.0,öffentlich,696,0,3,True
+771694,4969,wenige,52.86,mittel,83.0,öffentlich,143,0,1,True
+771695,17051,sehr viele,50.83,mittel,281.0,öffentlich,392,0,2,True
+771696,15044,viele,57.56,unterdurchschnittlich,299.0,freigemeinnützig,370,0,2,True
+771697,2537,wenige,47.44,überdurchschnittlich,78.0,freigemeinnützig,84,0,-1,False
+771698,14069,viele,59.38,weit unterdurchschnittlich,201.0,freigemeinnützig,266,0,2,True
+771699,14619,viele,48.89,überdurchschnittlich,230.0,freigemeinnützig,316,0,1,True
+771700,64169,sehr viele,53.3,mittel,1.617,öffentlich,1297,115,3,True
+771701,25099,sehr viele,50.27,mittel,518.0,öffentlich,718,0,3,True
+771702,6706,mittel,31.62,weit überdurchschnittlich,95.0,privat,105,0,0,True
+771703,14209,viele,43.13,überdurchschnittlich,373.0,freigemeinnützig,405,0,2,True
+771712,4708,wenige,34.78,weit überdurchschnittlich,99.0,öffentlich,0,0,1,True
+771713,10079,viele,39.86,weit überdurchschnittlich,192.0,öffentlich,0,0,1,True
+771715,7148,mittel,38.7,weit überdurchschnittlich,178.0,freigemeinnützig,121,0,2,True
+771716,6956,mittel,46.71,überdurchschnittlich,122.0,freigemeinnützig,182,0,1,True
+771717,2713,wenige,54.78,unterdurchschnittlich,249.0,privat,267,0,1,True
+771718,24170,sehr viele,53.27,mittel,466.0,öffentlich,531,6,3,True
+771719,11366,viele,58.95,unterdurchschnittlich,176.0,öffentlich,269,0,1,True
+771720,1344,sehr wenige,41.6,weit überdurchschnittlich,26.0,öffentlich,44,0,-1,False
+771721,5467,mittel,66.22,weit unterdurchschnittlich,82.0,öffentlich,129,0,1,True
+771722,29489,sehr viele,62.52,weit unterdurchschnittlich,432.0,öffentlich,547,2,3,True
+771723,12952,viele,52.83,mittel,258.0,privat,229,0,2,True
+771725,9997,viele,64.79,weit unterdurchschnittlich,148.0,öffentlich,247,0,1,True
+771726,2420,wenige,37.1,weit überdurchschnittlich,46.0,öffentlich,60,0,-1,False
+771727,6177,mittel,62.24,weit unterdurchschnittlich,62.0,privat,127,0,1,True
+771728,14782,viele,52.17,mittel,323.0,öffentlich,382,12,2,True
+771729,1512,sehr wenige,30.17,weit überdurchschnittlich,33.0,freigemeinnützig,50,0,-1,False
+771730,9925,viele,53.84,unterdurchschnittlich,101.0,freigemeinnützig,188,0,1,True
+771734,29605,sehr viele,50.41,mittel,554.0,öffentlich,417,70,3,True
+771736,48346,sehr viele,61.34,weit unterdurchschnittlich,1.19,öffentlich,1050,55,3,True
+771737,4141,wenige,59.81,weit unterdurchschnittlich,77.0,öffentlich,143,0,1,True
+771738,6293,mittel,56.18,unterdurchschnittlich,111.0,öffentlich,162,0,1,True
+771739,3144,wenige,65.71,weit unterdurchschnittlich,101.0,freigemeinnützig,149,25,0,True
+771746,647,sehr wenige,54.57,unterdurchschnittlich,108.0,öffentlich,105,0,-1,False
+771748,8837,mittel,58.65,unterdurchschnittlich,107.0,öffentlich,181,0,1,True
+771749,6412,mittel,66.54,weit unterdurchschnittlich,74.0,öffentlich,133,0,1,True
+771750,1210,sehr wenige,53.65,unterdurchschnittlich,26.0,öffentlich,61,0,-1,False
+771757,5316,mittel,55.4,unterdurchschnittlich,92.0,öffentlich,142,0,1,True
+771758,8920,mittel,35.54,weit überdurchschnittlich,204.0,öffentlich,241,0,2,True
+771759,4491,wenige,44.48,überdurchschnittlich,193.0,öffentlich,249,5,1,True
+771764,9906,viele,65.33,weit unterdurchschnittlich,137.0,freigemeinnützig,205,0,1,True
+771765,1851,sehr wenige,37.54,weit überdurchschnittlich,28.0,freigemeinnützig,72,0,-1,False
+771766,31518,sehr viele,58.74,unterdurchschnittlich,515.0,öffentlich,607,0,0,True
+771767,19339,sehr viele,49.54,mittel,271.0,freigemeinnützig,354,0,2,True
+771768,845,sehr wenige,53.9,unterdurchschnittlich,24.0,öffentlich,46,0,-1,False
+771769,15046,viele,46.77,überdurchschnittlich,264.0,freigemeinnützig,328,0,1,True
+771770,6880,mittel,42.29,weit überdurchschnittlich,98.0,privat,156,0,1,True
+771778,2063,wenige,52.64,mittel,60.0,freigemeinnützig,90,0,-1,False
+771779,6345,mittel,43.7,überdurchschnittlich,79.0,freigemeinnützig,140,0,-1,False
+771780,7985,mittel,59.62,weit unterdurchschnittlich,150.0,freigemeinnützig,223,24,-1,False
+771783,12507,viele,54.7,unterdurchschnittlich,153.0,freigemeinnützig,216,0,1,True
+771784,3581,wenige,60.9,weit unterdurchschnittlich,74.0,freigemeinnützig,94,5,1,True
+771785,4613,wenige,28.39,weit überdurchschnittlich,53.0,privat,60,0,-1,False
+771789,1381,sehr wenige,69.42,weit unterdurchschnittlich,23.0,freigemeinnützig,45,0,1,True
+771790,1904,wenige,57.99,unterdurchschnittlich,48.0,privat,58,0,-1,False
+771792,5546,mittel,48.08,überdurchschnittlich,91.0,öffentlich,114,0,1,True
+771793,5033,wenige,64.23,weit unterdurchschnittlich,136.0,freigemeinnützig,199,15,-1,False
+771801,11518,viele,38.6,weit überdurchschnittlich,190.0,freigemeinnützig,297,0,1,True
+771802,28187,sehr viele,42.16,weit überdurchschnittlich,581.0,freigemeinnützig,716,0,2,True
+771803,6718,mittel,34.45,weit überdurchschnittlich,207.0,öffentlich,180,0,1,True
+771804,6624,mittel,68.75,weit unterdurchschnittlich,126.0,freigemeinnützig,274,0,1,True
+771805,19339,sehr viele,45.26,überdurchschnittlich,341.0,freigemeinnützig,442,0,1,True
+771807,36814,sehr viele,48.43,überdurchschnittlich,694.0,öffentlich,894,14,3,True
+771808,11336,viele,39.02,weit überdurchschnittlich,200.0,freigemeinnützig,279,0,1,True
+771809,4106,wenige,57.51,unterdurchschnittlich,97.0,freigemeinnützig,122,10,-1,False
+771810,3028,wenige,44.59,überdurchschnittlich,39.0,freigemeinnützig,52,0,1,True
+771811,1771,sehr wenige,34.55,weit überdurchschnittlich,14.0,privat,22,0,-1,False
+771812,6544,mittel,57.31,unterdurchschnittlich,181.0,freigemeinnützig,208,0,2,True
+771813,19956,sehr viele,59.28,weit unterdurchschnittlich,241.0,freigemeinnützig,369,10,2,True
+771814,3525,wenige,44.75,überdurchschnittlich,54.0,freigemeinnützig,102,0,-1,False
+771818,13871,viele,46.52,überdurchschnittlich,235.0,privat,319,10,2,True
+771819,3029,wenige,47.99,überdurchschnittlich,56.0,privat,123,0,1,True
+771820,6290,mittel,56.35,unterdurchschnittlich,90.0,privat,151,0,1,True
+771821,455,sehr wenige,38.61,weit überdurchschnittlich,11.0,freigemeinnützig,30,0,-1,False
+771825,3993,wenige,32.27,weit überdurchschnittlich,63.0,privat,95,0,0,True
+771827,12792,viele,55.22,unterdurchschnittlich,195.0,freigemeinnützig,297,0,1,True
+771830,2507,wenige,55.3,unterdurchschnittlich,30.0,privat,54,0,1,True
+771831,11929,viele,50.38,mittel,247.0,öffentlich,308,5,1,True
+771833,27090,sehr viele,52.51,mittel,439.0,öffentlich,634,2,2,True
+771834,3116,wenige,52.54,mittel,52.0,öffentlich,122,0,1,True
+771835,44941,sehr viele,50.06,mittel,876.0,privat,1073,2,3,True
+771836,6639,mittel,62.14,weit unterdurchschnittlich,106.0,öffentlich,178,0,1,True
+771837,4054,wenige,75.54,weit unterdurchschnittlich,56.0,öffentlich,144,0,1,True
+771839,23351,sehr viele,43.99,überdurchschnittlich,505.0,privat,629,0,3,True
+771840,7422,mittel,56.11,unterdurchschnittlich,119.0,freigemeinnützig,165,0,1,True
+771841,5031,wenige,65.36,weit unterdurchschnittlich,164.0,privat,204,0,1,True
+771842,17137,sehr viele,62.5,weit unterdurchschnittlich,267.0,freigemeinnützig,387,0,3,True
+771843,18351,sehr viele,55.59,unterdurchschnittlich,319.0,privat,0,0,3,True
+771847,3063,wenige,45.5,überdurchschnittlich,58.0,öffentlich,124,0,1,True
+771848,17493,sehr viele,51.52,mittel,262.0,öffentlich,472,0,2,True
+771849,4879,wenige,49.74,mittel,59.0,privat,135,0,1,True
+771850,12012,viele,71.34,weit unterdurchschnittlich,123.0,freigemeinnützig,214,0,1,True
+771851,17851,sehr viele,54.18,unterdurchschnittlich,278.0,freigemeinnützig,352,0,1,True
+771852,5545,mittel,72.3,weit unterdurchschnittlich,101.0,freigemeinnützig,164,0,1,True
+771854,17857,sehr viele,51.4,mittel,266.0,freigemeinnützig,407,0,2,True
+771855,2570,wenige,47.66,überdurchschnittlich,72.0,freigemeinnützig,135,0,-1,False
+771856,2597,wenige,48.29,überdurchschnittlich,64.0,privat,125,0,1,True
+771860,4027,wenige,37.09,weit überdurchschnittlich,74.0,freigemeinnützig,112,15,-1,False
+771861,7719,mittel,53.98,unterdurchschnittlich,160.0,öffentlich,245,2,1,True
+771862,11409,viele,53.75,unterdurchschnittlich,187.0,öffentlich,254,0,2,True
+771872,4146,wenige,49.04,überdurchschnittlich,73.0,freigemeinnützig,110,0,-1,False
+771873,4662,wenige,69.41,weit unterdurchschnittlich,66.0,freigemeinnützig,113,0,1,True
+771874,968,sehr wenige,75.43,weit unterdurchschnittlich,37.0,privat,75,0,-1,False
+771875,486,sehr wenige,51.15,mittel,106.0,privat,75,0,-1,False
+771876,21620,sehr viele,52.96,mittel,409.0,öffentlich,577,12,3,True
+771877,1067,sehr wenige,49.95,mittel,48.0,öffentlich,116,0,-1,False
+771878,10478,viele,46.97,überdurchschnittlich,181.0,öffentlich,261,0,1,True
+771887,5583,mittel,44.15,überdurchschnittlich,129.0,freigemeinnützig,203,15,1,True
+771888,13183,viele,42.73,weit überdurchschnittlich,276.0,privat,319,0,2,True
+771889,18883,sehr viele,54.59,unterdurchschnittlich,341.0,freigemeinnützig,476,10,2,True
+771890,3866,wenige,59.07,weit unterdurchschnittlich,53.0,freigemeinnützig,110,0,1,True
+771891,17232,sehr viele,43.7,überdurchschnittlich,284.0,freigemeinnützig,316,0,2,True
+771892,9246,viele,59.83,weit unterdurchschnittlich,181.0,freigemeinnützig,237,20,1,True
+771893,9380,viele,48.27,überdurchschnittlich,196.0,freigemeinnützig,211,0,1,True
+771896,3480,wenige,33.44,weit überdurchschnittlich,70.0,öffentlich,100,0,-1,False
+771897,8867,mittel,52.3,mittel,199.0,öffentlich,303,0,2,True
+771899,7705,mittel,58.23,unterdurchschnittlich,198.0,öffentlich,268,0,2,True
+771900,6595,mittel,41.78,weit überdurchschnittlich,127.0,freigemeinnützig,260,0,-1,False
+771901,7962,mittel,45.45,überdurchschnittlich,251.0,privat,229,0,1,True
+771902,852,sehr wenige,77.01,weit unterdurchschnittlich,175.0,privat,154,0,-1,False
+771903,18141,sehr viele,61.52,weit unterdurchschnittlich,341.0,freigemeinnützig,503,0,2,True
+771904,6832,mittel,40.61,weit überdurchschnittlich,112.0,freigemeinnützig,164,0,1,True
+771905,5743,mittel,63.8,weit unterdurchschnittlich,98.0,freigemeinnützig,152,0,1,True
+771906,5044,wenige,53.68,unterdurchschnittlich,75.0,freigemeinnützig,118,0,1,True
+771907,3239,wenige,52.33,mittel,169.0,freigemeinnützig,158,40,-1,False
+771908,1922,wenige,58.01,unterdurchschnittlich,75.0,freigemeinnützig,99,20,-1,False
+771909,905,sehr wenige,41.26,weit überdurchschnittlich,7.0,privat,15,0,-1,False
+771910,6828,mittel,56.26,unterdurchschnittlich,100.0,privat,110,0,1,True
+771911,1913,wenige,62.4,weit unterdurchschnittlich,66.0,privat,65,0,0,True
+771912,2290,wenige,52.59,mittel,59.0,privat,120,0,-1,False
+771913,1518,sehr wenige,36.93,weit überdurchschnittlich,18.0,privat,16,0,-1,False
+771915,19667,sehr viele,40.09,weit überdurchschnittlich,414.0,freigemeinnützig,448,15,2,True
+771916,713,sehr wenige,54.41,unterdurchschnittlich,32.0,freigemeinnützig,51,0,-1,False
+771917,23387,sehr viele,45.53,überdurchschnittlich,451.0,privat,426,33,2,True
+771918,6686,mittel,35.49,weit überdurchschnittlich,161.0,freigemeinnützig,185,0,1,True
+771919,1544,sehr wenige,145.69,weit unterdurchschnittlich,31.0,privat,120,0,-1,False
+771920,364,sehr wenige,55.01,unterdurchschnittlich,16.0,privat,25,0,-1,False
+771921,344,sehr wenige,36.44,weit überdurchschnittlich,11.0,privat,20,0,-1,False
+771922,3619,wenige,31.38,weit überdurchschnittlich,64.0,freigemeinnützig,67,0,-1,False
+771923,19423,sehr viele,58.88,unterdurchschnittlich,586.0,öffentlich,521,0,3,True
+771924,19911,sehr viele,50.0,mittel,352.0,freigemeinnützig,429,16,2,True
+771930,28452,sehr viele,59.13,weit unterdurchschnittlich,565.0,öffentlich,640,21,3,True
+771933,3966,wenige,66.91,weit unterdurchschnittlich,74.0,öffentlich,143,0,1,True
+771934,4365,wenige,54.73,unterdurchschnittlich,59.0,öffentlich,95,0,1,True
+771935,5299,mittel,64.25,weit unterdurchschnittlich,91.0,freigemeinnützig,190,0,1,True
+771936,30941,sehr viele,48.26,überdurchschnittlich,746.0,öffentlich,631,40,2,True
+771937,10783,viele,61.62,weit unterdurchschnittlich,150.0,freigemeinnützig,228,0,1,True
+771938,11157,viele,57.33,unterdurchschnittlich,191.0,freigemeinnützig,245,5,1,True
+771939,17416,sehr viele,54.57,unterdurchschnittlich,284.0,freigemeinnützig,503,0,2,True
+771941,22738,sehr viele,53.95,unterdurchschnittlich,437.0,freigemeinnützig,699,3,3,True
+771942,15674,viele,60.05,weit unterdurchschnittlich,349.0,privat,472,6,2,True
+771943,1076,sehr wenige,26.11,weit überdurchschnittlich,11.0,privat,24,0,0,True
+771944,5806,mittel,48.34,überdurchschnittlich,87.0,privat,151,0,1,True
+771949,4813,wenige,61.96,weit unterdurchschnittlich,73.0,freigemeinnützig,103,0,1,True
+771950,3955,wenige,58.66,unterdurchschnittlich,47.0,freigemeinnützig,85,0,1,True
+771951,12165,viele,49.1,mittel,226.0,öffentlich,235,0,1,True
+771952,5983,mittel,50.49,mittel,98.0,öffentlich,130,0,1,True
+771953,11588,viele,45.3,überdurchschnittlich,222.0,öffentlich,277,0,1,True
+771954,10949,viele,42.32,weit überdurchschnittlich,215.0,öffentlich,224,0,1,True
+771955,14544,viele,55.08,unterdurchschnittlich,222.0,freigemeinnützig,315,0,2,True
+771956,28890,sehr viele,53.42,mittel,565.0,freigemeinnützig,664,20,3,True
+771957,9367,viele,44.05,überdurchschnittlich,146.0,privat,236,15,1,True
+771959,4649,wenige,32.07,weit überdurchschnittlich,89.0,privat,211,0,1,True
+771960,10903,viele,47.17,überdurchschnittlich,184.0,privat,273,0,1,True
+771961,10889,viele,59.89,weit unterdurchschnittlich,168.0,öffentlich,296,0,1,True
+771962,16641,sehr viele,62.36,weit unterdurchschnittlich,246.0,öffentlich,409,0,2,True
+771964,11458,viele,55.23,unterdurchschnittlich,188.0,freigemeinnützig,292,0,1,True
+771965,7081,mittel,35.11,weit überdurchschnittlich,153.0,freigemeinnützig,187,0,1,True
+771966,710,sehr wenige,48.01,überdurchschnittlich,40.0,öffentlich,25,0,0,True
+771967,50156,sehr viele,49.62,mittel,1.455,öffentlich,1233,17,3,True
+771968,4407,wenige,45.14,überdurchschnittlich,62.0,privat,100,0,1,True
+771970,6509,mittel,34.27,weit überdurchschnittlich,137.0,privat,175,12,1,True
+771971,4256,wenige,47.96,überdurchschnittlich,173.0,privat,158,0,-2,False
+771972,2204,wenige,60.08,weit unterdurchschnittlich,48.0,privat,106,0,-1,False
+771973,20163,sehr viele,47.25,überdurchschnittlich,578.0,privat,629,0,3,True
+771974,7684,mittel,37.5,weit überdurchschnittlich,174.0,freigemeinnützig,202,11,1,True
+771975,6370,mittel,46.49,überdurchschnittlich,106.0,privat,150,0,1,True
+771976,9327,viele,49.4,mittel,176.0,freigemeinnützig,309,0,1,True
+771980,27257,sehr viele,56.85,unterdurchschnittlich,394.0,freigemeinnützig,485,18,2,True
+771981,4931,wenige,47.5,überdurchschnittlich,276.0,freigemeinnützig,279,13,0,True
+771982,13146,viele,43.1,überdurchschnittlich,262.0,privat,352,0,2,True
+771983,3326,wenige,57.31,unterdurchschnittlich,79.0,freigemeinnützig,77,4,1,True
+771984,22548,sehr viele,45.12,überdurchschnittlich,414.0,freigemeinnützig,347,0,1,True
+771986,10613,viele,41.82,weit überdurchschnittlich,222.0,privat,297,8,1,True
+771988,13959,viele,54.66,unterdurchschnittlich,197.0,freigemeinnützig,310,0,2,True
+771991,16277,sehr viele,53.3,mittel,380.0,öffentlich,368,12,3,True
+771993,2311,wenige,42.95,überdurchschnittlich,20.0,freigemeinnützig,68,0,-1,False
+771994,5415,mittel,56.6,unterdurchschnittlich,88.0,freigemeinnützig,198,0,0,True
+771995,7605,mittel,48.28,überdurchschnittlich,129.0,öffentlich,117,0,1,True
+771996,3698,wenige,37.65,weit überdurchschnittlich,59.0,öffentlich,64,0,-1,False
+771997,10357,viele,55.59,unterdurchschnittlich,197.0,freigemeinnützig,324,15,1,True
+771998,7482,mittel,53.45,mittel,119.0,öffentlich,178,0,1,True
+771999,4206,wenige,63.34,weit unterdurchschnittlich,123.0,freigemeinnützig,174,0,1,True
+772000,12649,viele,57.23,unterdurchschnittlich,247.0,freigemeinnützig,343,0,2,True
+772003,1902,wenige,56.92,unterdurchschnittlich,29.0,freigemeinnützig,37,0,1,True
+772005,696,sehr wenige,67.14,weit unterdurchschnittlich,26.0,freigemeinnützig,40,0,-1,False
+772006,7975,mittel,51.91,mittel,123.0,freigemeinnützig,202,0,1,True
+772007,1692,sehr wenige,53.14,mittel,46.0,öffentlich,54,0,1,True
+772008,627,sehr wenige,59.87,weit unterdurchschnittlich,142.0,privat,85,0,-1,False
+772009,12293,viele,48.91,überdurchschnittlich,281.0,freigemeinnützig,325,0,2,True
+772015,1475,sehr wenige,26.92,weit überdurchschnittlich,45.0,freigemeinnützig,80,24,-1,False
+772016,6537,mittel,59.38,weit unterdurchschnittlich,101.0,freigemeinnützig,167,0,1,True
+772017,853,sehr wenige,79.67,weit unterdurchschnittlich,17.0,privat,80,0,-1,False
+772018,2599,wenige,46.07,überdurchschnittlich,40.0,freigemeinnützig,39,0,-1,False
+772019,2432,wenige,53.57,unterdurchschnittlich,40.0,öffentlich,48,0,-1,False
+772020,116,sehr wenige,145.52,weit unterdurchschnittlich,2.0,öffentlich,10,0,-1,False
+772023,2845,wenige,29.29,weit überdurchschnittlich,76.0,privat,105,0,-1,False
+772024,641,sehr wenige,26.99,weit überdurchschnittlich,6.0,privat,8,0,1,True
+772028,12496,viele,54.97,unterdurchschnittlich,220.0,öffentlich,258,0,1,True
+772030,9375,viele,44.57,überdurchschnittlich,161.0,öffentlich,197,0,-1,False
+772032,17092,sehr viele,69.92,weit unterdurchschnittlich,257.0,öffentlich,380,0,2,True
+772033,7087,mittel,53.24,mittel,154.0,öffentlich,205,0,1,True
+772034,12611,viele,55.44,unterdurchschnittlich,211.0,öffentlich,290,0,1,True
+772039,7678,mittel,52.37,mittel,88.0,öffentlich,183,0,1,True
+772040,5798,mittel,53.3,mittel,100.0,öffentlich,182,0,1,True
+772041,67862,sehr viele,37.27,weit überdurchschnittlich,1.573,öffentlich,1268,66,3,True
+772045,13025,viele,46.58,überdurchschnittlich,201.0,freigemeinnützig,245,0,2,True
+772046,1055,sehr wenige,96.86,weit unterdurchschnittlich,15.0,privat,68,5,0,True
+772047,2618,wenige,30.72,weit überdurchschnittlich,43.0,privat,60,0,-1,False
+772048,48463,sehr viele,62.11,weit unterdurchschnittlich,684.0,öffentlich,948,0,3,True
+772049,11148,viele,50.85,mittel,220.0,freigemeinnützig,373,0,1,True
+772050,6436,mittel,57.77,unterdurchschnittlich,129.0,freigemeinnützig,189,0,1,True
+772051,12871,viele,50.11,mittel,242.0,freigemeinnützig,321,10,2,True
+772052,3952,wenige,48.63,überdurchschnittlich,118.0,freigemeinnützig,181,10,1,True
+772053,49166,sehr viele,60.7,weit unterdurchschnittlich,832.0,öffentlich,983,107,3,True
+772054,3416,wenige,65.37,weit unterdurchschnittlich,33.0,öffentlich,74,0,3,True
+772059,2019,wenige,62.3,weit unterdurchschnittlich,35.0,freigemeinnützig,55,0,1,True
+772060,1666,sehr wenige,72.77,weit unterdurchschnittlich,3.0,privat,12,0,-1,False
+772061,17904,sehr viele,55.07,unterdurchschnittlich,289.0,freigemeinnützig,401,0,2,True
+772062,6586,mittel,55.75,unterdurchschnittlich,79.0,privat,124,0,1,True
+772063,2152,wenige,33.23,weit überdurchschnittlich,22.0,privat,20,0,-1,False
+772064,6593,mittel,53.15,mittel,88.0,öffentlich,91,0,2,True
+772065,1238,sehr wenige,31.9,weit überdurchschnittlich,21.0,privat,16,0,-1,False
+772066,17756,sehr viele,47.63,überdurchschnittlich,466.0,freigemeinnützig,439,0,2,True
+772067,14520,viele,52.77,mittel,251.0,öffentlich,331,0,2,True
+772069,1558,sehr wenige,35.01,weit überdurchschnittlich,102.0,freigemeinnützig,72,15,-1,False
+772070,2882,wenige,38.74,weit überdurchschnittlich,50.0,privat,105,0,-1,False
+772071,15634,viele,57.04,unterdurchschnittlich,212.0,öffentlich,325,0,2,True
+772072,9716,viele,50.77,mittel,155.0,öffentlich,215,0,1,True
+772073,23109,sehr viele,58.77,unterdurchschnittlich,490.0,öffentlich,577,32,3,True
+772074,7967,mittel,43.31,überdurchschnittlich,127.0,öffentlich,203,10,2,True
+772075,12667,viele,46.04,überdurchschnittlich,246.0,freigemeinnützig,268,0,1,True
+772076,1053,sehr wenige,40.74,weit überdurchschnittlich,5.0,privat,6,0,-1,False
+772078,16970,sehr viele,54.8,unterdurchschnittlich,259.0,freigemeinnützig,378,0,1,True
+772079,16295,sehr viele,49.06,überdurchschnittlich,246.0,freigemeinnützig,275,0,2,True
+772080,13987,viele,44.98,überdurchschnittlich,312.0,privat,325,0,0,True
+772081,577,sehr wenige,35.73,weit überdurchschnittlich,23.0,privat,47,10,1,True
+772083,14338,viele,56.36,unterdurchschnittlich,207.0,freigemeinnützig,356,0,2,True
+772084,2824,wenige,49.84,mittel,46.0,freigemeinnützig,105,10,-1,False
+772085,8449,mittel,50.57,mittel,146.0,freigemeinnützig,200,0,1,True
+772087,2527,wenige,59.05,weit unterdurchschnittlich,64.0,freigemeinnützig,125,0,-1,False
+772088,20888,sehr viele,45.86,überdurchschnittlich,374.0,freigemeinnützig,421,0,2,True
+772089,15048,viele,50.48,mittel,220.0,freigemeinnützig,316,0,1,True
+772090,8465,mittel,43.49,überdurchschnittlich,120.0,freigemeinnützig,163,0,1,True
+772091,8004,mittel,51.94,mittel,108.0,freigemeinnützig,181,0,1,True
+772094,16452,sehr viele,52.1,mittel,215.0,freigemeinnützig,316,0,2,True
+772095,1645,sehr wenige,64.43,weit unterdurchschnittlich,47.0,freigemeinnützig,70,15,-1,False
+772096,8945,mittel,50.34,mittel,137.0,privat,211,0,1,True
+772097,3036,wenige,50.22,mittel,46.0,privat,66,0,-1,False
+772098,9337,viele,44.12,überdurchschnittlich,160.0,freigemeinnützig,223,0,2,True
+772099,27176,sehr viele,46.62,überdurchschnittlich,605.0,freigemeinnützig,546,12,2,True
+772113,18867,sehr viele,60.34,weit unterdurchschnittlich,342.0,öffentlich,386,0,2,True
+772114,7407,mittel,38.87,weit überdurchschnittlich,198.0,privat,145,5,3,True
+772116,8671,mittel,31.54,weit überdurchschnittlich,114.0,freigemeinnützig,130,0,1,True
+772117,1971,wenige,49.53,mittel,44.0,privat,95,10,-1,False
+772118,3026,wenige,40.72,weit überdurchschnittlich,66.0,privat,100,0,1,True
+772119,7871,mittel,46.57,überdurchschnittlich,175.0,freigemeinnützig,206,0,1,True
+772120,4869,wenige,45.77,überdurchschnittlich,155.0,freigemeinnützig,227,0,1,True
+772121,31503,sehr viele,45.32,überdurchschnittlich,711.0,öffentlich,611,0,3,True
+772122,6571,mittel,36.86,weit überdurchschnittlich,119.0,privat,170,0,1,True
+772124,8139,mittel,55.74,unterdurchschnittlich,153.0,öffentlich,222,0,1,True
+772125,18443,sehr viele,55.2,unterdurchschnittlich,351.0,öffentlich,479,4,1,True
+772127,8867,mittel,45.92,überdurchschnittlich,205.0,öffentlich,196,0,1,True
+772128,10831,viele,44.95,überdurchschnittlich,226.0,öffentlich,236,0,2,True
+772129,1337,sehr wenige,42.91,weit überdurchschnittlich,9.0,privat,36,0,-1,False
+772130,4082,wenige,37.8,weit überdurchschnittlich,39.0,freigemeinnützig,70,0,0,True
+772131,1880,wenige,46.14,überdurchschnittlich,121.0,privat,93,0,0,True
+772132,1078,sehr wenige,57.71,unterdurchschnittlich,261.0,freigemeinnützig,142,0,-1,False
+772133,9474,viele,46.51,überdurchschnittlich,246.0,freigemeinnützig,320,0,1,True
+772134,2597,wenige,34.48,weit überdurchschnittlich,47.0,öffentlich,67,0,-1,False
+772139,10494,viele,51.05,mittel,175.0,öffentlich,208,0,1,True
+772141,10617,viele,44.98,überdurchschnittlich,272.0,freigemeinnützig,317,0,1,True
+772142,6402,mittel,50.57,mittel,105.0,privat,136,2,1,True
+772143,48177,sehr viele,49.2,mittel,979.0,öffentlich,872,27,3,True
+772144,1109,sehr wenige,44.35,überdurchschnittlich,13.0,öffentlich,31,0,-1,False
+772145,35720,sehr viele,49.1,mittel,715.0,öffentlich,830,15,3,True
+772147,7326,mittel,54.4,unterdurchschnittlich,37.0,privat,60,0,-1,False
+772148,10914,viele,51.95,mittel,227.0,öffentlich,306,0,2,True
+772149,2178,wenige,48.69,überdurchschnittlich,49.0,öffentlich,122,0,-1,False
+772150,2281,wenige,43.17,überdurchschnittlich,56.0,öffentlich,71,0,-1,False
+772151,9184,viele,51.26,mittel,155.0,freigemeinnützig,261,0,1,True
+772152,5433,mittel,44.34,überdurchschnittlich,103.0,öffentlich,140,0,1,True
+772154,9935,viele,40.21,weit überdurchschnittlich,132.0,öffentlich,195,0,3,True
+772156,5108,wenige,59.84,weit unterdurchschnittlich,75.0,freigemeinnützig,137,0,1,True
+772157,131,sehr wenige,23.39,weit überdurchschnittlich,1.0,öffentlich,3,0,-1,False
+772158,7351,mittel,138.62,weit unterdurchschnittlich,47.0,öffentlich,112,0,1,True
+772159,4501,wenige,35.4,weit überdurchschnittlich,43.0,freigemeinnützig,90,0,-1,False
+772160,4146,wenige,45.31,überdurchschnittlich,92.0,privat,118,0,1,True
+772161,576,sehr wenige,57.82,unterdurchschnittlich,29.0,freigemeinnützig,46,2,-1,False
+772165,5987,mittel,51.14,mittel,102.0,öffentlich,157,0,1,True
+772166,10834,viele,44.3,überdurchschnittlich,204.0,freigemeinnützig,254,0,1,True
+772167,3709,wenige,54.59,unterdurchschnittlich,66.0,freigemeinnützig,143,0,1,True
+772169,3815,wenige,41.95,weit überdurchschnittlich,54.0,privat,83,0,1,True
+772170,9994,viele,42.05,weit überdurchschnittlich,284.0,öffentlich,364,0,2,True
+772171,15617,viele,46.09,überdurchschnittlich,242.0,öffentlich,292,0,1,True
+772173,5551,mittel,66.23,weit unterdurchschnittlich,87.0,öffentlich,122,0,1,True
+772174,17494,sehr viele,55.18,unterdurchschnittlich,346.0,öffentlich,443,16,2,True
+772176,23236,sehr viele,56.07,unterdurchschnittlich,393.0,freigemeinnützig,505,0,3,True
+772177,7270,mittel,39.61,weit überdurchschnittlich,138.0,freigemeinnützig,154,0,1,True
+772178,2480,wenige,44.18,überdurchschnittlich,101.0,öffentlich,94,0,-1,False
+772183,241,sehr wenige,70.21,weit unterdurchschnittlich,2.0,öffentlich,6,0,-1,False
+772184,476,sehr wenige,56.98,unterdurchschnittlich,96.0,privat,52,0,2,True
+772185,225,sehr wenige,0.0,weit überdurchschnittlich,0.0,öffentlich,7,0,-1,False
+772187,17704,sehr viele,53.06,mittel,336.0,freigemeinnützig,354,21,2,True
+772188,27816,sehr viele,47.25,überdurchschnittlich,443.0,öffentlich,537,20,2,True
+772189,2655,wenige,46.76,überdurchschnittlich,33.0,privat,50,0,-1,False
+772191,27568,sehr viele,41.56,weit überdurchschnittlich,496.0,freigemeinnützig,514,5,2,True
+772192,560,sehr wenige,43.99,überdurchschnittlich,2.0,privat,7,0,-1,False
+772193,7353,mittel,61.93,weit unterdurchschnittlich,111.0,freigemeinnützig,249,0,1,True
+772195,5364,mittel,40.29,weit überdurchschnittlich,115.0,privat,150,0,1,True
+772196,4686,wenige,45.9,überdurchschnittlich,129.0,öffentlich,165,0,1,True
+772197,2055,wenige,53.59,unterdurchschnittlich,235.0,privat,129,0,1,True
+772198,5908,mittel,52.07,mittel,99.0,öffentlich,143,20,1,True
+772199,203,sehr wenige,0.0,weit überdurchschnittlich,1.0,öffentlich,0,20,-1,False
+772201,1707,sehr wenige,62.34,weit unterdurchschnittlich,27.0,öffentlich,44,3,1,True
+772202,9510,viele,39.88,weit überdurchschnittlich,141.0,freigemeinnützig,158,0,1,True
+772203,4115,wenige,48.9,überdurchschnittlich,140.0,öffentlich,110,0,1,True
+772204,564,sehr wenige,69.17,weit unterdurchschnittlich,91.0,privat,75,0,-1,False
+772205,11024,viele,56.18,unterdurchschnittlich,179.0,freigemeinnützig,288,20,2,True
+772206,6210,mittel,54.05,unterdurchschnittlich,89.0,freigemeinnützig,156,0,1,True
+772207,19081,sehr viele,49.9,mittel,462.0,privat,412,0,2,True
+772208,11551,viele,53.58,unterdurchschnittlich,250.0,öffentlich,266,0,0,True
+772209,9108,viele,63.07,weit unterdurchschnittlich,182.0,freigemeinnützig,245,0,1,True
+772210,8652,mittel,46.96,überdurchschnittlich,127.0,öffentlich,240,0,1,True
+772218,4413,wenige,52.76,mittel,71.0,öffentlich,126,16,1,True
+772219,687,sehr wenige,18.66,weit überdurchschnittlich,13.0,privat,8,0,-1,False
+772221,21397,sehr viele,50.26,mittel,439.0,öffentlich,465,15,3,True
+772222,15406,viele,52.32,mittel,234.0,freigemeinnützig,329,0,1,True
+772223,4027,wenige,45.61,überdurchschnittlich,70.0,privat,85,0,-1,False
+772224,2723,wenige,28.92,weit überdurchschnittlich,38.0,privat,76,0,-1,False
+772226,216,sehr wenige,52.38,mittel,29.0,privat,29,0,-1,False
+772227,2270,wenige,56.27,unterdurchschnittlich,113.0,privat,138,0,-1,False
+772228,2443,wenige,71.99,weit unterdurchschnittlich,63.0,privat,130,0,-1,False
+772229,2778,wenige,76.25,weit unterdurchschnittlich,66.0,privat,174,0,-1,False
+772231,8303,mittel,43.0,überdurchschnittlich,129.0,privat,200,0,-1,False
+772232,9033,viele,54.48,unterdurchschnittlich,104.0,privat,182,0,1,True
+772233,4892,wenige,49.06,überdurchschnittlich,96.0,privat,155,0,1,True
+772234,16041,sehr viele,61.28,weit unterdurchschnittlich,252.0,freigemeinnützig,358,0,2,True
+772236,6505,mittel,53.23,mittel,78.0,freigemeinnützig,110,0,1,True
+772237,14258,viele,49.24,mittel,235.0,freigemeinnützig,310,0,2,True
+772238,3941,wenige,53.78,unterdurchschnittlich,72.0,öffentlich,167,0,1,True
+772239,15902,sehr viele,52.46,mittel,239.0,öffentlich,327,2,2,True
+772240,4782,wenige,41.82,weit überdurchschnittlich,70.0,privat,155,8,0,True
+772241,3178,wenige,38.96,weit überdurchschnittlich,193.0,öffentlich,123,2,1,True
+772243,10173,viele,49.33,mittel,129.0,privat,231,0,1,True
+772244,5170,mittel,43.58,überdurchschnittlich,56.0,privat,124,4,1,True
+772246,17174,sehr viele,55.91,unterdurchschnittlich,284.0,freigemeinnützig,320,35,1,True
+772247,53336,sehr viele,54.82,unterdurchschnittlich,1.504,öffentlich,1229,79,3,True
+772248,7330,mittel,57.22,unterdurchschnittlich,165.0,öffentlich,215,0,0,True
+772251,13780,viele,56.79,unterdurchschnittlich,208.0,freigemeinnützig,279,0,2,True
+772252,19418,sehr viele,46.38,überdurchschnittlich,311.0,freigemeinnützig,372,14,2,True
+772253,5108,wenige,51.03,mittel,106.0,freigemeinnützig,156,0,1,True
+772255,3497,wenige,50.65,mittel,64.0,freigemeinnützig,100,0,1,True
+772256,3682,wenige,50.9,mittel,102.0,freigemeinnützig,164,15,1,True
+772259,12861,viele,51.83,mittel,251.0,freigemeinnützig,294,0,2,True
+772261,6832,mittel,67.6,weit unterdurchschnittlich,104.0,freigemeinnützig,150,0,1,True
+772263,3312,wenige,51.96,mittel,36.0,öffentlich,55,0,1,True
+772264,4692,wenige,36.37,weit überdurchschnittlich,76.0,privat,89,0,1,True
+772265,3069,wenige,46.93,überdurchschnittlich,56.0,privat,76,0,-1,False
+772266,10770,viele,62.66,weit unterdurchschnittlich,144.0,freigemeinnützig,269,0,1,True
+772267,3452,wenige,45.17,überdurchschnittlich,68.0,freigemeinnützig,119,0,1,True
+772268,800,sehr wenige,32.1,weit überdurchschnittlich,5.0,privat,18,0,-1,False
+772269,7665,mittel,43.41,überdurchschnittlich,157.0,öffentlich,188,0,1,True
+772270,2463,wenige,49.92,mittel,66.0,öffentlich,87,0,-1,False
+772271,11041,viele,56.61,unterdurchschnittlich,183.0,öffentlich,207,0,1,True
+772273,587,sehr wenige,26.5,weit überdurchschnittlich,11.0,öffentlich,8,8,-1,False
+772274,24306,sehr viele,53.31,mittel,505.0,öffentlich,489,26,3,True
+772275,7983,mittel,55.53,unterdurchschnittlich,160.0,privat,180,0,1,True
+772276,9380,viele,58.34,unterdurchschnittlich,136.0,privat,171,0,1,True
+772277,4784,wenige,48.23,überdurchschnittlich,105.0,freigemeinnützig,162,0,1,True
+772278,692,sehr wenige,121.14,weit unterdurchschnittlich,10.0,freigemeinnützig,27,3,-1,False
+772279,5200,mittel,48.26,überdurchschnittlich,75.0,privat,98,10,1,True
+772280,3494,wenige,64.79,weit unterdurchschnittlich,58.0,freigemeinnützig,107,0,0,True
+772281,3392,wenige,95.68,weit unterdurchschnittlich,30.0,privat,132,0,-1,False
+772283,36247,sehr viele,58.87,unterdurchschnittlich,696.0,öffentlich,716,9,3,True
+772288,1059,sehr wenige,33.95,weit überdurchschnittlich,44.0,öffentlich,53,0,-1,False
+772295,10517,viele,60.19,weit unterdurchschnittlich,172.0,freigemeinnützig,278,0,1,True
+772305,4392,wenige,37.55,weit überdurchschnittlich,90.0,öffentlich,62,10,1,True
+772306,2210,wenige,34.41,weit überdurchschnittlich,46.0,öffentlich,49,4,3,True
+772307,17290,sehr viele,57.49,unterdurchschnittlich,253.0,öffentlich,396,0,3,True
+772308,18251,sehr viele,49.03,überdurchschnittlich,321.0,freigemeinnützig,423,0,2,True
+772309,822,sehr wenige,26.18,weit überdurchschnittlich,13.0,freigemeinnützig,23,0,-1,False
+772311,30080,sehr viele,51.52,mittel,684.0,freigemeinnützig,583,27,2,True
+772313,1624,sehr wenige,41.92,weit überdurchschnittlich,29.0,privat,57,0,-1,False
+772314,22773,sehr viele,45.86,überdurchschnittlich,501.0,öffentlich,480,28,2,True
+772315,4580,wenige,48.94,überdurchschnittlich,87.0,privat,111,0,1,True
+772322,14251,viele,47.58,überdurchschnittlich,321.0,privat,356,0,2,True
+772327,2305,wenige,47.72,überdurchschnittlich,33.0,privat,42,0,1,True
+772328,7119,mittel,68.97,weit unterdurchschnittlich,145.0,freigemeinnützig,221,15,1,True
+772329,6254,mittel,50.17,mittel,101.0,privat,179,0,0,True
+772330,1556,sehr wenige,55.75,unterdurchschnittlich,16.0,privat,22,0,-1,False
+772331,8471,mittel,50.81,mittel,145.0,freigemeinnützig,180,17,1,True
+772333,24926,sehr viele,51.2,mittel,456.0,freigemeinnützig,502,6,3,True
+772336,495,sehr wenige,51.12,mittel,40.0,öffentlich,9,0,0,True
+772337,1162,sehr wenige,55.3,unterdurchschnittlich,45.0,freigemeinnützig,70,0,-1,False
+772339,955,sehr wenige,52.02,mittel,61.0,freigemeinnützig,80,3,-1,False
+772340,4784,wenige,59.77,weit unterdurchschnittlich,77.0,öffentlich,138,0,1,True
+772341,4948,wenige,66.46,weit unterdurchschnittlich,62.0,öffentlich,130,0,1,True
+772342,7090,mittel,52.2,mittel,98.0,privat,172,0,1,True
+772347,23122,sehr viele,59.11,weit unterdurchschnittlich,260.0,freigemeinnützig,448,0,1,True
+772349,1386,sehr wenige,46.18,überdurchschnittlich,23.0,öffentlich,51,0,-1,False
+772350,489,sehr wenige,66.19,weit unterdurchschnittlich,60.0,privat,61,0,-1,False
+772351,6301,mittel,58.29,unterdurchschnittlich,105.0,öffentlich,179,0,1,True
+772352,13566,viele,57.96,unterdurchschnittlich,229.0,öffentlich,220,6,2,True
+772356,32214,sehr viele,55.98,unterdurchschnittlich,672.0,privat,634,28,3,True
+772358,17880,sehr viele,52.64,mittel,289.0,freigemeinnützig,455,21,2,True
+772359,18551,sehr viele,45.76,überdurchschnittlich,329.0,freigemeinnützig,418,0,2,True
+772361,10793,viele,57.58,unterdurchschnittlich,174.0,öffentlich,227,0,1,True
+772363,29633,sehr viele,48.79,überdurchschnittlich,679.0,öffentlich,600,36,2,True
+772364,2366,wenige,58.48,unterdurchschnittlich,82.0,öffentlich,114,60,1,True
+772365,32512,sehr viele,56.49,unterdurchschnittlich,591.0,öffentlich,780,35,3,True
+772366,784,sehr wenige,55.06,unterdurchschnittlich,57.0,freigemeinnützig,62,0,-1,False
+772367,2538,wenige,34.64,weit überdurchschnittlich,40.0,privat,67,0,0,True
+772368,18803,sehr viele,54.22,unterdurchschnittlich,245.0,privat,355,0,2,True
+772369,755,sehr wenige,42.05,weit überdurchschnittlich,130.0,privat,137,0,-1,False
+772372,27063,sehr viele,61.94,weit unterdurchschnittlich,349.0,freigemeinnützig,424,26,2,True
+772373,174,sehr wenige,49.03,überdurchschnittlich,60.0,freigemeinnützig,30,0,-1,False
+772374,547,sehr wenige,52.92,mittel,80.0,freigemeinnützig,68,0,-1,False
+772375,2888,wenige,51.59,mittel,60.0,privat,103,0,-1,False
+772376,15319,viele,52.18,mittel,343.0,öffentlich,353,40,1,True
+772377,7080,mittel,40.91,weit überdurchschnittlich,60.0,privat,82,0,1,True
+772378,21572,sehr viele,46.12,überdurchschnittlich,381.0,öffentlich,445,42,3,True
+772380,7842,mittel,50.21,mittel,61.0,privat,143,16,-1,False
+772383,18151,sehr viele,49.19,mittel,297.0,freigemeinnützig,418,19,3,True
+772384,26899,sehr viele,54.07,unterdurchschnittlich,467.0,öffentlich,644,0,2,True
+772386,10336,viele,52.92,mittel,215.0,freigemeinnützig,274,0,2,True
+772387,14860,viele,53.49,unterdurchschnittlich,241.0,öffentlich,272,0,2,True
+772389,47402,sehr viele,55.38,unterdurchschnittlich,1.008,öffentlich,1082,61,3,True
+772390,575,sehr wenige,60.47,weit unterdurchschnittlich,39.0,freigemeinnützig,56,0,-1,False
+772392,15004,viele,40.82,weit überdurchschnittlich,284.0,privat,297,29,2,True
+772393,16092,sehr viele,62.19,weit unterdurchschnittlich,297.0,freigemeinnützig,406,0,2,True
+772394,2884,wenige,73.01,weit unterdurchschnittlich,48.0,freigemeinnützig,80,0,1,True
+772395,8997,mittel,52.65,mittel,122.0,freigemeinnützig,216,0,1,True
+772396,12546,viele,52.26,mittel,227.0,freigemeinnützig,324,0,1,True
+772397,3638,wenige,58.25,unterdurchschnittlich,63.0,freigemeinnützig,126,0,1,True
+772400,12481,viele,55.83,unterdurchschnittlich,211.0,freigemeinnützig,285,5,2,True
+772401,2718,wenige,43.34,überdurchschnittlich,65.0,privat,98,2,1,True
+772402,7692,mittel,35.84,weit überdurchschnittlich,130.0,freigemeinnützig,177,0,1,True
+772403,5294,mittel,40.26,weit überdurchschnittlich,88.0,freigemeinnützig,112,6,1,True
+772404,2052,wenige,36.84,weit überdurchschnittlich,55.0,öffentlich,99,0,1,True
+772412,6117,mittel,58.04,unterdurchschnittlich,96.0,öffentlich,153,11,1,True
+772413,2979,wenige,56.97,unterdurchschnittlich,63.0,öffentlich,110,15,1,True
+772414,21744,sehr viele,48.33,überdurchschnittlich,406.0,öffentlich,465,15,3,True
+772415,6365,mittel,56.29,unterdurchschnittlich,83.0,öffentlich,110,0,2,True
+772416,9797,viele,41.43,weit überdurchschnittlich,142.0,privat,192,0,1,True
+772417,5940,mittel,59.69,weit unterdurchschnittlich,132.0,öffentlich,179,0,-1,False
+772418,35600,sehr viele,50.47,mittel,343.0,freigemeinnützig,380,0,2,True
+772419,7807,mittel,52.88,mittel,166.0,freigemeinnützig,248,10,1,True
+772425,12100,viele,48.94,überdurchschnittlich,208.0,freigemeinnützig,268,0,1,True
+772426,11084,viele,48.66,überdurchschnittlich,155.0,freigemeinnützig,159,0,1,True
+772427,10142,viele,93.39,weit unterdurchschnittlich,145.0,freigemeinnützig,197,0,1,True
+772428,1465,sehr wenige,50.35,mittel,25.0,privat,50,0,-1,False
+772430,12909,viele,51.4,mittel,181.0,privat,250,0,1,True
+772431,10987,viele,43.99,überdurchschnittlich,293.0,freigemeinnützig,340,0,1,True
+772432,49069,sehr viele,36.06,weit überdurchschnittlich,1.577,öffentlich,1124,72,3,True
+772433,7930,mittel,49.27,mittel,140.0,öffentlich,333,0,1,True
+772434,29974,sehr viele,57.29,unterdurchschnittlich,358.0,freigemeinnützig,342,0,2,True
+772435,5839,mittel,62.9,weit unterdurchschnittlich,62.0,freigemeinnützig,148,0,-1,False
+772436,9408,viele,52.94,mittel,148.0,öffentlich,200,0,1,True
+772437,23009,sehr viele,60.07,weit unterdurchschnittlich,350.0,freigemeinnützig,518,0,3,True
+772438,23456,sehr viele,48.25,überdurchschnittlich,318.0,freigemeinnützig,401,51,1,True
+772440,3299,wenige,39.94,weit überdurchschnittlich,51.0,freigemeinnützig,84,0,-2,False
+772441,10446,viele,70.25,weit unterdurchschnittlich,198.0,freigemeinnützig,310,0,2,True
+772442,9237,viele,52.46,mittel,145.0,öffentlich,256,0,1,True
+772443,6993,mittel,56.21,unterdurchschnittlich,123.0,öffentlich,201,8,1,True
+772444,1408,sehr wenige,90.82,weit unterdurchschnittlich,26.0,privat,68,0,-1,False
+772445,5083,wenige,40.2,weit überdurchschnittlich,103.0,freigemeinnützig,124,0,1,True
+772446,1465,sehr wenige,36.42,weit überdurchschnittlich,15.0,privat,24,0,-1,False
+772448,8163,mittel,45.43,überdurchschnittlich,253.0,freigemeinnützig,276,20,1,True
+772449,384,sehr wenige,40.02,weit überdurchschnittlich,13.0,freigemeinnützig,29,0,-1,False
+772451,10937,viele,58.4,unterdurchschnittlich,178.0,freigemeinnützig,248,0,1,True
+772452,9173,viele,55.79,unterdurchschnittlich,153.0,freigemeinnützig,249,0,2,True
+772453,8502,mittel,57.69,unterdurchschnittlich,90.0,privat,134,0,1,True
+772454,6931,mittel,40.51,weit überdurchschnittlich,155.0,freigemeinnützig,232,15,1,True
+772456,129,sehr wenige,0.0,weit überdurchschnittlich,1.0,freigemeinnützig,0,16,-2,False
+772457,976,sehr wenige,28.45,weit überdurchschnittlich,12.0,öffentlich,19,0,1,True
+772460,2831,wenige,51.98,mittel,31.0,öffentlich,59,0,-1,False
+772461,7798,mittel,48.33,überdurchschnittlich,145.0,öffentlich,203,0,1,True
+772462,10121,viele,63.32,weit unterdurchschnittlich,129.0,öffentlich,212,0,1,True
+772463,987,sehr wenige,55.16,unterdurchschnittlich,21.0,freigemeinnützig,38,0,-1,False
+772465,11414,viele,50.13,mittel,206.0,öffentlich,285,27,2,True
+772466,20913,sehr viele,60.29,weit unterdurchschnittlich,330.0,öffentlich,442,0,3,True
+772467,2154,wenige,66.14,weit unterdurchschnittlich,157.0,privat,146,26,-1,False
+772469,5917,mittel,47.55,überdurchschnittlich,158.0,öffentlich,184,0,1,True
+772471,22416,sehr viele,45.49,überdurchschnittlich,408.0,öffentlich,440,0,3,True
+772472,10118,viele,59.3,weit unterdurchschnittlich,186.0,freigemeinnützig,311,15,1,True
+772473,18064,sehr viele,62.8,weit unterdurchschnittlich,333.0,freigemeinnützig,459,0,3,True
+772474,20678,sehr viele,50.09,mittel,454.0,freigemeinnützig,519,22,2,True
+772475,6996,mittel,50.13,mittel,110.0,freigemeinnützig,170,0,1,True
+772476,1081,sehr wenige,74.34,weit unterdurchschnittlich,41.0,freigemeinnützig,80,0,-1,False
+772477,13721,viele,45.34,überdurchschnittlich,246.0,freigemeinnützig,331,1,2,True
+772478,7218,mittel,35.97,weit überdurchschnittlich,264.0,öffentlich,190,0,3,True
+772479,17555,sehr viele,61.05,weit unterdurchschnittlich,232.0,öffentlich,342,3,2,True
+772480,1464,sehr wenige,55.41,unterdurchschnittlich,24.0,öffentlich,60,0,0,True
+772482,10635,viele,49.4,mittel,207.0,öffentlich,255,0,2,True
+772483,3162,wenige,43.21,überdurchschnittlich,56.0,privat,107,0,-2,False
+772484,4138,wenige,50.57,mittel,397.0,privat,287,2,1,True
+772486,474,sehr wenige,53.73,unterdurchschnittlich,264.0,privat,129,0,0,True
+772487,5841,mittel,46.53,überdurchschnittlich,118.0,öffentlich,193,0,1,True
+772488,11043,viele,53.55,unterdurchschnittlich,180.0,öffentlich,227,0,1,True
+772489,8465,mittel,41.73,weit überdurchschnittlich,184.0,öffentlich,243,0,1,True
+772490,6201,mittel,49.45,mittel,101.0,freigemeinnützig,161,0,1,True
+772495,599,sehr wenige,57.73,unterdurchschnittlich,92.0,privat,68,0,-1,False
+772496,3184,wenige,42.68,weit überdurchschnittlich,88.0,privat,127,0,1,True
+772497,1049,sehr wenige,33.1,weit überdurchschnittlich,21.0,privat,30,0,-1,False
+772498,15655,viele,60.49,weit unterdurchschnittlich,279.0,privat,381,0,2,True
+772507,2866,wenige,60.71,weit unterdurchschnittlich,42.0,öffentlich,82,0,1,True
+772508,4814,wenige,49.26,mittel,72.0,öffentlich,116,0,1,True
+772509,5026,wenige,33.33,weit überdurchschnittlich,101.0,öffentlich,97,0,1,True
+772510,25329,sehr viele,44.51,überdurchschnittlich,513.0,öffentlich,578,20,3,True
+772512,19930,sehr viele,50.18,mittel,316.0,freigemeinnützig,493,8,2,True
+772513,1840,sehr wenige,54.97,unterdurchschnittlich,108.0,freigemeinnützig,130,20,-1,False
+772514,864,sehr wenige,51.95,mittel,27.0,privat,54,4,-1,False
+772516,7406,mittel,36.81,weit überdurchschnittlich,161.0,öffentlich,175,0,1,True
+772518,712,sehr wenige,42.37,weit überdurchschnittlich,8.0,öffentlich,20,0,-1,False
+772520,3798,wenige,56.5,unterdurchschnittlich,80.0,privat,125,0,1,True
+772527,581,sehr wenige,58.85,unterdurchschnittlich,128.0,öffentlich,87,0,-1,False
+772528,4344,wenige,44.01,überdurchschnittlich,60.0,freigemeinnützig,114,0,1,True
+772529,5812,mittel,42.91,weit überdurchschnittlich,146.0,öffentlich,130,6,1,True
+772530,15902,sehr viele,53.95,unterdurchschnittlich,628.0,privat,600,15,1,True
+772531,8030,mittel,60.16,weit unterdurchschnittlich,135.0,öffentlich,180,4,1,True
+772533,27481,sehr viele,54.11,unterdurchschnittlich,503.0,freigemeinnützig,627,30,3,True
+772534,16988,sehr viele,62.18,weit unterdurchschnittlich,280.0,öffentlich,449,0,2,True
+772539,12909,viele,53.93,unterdurchschnittlich,223.0,öffentlich,331,0,2,True
+772540,7284,mittel,44.13,überdurchschnittlich,283.0,privat,284,0,-1,False
+772541,6158,mittel,68.85,weit unterdurchschnittlich,114.0,freigemeinnützig,120,1,2,True
+772542,2741,wenige,38.61,weit überdurchschnittlich,76.0,öffentlich,110,0,1,True
+772543,6335,mittel,49.06,überdurchschnittlich,109.0,öffentlich,164,0,1,True
+772544,4430,wenige,49.22,mittel,92.0,öffentlich,103,0,1,True
+772545,481,sehr wenige,60.26,weit unterdurchschnittlich,32.0,freigemeinnützig,38,0,-1,False
+772546,17575,sehr viele,47.41,überdurchschnittlich,260.0,öffentlich,347,0,2,True
+772547,153,sehr wenige,33.44,weit überdurchschnittlich,6.0,öffentlich,15,0,-1,False
+772548,7797,mittel,46.98,überdurchschnittlich,125.0,öffentlich,185,6,1,True
+772549,23198,sehr viele,48.91,überdurchschnittlich,468.0,öffentlich,441,8,3,True
+772550,17699,sehr viele,52.25,mittel,317.0,öffentlich,342,0,2,True
+772551,3675,wenige,36.19,weit überdurchschnittlich,96.0,öffentlich,59,4,1,True
+772554,18159,sehr viele,54.33,unterdurchschnittlich,278.0,freigemeinnützig,342,0,1,True
+772555,11792,viele,48.8,überdurchschnittlich,237.0,freigemeinnützig,261,0,1,True
+772556,8715,mittel,33.48,weit überdurchschnittlich,151.0,privat,182,16,0,True
+772557,17185,sehr viele,76.11,weit unterdurchschnittlich,214.0,freigemeinnützig,379,5,0,True
+772558,15787,viele,51.61,mittel,279.0,öffentlich,304,0,2,True
+772559,3245,wenige,56.21,unterdurchschnittlich,79.0,privat,61,0,1,True
+772560,6174,mittel,36.46,weit überdurchschnittlich,137.0,freigemeinnützig,231,0,-2,False
+772561,15306,viele,51.7,mittel,331.0,freigemeinnützig,348,8,3,True
+772563,36145,sehr viele,58.15,unterdurchschnittlich,1.012,öffentlich,796,89,3,True
+772565,48684,sehr viele,59.04,weit unterdurchschnittlich,984.0,öffentlich,1010,75,3,True
+772570,805,sehr wenige,61.19,weit unterdurchschnittlich,10.0,privat,32,0,-1,False
+772571,3885,wenige,53.82,unterdurchschnittlich,26.0,freigemeinnützig,85,0,-1,False
+772572,5113,wenige,60.75,weit unterdurchschnittlich,68.0,freigemeinnützig,112,0,1,True
+772573,6287,mittel,31.86,weit überdurchschnittlich,73.0,privat,117,0,1,True
+772577,2128,wenige,47.03,überdurchschnittlich,97.0,öffentlich,100,0,1,True
+772578,26911,sehr viele,54.06,unterdurchschnittlich,469.0,öffentlich,543,0,3,True
+772579,732,sehr wenige,47.21,überdurchschnittlich,40.0,öffentlich,52,12,-1,False
+772584,30750,sehr viele,52.45,mittel,608.0,privat,645,6,3,True
+772585,15974,sehr viele,50.52,mittel,269.0,öffentlich,388,0,3,True
+772588,8398,mittel,44.87,überdurchschnittlich,209.0,privat,205,20,1,True
+772589,10280,viele,53.39,mittel,218.0,freigemeinnützig,361,8,-1,False
+772590,3498,wenige,83.35,weit unterdurchschnittlich,32.0,freigemeinnützig,48,2,1,True
+772591,12790,viele,47.69,überdurchschnittlich,290.0,freigemeinnützig,356,6,1,True
+772592,1602,sehr wenige,67.25,weit unterdurchschnittlich,59.0,privat,90,15,-1,False
+772593,6304,mittel,45.18,überdurchschnittlich,76.0,privat,158,0,1,True
+772594,1658,sehr wenige,31.38,weit überdurchschnittlich,23.0,privat,70,0,0,True
+772595,3971,wenige,45.32,überdurchschnittlich,43.0,privat,84,0,-1,False
+772596,9910,viele,57.63,unterdurchschnittlich,182.0,freigemeinnützig,221,0,2,True
+772597,16311,sehr viele,46.7,überdurchschnittlich,243.0,freigemeinnützig,267,0,2,True
+772598,7095,mittel,51.69,mittel,163.0,freigemeinnützig,183,12,1,True
+772602,562,sehr wenige,73.08,weit unterdurchschnittlich,95.0,privat,60,0,-1,False
+772603,8955,mittel,35.24,weit überdurchschnittlich,149.0,privat,182,0,1,True
+772604,4498,wenige,49.88,mittel,91.0,freigemeinnützig,151,0,1,True
+772605,8125,mittel,36.11,weit überdurchschnittlich,284.0,privat,277,0,-2,False
+772608,18123,sehr viele,45.17,überdurchschnittlich,352.0,privat,372,0,2,True
+772609,616,sehr wenige,50.49,mittel,26.0,freigemeinnützig,36,11,-1,False
+772610,10475,viele,45.58,überdurchschnittlich,171.0,freigemeinnützig,243,0,1,True
+772614,4337,wenige,33.36,weit überdurchschnittlich,128.0,privat,110,0,1,True
+772616,328,sehr wenige,56.14,unterdurchschnittlich,24.0,öffentlich,15,0,-1,False
+772619,2432,wenige,51.67,mittel,45.0,privat,92,0,1,True
+772620,611,sehr wenige,35.9,weit überdurchschnittlich,10.0,privat,18,0,-2,False
+772621,16416,sehr viele,42.62,weit überdurchschnittlich,334.0,freigemeinnützig,416,0,2,True
+772622,6771,mittel,58.11,unterdurchschnittlich,96.0,öffentlich,177,0,1,True
+772623,7241,mittel,48.38,überdurchschnittlich,112.0,öffentlich,178,0,1,True
+772624,15439,viele,48.68,überdurchschnittlich,298.0,privat,317,0,2,True
+772625,10478,viele,61.87,weit unterdurchschnittlich,257.0,privat,279,20,1,True
+772630,1067,sehr wenige,49.14,mittel,57.0,öffentlich,70,12,0,True
+772632,956,sehr wenige,13.76,weit überdurchschnittlich,17.0,privat,19,0,-1,False
+772633,3192,wenige,41.2,weit überdurchschnittlich,19.0,privat,91,0,-1,False
+772643,9701,viele,57.39,unterdurchschnittlich,202.0,öffentlich,242,15,2,True
+772644,5727,mittel,66.06,weit unterdurchschnittlich,116.0,öffentlich,170,15,1,True
+772645,1060,sehr wenige,65.92,weit unterdurchschnittlich,41.0,freigemeinnützig,69,11,-1,False
+772646,11152,viele,53.12,mittel,139.0,privat,202,0,1,True
+772647,2465,wenige,54.35,unterdurchschnittlich,43.0,freigemeinnützig,73,0,-1,False
+772651,14016,viele,43.79,überdurchschnittlich,253.0,privat,299,0,2,True
+772652,6948,mittel,41.28,weit überdurchschnittlich,161.0,privat,286,0,1,True
+772654,17943,sehr viele,56.32,unterdurchschnittlich,271.0,privat,318,0,2,True
+772657,13733,viele,49.76,mittel,253.0,öffentlich,304,18,2,True
+772659,12991,viele,44.83,überdurchschnittlich,241.0,freigemeinnützig,307,0,1,True
+772660,17392,sehr viele,52.53,mittel,265.0,freigemeinnützig,351,0,2,True
+772661,8661,mittel,62.18,weit unterdurchschnittlich,295.0,öffentlich,336,20,1,True
+772662,10974,viele,61.01,weit unterdurchschnittlich,143.0,öffentlich,249,0,2,True
+772663,12045,viele,39.49,weit überdurchschnittlich,159.0,freigemeinnützig,230,0,1,True
+772664,7596,mittel,42.01,weit überdurchschnittlich,141.0,privat,171,0,1,True
+772665,29082,sehr viele,50.28,mittel,592.0,öffentlich,563,26,3,True
+772671,23314,sehr viele,52.36,mittel,393.0,öffentlich,437,1,3,True
+772672,1622,sehr wenige,41.74,weit überdurchschnittlich,31.0,privat,55,0,-1,False
+772673,30083,sehr viele,41.87,weit überdurchschnittlich,690.0,freigemeinnützig,524,16,3,True
+772674,7533,mittel,35.35,weit überdurchschnittlich,163.0,freigemeinnützig,160,0,1,True
+772675,17779,sehr viele,50.59,mittel,289.0,öffentlich,405,0,2,True
+772676,2916,wenige,40.22,weit überdurchschnittlich,72.0,öffentlich,110,0,-1,False
+772677,2613,wenige,35.46,weit überdurchschnittlich,30.0,privat,60,0,0,True
+772678,5560,mittel,35.52,weit überdurchschnittlich,186.0,privat,164,0,1,True
+772680,11667,viele,50.12,mittel,235.0,freigemeinnützig,267,10,2,True
+772681,22989,sehr viele,49.67,mittel,564.0,privat,624,68,3,True
+772682,6733,mittel,71.89,weit unterdurchschnittlich,94.0,öffentlich,181,0,1,True
+772684,13739,viele,40.25,weit überdurchschnittlich,365.0,freigemeinnützig,347,0,2,True
+772685,5510,mittel,47.36,überdurchschnittlich,71.0,freigemeinnützig,104,0,-1,False
+772686,11177,viele,44.8,überdurchschnittlich,252.0,privat,381,0,1,True
+772687,6755,mittel,54.16,unterdurchschnittlich,151.0,freigemeinnützig,233,0,1,True
+772688,3872,wenige,47.97,überdurchschnittlich,63.0,privat,103,0,1,True
+772689,1997,wenige,55.67,unterdurchschnittlich,39.0,privat,58,0,-1,False
+772690,4302,wenige,42.61,weit überdurchschnittlich,110.0,privat,130,0,1,True
+772691,35674,sehr viele,40.4,weit überdurchschnittlich,837.0,privat,877,0,3,True
+772692,6254,mittel,41.47,weit überdurchschnittlich,166.0,privat,150,0,1,True
+772695,4588,wenige,42.67,weit überdurchschnittlich,97.0,freigemeinnützig,135,0,1,True
+772696,15949,sehr viele,57.34,unterdurchschnittlich,233.0,öffentlich,280,0,2,True
+772698,9372,viele,58.39,unterdurchschnittlich,128.0,öffentlich,172,0,2,True
+772701,688,sehr wenige,74.48,weit unterdurchschnittlich,160.0,privat,135,0,-1,False
+772702,5188,mittel,28.9,weit überdurchschnittlich,119.0,privat,200,0,-1,False
+772703,854,sehr wenige,56.23,unterdurchschnittlich,151.0,privat,121,0,0,True
+772704,7728,mittel,51.14,mittel,128.0,öffentlich,191,0,1,True
+772705,10287,viele,57.55,unterdurchschnittlich,200.0,öffentlich,241,0,1,True
+772706,15840,viele,57.28,unterdurchschnittlich,275.0,öffentlich,335,0,2,True
+772709,1636,sehr wenige,62.23,weit unterdurchschnittlich,68.0,freigemeinnützig,114,9,-1,False
+772710,5083,wenige,52.44,mittel,93.0,freigemeinnützig,137,10,1,True
+772711,5539,mittel,83.44,weit unterdurchschnittlich,62.0,freigemeinnützig,163,0,1,True
+772720,7889,mittel,53.9,unterdurchschnittlich,98.0,privat,150,0,1,True
+772721,22320,sehr viele,58.99,unterdurchschnittlich,447.0,öffentlich,558,5,2,True
+772724,7814,mittel,55.93,unterdurchschnittlich,149.0,freigemeinnützig,275,0,2,True
+772725,242,sehr wenige,46.9,überdurchschnittlich,50.0,privat,40,0,-1,False
+772726,6704,mittel,46.23,überdurchschnittlich,146.0,freigemeinnützig,197,0,1,True
+772727,10904,viele,75.89,weit unterdurchschnittlich,145.0,freigemeinnützig,243,0,2,True
+772728,3324,wenige,52.55,mittel,59.0,öffentlich,101,0,1,True
+772729,553,sehr wenige,19.79,weit überdurchschnittlich,18.0,privat,50,0,-1,False
+772730,663,sehr wenige,81.58,weit unterdurchschnittlich,8.0,freigemeinnützig,30,0,-1,False
+772731,15813,viele,59.83,weit unterdurchschnittlich,260.0,öffentlich,328,0,2,True
+772732,1663,sehr wenige,58.42,unterdurchschnittlich,25.0,privat,84,0,-1,False
+772733,24250,sehr viele,45.13,überdurchschnittlich,473.0,privat,578,1,2,True
+772735,26299,sehr viele,46.02,überdurchschnittlich,507.0,öffentlich,675,0,3,True
+772736,11325,viele,46.1,überdurchschnittlich,159.0,freigemeinnützig,198,0,1,True
+772737,19373,sehr viele,50.7,mittel,402.0,freigemeinnützig,419,38,2,True
+772740,13178,viele,59.96,weit unterdurchschnittlich,167.0,freigemeinnützig,196,0,2,True
+772741,9441,viele,58.47,unterdurchschnittlich,135.0,freigemeinnützig,211,6,1,True
+772743,4996,wenige,56.92,unterdurchschnittlich,71.0,freigemeinnützig,109,0,-1,False
+772744,29680,sehr viele,51.8,mittel,627.0,freigemeinnützig,709,0,2,True
+772746,2580,wenige,41.35,weit überdurchschnittlich,69.0,freigemeinnützig,148,0,-1,False
+772747,5896,mittel,55.54,unterdurchschnittlich,235.0,freigemeinnützig,355,22,1,True
+772748,4274,wenige,41.87,weit überdurchschnittlich,114.0,privat,111,5,1,True
+772749,8692,mittel,40.45,weit überdurchschnittlich,110.0,privat,112,10,-1,False
+772754,12389,viele,51.68,mittel,244.0,freigemeinnützig,354,27,2,True
+772755,4062,wenige,46.94,überdurchschnittlich,65.0,freigemeinnützig,95,0,0,True
+772756,2421,wenige,48.89,überdurchschnittlich,46.0,freigemeinnützig,65,0,-1,False
+772760,31728,sehr viele,52.92,mittel,712.0,öffentlich,703,43,3,True
+772766,16370,sehr viele,53.6,unterdurchschnittlich,227.0,freigemeinnützig,309,0,2,True
+772767,8744,mittel,54.68,unterdurchschnittlich,141.0,freigemeinnützig,218,0,1,True
+772768,8770,mittel,56.64,unterdurchschnittlich,133.0,freigemeinnützig,193,0,1,True
+772772,10528,viele,48.86,überdurchschnittlich,181.0,öffentlich,246,12,2,True
+772773,1349,sehr wenige,50.72,mittel,81.0,öffentlich,98,0,-1,False
+772781,10562,viele,52.06,mittel,157.0,freigemeinnützig,226,0,1,True
+772782,46194,sehr viele,52.11,mittel,900.0,privat,966,18,3,True
+772783,34545,sehr viele,43.81,überdurchschnittlich,799.0,öffentlich,857,24,3,True
+772786,20453,sehr viele,42.43,weit überdurchschnittlich,421.0,öffentlich,347,7,3,True
+772787,14165,viele,46.5,überdurchschnittlich,210.0,öffentlich,261,21,1,True
+772788,12321,viele,50.33,mittel,239.0,freigemeinnützig,334,16,2,True
+772789,11629,viele,50.48,mittel,190.0,freigemeinnützig,265,0,2,True
+772790,14669,viele,75.71,weit unterdurchschnittlich,223.0,freigemeinnützig,337,24,2,True
+772791,3197,wenige,39.84,weit überdurchschnittlich,56.0,öffentlich,80,0,0,True
+772793,3666,wenige,46.51,überdurchschnittlich,70.0,öffentlich,83,0,1,True
+772794,55087,sehr viele,50.66,mittel,1.366,öffentlich,1200,45,3,True
+772795,9655,viele,48.06,überdurchschnittlich,186.0,freigemeinnützig,237,0,1,True
+772796,26654,sehr viele,52.0,mittel,546.0,freigemeinnützig,720,0,3,True
+772797,2447,wenige,55.13,unterdurchschnittlich,21.0,freigemeinnützig,58,0,-1,False
+772798,7583,mittel,47.07,überdurchschnittlich,114.0,freigemeinnützig,216,0,1,True
+772799,7073,mittel,46.87,überdurchschnittlich,98.0,freigemeinnützig,158,0,1,True
+772800,8272,mittel,52.96,mittel,102.0,freigemeinnützig,163,15,1,True
+772801,34115,sehr viele,59.79,weit unterdurchschnittlich,721.0,öffentlich,874,21,2,True
+772802,2892,wenige,32.12,weit überdurchschnittlich,63.0,privat,119,0,1,True
+772803,10502,viele,40.76,weit überdurchschnittlich,207.0,privat,278,0,2,True
+772804,12516,viele,37.33,weit überdurchschnittlich,234.0,freigemeinnützig,253,1,1,True
+772805,9860,viele,48.27,überdurchschnittlich,215.0,freigemeinnützig,219,10,2,True
+772806,5686,mittel,59.8,weit unterdurchschnittlich,83.0,freigemeinnützig,114,0,1,True
+772807,316,sehr wenige,36.35,weit überdurchschnittlich,12.0,privat,24,0,1,True
+772808,2619,wenige,67.74,weit unterdurchschnittlich,106.0,öffentlich,106,0,1,True
+772810,25628,sehr viele,55.2,unterdurchschnittlich,547.0,öffentlich,712,28,2,True
+772811,988,sehr wenige,58.65,unterdurchschnittlich,10.0,privat,36,0,-1,False
+772813,10989,viele,46.7,überdurchschnittlich,228.0,öffentlich,248,0,2,True
+772815,10166,viele,55.47,unterdurchschnittlich,143.0,öffentlich,212,0,1,True
+772817,3145,wenige,32.67,weit überdurchschnittlich,52.0,privat,108,0,1,True
+772818,18182,sehr viele,66.04,weit unterdurchschnittlich,217.0,freigemeinnützig,328,0,2,True
+772819,22463,sehr viele,67.83,weit unterdurchschnittlich,444.0,öffentlich,506,0,3,True
+772820,8552,mittel,50.3,mittel,129.0,öffentlich,181,0,1,True
+772821,11181,viele,47.17,überdurchschnittlich,173.0,öffentlich,267,0,1,True
+772823,13979,viele,46.6,überdurchschnittlich,276.0,öffentlich,272,0,1,True
+772825,11547,viele,39.03,weit überdurchschnittlich,201.0,freigemeinnützig,141,13,3,True
+772827,18939,sehr viele,43.66,überdurchschnittlich,444.0,öffentlich,437,9,1,True
+772828,17152,sehr viele,42.9,weit überdurchschnittlich,368.0,öffentlich,301,36,1,True
+772829,6051,mittel,64.03,weit unterdurchschnittlich,99.0,öffentlich,176,0,1,True
+772830,9681,viele,57.23,unterdurchschnittlich,163.0,öffentlich,296,0,1,True
+772831,25226,sehr viele,65.97,weit unterdurchschnittlich,435.0,öffentlich,640,8,2,True
+772832,21599,sehr viele,57.94,unterdurchschnittlich,399.0,freigemeinnützig,497,0,3,True
+772833,4020,wenige,58.3,unterdurchschnittlich,37.0,privat,85,0,-1,False
+772834,21763,sehr viele,47.36,überdurchschnittlich,373.0,freigemeinnützig,541,0,2,True
+772835,11670,viele,48.24,überdurchschnittlich,326.0,öffentlich,234,0,-1,False
+772836,17294,sehr viele,52.64,mittel,313.0,freigemeinnützig,402,20,1,True
+772837,963,sehr wenige,56.21,unterdurchschnittlich,40.0,privat,49,15,-1,False
+772840,1895,wenige,30.46,weit überdurchschnittlich,31.0,öffentlich,45,0,1,True
+772841,15863,viele,46.45,überdurchschnittlich,269.0,öffentlich,328,18,1,True
+772842,29434,sehr viele,47.96,überdurchschnittlich,636.0,öffentlich,725,28,3,True
+772843,661,sehr wenige,58.81,unterdurchschnittlich,51.0,freigemeinnützig,51,0,-1,False
+772844,1830,sehr wenige,52.1,mittel,102.0,freigemeinnützig,138,16,-1,False
+772845,14800,viele,56.87,unterdurchschnittlich,255.0,freigemeinnützig,336,10,2,True
+772846,21024,sehr viele,59.39,weit unterdurchschnittlich,341.0,freigemeinnützig,330,1,1,True
+772847,5468,mittel,48.54,überdurchschnittlich,99.0,öffentlich,143,0,1,True
+772848,5877,mittel,52.15,mittel,96.0,öffentlich,160,0,1,True
+772849,29063,sehr viele,50.3,mittel,556.0,öffentlich,623,15,3,True
+772851,14814,viele,52.9,mittel,223.0,öffentlich,273,0,1,True
+772852,1631,sehr wenige,62.56,weit unterdurchschnittlich,132.0,privat,146,0,0,True
+772855,707,sehr wenige,62.6,weit unterdurchschnittlich,106.0,privat,108,0,0,True
+772856,154,sehr wenige,56.53,unterdurchschnittlich,29.0,privat,30,0,0,True
+772858,46889,sehr viele,64.97,weit unterdurchschnittlich,946.0,öffentlich,960,110,3,True
+772859,30266,sehr viele,54.71,unterdurchschnittlich,581.0,öffentlich,660,18,3,True
+772860,8338,mittel,41.65,weit überdurchschnittlich,145.0,öffentlich,177,0,1,True
+772861,1226,sehr wenige,40.03,weit überdurchschnittlich,8.0,privat,25,0,-1,False
+772862,4568,wenige,49.46,mittel,27.0,privat,56,0,-1,False
+772863,7381,mittel,53.43,mittel,147.0,freigemeinnützig,255,0,0,True
+772864,9392,viele,31.4,weit überdurchschnittlich,254.0,freigemeinnützig,221,0,2,True
+772865,175,sehr wenige,92.97,weit unterdurchschnittlich,21.0,privat,40,0,-1,False
+772866,4818,wenige,34.67,weit überdurchschnittlich,122.0,privat,120,0,1,True
+772867,3740,wenige,52.64,mittel,61.0,öffentlich,95,0,1,True
+772869,5689,mittel,62.09,weit unterdurchschnittlich,64.0,öffentlich,116,0,1,True
+772870,1022,sehr wenige,73.21,weit unterdurchschnittlich,33.0,freigemeinnützig,98,25,-1,False
+772871,12968,viele,55.62,unterdurchschnittlich,196.0,freigemeinnützig,314,0,2,True
+772873,16523,sehr viele,43.35,überdurchschnittlich,369.0,freigemeinnützig,385,0,2,True
+772874,48179,sehr viele,48.12,überdurchschnittlich,1.088,öffentlich,855,135,3,True
+772875,2723,wenige,52.86,mittel,33.0,öffentlich,52,47,3,True
+772876,12521,viele,71.91,weit unterdurchschnittlich,146.0,öffentlich,256,0,2,True
+772877,3039,wenige,64.82,weit unterdurchschnittlich,53.0,öffentlich,129,0,1,True
+772880,10543,viele,52.11,mittel,170.0,öffentlich,235,8,1,True
+772882,12901,viele,40.26,weit überdurchschnittlich,292.0,privat,300,0,2,True
+772883,3444,wenige,53.31,mittel,55.0,privat,95,0,1,True
+772884,28611,sehr viele,66.59,weit unterdurchschnittlich,584.0,öffentlich,615,34,3,True
+772886,3173,wenige,69.16,weit unterdurchschnittlich,34.0,öffentlich,63,9,-1,False
+772890,5060,wenige,56.39,unterdurchschnittlich,86.0,öffentlich,180,2,1,True
+772891,10001,viele,40.69,weit überdurchschnittlich,197.0,privat,229,0,1,True
+772892,1175,sehr wenige,18.91,weit überdurchschnittlich,34.0,öffentlich,47,0,-1,False
+772893,29389,sehr viele,45.4,überdurchschnittlich,573.0,freigemeinnützig,672,62,3,True
+772894,2727,wenige,44.14,überdurchschnittlich,56.0,freigemeinnützig,89,0,0,True
+772895,3092,wenige,42.13,weit überdurchschnittlich,56.0,freigemeinnützig,100,0,1,True
+772897,9263,viele,50.16,mittel,128.0,freigemeinnützig,164,0,1,True
+772898,126,sehr wenige,22.75,weit überdurchschnittlich,10.0,freigemeinnützig,6,0,-1,False
+772899,802,sehr wenige,315.39,weit unterdurchschnittlich,22.0,privat,70,0,1,True
+772900,13426,viele,50.78,mittel,188.0,freigemeinnützig,322,0,1,True
+772901,25064,sehr viele,46.51,überdurchschnittlich,619.0,privat,566,18,3,True
+772902,18944,sehr viele,56.36,unterdurchschnittlich,254.0,öffentlich,367,1,1,True
+772903,3908,wenige,40.93,weit überdurchschnittlich,94.0,öffentlich,138,0,-1,False
+772905,10147,viele,51.15,mittel,230.0,öffentlich,236,0,2,True
+772910,464,sehr wenige,43.17,überdurchschnittlich,13.0,privat,30,0,-1,False
+772911,13759,viele,53.73,unterdurchschnittlich,276.0,öffentlich,328,5,2,True
+772912,21298,sehr viele,66.05,weit unterdurchschnittlich,311.0,freigemeinnützig,409,1,3,True
+772913,11385,viele,37.83,weit überdurchschnittlich,269.0,privat,262,0,2,True
+772914,12676,viele,47.73,überdurchschnittlich,201.0,freigemeinnützig,217,0,1,True
+772915,18227,sehr viele,46.04,überdurchschnittlich,390.0,öffentlich,399,0,0,True
+772916,46223,sehr viele,45.57,überdurchschnittlich,910.0,privat,828,51,3,True
+772917,6195,mittel,55.61,unterdurchschnittlich,115.0,freigemeinnützig,185,0,1,True
+772918,51831,sehr viele,51.86,mittel,1.191,öffentlich,1226,83,3,True
+772923,1820,sehr wenige,67.48,weit unterdurchschnittlich,30.0,freigemeinnützig,40,0,1,True
+772924,15105,viele,44.82,überdurchschnittlich,377.0,privat,515,0,3,True
+772932,18176,sehr viele,61.18,weit unterdurchschnittlich,345.0,öffentlich,483,0,3,True
+772936,15930,sehr viele,69.75,weit unterdurchschnittlich,216.0,freigemeinnützig,304,0,1,True
+772937,3064,wenige,43.43,überdurchschnittlich,54.0,freigemeinnützig,96,10,0,True
+772938,2743,wenige,56.03,unterdurchschnittlich,89.0,freigemeinnützig,80,0,1,True
+772939,5061,wenige,59.7,weit unterdurchschnittlich,75.0,privat,134,0,1,True
+772940,4064,wenige,45.3,überdurchschnittlich,122.0,öffentlich,82,8,-1,False
+772941,31922,sehr viele,50.81,mittel,530.0,öffentlich,554,8,2,True
+772942,1006,sehr wenige,46.89,überdurchschnittlich,31.0,öffentlich,46,0,-1,False
+772949,7699,mittel,64.24,weit unterdurchschnittlich,130.0,freigemeinnützig,245,0,1,True
+772950,12773,viele,46.41,überdurchschnittlich,323.0,öffentlich,372,0,2,True
+772951,16217,sehr viele,41.6,weit überdurchschnittlich,250.0,öffentlich,286,0,1,True
+772952,783,sehr wenige,50.78,mittel,29.0,öffentlich,46,0,-1,False
+772953,12657,viele,50.6,mittel,201.0,freigemeinnützig,276,0,1,True
+772954,592,sehr wenige,61.23,weit unterdurchschnittlich,86.0,privat,75,0,-2,False
+772955,20084,sehr viele,37.68,weit überdurchschnittlich,458.0,privat,487,0,2,True
+772956,8914,mittel,65.18,weit unterdurchschnittlich,106.0,freigemeinnützig,173,0,2,True
+772957,13800,viele,54.83,unterdurchschnittlich,219.0,öffentlich,335,0,1,True
+772961,4860,wenige,55.96,unterdurchschnittlich,101.0,freigemeinnützig,109,0,1,True
+772962,1716,sehr wenige,97.25,weit unterdurchschnittlich,107.0,privat,123,0,-1,False
+772963,2301,wenige,51.72,mittel,50.0,privat,48,0,1,True
+772964,401,sehr wenige,54.36,unterdurchschnittlich,20.0,freigemeinnützig,18,12,-1,False
+772965,1942,wenige,68.77,weit unterdurchschnittlich,91.0,freigemeinnützig,122,0,-1,False
+772966,81,sehr wenige,49.67,mittel,33.0,privat,15,0,-1,False
+772967,1794,sehr wenige,77.51,weit unterdurchschnittlich,47.0,privat,106,20,-1,False
+772968,10481,viele,70.53,weit unterdurchschnittlich,129.0,privat,215,1,2,True
+772971,3511,wenige,59.06,weit unterdurchschnittlich,56.0,freigemeinnützig,86,0,1,True
+772972,4566,wenige,46.17,überdurchschnittlich,75.0,freigemeinnützig,180,25,-1,False
+772973,2165,wenige,52.47,mittel,30.0,freigemeinnützig,80,5,-1,False
+772974,8769,mittel,46.05,überdurchschnittlich,217.0,freigemeinnützig,194,1,1,True
+772975,3524,wenige,39.94,weit überdurchschnittlich,48.0,privat,97,0,-1,False
+772977,15547,viele,47.91,überdurchschnittlich,343.0,freigemeinnützig,530,0,2,True
+772978,15211,viele,47.93,überdurchschnittlich,373.0,öffentlich,330,70,1,True
+772982,52,sehr wenige,3.9,weit überdurchschnittlich,7.0,privat,12,0,-1,False
+772983,10830,viele,57.99,unterdurchschnittlich,141.0,öffentlich,180,0,1,True
+772984,4811,wenige,66.79,weit unterdurchschnittlich,61.0,öffentlich,86,0,1,True
+772986,4293,wenige,31.2,weit überdurchschnittlich,115.0,privat,160,6,1,True
+772987,16198,sehr viele,47.74,überdurchschnittlich,288.0,privat,338,0,3,True
+772988,30822,sehr viele,55.69,unterdurchschnittlich,722.0,öffentlich,822,19,3,True
+772989,5977,mittel,61.76,weit unterdurchschnittlich,166.0,öffentlich,240,0,1,True
+772990,5495,mittel,52.01,mittel,62.0,öffentlich,105,0,0,True
+772991,2339,wenige,52.2,mittel,55.0,öffentlich,98,0,0,True
+772992,7399,mittel,43.51,überdurchschnittlich,176.0,privat,255,6,-1,False
+772993,14313,viele,39.89,weit überdurchschnittlich,227.0,privat,286,0,1,True
+772994,3025,wenige,26.17,weit überdurchschnittlich,69.0,privat,95,0,-1,False
+772995,37659,sehr viele,49.5,mittel,745.0,öffentlich,674,69,2,True
+772996,1028,sehr wenige,44.07,überdurchschnittlich,6.0,privat,7,0,-1,False
+772997,61223,sehr viele,51.93,mittel,1.319,öffentlich,1361,36,3,True
+772998,23321,sehr viele,52.52,mittel,344.0,öffentlich,474,0,3,True
+772999,3720,wenige,42.89,weit überdurchschnittlich,79.0,öffentlich,100,0,1,True
+773000,5065,wenige,53.27,mittel,77.0,öffentlich,127,0,1,True
+773003,18832,sehr viele,68.69,weit unterdurchschnittlich,368.0,privat,514,20,3,True
+773004,1331,sehr wenige,42.44,weit überdurchschnittlich,106.0,privat,100,20,-1,False
+773005,779,sehr wenige,45.26,überdurchschnittlich,11.0,privat,28,0,1,True
+773006,11062,viele,55.98,unterdurchschnittlich,142.0,privat,197,0,2,True
+773007,6070,mittel,56.3,unterdurchschnittlich,136.0,privat,151,15,1,True
+773008,4571,wenige,59.11,weit unterdurchschnittlich,69.0,öffentlich,100,0,1,True
+773009,8425,mittel,55.38,unterdurchschnittlich,118.0,öffentlich,180,0,1,True
+773011,7456,mittel,48.85,überdurchschnittlich,121.0,privat,160,15,2,True
+773012,1668,sehr wenige,141.14,weit unterdurchschnittlich,13.0,privat,63,0,-1,False
+773014,4600,wenige,60.36,weit unterdurchschnittlich,100.0,privat,173,0,1,True
+773017,18963,sehr viele,48.93,überdurchschnittlich,328.0,öffentlich,445,0,3,True
+773026,12132,viele,54.19,unterdurchschnittlich,194.0,freigemeinnützig,297,8,2,True
+773027,9472,viele,50.94,mittel,157.0,freigemeinnützig,204,0,1,True
+773028,32108,sehr viele,60.78,weit unterdurchschnittlich,537.0,öffentlich,667,0,3,True
+773030,4942,wenige,56.46,unterdurchschnittlich,82.0,freigemeinnützig,124,0,1,True
+773031,11935,viele,49.72,mittel,205.0,freigemeinnützig,286,0,1,True
+773032,8390,mittel,43.09,überdurchschnittlich,150.0,freigemeinnützig,190,6,-1,False
+773033,21477,sehr viele,47.21,überdurchschnittlich,305.0,freigemeinnützig,382,0,2,True
+773034,6510,mittel,51.56,mittel,119.0,öffentlich,154,0,1,True
+773035,198,sehr wenige,0.0,weit überdurchschnittlich,2.0,privat,0,15,-1,False
+773037,12418,viele,42.31,weit überdurchschnittlich,267.0,privat,284,0,1,True
+773038,762,sehr wenige,30.71,weit überdurchschnittlich,3.0,privat,3,0,-1,False
+773039,5975,mittel,43.75,überdurchschnittlich,132.0,freigemeinnützig,164,0,1,True
+773048,1069,sehr wenige,38.87,weit überdurchschnittlich,33.0,privat,46,0,-1,False
+773050,9915,viele,38.75,weit überdurchschnittlich,215.0,freigemeinnützig,261,0,2,True
+773051,27757,sehr viele,47.88,überdurchschnittlich,572.0,öffentlich,594,10,3,True
+773052,2859,wenige,53.6,unterdurchschnittlich,65.0,öffentlich,89,0,1,True
+773058,12883,viele,66.88,weit unterdurchschnittlich,175.0,freigemeinnützig,308,0,1,True
+773060,7757,mittel,33.88,weit überdurchschnittlich,162.0,privat,199,0,1,True
+773062,6014,mittel,53.51,unterdurchschnittlich,125.0,öffentlich,175,0,1,True
+773063,2057,wenige,31.36,weit überdurchschnittlich,23.0,privat,39,0,-1,False
+773065,26093,sehr viele,57.44,unterdurchschnittlich,357.0,freigemeinnützig,444,0,2,True
+773066,3871,wenige,44.93,überdurchschnittlich,108.0,privat,128,0,1,True
+773070,163,sehr wenige,54.66,unterdurchschnittlich,28.0,privat,38,0,-1,False
+773073,3996,wenige,64.58,weit unterdurchschnittlich,62.0,öffentlich,117,0,1,True
+773074,1664,sehr wenige,49.11,mittel,29.0,privat,62,8,-1,False
+773075,20021,sehr viele,46.31,überdurchschnittlich,356.0,freigemeinnützig,463,2,2,True
+773076,6294,mittel,38.58,weit überdurchschnittlich,123.0,öffentlich,145,0,1,True
+773077,4676,wenige,33.17,weit überdurchschnittlich,120.0,öffentlich,120,0,1,True
+773078,9499,viele,57.69,unterdurchschnittlich,147.0,öffentlich,270,0,1,True
+773081,11071,viele,50.48,mittel,201.0,öffentlich,284,8,1,True
+773082,9038,viele,45.31,überdurchschnittlich,180.0,öffentlich,270,8,1,True
+773084,32770,sehr viele,41.96,weit überdurchschnittlich,755.0,öffentlich,738,57,2,True
+773085,6239,mittel,69.24,weit unterdurchschnittlich,88.0,privat,201,0,1,True
+773086,865,sehr wenige,49.49,mittel,17.0,privat,21,0,-1,False
+773087,41,sehr wenige,0.0,weit überdurchschnittlich,1.0,öffentlich,2,0,-1,False
+773088,34443,sehr viele,54.66,unterdurchschnittlich,769.0,öffentlich,862,60,3,True
+773091,3417,wenige,59.05,weit unterdurchschnittlich,84.0,privat,90,4,1,True
+773093,588,sehr wenige,12.6,weit überdurchschnittlich,6.0,privat,8,0,-1,False
+773094,15553,viele,43.24,überdurchschnittlich,329.0,privat,391,5,2,True
+773095,6481,mittel,79.88,weit unterdurchschnittlich,64.0,privat,109,0,1,True
+773096,8047,mittel,51.67,mittel,139.0,öffentlich,176,2,1,True
+773097,1428,sehr wenige,61.32,weit unterdurchschnittlich,66.0,freigemeinnützig,90,0,-1,False
+773098,730,sehr wenige,48.27,überdurchschnittlich,14.0,freigemeinnützig,39,0,-1,False
+773101,367,sehr wenige,31.15,weit überdurchschnittlich,10.0,freigemeinnützig,20,0,-1,False
+773105,5727,mittel,50.34,mittel,158.0,freigemeinnützig,161,0,0,True
+773107,8831,mittel,58.0,unterdurchschnittlich,134.0,öffentlich,142,0,1,True
+773108,6214,mittel,42.59,weit überdurchschnittlich,83.0,öffentlich,75,10,-1,False
+773109,8829,mittel,61.69,weit unterdurchschnittlich,147.0,freigemeinnützig,238,0,1,True
+773111,11697,viele,43.81,überdurchschnittlich,139.0,privat,176,0,0,True
+773115,11175,viele,51.99,mittel,181.0,freigemeinnützig,266,3,1,True
+773116,11474,viele,51.25,mittel,276.0,freigemeinnützig,246,0,2,True
+773119,2014,wenige,34.15,weit überdurchschnittlich,78.0,privat,60,0,1,True
+773125,16357,sehr viele,66.08,weit unterdurchschnittlich,199.0,freigemeinnützig,360,0,2,True
+773126,10692,viele,52.52,mittel,179.0,öffentlich,263,0,1,True
+773129,2012,wenige,58.41,unterdurchschnittlich,52.0,freigemeinnützig,110,0,-1,False
+773132,39765,sehr viele,52.38,mittel,829.0,privat,915,15,3,True
+773137,24438,sehr viele,58.02,unterdurchschnittlich,369.0,öffentlich,356,0,3,True
+773140,22659,sehr viele,48.04,überdurchschnittlich,379.0,freigemeinnützig,513,32,2,True
+773142,1314,sehr wenige,45.46,überdurchschnittlich,27.0,privat,45,0,-1,False
+773152,7914,mittel,44.64,überdurchschnittlich,172.0,privat,212,0,1,True
+773153,3875,wenige,52.69,mittel,120.0,privat,136,0,1,True
+773154,3385,wenige,54.16,unterdurchschnittlich,74.0,privat,155,0,0,True
+773155,9412,viele,49.56,mittel,218.0,freigemeinnützig,268,25,1,True
+773158,6337,mittel,39.84,weit überdurchschnittlich,164.0,privat,175,0,1,True
+773162,4271,wenige,55.39,unterdurchschnittlich,124.0,freigemeinnützig,170,0,0,True
+773163,1440,sehr wenige,23.98,weit überdurchschnittlich,30.0,privat,40,0,-1,False
+773164,18608,sehr viele,56.4,unterdurchschnittlich,321.0,freigemeinnützig,434,0,1,True
+773165,5546,mittel,59.84,weit unterdurchschnittlich,170.0,freigemeinnützig,144,0,-1,False
+773166,4030,wenige,61.53,weit unterdurchschnittlich,95.0,freigemeinnützig,126,1,-1,False
+773167,4517,wenige,57.06,unterdurchschnittlich,130.0,freigemeinnützig,188,25,-1,False
+773168,13620,viele,54.57,unterdurchschnittlich,237.0,freigemeinnützig,288,13,1,True
+773169,19678,sehr viele,35.15,weit überdurchschnittlich,450.0,privat,500,0,3,True
+773170,19829,sehr viele,55.6,unterdurchschnittlich,226.0,öffentlich,300,4,2,True
+773171,1416,sehr wenige,28.76,weit überdurchschnittlich,12.0,öffentlich,12,0,-1,False
+773172,3956,wenige,55.66,unterdurchschnittlich,64.0,öffentlich,100,0,1,True
+773173,7881,mittel,53.19,mittel,126.0,öffentlich,168,0,1,True
+773174,9065,viele,41.81,weit überdurchschnittlich,212.0,privat,236,14,2,True
+773176,10019,viele,59.42,weit unterdurchschnittlich,176.0,freigemeinnützig,237,15,1,True
+773177,5226,mittel,53.05,mittel,80.0,privat,172,5,1,True
+773179,37869,sehr viele,53.75,unterdurchschnittlich,720.0,öffentlich,758,37,3,True
+773181,21490,sehr viele,42.32,weit überdurchschnittlich,376.0,öffentlich,352,13,1,True
+773182,9521,viele,45.05,überdurchschnittlich,182.0,öffentlich,187,0,1,True
+773183,33502,sehr viele,54.82,unterdurchschnittlich,761.0,öffentlich,610,35,3,True
+773184,21059,sehr viele,51.51,mittel,348.0,öffentlich,354,41,1,True
+773185,3690,wenige,48.51,überdurchschnittlich,145.0,öffentlich,134,0,-1,False
+773186,20646,sehr viele,50.48,mittel,420.0,öffentlich,478,13,3,True
+773187,15829,viele,45.8,überdurchschnittlich,427.0,öffentlich,435,21,2,True
+773194,2134,wenige,75.21,weit unterdurchschnittlich,86.0,öffentlich,98,16,-1,False
+773195,5535,mittel,54.85,unterdurchschnittlich,110.0,öffentlich,109,0,1,True
+773196,5743,mittel,35.9,weit überdurchschnittlich,116.0,freigemeinnützig,171,0,-1,False
+773197,10961,viele,50.93,mittel,269.0,freigemeinnützig,265,0,2,True
+773198,7557,mittel,41.42,weit überdurchschnittlich,99.0,freigemeinnützig,132,0,-1,False
+773199,18449,sehr viele,44.85,überdurchschnittlich,334.0,freigemeinnützig,424,0,2,True
+773200,12548,viele,62.24,weit unterdurchschnittlich,190.0,freigemeinnützig,247,0,1,True
+773201,19935,sehr viele,63.61,weit unterdurchschnittlich,351.0,privat,499,26,3,True
+773202,5773,mittel,58.71,unterdurchschnittlich,105.0,privat,165,3,1,True
+773203,15864,sehr viele,48.27,überdurchschnittlich,305.0,öffentlich,407,4,2,True
+773204,13789,viele,52.97,mittel,192.0,freigemeinnützig,293,0,1,True
+773208,1971,wenige,41.11,weit überdurchschnittlich,35.0,öffentlich,45,5,1,True
+773210,10256,viele,49.29,mittel,231.0,freigemeinnützig,320,0,1,True
+773217,1874,wenige,49.74,mittel,18.0,öffentlich,27,0,-1,False
+773218,7529,mittel,65.8,weit unterdurchschnittlich,95.0,öffentlich,198,0,1,True
+773220,801,sehr wenige,54.49,unterdurchschnittlich,13.0,freigemeinnützig,40,0,-1,False
+773221,16655,sehr viele,46.56,überdurchschnittlich,308.0,öffentlich,329,1,2,True
+773222,1670,sehr wenige,75.28,weit unterdurchschnittlich,36.0,öffentlich,43,0,1,True
+773225,8525,mittel,49.94,mittel,129.0,öffentlich,109,0,1,True
+773227,12935,viele,48.54,überdurchschnittlich,246.0,privat,349,18,1,True
+773228,1699,sehr wenige,55.59,unterdurchschnittlich,22.0,privat,25,12,-1,False
+773229,31588,sehr viele,54.28,unterdurchschnittlich,514.0,privat,607,0,3,True
+773230,2794,wenige,49.53,mittel,43.0,öffentlich,72,0,1,True
+773233,30682,sehr viele,70.51,weit unterdurchschnittlich,439.0,freigemeinnützig,712,29,3,True
+773235,24658,sehr viele,52.86,mittel,552.0,öffentlich,655,0,3,True
+773238,14195,viele,62.79,weit unterdurchschnittlich,479.0,öffentlich,449,0,2,True
+773242,8650,mittel,48.11,überdurchschnittlich,114.0,freigemeinnützig,199,0,1,True
+773244,24614,sehr viele,58.28,unterdurchschnittlich,376.0,öffentlich,595,20,3,True
+773245,329,sehr wenige,95.19,weit unterdurchschnittlich,75.0,öffentlich,42,0,-1,False
+773249,30792,sehr viele,47.69,überdurchschnittlich,633.0,öffentlich,701,20,3,True
+773250,4302,wenige,61.64,weit unterdurchschnittlich,60.0,öffentlich,100,0,1,True
+773258,119,sehr wenige,43.01,überdurchschnittlich,26.0,freigemeinnützig,22,0,-1,False
+773259,6728,mittel,47.39,überdurchschnittlich,302.0,öffentlich,284,0,2,True
+773268,1180,sehr wenige,48.66,überdurchschnittlich,63.0,privat,44,0,1,True
+773269,9765,viele,43.39,überdurchschnittlich,158.0,privat,210,0,2,True
+773270,4162,wenige,37.29,weit überdurchschnittlich,104.0,privat,145,0,1,True
+773271,26636,sehr viele,66.43,weit unterdurchschnittlich,457.0,freigemeinnützig,578,12,3,True
+773272,2796,wenige,113.74,weit unterdurchschnittlich,61.0,freigemeinnützig,71,0,1,True
+773273,10200,viele,46.94,überdurchschnittlich,129.0,öffentlich,135,0,1,True
+773274,7812,mittel,40.25,weit überdurchschnittlich,150.0,öffentlich,155,0,0,True
+773277,11156,viele,47.45,überdurchschnittlich,181.0,freigemeinnützig,261,0,1,True
+773278,9048,viele,47.7,überdurchschnittlich,138.0,freigemeinnützig,235,0,1,True
+773279,11446,viele,54.9,unterdurchschnittlich,188.0,freigemeinnützig,262,0,1,True
+773280,1413,sehr wenige,33.08,weit überdurchschnittlich,44.0,freigemeinnützig,85,0,-1,False
+773281,4832,wenige,49.11,mittel,83.0,freigemeinnützig,120,0,1,True
+773287,19775,sehr viele,66.58,weit unterdurchschnittlich,291.0,freigemeinnützig,400,14,2,True
+773289,11775,viele,59.35,weit unterdurchschnittlich,194.0,freigemeinnützig,303,0,1,True
+773290,8174,mittel,55.46,unterdurchschnittlich,106.0,freigemeinnützig,166,0,1,True
+773291,5165,mittel,53.16,mittel,96.0,freigemeinnützig,147,0,1,True
+773298,18416,sehr viele,55.11,unterdurchschnittlich,235.0,freigemeinnützig,383,12,3,True
+773299,2727,wenige,52.07,mittel,40.0,freigemeinnützig,98,4,1,True
+773300,5990,mittel,56.2,unterdurchschnittlich,73.0,freigemeinnützig,128,0,1,True
+773301,1513,sehr wenige,70.24,weit unterdurchschnittlich,54.0,freigemeinnützig,108,12,-1,False
+773303,27005,sehr viele,55.06,unterdurchschnittlich,473.0,freigemeinnützig,628,1,3,True
+773304,3524,wenige,23.27,weit überdurchschnittlich,36.0,freigemeinnützig,47,0,0,True
+773305,8266,mittel,58.36,unterdurchschnittlich,101.0,privat,193,0,2,True
+773306,2558,wenige,27.7,weit überdurchschnittlich,77.0,öffentlich,80,0,1,True
+773307,631,sehr wenige,39.13,weit überdurchschnittlich,15.0,privat,22,0,0,True
+773308,2705,wenige,50.13,mittel,138.0,freigemeinnützig,135,0,2,True
+773309,12726,viele,55.53,unterdurchschnittlich,178.0,öffentlich,218,12,1,True
+773310,7487,mittel,45.68,überdurchschnittlich,88.0,freigemeinnützig,174,4,0,True
+773313,2359,wenige,33.12,weit überdurchschnittlich,35.0,privat,47,3,-1,False
+773314,1297,sehr wenige,35.2,weit überdurchschnittlich,42.0,privat,50,0,0,True
+773315,1551,sehr wenige,49.47,mittel,25.0,öffentlich,51,0,-1,False
+773318,14495,viele,40.62,weit überdurchschnittlich,312.0,öffentlich,318,0,1,True
+773321,6112,mittel,54.69,unterdurchschnittlich,210.0,öffentlich,242,15,0,True
+773322,217,sehr wenige,91.16,weit unterdurchschnittlich,15.0,privat,20,0,-1,False
+773323,9658,viele,50.99,mittel,155.0,öffentlich,200,0,1,True
+773325,16442,sehr viele,68.01,weit unterdurchschnittlich,196.0,privat,372,15,2,True
+773326,32855,sehr viele,53.05,mittel,676.0,öffentlich,785,0,3,True
+773332,1419,sehr wenige,62.36,weit unterdurchschnittlich,393.0,privat,150,0,-1,False
+773335,544,sehr wenige,29.13,weit überdurchschnittlich,3.0,privat,20,0,-1,False
+773338,7394,mittel,51.9,mittel,118.0,privat,165,0,1,True
+773339,2457,wenige,55.6,unterdurchschnittlich,33.0,privat,65,0,-1,False
+773340,6116,mittel,55.04,unterdurchschnittlich,107.0,privat,166,3,1,True
+773341,9000,mittel,64.11,weit unterdurchschnittlich,133.0,freigemeinnützig,259,0,2,True
+773342,11927,viele,52.59,mittel,156.0,privat,257,0,1,True
+773343,5059,wenige,62.95,weit unterdurchschnittlich,81.0,öffentlich,124,0,1,True
+773344,9297,viele,47.75,überdurchschnittlich,110.0,öffentlich,130,0,1,True
+773345,1481,sehr wenige,31.33,weit überdurchschnittlich,8.0,privat,11,0,-1,False
+773346,3757,wenige,54.56,unterdurchschnittlich,85.0,öffentlich,133,0,1,True
+773347,13714,viele,53.64,unterdurchschnittlich,221.0,öffentlich,350,0,2,True
+773351,463,sehr wenige,69.47,weit unterdurchschnittlich,110.0,privat,120,0,-1,False
+773353,27,sehr wenige,86.16,weit unterdurchschnittlich,7.0,privat,15,0,-1,False
+773354,6484,mittel,49.65,mittel,98.0,öffentlich,163,0,1,True
+773355,8170,mittel,53.95,unterdurchschnittlich,116.0,öffentlich,177,0,1,True
+773356,2144,wenige,55.5,unterdurchschnittlich,67.0,öffentlich,90,0,-1,False
+773357,26872,sehr viele,43.89,überdurchschnittlich,435.0,privat,600,8,3,True
+773358,252,sehr wenige,40.96,weit überdurchschnittlich,43.0,privat,25,0,-1,False
+773361,15717,viele,49.61,mittel,263.0,öffentlich,345,0,2,True
+773362,1400,sehr wenige,82.86,weit unterdurchschnittlich,29.0,privat,61,0,-1,False
+773363,1040,sehr wenige,79.39,weit unterdurchschnittlich,143.0,privat,132,0,-1,False
+773364,6748,mittel,49.2,mittel,111.0,öffentlich,178,0,1,True
+773367,184,sehr wenige,38.74,weit überdurchschnittlich,49.0,öffentlich,38,0,-1,False
+773368,1443,sehr wenige,61.4,weit unterdurchschnittlich,48.0,privat,100,0,-1,False
+773369,10029,viele,38.48,weit überdurchschnittlich,190.0,privat,205,0,1,True
+773370,7052,mittel,40.12,weit überdurchschnittlich,146.0,freigemeinnützig,145,0,0,True
+773371,35542,sehr viele,48.85,überdurchschnittlich,671.0,öffentlich,635,29,3,True
+773372,10973,viele,42.67,weit überdurchschnittlich,197.0,öffentlich,212,8,2,True
+773373,667,sehr wenige,36.56,weit überdurchschnittlich,41.0,öffentlich,65,0,-1,False
+773374,5157,mittel,48.17,überdurchschnittlich,88.0,privat,138,0,1,True
+773375,4934,wenige,38.29,weit überdurchschnittlich,76.0,privat,104,0,1,True
+773383,2878,wenige,72.42,weit unterdurchschnittlich,114.0,freigemeinnützig,137,25,0,True
+773384,5946,mittel,45.43,überdurchschnittlich,109.0,freigemeinnützig,174,0,1,True
+773385,2115,wenige,53.64,unterdurchschnittlich,47.0,freigemeinnützig,110,0,-1,False
+773386,3957,wenige,47.35,überdurchschnittlich,70.0,privat,119,0,1,True
+773387,3465,wenige,45.36,überdurchschnittlich,82.0,privat,161,5,1,True
+773388,6302,mittel,52.36,mittel,132.0,privat,169,0,1,True
+773389,6627,mittel,45.47,überdurchschnittlich,117.0,privat,201,14,1,True
+773391,15600,viele,59.02,weit unterdurchschnittlich,331.0,freigemeinnützig,387,10,2,True
+773401,152,sehr wenige,19.49,weit überdurchschnittlich,9.0,öffentlich,25,0,-1,False
+773403,27691,sehr viele,51.45,mittel,526.0,privat,617,59,2,True
+773405,17135,sehr viele,53.77,unterdurchschnittlich,346.0,freigemeinnützig,420,0,3,True
+773407,10729,viele,47.28,überdurchschnittlich,182.0,öffentlich,227,0,1,True
+773410,46096,sehr viele,51.41,mittel,1.189,öffentlich,1285,21,3,True
+773411,45749,sehr viele,57.93,unterdurchschnittlich,1.126,privat,1103,34,3,True
+773413,255,sehr wenige,41.31,weit überdurchschnittlich,17.0,privat,24,0,0,True
+773416,551,sehr wenige,37.58,weit überdurchschnittlich,25.0,privat,24,0,0,True
+773417,1203,sehr wenige,38.58,weit überdurchschnittlich,19.0,öffentlich,35,8,0,True
+773418,5877,mittel,71.33,weit unterdurchschnittlich,50.0,privat,96,8,0,True
+773419,16774,sehr viele,81.69,weit unterdurchschnittlich,136.0,privat,273,0,2,True
+773425,2005,wenige,50.43,mittel,58.0,privat,45,0,1,True
+773426,640,sehr wenige,30.85,weit überdurchschnittlich,8.0,privat,15,0,-1,False
+773427,1039,sehr wenige,54.99,unterdurchschnittlich,51.0,freigemeinnützig,76,13,0,True
+773430,25802,sehr viele,50.67,mittel,495.0,freigemeinnützig,706,9,2,True
+773431,8926,mittel,40.17,weit überdurchschnittlich,156.0,privat,225,0,1,True
+773434,1548,sehr wenige,64.19,weit unterdurchschnittlich,49.0,freigemeinnützig,84,19,-1,False
+773436,7433,mittel,81.32,weit unterdurchschnittlich,101.0,öffentlich,213,0,1,True
+773437,5715,mittel,59.15,weit unterdurchschnittlich,84.0,freigemeinnützig,195,0,1,True
+773438,17448,sehr viele,49.76,mittel,277.0,öffentlich,309,0,2,True
+773441,582,sehr wenige,26.8,weit überdurchschnittlich,9.0,freigemeinnützig,17,0,-1,False
+773443,4484,wenige,51.65,mittel,50.0,freigemeinnützig,100,0,-1,False
+773444,59155,sehr viele,53.54,unterdurchschnittlich,1.467,öffentlich,1326,68,3,True
+773445,3628,wenige,53.31,mittel,76.0,öffentlich,108,15,1,True
+773446,24032,sehr viele,47.59,überdurchschnittlich,440.0,privat,500,21,3,True
+773447,50939,sehr viele,59.77,weit unterdurchschnittlich,971.0,öffentlich,977,94,3,True
+773448,49673,sehr viele,52.9,mittel,1.129,öffentlich,989,81,3,True
+773450,3500,wenige,57.72,unterdurchschnittlich,51.0,privat,181,0,1,True
+773452,10105,viele,68.32,weit unterdurchschnittlich,58.0,privat,194,0,-1,False
+773453,2977,wenige,37.07,weit überdurchschnittlich,26.0,privat,36,0,-1,False
+773457,345,sehr wenige,33.21,weit überdurchschnittlich,10.0,freigemeinnützig,20,0,-1,False
+773458,6460,mittel,64.56,weit unterdurchschnittlich,83.0,öffentlich,130,0,1,True
+773459,7597,mittel,69.63,weit unterdurchschnittlich,78.0,öffentlich,148,0,1,True
+773460,13901,viele,56.66,unterdurchschnittlich,227.0,öffentlich,336,12,3,True
+773463,29260,sehr viele,44.39,überdurchschnittlich,676.0,privat,654,51,3,True
+773465,475,sehr wenige,58.12,unterdurchschnittlich,112.0,privat,100,0,-1,False
+773466,792,sehr wenige,121.78,weit unterdurchschnittlich,30.0,privat,70,0,0,True
+773467,2720,wenige,89.34,weit unterdurchschnittlich,36.0,privat,60,0,-1,False
+773468,2849,wenige,38.88,weit überdurchschnittlich,64.0,freigemeinnützig,101,0,1,True
+773470,6196,mittel,50.09,mittel,96.0,öffentlich,153,0,1,True
+773471,8589,mittel,44.5,überdurchschnittlich,141.0,privat,203,0,1,True
+773475,1001,sehr wenige,39.4,weit überdurchschnittlich,8.0,privat,11,0,-1,False
+773476,5990,mittel,49.21,mittel,104.0,öffentlich,131,0,1,True
+773477,147,sehr wenige,38.4,weit überdurchschnittlich,38.0,privat,35,0,-1,False
+773479,16739,sehr viele,50.65,mittel,336.0,öffentlich,447,5,3,True
+773480,4891,wenige,40.78,weit überdurchschnittlich,137.0,freigemeinnützig,140,10,1,True
+773481,3785,wenige,75.88,weit unterdurchschnittlich,15.0,privat,51,0,-1,False
+773482,13587,viele,41.09,weit überdurchschnittlich,186.0,freigemeinnützig,174,2,1,True
+773485,54,sehr wenige,53.42,mittel,9.0,freigemeinnützig,10,0,-1,False
+773486,72,sehr wenige,23.67,weit überdurchschnittlich,7.0,freigemeinnützig,5,0,-1,False
+773487,12843,viele,51.1,mittel,206.0,freigemeinnützig,266,8,1,True
+773490,987,sehr wenige,56.51,unterdurchschnittlich,175.0,freigemeinnützig,134,0,1,True
+773491,53855,sehr viele,49.84,mittel,1.566,öffentlich,1300,33,3,True
+773492,5491,mittel,52.6,mittel,98.0,öffentlich,141,0,1,True
+773493,1295,sehr wenige,107.37,weit unterdurchschnittlich,61.0,privat,88,0,-1,False
+773494,394,sehr wenige,58.0,unterdurchschnittlich,55.0,privat,55,0,-1,False
+773499,1546,sehr wenige,89.18,weit unterdurchschnittlich,93.0,privat,80,0,-1,False
+773500,10519,viele,64.83,weit unterdurchschnittlich,219.0,freigemeinnützig,295,1,2,True
+773504,2040,wenige,57.63,unterdurchschnittlich,19.0,privat,26,0,-1,False
+773505,1598,sehr wenige,59.71,weit unterdurchschnittlich,13.0,privat,28,0,-1,False
+773506,6894,mittel,63.94,weit unterdurchschnittlich,137.0,freigemeinnützig,174,16,1,True
+773508,1602,sehr wenige,194.96,weit unterdurchschnittlich,21.0,privat,133,0,-1,False
+773510,995,sehr wenige,59.19,weit unterdurchschnittlich,98.0,freigemeinnützig,66,5,-1,False
+773511,5325,mittel,52.1,mittel,85.0,freigemeinnützig,115,0,1,True
+773512,1157,sehr wenige,38.72,weit überdurchschnittlich,45.0,freigemeinnützig,27,0,1,True
+773513,37808,sehr viele,45.5,überdurchschnittlich,990.0,öffentlich,753,54,3,True
+773514,18581,sehr viele,55.52,unterdurchschnittlich,356.0,öffentlich,441,29,3,True
+773515,226,sehr wenige,7.17,weit überdurchschnittlich,8.0,öffentlich,16,0,-1,False
+773516,6899,mittel,59.69,weit unterdurchschnittlich,177.0,öffentlich,231,0,2,True
+773517,2112,wenige,39.8,weit überdurchschnittlich,20.0,freigemeinnützig,40,0,-1,False
+773518,22099,sehr viele,72.55,weit unterdurchschnittlich,288.0,freigemeinnützig,416,34,2,True
+773519,10736,viele,57.34,unterdurchschnittlich,246.0,freigemeinnützig,308,12,2,True
+773520,10563,viele,56.72,unterdurchschnittlich,131.0,freigemeinnützig,182,0,1,True
+773521,2866,wenige,51.76,mittel,65.0,freigemeinnützig,89,0,1,True
+773522,2761,wenige,47.27,überdurchschnittlich,47.0,freigemeinnützig,71,0,-1,False
+773531,9921,viele,40.97,weit überdurchschnittlich,231.0,privat,238,0,2,True
+773533,8833,mittel,41.6,weit überdurchschnittlich,204.0,öffentlich,134,6,1,True
+773536,14849,viele,62.0,weit unterdurchschnittlich,161.0,öffentlich,272,0,0,True
+773538,2195,wenige,39.19,weit überdurchschnittlich,38.0,privat,67,0,-1,False
+773540,761,sehr wenige,39.0,weit überdurchschnittlich,34.0,privat,56,0,-1,False
+773541,962,sehr wenige,80.55,weit unterdurchschnittlich,14.0,privat,49,0,-1,False
+773542,12829,viele,39.22,weit überdurchschnittlich,246.0,privat,293,0,2,True
+773543,14246,viele,43.31,überdurchschnittlich,264.0,privat,298,0,2,True
+773544,9855,viele,47.23,überdurchschnittlich,229.0,privat,325,20,2,True
+773547,6989,mittel,50.4,mittel,101.0,öffentlich,158,0,1,True
+773548,4190,wenige,50.77,mittel,62.0,öffentlich,96,12,1,True
+773549,800,sehr wenige,27.72,weit überdurchschnittlich,14.0,privat,22,0,-1,False
+773550,2745,wenige,33.67,weit überdurchschnittlich,38.0,privat,63,0,-1,False
+773551,12995,viele,52.7,mittel,208.0,freigemeinnützig,413,0,1,True
+773553,1054,sehr wenige,45.72,überdurchschnittlich,27.0,privat,63,0,-1,False
+773554,351,sehr wenige,54.34,unterdurchschnittlich,104.0,privat,64,0,-1,False
+773555,2106,wenige,59.97,weit unterdurchschnittlich,44.0,privat,90,0,-1,False
+773559,9881,viele,61.13,weit unterdurchschnittlich,154.0,privat,225,0,1,True
+773560,193,sehr wenige,12.89,weit überdurchschnittlich,4.0,privat,10,0,-1,False
+773566,239,sehr wenige,41.88,weit überdurchschnittlich,50.0,privat,45,0,0,True
+773567,1183,sehr wenige,70.49,weit unterdurchschnittlich,22.0,freigemeinnützig,62,0,-1,False
+773569,1895,wenige,57.83,unterdurchschnittlich,88.0,freigemeinnützig,67,3,-1,False
+773573,4754,wenige,51.07,mittel,119.0,öffentlich,145,0,1,True
+773574,38132,sehr viele,63.66,weit unterdurchschnittlich,610.0,öffentlich,780,0,3,True
+773575,1215,sehr wenige,47.97,überdurchschnittlich,28.0,freigemeinnützig,40,0,-1,False
+773576,933,sehr wenige,52.19,mittel,15.0,privat,35,0,-1,False
+773577,821,sehr wenige,17.17,weit überdurchschnittlich,7.0,privat,99,0,0,True
+773578,2794,wenige,54.52,unterdurchschnittlich,44.0,privat,96,0,1,True
+773582,6506,mittel,46.14,überdurchschnittlich,123.0,privat,165,0,1,True
+773583,6467,mittel,45.95,überdurchschnittlich,138.0,öffentlich,200,0,1,True
+773584,5571,mittel,24.75,weit überdurchschnittlich,149.0,freigemeinnützig,122,0,2,True
+773585,444,sehr wenige,173.17,weit unterdurchschnittlich,23.0,freigemeinnützig,10,0,2,True
+773586,32662,sehr viele,55.58,unterdurchschnittlich,641.0,öffentlich,798,28,2,True
+773587,107,sehr wenige,0.0,weit überdurchschnittlich,3.0,öffentlich,0,15,-2,False
+773589,32382,sehr viele,52.71,mittel,827.0,öffentlich,790,43,3,True
+773593,136,sehr wenige,28.96,weit überdurchschnittlich,6.0,freigemeinnützig,6,0,-1,False
+773594,10228,viele,39.68,weit überdurchschnittlich,201.0,öffentlich,248,0,2,True
+773597,2441,wenige,59.48,weit unterdurchschnittlich,48.0,öffentlich,51,4,-1,False
+773598,5709,mittel,39.26,weit überdurchschnittlich,102.0,freigemeinnützig,123,0,-1,False
+773601,6301,mittel,38.84,weit überdurchschnittlich,140.0,privat,172,0,2,True
+773602,393,sehr wenige,59.99,weit unterdurchschnittlich,14.0,privat,20,0,-1,False
+773603,104,sehr wenige,72.94,weit unterdurchschnittlich,18.0,privat,24,0,-1,False
+773608,48362,sehr viele,49.42,mittel,1.132,privat,1141,42,3,True
+773609,1399,sehr wenige,39.88,weit überdurchschnittlich,31.0,freigemeinnützig,69,0,-1,False
+773610,1591,sehr wenige,35.29,weit überdurchschnittlich,22.0,öffentlich,40,0,-1,False
+773612,3913,wenige,45.08,überdurchschnittlich,72.0,öffentlich,100,0,1,True
+773613,6453,mittel,50.89,mittel,78.0,öffentlich,120,0,1,True
+773614,18168,sehr viele,42.56,weit überdurchschnittlich,363.0,öffentlich,390,4,3,True
+773615,1977,wenige,48.74,überdurchschnittlich,47.0,freigemeinnützig,65,0,-1,False
+773616,4667,wenige,48.66,überdurchschnittlich,71.0,freigemeinnützig,180,0,1,True
+773617,16909,sehr viele,57.96,unterdurchschnittlich,312.0,öffentlich,341,0,2,True
+773618,7991,mittel,41.63,weit überdurchschnittlich,102.0,freigemeinnützig,135,0,-1,False
+773619,10301,viele,69.28,weit unterdurchschnittlich,123.0,öffentlich,255,0,1,True
+773620,10042,viele,60.6,weit unterdurchschnittlich,114.0,öffentlich,172,8,1,True
+773621,1515,sehr wenige,53.8,unterdurchschnittlich,47.0,öffentlich,62,0,-1,False
+773622,716,sehr wenige,42.22,weit überdurchschnittlich,9.0,öffentlich,10,0,1,True
+773623,629,sehr wenige,192.74,weit unterdurchschnittlich,19.0,privat,80,0,-1,False
+773624,509,sehr wenige,150.32,weit unterdurchschnittlich,13.0,privat,60,0,-1,False
+773625,7443,mittel,58.72,unterdurchschnittlich,114.0,öffentlich,192,0,1,True
+773626,1477,sehr wenige,47.44,überdurchschnittlich,65.0,öffentlich,100,15,-2,False
+773628,3090,wenige,57.98,unterdurchschnittlich,63.0,öffentlich,95,0,-1,False
+773629,1735,sehr wenige,51.28,mittel,63.0,privat,108,0,-1,False
+773630,1681,sehr wenige,51.52,mittel,23.0,öffentlich,45,0,-1,False
+773631,4972,wenige,49.06,überdurchschnittlich,23.0,privat,52,0,-1,False
+773632,5147,mittel,38.73,weit überdurchschnittlich,101.0,öffentlich,117,0,-1,False
+773636,134,sehr wenige,40.02,weit überdurchschnittlich,29.0,privat,25,0,-1,False
+773637,2905,wenige,54.95,unterdurchschnittlich,72.0,privat,90,36,-1,False
+773638,2550,wenige,46.56,überdurchschnittlich,45.0,öffentlich,58,0,1,True
+773639,102,sehr wenige,110.4,weit unterdurchschnittlich,37.0,privat,20,0,-1,False
+773640,150,sehr wenige,58.51,unterdurchschnittlich,23.0,privat,25,0,-1,False
+773641,25163,sehr viele,59.11,weit unterdurchschnittlich,535.0,freigemeinnützig,538,0,3,True
+773642,70430,sehr viele,43.73,überdurchschnittlich,1.3,öffentlich,1206,56,3,True
+773645,671,sehr wenige,50.65,mittel,16.0,öffentlich,30,0,-1,False
+773646,8839,mittel,47.24,überdurchschnittlich,147.0,öffentlich,165,0,1,True
+773649,423,sehr wenige,27.22,weit überdurchschnittlich,10.0,öffentlich,20,0,-1,False
+773650,11808,viele,55.64,unterdurchschnittlich,238.0,freigemeinnützig,321,12,2,True
+773652,176,sehr wenige,68.27,weit unterdurchschnittlich,23.0,privat,25,0,-1,False
+773653,186,sehr wenige,48.82,überdurchschnittlich,26.0,privat,17,0,-1,False
+773655,984,sehr wenige,38.6,weit überdurchschnittlich,44.0,privat,55,0,-1,False
+773656,2016,wenige,50.58,mittel,13.0,privat,22,0,-1,False
+773657,68215,sehr viele,45.71,überdurchschnittlich,1.745,öffentlich,1444,99,3,True
+773658,3271,wenige,44.25,überdurchschnittlich,41.0,öffentlich,48,10,-1,False
+773659,42626,sehr viele,59.13,weit unterdurchschnittlich,853.0,öffentlich,963,10,3,True
+773660,14188,viele,63.31,weit unterdurchschnittlich,363.0,öffentlich,445,0,2,True
+773663,1491,sehr wenige,101.61,weit unterdurchschnittlich,20.0,privat,70,0,-1,False
+773664,750,sehr wenige,17.09,weit überdurchschnittlich,18.0,privat,15,0,-1,False
+773666,6179,mittel,38.65,weit überdurchschnittlich,132.0,öffentlich,107,2,-1,False
+773667,32997,sehr viele,46.49,überdurchschnittlich,861.0,öffentlich,777,20,3,True
+773668,14244,viele,55.02,unterdurchschnittlich,214.0,freigemeinnützig,300,10,1,True
+773670,11709,viele,175.3,weit unterdurchschnittlich,11.0,privat,30,24,-1,False
+773673,8200,mittel,39.13,weit überdurchschnittlich,120.0,privat,204,0,-1,False
+773674,6529,mittel,44.59,überdurchschnittlich,121.0,privat,160,0,1,True
+773675,70398,sehr viele,50.02,mittel,1.703,öffentlich,1500,86,3,True
+773680,13343,viele,58.95,unterdurchschnittlich,322.0,freigemeinnützig,376,40,1,True
+773685,29089,sehr viele,56.84,unterdurchschnittlich,702.0,öffentlich,668,17,3,True
+773686,58687,sehr viele,58.38,unterdurchschnittlich,1.546,öffentlich,1213,72,3,True
+773690,36598,sehr viele,66.55,weit unterdurchschnittlich,574.0,freigemeinnützig,816,4,3,True
+773692,197,sehr wenige,67.2,weit unterdurchschnittlich,13.0,freigemeinnützig,8,0,-1,False
+773693,13429,viele,48.09,überdurchschnittlich,234.0,freigemeinnützig,187,31,3,True
+773694,7266,mittel,51.12,mittel,94.0,freigemeinnützig,108,0,1,True
+773702,2052,wenige,38.31,weit überdurchschnittlich,21.0,privat,30,0,-1,False
+773703,114,sehr wenige,0.0,weit überdurchschnittlich,0.0,privat,4,2,-1,False
+773704,4542,wenige,36.44,weit überdurchschnittlich,39.0,freigemeinnützig,40,0,-2,False
+773706,1002,sehr wenige,36.23,weit überdurchschnittlich,8.0,privat,30,0,-1,False
+773709,10304,viele,50.34,mittel,185.0,freigemeinnützig,349,0,1,True
+773710,1966,wenige,164.09,weit unterdurchschnittlich,17.0,privat,68,0,-1,False
+773712,22863,sehr viele,39.3,weit überdurchschnittlich,378.0,öffentlich,346,22,3,True
+773713,26646,sehr viele,59.41,weit unterdurchschnittlich,550.0,öffentlich,689,38,2,True
+773714,1961,wenige,54.86,unterdurchschnittlich,41.0,freigemeinnützig,68,0,1,True
+773716,245,sehr wenige,18.92,weit überdurchschnittlich,4.0,privat,3,0,-1,False
+773719,2450,wenige,85.18,weit unterdurchschnittlich,20.0,privat,80,0,-1,False
+773720,1605,sehr wenige,65.51,weit unterdurchschnittlich,17.0,privat,15,0,-1,False
+773721,2404,wenige,34.31,weit überdurchschnittlich,98.0,privat,35,18,-1,False
+773722,1999,wenige,31.3,weit überdurchschnittlich,13.0,privat,15,0,-2,False
+773723,247,sehr wenige,55.1,unterdurchschnittlich,14.0,öffentlich,20,0,-1,False
+773724,1072,sehr wenige,30.56,weit überdurchschnittlich,9.0,privat,13,0,-1,False
+773727,1784,sehr wenige,28.48,weit überdurchschnittlich,17.0,privat,16,0,-1,False
+773728,790,sehr wenige,27.0,weit überdurchschnittlich,5.0,privat,5,0,-1,False
+773732,184,sehr wenige,0.0,weit überdurchschnittlich,0.0,privat,0,1,-1,False
+773735,960,sehr wenige,23.35,weit überdurchschnittlich,11.0,privat,32,0,-1,False
+773737,425,sehr wenige,59.26,weit unterdurchschnittlich,18.0,privat,40,0,-1,False
+773738,8238,mittel,37.69,weit überdurchschnittlich,207.0,freigemeinnützig,219,0,1,True
+773741,514,sehr wenige,75.51,weit unterdurchschnittlich,60.0,privat,60,0,-1,False
+773742,242,sehr wenige,14.97,weit überdurchschnittlich,9.0,öffentlich,10,0,-1,False
+773744,2956,wenige,87.83,weit unterdurchschnittlich,41.0,freigemeinnützig,144,10,-1,False
+773745,202,sehr wenige,0.0,weit überdurchschnittlich,3.0,freigemeinnützig,0,15,-1,False
+773746,360,sehr wenige,0.0,weit überdurchschnittlich,3.0,freigemeinnützig,0,20,-1,False
+773747,232,sehr wenige,51.16,mittel,24.0,freigemeinnützig,15,0,-1,False
+773748,1253,sehr wenige,76.66,weit unterdurchschnittlich,44.0,privat,65,5,-1,False
+773749,809,sehr wenige,59.85,weit unterdurchschnittlich,25.0,öffentlich,17,0,3,True
+773751,257,sehr wenige,41.06,weit überdurchschnittlich,16.0,öffentlich,17,0,-1,False
+773752,179,sehr wenige,0.0,weit überdurchschnittlich,5.0,öffentlich,8,0,0,True
+773753,3785,wenige,54.17,unterdurchschnittlich,85.0,öffentlich,125,13,1,True
+773773,162,sehr wenige,28.52,weit überdurchschnittlich,19.0,freigemeinnützig,20,0,3,True
+773782,218,sehr wenige,49.88,mittel,31.0,öffentlich,18,0,-1,False
+773783,231,sehr wenige,55.22,unterdurchschnittlich,11.0,freigemeinnützig,18,0,0,True
+773787,2369,wenige,49.33,mittel,33.0,öffentlich,90,0,1,True
+773802,462,sehr wenige,62.81,weit unterdurchschnittlich,18.0,freigemeinnützig,31,0,0,True
+773805,1053,sehr wenige,0.0,weit überdurchschnittlich,3.0,privat,0,60,-1,False
+773815,664,sehr wenige,15.39,weit überdurchschnittlich,8.0,privat,34,0,-1,False
+773823,119,sehr wenige,0.0,weit überdurchschnittlich,1.0,freigemeinnützig,0,9,-1,False
+773824,1687,sehr wenige,35.92,weit überdurchschnittlich,53.0,freigemeinnützig,60,6,-1,False
+773830,590,sehr wenige,69.09,weit unterdurchschnittlich,23.0,freigemeinnützig,36,10,-1,False
+773831,6,sehr wenige,0.0,weit überdurchschnittlich,0.0,privat,6,0,-1,False
+773836,3806,wenige,46.0,überdurchschnittlich,75.0,privat,100,0,-1,False
+773855,16538,sehr viele,66.8,weit unterdurchschnittlich,252.0,privat,379,0,2,True
+773862,407,sehr wenige,19.62,weit überdurchschnittlich,11.0,öffentlich,12,0,1,True
+773870,532,sehr wenige,0.0,weit überdurchschnittlich,0.0,privat,0,4,-1,False

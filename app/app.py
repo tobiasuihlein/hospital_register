@@ -1,8 +1,10 @@
 from taipy.gui import Gui, notify
 import taipy.gui.builder as tgb
 import pandas as pd
-from functions import create_map
-from functions import establish_connection_to_database
+from app_functions import create_map, establish_connection_to_database
+import threading
+
+mapstyle = 'open-street-map'
 
 # Connect to  database
 engine = establish_connection_to_database()
@@ -22,29 +24,32 @@ df_hospitals = pd.read_sql(query, engine)
 initial_min_beds = 0
 initial_max_beds = df_hospitals['beds_number'].max()
 
-fig = create_map(df_hospitals)
+fig = create_map(df_hospitals, mapstyle)
 
 # Define callback function for min_hospital_beds slider
-def on_slider(state):
-    query = f"""
-    SELECT name, beds_number, latitude, longitude
-    FROM hospital_locations
-    WHERE beds_number > {state.min_hospital_beds}
-    """
-    state.df_hospitals = pd.read_sql(query, engine)
-    state.fig = create_map(state.df_hospitals)
+# Create a lock for thread safety
+lock = threading.Lock()
+
+# Define callback function for min_hospital_beds slider
+def on_slider_beds_number_map(state):
+    with lock:
+        try:
+            query = f"""
+            SELECT name, beds_number, latitude, longitude
+            FROM hospital_locations
+            WHERE beds_number > {state.min_hospital_beds}
+            """
+            df_hospitals = pd.read_sql(query, engine)
+            if not df_hospitals.empty:
+                state.df_hospitals = df_hospitals
+                state.fig = create_map(state.df_hospitals, mapstyle)
+            else:
+                print("Query returned no results.")
+                state.fig = fig  # Fallback to the initial figure
+        except Exception as e:
+            print(f"Error updating slider state: {e}")
+            state.fig = fig  # Fallback to the initial figure
     return state.fig
-
-
-mapstyle = 'carto-positron'
-
-def on_change(state, var_name, var_value):
-    if var_name == "theme" and var_value:
-        state.mapstyle = "carto-darkmatter"
-        notify(state, "info", "Switched to Dark Mode")
-    elif var_name == "theme" and not var_value:
-        state.mapstyle = "carto-positron"
-        notify(state, "info", "Switched to Light Mode")
 
 
 # Create GUI
@@ -57,20 +62,20 @@ with tgb.Page() as page:
         with tgb.part():
             tgb.html("h1", "Klinikatlas Analysis Dashboard")
 
-            tgb.html("p", f"Minimum number of beds")
-            tgb.text("{min_hospital_beds}", mode='md')
+            tgb.text("Minimum number of beds: {min_hospital_beds}", mode='md')
             tgb.slider(label="min_hospital_beds",
                value="{min_hospital_beds}", min=0, max=1000, step=10,
-               change_delay=10, on_change=on_slider)
-
+               change_delay=100, on_change=on_slider_beds_number_map)
+            
+            tgb.toggle(label="Filter Departments", value=False, allow_unselect=True)
+            tgb.selector(label="Select Department", dropdown=True, lov=['dep_1', 'dep_2', 'dep_3'])
             tgb.chart(figure="{fig}")
             
         with tgb.part():
             tgb.html("h1", "") # placeholder
             tgb.toggle(theme=True)
-            
-            
+
 
 # Run GUI
 if __name__ == "__main__":
-    Gui(page).run(dark_mode=True, use_reloader=True)
+    Gui(page).run(dark_mode=False, use_reloader=True)

@@ -1,0 +1,2951 @@
+hospital_id,certificate
+771003,EndoProthetikZentrum der Maximalversorgung
+771003,Onkologisches Zentrum
+771003,Brustkrebszentrum
+771003,Darmkrebszentrum
+771003,Zentrum für Hämatologische Neoplasien
+771003,Gynäkologisches Krebszentrum
+771003,Pankreaskrebszentrum
+771011,Darmkrebszentrum
+771011,Hautkrebszentrum
+771012,Gefäßzentrum
+771012,Brustkrebszentrum
+771012,Schlaganfall-Einheit (Stroke Unit)
+771016,EndoProthetikZentrum
+771016,Onkologisches Zentrum
+771016,Brustkrebszentrum
+771016,Darmkrebszentrum
+771016,Gynäkologisches Krebszentrum
+771016,Pankreaskrebszentrum
+771016,Prostatakrebszentrum
+771016,Schlaganfall-Einheit (Stroke Unit)
+771029,Brustkrebszentrum
+771030,Darmkrebszentrum
+771030,Schlaganfall-Einheit (Stroke Unit)
+771039,Beckenboden- und Kontinenzzentrum
+771039,Brustkrebszentrum
+771039,Hautkrebszentrum
+771040,EndoProthetikZentrum
+771042,EndoProthetikZentrum Schulterendoprothetik
+771042,Brustkrebszentrum
+771042,Darmkrebszentrum
+771042,Schlaganfall-Einheit (Stroke Unit)
+771043,EndoProthetikZentrum
+771043,Brustkrebszentrum
+771043,Darmkrebszentrum
+771057,EndoProthetikZentrum
+771057,Gefäßzentrum
+771057,Onkologisches Zentrum
+771057,Brustkrebszentrum
+771057,Darmkrebszentrum
+771057,Gynäkologisches Krebszentrum
+771057,Magenkrebszentrum
+771057,Pankreaskrebszentrum
+771057,Schlaganfall-Einheit (Stroke Unit)
+771061,EndoProthetikZentrum
+771061,Brustkrebszentrum
+771061,Gynäkologisches Krebszentrum
+771061,Schlaganfall-Einheit (Stroke Unit)
+771064,EndoProthetikZentrum der Maximalversorgung
+771071,Lungenkrebszentrum
+771072,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+771076,EndoProthetikZentrum der Maximalversorgung
+771077,EndoProthetikZentrum der Maximalversorgung
+771077,Darmkrebszentrum
+771078,Darmkrebszentrum
+771079,EndoProthetikZentrum
+771080,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+771080,Onkologisches Zentrum
+771080,Darmkrebszentrum
+771080,Lungenkrebszentrum
+771080,Magenkrebszentrum
+771080,Neuroonkologisches Krebszentrum
+771080,Pankreaskrebszentrum
+771080,Prostatakrebszentrum
+771080,Speiseröhrenkrebszentrum
+771080,Nierenkrebszentrum
+771080,Schlaganfall-Einheit (Stroke Unit)
+771081,EndoProthetikZentrum
+771083,Brustkrebszentrum
+771083,Gynäkologisches Krebszentrum
+771083,Nephrologische Schwerpunktklinik
+771083,Schlaganfall-Einheit (Stroke Unit)
+771084,Gefäßzentrum
+771084,Darmkrebszentrum
+771084,Pankreaskrebszentrum
+771084,Analkarzinomzentrum
+771085,Kopf-Hals-Tumor Krebszentrum
+771087,EndoProthetikZentrum der Maximalversorgung
+771090,EndoProthetikZentrum Schulterendoprothetik
+771090,Brustkrebszentrum
+771090,Darmkrebszentrum
+771090,Schlaganfall-Einheit (Stroke Unit)
+771095,EndoProthetikZentrum der Maximalversorgung
+771095,Brustkrebszentrum
+771095,Darmkrebszentrum
+771095,Pankreaskrebszentrum
+771095,Schlaganfall-Einheit (Stroke Unit)
+771096,Shunt-Referenzzentrum
+771096,EndoProthetikZentrum
+771096,Brustkrebszentrum
+771096,Darmkrebszentrum
+771096,Gynäkologisches Krebszentrum
+771096,Schlaganfall-Einheit (Stroke Unit)
+771098,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+771099,EndoProthetikZentrum
+771100,Gefäßzentrum
+771100,Darmkrebszentrum
+771100,Schlaganfall-Einheit (Stroke Unit)
+771101,Brustkrebszentrum
+771101,Hautkrebszentrum
+771101,Schlaganfall-Einheit (Stroke Unit)
+771102,EndoProthetikZentrum
+771102,Onkologisches Zentrum
+771102,Brustkrebszentrum
+771102,Darmkrebszentrum
+771102,Schlaganfall-Einheit (Stroke Unit)
+771106,EndoProthetikZentrum
+771108,EndoProthetikZentrum der Maximalversorgung
+771108,Darmkrebszentrum
+771108,Prostatakrebszentrum
+771108,Harnblasenkrebszentrum
+771108,Schlaganfall-Einheit (Stroke Unit)
+771109,EndoProthetikZentrum
+771113,EndoProthetikZentrum Schulterendoprothetik
+771113,Schlaganfall-Einheit (Stroke Unit)
+771115,EndoProthetikZentrum der Maximalversorgung
+771115,Schlaganfall-Einheit (Stroke Unit)
+771123,Beckenboden- und Kontinenzzentrum
+771123,Darmkrebszentrum
+771123,Schlaganfall-Einheit (Stroke Unit)
+771124,EndoProthetikZentrum
+771124,Onkologisches Zentrum
+771124,Brustkrebszentrum
+771124,Darmkrebszentrum
+771124,Pankreaskrebszentrum
+771124,Prostatakrebszentrum
+771124,Schlaganfall-Einheit (Stroke Unit)
+771125,EndoProthetikZentrum der Maximalversorgung
+771125,Schlaganfall-Einheit (Stroke Unit)
+771129,Schlaganfall-Einheit (Stroke Unit)
+771139,Gefäßzentrum
+771139,Darmkrebszentrum
+771139,Leberkrebszentrum
+771139,Pankreaskrebszentrum
+771144,Onkologisches Zentrum
+771144,Brustkrebszentrum
+771144,Darmkrebszentrum
+771144,Gynäkologisches Krebszentrum
+771144,Prostatakrebszentrum
+771144,Harnblasenkrebszentrum
+771144,Nierenkrebszentrum
+771144,Hodenkrebszentrum
+771151,Schlaganfall-Einheit (Stroke Unit)
+771157,EndoProthetikZentrum
+771157,Brustkrebszentrum
+771162,Onkologisches Zentrum
+771162,Zentrum für Hämatologische Neoplasien
+771162,Schlaganfall-Einheit (Stroke Unit)
+771167,EndoProthetikZentrum
+771174,EndoProthetikZentrum
+771174,Schlaganfall-Einheit (Stroke Unit)
+771175,Beckenboden- und Kontinenzzentrum
+771175,Onkologisches Zentrum
+771175,Brustkrebszentrum
+771175,Darmkrebszentrum
+771175,Zentrum für Hämatologische Neoplasien
+771175,Gynäkologisches Krebszentrum
+771175,Hautkrebszentrum
+771175,Kopf-Hals-Tumor Krebszentrum
+771175,Magenkrebszentrum
+771175,Neuroonkologisches Krebszentrum
+771175,Pankreaskrebszentrum
+771175,Prostatakrebszentrum
+771175,Speiseröhrenkrebszentrum
+771175,Nierenkrebszentrum
+771175,Sarkomszentrum
+771175,Analkarzinomzentrum
+771175,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+771175,Schlaganfall-Einheit (Stroke Unit)
+771176,EndoProthetikZentrum
+771176,Gefäßzentrum
+771176,Darmkrebszentrum
+771176,Kopf-Hals-Tumor Krebszentrum
+771177,Regionales Shuntzentrum
+771177,Onkologisches Zentrum
+771177,Brustkrebszentrum
+771177,Darmkrebszentrum
+771177,Zentrum für Hämatologische Neoplasien
+771177,Gynäkologisches Krebszentrum
+771179,Gefäßzentrum
+771179,Onkologisches Zentrum
+771179,Darmkrebszentrum
+771179,Zentrum für Hämatologische Neoplasien
+771179,Gynäkologisches Krebszentrum
+771179,Prostatakrebszentrum
+771179,Nierenkrebszentrum
+771182,Lungenkrebszentrum
+771183,Darmkrebszentrum
+771183,Lungenkrebszentrum
+771184,Beckenboden- und Kontinenzzentrum
+771184,Onkologisches Zentrum
+771184,Darmkrebszentrum
+771184,Hautkrebszentrum
+771184,Magenkrebszentrum
+771184,Pankreaskrebszentrum
+771184,Prostatakrebszentrum
+771184,Harnblasenkrebszentrum
+771186,EndoProthetikZentrum
+771187,EndoProthetikZentrum
+771187,Schlaganfall-Einheit (Stroke Unit)
+771191,Beckenboden- und Kontinenzzentrum
+771191,EndoProthetikZentrum
+771191,Darmkrebszentrum
+771192,Schlaganfall-Einheit (Stroke Unit)
+771197,EndoProthetikZentrum
+771200,Schlaganfall-Einheit (Stroke Unit)
+771201,EndoProthetikZentrum der Maximalversorgung
+771201,Onkologisches Zentrum
+771201,Darmkrebszentrum
+771201,Zentrum für Hämatologische Neoplasien
+771201,Lungenkrebszentrum
+771201,Pankreaskrebszentrum
+771201,Prostatakrebszentrum
+771217,Lungenkrebszentrum
+771219,EndoProthetikZentrum
+771219,Brustkrebszentrum
+771219,Gynäkologisches Krebszentrum
+771219,Schlaganfall-Einheit (Stroke Unit)
+771220,EndoProthetikZentrum
+771220,Schlaganfall-Einheit (Stroke Unit)
+771221,EndoProthetikZentrum
+771221,Gefäßzentrum
+771222,Gefäßzentrum
+771222,Onkologisches Zentrum
+771222,Brustkrebszentrum
+771222,Darmkrebszentrum
+771222,Zentrum für Hämatologische Neoplasien
+771222,Gynäkologisches Krebszentrum
+771222,Magenkrebszentrum
+771222,Pankreaskrebszentrum
+771222,Schlaganfall-Einheit (Stroke Unit)
+771223,Gefäßzentrum
+771226,Beckenboden- und Kontinenzzentrum
+771226,EndoProthetikZentrum der Maximalversorgung
+771226,Schlaganfall-Einheit (Stroke Unit)
+771230,EndoProthetikZentrum der Maximalversorgung
+771235,EndoProthetikZentrum
+771235,Darmkrebszentrum
+771236,EndoProthetikZentrum
+771237,Onkologisches Zentrum
+771237,Darmkrebszentrum
+771237,Lungenkrebszentrum
+771237,Magenkrebszentrum
+771237,Pankreaskrebszentrum
+771237,Prostatakrebszentrum
+771237,Speiseröhrenkrebszentrum
+771237,Schlaganfall-Einheit (Stroke Unit)
+771238,EndoProthetikZentrum
+771239,Zentrum für Hämatologische Neoplasien
+771239,Prostatakrebszentrum
+771239,Harnblasenkrebszentrum
+771239,Nierenkrebszentrum
+771239,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771240,Darmkrebszentrum
+771242,Brustkrebszentrum
+771243,Beckenboden- und Kontinenzzentrum
+771243,EndoProthetikZentrum
+771246,EndoProthetikZentrum
+771246,Schlaganfall-Einheit (Stroke Unit)
+771248,Brustkrebszentrum
+771252,Prostatakrebszentrum
+771254,Beckenboden- und Kontinenzzentrum
+771254,EndoProthetikZentrum
+771254,Onkologisches Zentrum
+771254,Brustkrebszentrum
+771254,Darmkrebszentrum
+771254,Zentrum für Hämatologische Neoplasien
+771254,Gynäkologisches Krebszentrum
+771254,Kopf-Hals-Tumor Krebszentrum
+771254,Prostatakrebszentrum
+771254,Nierenkrebszentrum
+771254,Schlaganfall-Einheit (Stroke Unit)
+771257,Schlaganfall-Einheit (Stroke Unit)
+771258,Darmkrebszentrum
+771259,Schlaganfall-Einheit (Stroke Unit)
+771261,Regionales Shuntzentrum
+771261,EndoProthetikZentrum der Maximalversorgung
+771261,Gefäßzentrum
+771261,Onkologisches Zentrum
+771261,Brustkrebszentrum
+771261,Zentrum für Hämatologische Neoplasien
+771261,Gynäkologisches Krebszentrum
+771261,Hautkrebszentrum
+771261,Kopf-Hals-Tumor Krebszentrum
+771261,Lungenkrebszentrum
+771261,Neuroonkologisches Krebszentrum
+771261,Prostatakrebszentrum
+771261,Schlaganfall-Einheit (Stroke Unit)
+771264,EndoProthetikZentrum
+771266,EndoProthetikZentrum
+771269,Brustkrebszentrum
+771269,Schlaganfall-Einheit (Stroke Unit)
+771284,EndoProthetikZentrum der Maximalversorgung
+771284,Darmkrebszentrum
+771284,Prostatakrebszentrum
+771284,Harnblasenkrebszentrum
+771286,Beckenboden- und Kontinenzzentrum
+771286,EndoProthetikZentrum
+771286,Onkologisches Zentrum
+771286,Darmkrebszentrum
+771286,Gynäkologisches Krebszentrum
+771286,Pankreaskrebszentrum
+771286,Prostatakrebszentrum
+771288,EndoProthetikZentrum
+771288,Schlaganfall-Einheit (Stroke Unit)
+771294,Schlaganfall-Einheit (Stroke Unit)
+771296,Schlaganfall-Einheit (Stroke Unit)
+771298,EndoProthetikZentrum der Maximalversorgung
+771299,Beckenboden- und Kontinenzzentrum
+771299,Prostatakrebszentrum
+771300,EndoProthetikZentrum der Maximalversorgung
+771300,Gefäßzentrum
+771300,Onkologisches Zentrum
+771300,Brustkrebszentrum
+771300,Darmkrebszentrum
+771300,Gynäkologisches Krebszentrum
+771300,Lungenkrebszentrum
+771300,Magenkrebszentrum
+771300,Pankreaskrebszentrum
+771301,EndoProthetikZentrum
+771301,Brustkrebszentrum
+771301,Kopf-Hals-Tumor Krebszentrum
+771301,Lungenkrebszentrum
+771301,Schlaganfall-Einheit (Stroke Unit)
+771304,EndoProthetikZentrum
+771306,Schlaganfall-Einheit (Stroke Unit)
+771308,Brustkrebszentrum
+771310,EndoProthetikZentrum
+771313,Regionales Shuntzentrum
+771313,EndoProthetikZentrum der Maximalversorgung
+771313,Onkologisches Zentrum
+771313,Zentrum für Hämatologische Neoplasien
+771313,Prostatakrebszentrum
+771313,Nierenkrebszentrum
+771313,Nephrologische Schwerpunktklinik
+771313,Schlaganfall-Einheit (Stroke Unit)
+771314,Onkologisches Zentrum
+771314,Brustkrebszentrum
+771314,Darmkrebszentrum
+771314,Gynäkologisches Krebszentrum
+771314,Magenkrebszentrum
+771314,Pankreaskrebszentrum
+771315,Gefäßzentrum
+771316,Beckenboden- und Kontinenzzentrum
+771317,Beckenboden- und Kontinenzzentrum
+771317,Darmkrebszentrum
+771317,Prostatakrebszentrum
+771320,Darmkrebszentrum
+771328,Lungenkrebszentrum
+771342,Schlaganfall-Einheit (Stroke Unit)
+771343,EndoProthetikZentrum
+771343,Brustkrebszentrum
+771348,Gefäßzentrum
+771351,EndoProthetikZentrum der Maximalversorgung
+771355,EndoProthetikZentrum
+771355,Brustkrebszentrum
+771362,EndoProthetikZentrum
+771362,Onkologisches Zentrum
+771362,Brustkrebszentrum
+771362,Darmkrebszentrum
+771362,Gynäkologisches Krebszentrum
+771362,Prostatakrebszentrum
+771362,Schlaganfall-Einheit (Stroke Unit)
+771374,Onkologisches Zentrum
+771374,Brustkrebszentrum
+771374,Darmkrebszentrum
+771374,Zentrum für Hämatologische Neoplasien
+771374,Gynäkologisches Krebszentrum
+771374,Hautkrebszentrum
+771374,Kopf-Hals-Tumor Krebszentrum
+771374,Leberkrebszentrum
+771374,Lungenkrebszentrum
+771374,Magenkrebszentrum
+771374,Pankreaskrebszentrum
+771374,Prostatakrebszentrum
+771374,Speiseröhrenkrebszentrum
+771374,Harnblasenkrebszentrum
+771374,Nierenkrebszentrum
+771374,Sarkomszentrum
+771374,Hodenkrebszentrum
+771375,EndoProthetikZentrum der Maximalversorgung
+771375,Neuroonkologisches Krebszentrum
+771375,Nephrologische Schwerpunktklinik
+771375,Schlaganfall-Einheit (Stroke Unit)
+771378,EndoProthetikZentrum
+771378,Brustkrebszentrum
+771378,Darmkrebszentrum
+771378,Schlaganfall-Einheit (Stroke Unit)
+771379,EndoProthetikZentrum
+771382,EndoProthetikZentrum
+771388,EndoProthetikZentrum
+771388,Brustkrebszentrum
+771388,Schlaganfall-Einheit (Stroke Unit)
+771392,EndoProthetikZentrum der Maximalversorgung
+771392,Onkologisches Zentrum
+771392,Brustkrebszentrum
+771392,Darmkrebszentrum
+771392,Zentrum für Hämatologische Neoplasien
+771392,Gynäkologisches Krebszentrum
+771392,Hautkrebszentrum
+771392,Kopf-Hals-Tumor Krebszentrum
+771392,Leberkrebszentrum
+771392,Neuroonkologisches Krebszentrum
+771392,Prostatakrebszentrum
+771392,Speiseröhrenkrebszentrum
+771392,Schlaganfall-Einheit (Stroke Unit)
+771393,EndoProthetikZentrum der Maximalversorgung
+771395,Darmkrebszentrum
+771395,Schlaganfall-Einheit (Stroke Unit)
+771396,EndoProthetikZentrum der Maximalversorgung
+771397,EndoProthetikZentrum Schulterendoprothetik
+771398,Regionales Shuntzentrum
+771398,Brustkrebszentrum
+771398,Darmkrebszentrum
+771402,Gefäßzentrum
+771402,Onkologisches Zentrum
+771402,Darmkrebszentrum
+771402,Zentrum für Hämatologische Neoplasien
+771402,Hautkrebszentrum
+771402,Kopf-Hals-Tumor Krebszentrum
+771402,Leberkrebszentrum
+771402,Lungenkrebszentrum
+771402,Magenkrebszentrum
+771402,Neuroonkologisches Krebszentrum
+771402,Pankreaskrebszentrum
+771402,Sarkomszentrum
+771402,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+771415,Beckenboden- und Kontinenzzentrum
+771415,Gefäßzentrum
+771415,Darmkrebszentrum
+771415,Kopf-Hals-Tumor Krebszentrum
+771415,Schlaganfall-Einheit (Stroke Unit)
+771417,EndoProthetikZentrum
+771417,Onkologisches Zentrum
+771417,Brustkrebszentrum
+771417,Darmkrebszentrum
+771417,Gynäkologisches Krebszentrum
+771417,Prostatakrebszentrum
+771417,Nierenkrebszentrum
+771419,EndoProthetikZentrum
+771420,Regionales Shuntzentrum
+771420,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+771420,Onkologisches Zentrum
+771420,Brustkrebszentrum
+771420,Darmkrebszentrum
+771420,Zentrum für Hämatologische Neoplasien
+771420,Gynäkologisches Krebszentrum
+771420,Pankreaskrebszentrum
+771420,Prostatakrebszentrum
+771420,Nephrologische Schwerpunktklinik
+771420,Schlaganfall-Einheit (Stroke Unit)
+771424,EndoProthetikZentrum der Maximalversorgung
+771424,Schlaganfall-Einheit (Stroke Unit)
+771427,Schlaganfall-Einheit (Stroke Unit)
+771429,Darmkrebszentrum
+771430,Brustkrebszentrum
+771430,Gynäkologisches Krebszentrum
+771436,Brustkrebszentrum
+771436,Schlaganfall-Einheit (Stroke Unit)
+771450,Beckenboden- und Kontinenzzentrum
+771450,Onkologisches Zentrum
+771450,Zentrum für Hämatologische Neoplasien
+771450,Gynäkologisches Krebszentrum
+771450,Hautkrebszentrum
+771450,Kopf-Hals-Tumor Krebszentrum
+771450,Leberkrebszentrum
+771450,Neuroonkologisches Krebszentrum
+771450,Pankreaskrebszentrum
+771450,Prostatakrebszentrum
+771450,Speiseröhrenkrebszentrum
+771450,Harnblasenkrebszentrum
+771450,Nierenkrebszentrum
+771450,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+771450,Hodenkrebszentrum
+771450,Schlaganfall-Einheit (Stroke Unit)
+771452,EndoProthetikZentrum
+771457,EndoProthetikZentrum
+771463,Beckenboden- und Kontinenzzentrum
+771463,EndoProthetikZentrum
+771463,Gefäßzentrum
+771463,Onkologisches Zentrum
+771463,Brustkrebszentrum
+771463,Darmkrebszentrum
+771463,Zentrum für Hämatologische Neoplasien
+771463,Gynäkologisches Krebszentrum
+771463,Kopf-Hals-Tumor Krebszentrum
+771463,Pankreaskrebszentrum
+771463,Speiseröhrenkrebszentrum
+771467,EndoProthetikZentrum
+771469,Brustkrebszentrum
+771469,Pankreaskrebszentrum
+771469,Schlaganfall-Einheit (Stroke Unit)
+771470,EndoProthetikZentrum der Maximalversorgung
+771470,Onkologisches Zentrum
+771470,Brustkrebszentrum
+771470,Darmkrebszentrum
+771470,Zentrum für Hämatologische Neoplasien
+771470,Gynäkologisches Krebszentrum
+771473,EndoProthetikZentrum
+771474,EndoProthetikZentrum der Maximalversorgung
+771497,EndoProthetikZentrum der Maximalversorgung
+771497,Brustkrebszentrum
+771497,Hautkrebszentrum
+771498,EndoProthetikZentrum der Maximalversorgung
+771503,EndoProthetikZentrum
+771503,Brustkrebszentrum
+771503,Darmkrebszentrum
+771503,Pankreaskrebszentrum
+771503,Schlaganfall-Einheit (Stroke Unit)
+771507,EndoProthetikZentrum der Maximalversorgung
+771507,Gefäßzentrum
+771507,Onkologisches Zentrum
+771507,Darmkrebszentrum
+771507,Gynäkologisches Krebszentrum
+771507,Pankreaskrebszentrum
+771507,Schlaganfall-Einheit (Stroke Unit)
+771508,EndoProthetikZentrum
+771508,Zentrum für Hämatologische Neoplasien
+771508,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771510,Darmkrebszentrum
+771510,Pankreaskrebszentrum
+771511,EndoProthetikZentrum
+771511,Gefäßzentrum
+771511,Onkologisches Zentrum
+771511,Brustkrebszentrum
+771511,Darmkrebszentrum
+771511,Zentrum für Hämatologische Neoplasien
+771511,Gynäkologisches Krebszentrum
+771511,Lungenkrebszentrum
+771511,Schlaganfall-Einheit (Stroke Unit)
+771514,Schlaganfall-Einheit (Stroke Unit)
+771516,EndoProthetikZentrum
+771519,Onkologisches Zentrum
+771519,Brustkrebszentrum
+771519,Darmkrebszentrum
+771519,Gynäkologisches Krebszentrum
+771519,Hautkrebszentrum
+771519,Kopf-Hals-Tumor Krebszentrum
+771519,Leberkrebszentrum
+771519,Lungenkrebszentrum
+771519,Neuroonkologisches Krebszentrum
+771519,Pankreaskrebszentrum
+771519,Prostatakrebszentrum
+771519,Speiseröhrenkrebszentrum
+771519,Nierenkrebszentrum
+771519,Sarkomszentrum
+771519,Schlaganfall-Einheit (Stroke Unit)
+771520,EndoProthetikZentrum der Maximalversorgung
+771521,EndoProthetikZentrum der Maximalversorgung
+771521,Schlaganfall-Einheit (Stroke Unit)
+771527,Prostatakrebszentrum
+771527,Schlaganfall-Einheit (Stroke Unit)
+771528,EndoProthetikZentrum
+771528,Darmkrebszentrum
+771529,EndoProthetikZentrum
+771529,Brustkrebszentrum
+771529,Darmkrebszentrum
+771529,Gynäkologisches Krebszentrum
+771529,Pankreaskrebszentrum
+771529,Schlaganfall-Einheit (Stroke Unit)
+771534,EndoProthetikZentrum
+771534,Brustkrebszentrum
+771535,EndoProthetikZentrum der Maximalversorgung
+771537,EndoProthetikZentrum
+771537,Darmkrebszentrum
+771537,Schlaganfall-Einheit (Stroke Unit)
+771543,Brustkrebszentrum
+771544,EndoProthetikZentrum
+771548,Darmkrebszentrum
+771548,Hautkrebszentrum
+771549,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771550,EndoProthetikZentrum
+771552,EndoProthetikZentrum
+771552,Schlaganfall-Einheit (Stroke Unit)
+771554,Schlaganfall-Einheit (Stroke Unit)
+771555,Shunt-Referenzzentrum
+771555,Beckenboden- und Kontinenzzentrum
+771555,EndoProthetikZentrum
+771555,Gefäßzentrum
+771555,Onkologisches Zentrum
+771555,Darmkrebszentrum
+771555,Zentrum für Hämatologische Neoplasien
+771555,Kopf-Hals-Tumor Krebszentrum
+771555,Lungenkrebszentrum
+771555,Prostatakrebszentrum
+771555,Harnblasenkrebszentrum
+771555,Nierenkrebszentrum
+771555,Nephrologische Schwerpunktklinik
+771555,Schlaganfall-Einheit (Stroke Unit)
+771558,EndoProthetikZentrum der Maximalversorgung
+771558,Brustkrebszentrum
+771558,Darmkrebszentrum
+771559,Lungenkrebszentrum
+771561,EndoProthetikZentrum
+771562,Darmkrebszentrum
+771563,EndoProthetikZentrum der Maximalversorgung
+771565,Onkologisches Zentrum
+771565,Brustkrebszentrum
+771565,Darmkrebszentrum
+771565,Gynäkologisches Krebszentrum
+771565,Pankreaskrebszentrum
+771565,Prostatakrebszentrum
+771565,Schlaganfall-Einheit (Stroke Unit)
+771569,Schlaganfall-Einheit (Stroke Unit)
+771570,Schlaganfall-Einheit (Stroke Unit)
+771573,EndoProthetikZentrum der Maximalversorgung
+771574,Schlaganfall-Einheit (Stroke Unit)
+771577,EndoProthetikZentrum
+771578,Schlaganfall-Einheit (Stroke Unit)
+771583,Darmkrebszentrum
+771583,Pankreaskrebszentrum
+771583,Schlaganfall-Einheit (Stroke Unit)
+771585,EndoProthetikZentrum
+771597,EndoProthetikZentrum der Maximalversorgung
+771597,Gefäßzentrum
+771597,Onkologisches Zentrum
+771597,Brustkrebszentrum
+771597,Darmkrebszentrum
+771597,Zentrum für Hämatologische Neoplasien
+771597,Gynäkologisches Krebszentrum
+771597,Leberkrebszentrum
+771597,Lungenkrebszentrum
+771597,Magenkrebszentrum
+771597,Neuroonkologisches Krebszentrum
+771597,Pankreaskrebszentrum
+771597,Prostatakrebszentrum
+771597,Speiseröhrenkrebszentrum
+771597,Nierenkrebszentrum
+771597,Sarkomszentrum
+771597,Schlaganfall-Einheit (Stroke Unit)
+771600,EndoProthetikZentrum der Maximalversorgung
+771601,Shunt-Referenzzentrum
+771601,EndoProthetikZentrum der Maximalversorgung
+771601,Darmkrebszentrum
+771601,Kopf-Hals-Tumor Krebszentrum
+771601,Neuroonkologisches Krebszentrum
+771601,Pankreaskrebszentrum
+771601,Nephrologische Schwerpunktklinik
+771601,Schlaganfall-Einheit (Stroke Unit)
+771604,Schlaganfall-Einheit (Stroke Unit)
+771606,Beckenboden- und Kontinenzzentrum
+771606,EndoProthetikZentrum
+771608,EndoProthetikZentrum
+771610,Schlaganfall-Einheit (Stroke Unit)
+771615,EndoProthetikZentrum der Maximalversorgung
+771615,Brustkrebszentrum
+771615,Darmkrebszentrum
+771615,Zentrum für Hämatologische Neoplasien
+771620,EndoProthetikZentrum der Maximalversorgung
+771621,Beckenboden- und Kontinenzzentrum
+771621,EndoProthetikZentrum der Maximalversorgung
+771621,Onkologisches Zentrum
+771621,Brustkrebszentrum
+771621,Darmkrebszentrum
+771621,Zentrum für Hämatologische Neoplasien
+771621,Gynäkologisches Krebszentrum
+771621,Hautkrebszentrum
+771621,Kopf-Hals-Tumor Krebszentrum
+771621,Leberkrebszentrum
+771621,Magenkrebszentrum
+771621,Neuroonkologisches Krebszentrum
+771621,Pankreaskrebszentrum
+771621,Prostatakrebszentrum
+771621,Nierenkrebszentrum
+771621,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+771621,Hodenkrebszentrum
+771621,Schlaganfall-Einheit (Stroke Unit)
+771624,EndoProthetikZentrum
+771624,Brustkrebszentrum
+771632,Schlaganfall-Einheit (Stroke Unit)
+771636,EndoProthetikZentrum
+771637,EndoProthetikZentrum der Maximalversorgung
+771637,Gefäßzentrum
+771637,Onkologisches Zentrum
+771637,Brustkrebszentrum
+771637,Darmkrebszentrum
+771637,Gynäkologisches Krebszentrum
+771638,EndoProthetikZentrum
+771640,EndoProthetikZentrum Schulterendoprothetik
+771641,EndoProthetikZentrum
+771641,Darmkrebszentrum
+771643,EndoProthetikZentrum der Maximalversorgung
+771643,Darmkrebszentrum
+771643,Prostatakrebszentrum
+771643,Schlaganfall-Einheit (Stroke Unit)
+771648,Gefäßzentrum
+771648,Onkologisches Zentrum
+771648,Brustkrebszentrum
+771648,Darmkrebszentrum
+771648,Zentrum für Hämatologische Neoplasien
+771648,Gynäkologisches Krebszentrum
+771648,Pankreaskrebszentrum
+771648,Schlaganfall-Einheit (Stroke Unit)
+771653,Brustkrebszentrum
+771653,Darmkrebszentrum
+771653,Gynäkologisches Krebszentrum
+771653,Pankreaskrebszentrum
+771653,Analkarzinomzentrum
+771654,Schlaganfall-Einheit (Stroke Unit)
+771657,Darmkrebszentrum
+771658,EndoProthetikZentrum
+771658,Brustkrebszentrum
+771658,Darmkrebszentrum
+771662,EndoProthetikZentrum
+771676,EndoProthetikZentrum der Maximalversorgung
+771676,Schlaganfall-Einheit (Stroke Unit)
+771678,EndoProthetikZentrum
+771678,Schlaganfall-Einheit (Stroke Unit)
+771679,EndoProthetikZentrum
+771680,EndoProthetikZentrum der Maximalversorgung
+771682,EndoProthetikZentrum der Maximalversorgung
+771686,Onkologisches Zentrum
+771686,Brustkrebszentrum
+771686,Darmkrebszentrum
+771686,Zentrum für Hämatologische Neoplasien
+771686,Kopf-Hals-Tumor Krebszentrum
+771686,Pankreaskrebszentrum
+771686,Schlaganfall-Einheit (Stroke Unit)
+771693,Beckenboden- und Kontinenzzentrum
+771693,Brustkrebszentrum
+771693,Darmkrebszentrum
+771693,Gynäkologisches Krebszentrum
+771693,Prostatakrebszentrum
+771693,Schlaganfall-Einheit (Stroke Unit)
+771694,EndoProthetikZentrum
+771695,Gefäßzentrum
+771696,Lungenkrebszentrum
+771698,EndoProthetikZentrum
+771698,Schlaganfall-Einheit (Stroke Unit)
+771699,EndoProthetikZentrum der Maximalversorgung
+771700,Onkologisches Zentrum
+771700,Brustkrebszentrum
+771700,Darmkrebszentrum
+771700,Gynäkologisches Krebszentrum
+771700,Hautkrebszentrum
+771700,Kopf-Hals-Tumor Krebszentrum
+771700,Prostatakrebszentrum
+771700,Sarkomszentrum
+771700,Schlaganfall-Einheit (Stroke Unit)
+771701,EndoProthetikZentrum der Maximalversorgung
+771701,Gefäßzentrum
+771701,Onkologisches Zentrum
+771701,Brustkrebszentrum
+771701,Darmkrebszentrum
+771701,Zentrum für Hämatologische Neoplasien
+771701,Hautkrebszentrum
+771701,Prostatakrebszentrum
+771702,EndoProthetikZentrum der Maximalversorgung
+771703,EndoProthetikZentrum der Maximalversorgung
+771703,Darmkrebszentrum
+771703,Leberkrebszentrum
+771703,Prostatakrebszentrum
+771703,Harnblasenkrebszentrum
+771703,Nierenkrebszentrum
+771716,EndoProthetikZentrum der Maximalversorgung
+771718,Beckenboden- und Kontinenzzentrum
+771718,Onkologisches Zentrum
+771718,Brustkrebszentrum
+771718,Darmkrebszentrum
+771718,Zentrum für Hämatologische Neoplasien
+771718,Gynäkologisches Krebszentrum
+771718,Pankreaskrebszentrum
+771718,Schlaganfall-Einheit (Stroke Unit)
+771719,Schlaganfall-Einheit (Stroke Unit)
+771722,EndoProthetikZentrum
+771722,Gefäßzentrum
+771722,Brustkrebszentrum
+771722,Darmkrebszentrum
+771722,Gynäkologisches Krebszentrum
+771722,Pankreaskrebszentrum
+771722,Prostatakrebszentrum
+771722,Schlaganfall-Einheit (Stroke Unit)
+771723,EndoProthetikZentrum
+771723,Darmkrebszentrum
+771725,Schlaganfall-Einheit (Stroke Unit)
+771728,Shunt-Referenzzentrum
+771728,Gefäßzentrum
+771728,Prostatakrebszentrum
+771728,Nierenkrebszentrum
+771728,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771728,Schlaganfall-Einheit (Stroke Unit)
+771734,Hautkrebszentrum
+771734,Lungenkrebszentrum
+771736,EndoProthetikZentrum der Maximalversorgung Tumorendoprothetik
+771736,Onkologisches Zentrum
+771736,Brustkrebszentrum
+771736,Darmkrebszentrum
+771736,Zentrum für Hämatologische Neoplasien
+771736,Gynäkologisches Krebszentrum
+771736,Kopf-Hals-Tumor Krebszentrum
+771736,Leberkrebszentrum
+771736,Magenkrebszentrum
+771736,Neuroonkologisches Krebszentrum
+771736,Pankreaskrebszentrum
+771736,Prostatakrebszentrum
+771736,Speiseröhrenkrebszentrum
+771736,Sarkomszentrum
+771736,Schlaganfall-Einheit (Stroke Unit)
+771748,Brustkrebszentrum
+771758,Brustkrebszentrum
+771758,Gynäkologisches Krebszentrum
+771766,Beckenboden- und Kontinenzzentrum
+771766,EndoProthetikZentrum
+771766,Onkologisches Zentrum
+771766,Brustkrebszentrum
+771766,Darmkrebszentrum
+771766,Zentrum für Hämatologische Neoplasien
+771766,Gynäkologisches Krebszentrum
+771766,Pankreaskrebszentrum
+771766,Prostatakrebszentrum
+771766,Harnblasenkrebszentrum
+771766,Nierenkrebszentrum
+771766,Schlaganfall-Einheit (Stroke Unit)
+771767,EndoProthetikZentrum
+771767,Brustkrebszentrum
+771767,Darmkrebszentrum
+771767,Prostatakrebszentrum
+771767,Harnblasenkrebszentrum
+771767,Nierenkrebszentrum
+771769,Schlaganfall-Einheit (Stroke Unit)
+771779,Onkologisches Zentrum
+771779,Hautkrebszentrum
+771779,Kopf-Hals-Tumor Krebszentrum
+771780,Lungenkrebszentrum
+771783,Brustkrebszentrum
+771783,Darmkrebszentrum
+771783,Gynäkologisches Krebszentrum
+771783,Pankreaskrebszentrum
+771783,Prostatakrebszentrum
+771785,Brustkrebszentrum
+771792,EndoProthetikZentrum
+771792,Schlaganfall-Einheit (Stroke Unit)
+771802,EndoProthetikZentrum der Maximalversorgung
+771802,Onkologisches Zentrum
+771802,Brustkrebszentrum
+771802,Darmkrebszentrum
+771802,Gynäkologisches Krebszentrum
+771802,Kopf-Hals-Tumor Krebszentrum
+771802,Lungenkrebszentrum
+771802,Pankreaskrebszentrum
+771804,EndoProthetikZentrum
+771805,Beckenboden- und Kontinenzzentrum
+771805,EndoProthetikZentrum Schulterendoprothetik
+771805,Brustkrebszentrum
+771805,Darmkrebszentrum
+771805,Lungenkrebszentrum
+771805,Pankreaskrebszentrum
+771807,Shunt-Referenzzentrum
+771807,Onkologisches Zentrum
+771807,Brustkrebszentrum
+771807,Darmkrebszentrum
+771807,Zentrum für Hämatologische Neoplasien
+771807,Gynäkologisches Krebszentrum
+771807,Hautkrebszentrum
+771807,Magenkrebszentrum
+771807,Pankreaskrebszentrum
+771807,Prostatakrebszentrum
+771807,Nierenkrebszentrum
+771807,Analkarzinomzentrum
+771807,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771807,Schlaganfall-Einheit (Stroke Unit)
+771810,Darmkrebszentrum
+771812,Beckenboden- und Kontinenzzentrum
+771812,EndoProthetikZentrum der Maximalversorgung
+771813,Onkologisches Zentrum
+771813,Brustkrebszentrum
+771813,Zentrum für Hämatologische Neoplasien
+771813,Gynäkologisches Krebszentrum
+771818,EndoProthetikZentrum
+771818,Gefäßzentrum
+771819,EndoProthetikZentrum
+771827,EndoProthetikZentrum
+771831,EndoProthetikZentrum
+771831,Schlaganfall-Einheit (Stroke Unit)
+771833,Onkologisches Zentrum
+771833,Brustkrebszentrum
+771833,Darmkrebszentrum
+771833,Zentrum für Hämatologische Neoplasien
+771833,Gynäkologisches Krebszentrum
+771833,Prostatakrebszentrum
+771833,Harnblasenkrebszentrum
+771833,Nierenkrebszentrum
+771833,Schlaganfall-Einheit (Stroke Unit)
+771835,Onkologisches Zentrum
+771835,Brustkrebszentrum
+771835,Darmkrebszentrum
+771835,Zentrum für Hämatologische Neoplasien
+771835,Gynäkologisches Krebszentrum
+771835,Hautkrebszentrum
+771835,Kopf-Hals-Tumor Krebszentrum
+771835,Lungenkrebszentrum
+771835,Magenkrebszentrum
+771835,Neuroonkologisches Krebszentrum
+771835,Pankreaskrebszentrum
+771835,Prostatakrebszentrum
+771835,Harnblasenkrebszentrum
+771835,Nierenkrebszentrum
+771835,Nephrologische Schwerpunktklinik
+771835,Schlaganfall-Einheit (Stroke Unit)
+771839,Onkologisches Zentrum
+771839,Brustkrebszentrum
+771839,Darmkrebszentrum
+771839,Zentrum für Hämatologische Neoplasien
+771839,Harnblasenkrebszentrum
+771839,Nierenkrebszentrum
+771839,Hodenkrebszentrum
+771840,EndoProthetikZentrum
+771840,Schlaganfall-Einheit (Stroke Unit)
+771841,EndoProthetikZentrum
+771841,Schlaganfall-Einheit (Stroke Unit)
+771842,Brustkrebszentrum
+771842,Schlaganfall-Einheit (Stroke Unit)
+771843,Gefäßzentrum
+771843,Brustkrebszentrum
+771843,Darmkrebszentrum
+771843,Prostatakrebszentrum
+771843,Schlaganfall-Einheit (Stroke Unit)
+771848,EndoProthetikZentrum
+771848,Gefäßzentrum
+771851,Brustkrebszentrum
+771851,Darmkrebszentrum
+771851,Lungenkrebszentrum
+771854,EndoProthetikZentrum
+771854,Brustkrebszentrum
+771854,Schlaganfall-Einheit (Stroke Unit)
+771860,EndoProthetikZentrum der Maximalversorgung
+771862,EndoProthetikZentrum der Maximalversorgung
+771872,EndoProthetikZentrum der Maximalversorgung
+771876,EndoProthetikZentrum der Maximalversorgung
+771876,Brustkrebszentrum
+771876,Darmkrebszentrum
+771876,Gynäkologisches Krebszentrum
+771876,Schlaganfall-Einheit (Stroke Unit)
+771888,EndoProthetikZentrum der Maximalversorgung
+771889,EndoProthetikZentrum
+771889,Gefäßzentrum
+771889,Darmkrebszentrum
+771889,Pankreaskrebszentrum
+771891,EndoProthetikZentrum
+771891,Darmkrebszentrum
+771891,Prostatakrebszentrum
+771892,EndoProthetikZentrum
+771893,Beckenboden- und Kontinenzzentrum
+771893,Zentrum für Hämatologische Neoplasien
+771896,EndoProthetikZentrum der Maximalversorgung
+771897,EndoProthetikZentrum
+771897,Schlaganfall-Einheit (Stroke Unit)
+771899,EndoProthetikZentrum der Maximalversorgung
+771903,EndoProthetikZentrum der Maximalversorgung
+771903,Onkologisches Zentrum
+771903,Darmkrebszentrum
+771903,Zentrum für Hämatologische Neoplasien
+771903,Lungenkrebszentrum
+771903,Prostatakrebszentrum
+771903,Harnblasenkrebszentrum
+771903,Nierenkrebszentrum
+771903,Schlaganfall-Einheit (Stroke Unit)
+771904,EndoProthetikZentrum
+771906,EndoProthetikZentrum
+771915,Onkologisches Zentrum
+771915,Brustkrebszentrum
+771915,Darmkrebszentrum
+771915,Zentrum für Hämatologische Neoplasien
+771915,Gynäkologisches Krebszentrum
+771915,Prostatakrebszentrum
+771915,Harnblasenkrebszentrum
+771917,Shunt-Referenzzentrum
+771917,Darmkrebszentrum
+771917,Pankreaskrebszentrum
+771917,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771923,Schlaganfall-Einheit (Stroke Unit)
+771924,EndoProthetikZentrum der Maximalversorgung
+771924,Brustkrebszentrum
+771924,Gynäkologisches Krebszentrum
+771930,Gefäßzentrum
+771930,Onkologisches Zentrum
+771930,Brustkrebszentrum
+771930,Darmkrebszentrum
+771930,Gynäkologisches Krebszentrum
+771930,Prostatakrebszentrum
+771930,Schlaganfall-Einheit (Stroke Unit)
+771934,EndoProthetikZentrum
+771935,EndoProthetikZentrum der Maximalversorgung
+771936,Onkologisches Zentrum
+771936,Brustkrebszentrum
+771936,Darmkrebszentrum
+771936,Zentrum für Hämatologische Neoplasien
+771936,Hautkrebszentrum
+771936,Kopf-Hals-Tumor Krebszentrum
+771936,Pankreaskrebszentrum
+771936,Prostatakrebszentrum
+771936,Speiseröhrenkrebszentrum
+771936,Nierenkrebszentrum
+771937,EndoProthetikZentrum
+771937,Kopf-Hals-Tumor Krebszentrum
+771937,Prostatakrebszentrum
+771938,Onkologisches Zentrum
+771938,Darmkrebszentrum
+771938,Zentrum für Hämatologische Neoplasien
+771938,Lungenkrebszentrum
+771938,Pankreaskrebszentrum
+771939,Shunt-Referenzzentrum
+771939,EndoProthetikZentrum der Maximalversorgung
+771939,Schlaganfall-Einheit (Stroke Unit)
+771941,Brustkrebszentrum
+771941,Schlaganfall-Einheit (Stroke Unit)
+771942,Schlaganfall-Einheit (Stroke Unit)
+771949,Schlaganfall-Einheit (Stroke Unit)
+771952,EndoProthetikZentrum
+771953,Shunt-Referenzzentrum
+771953,EndoProthetikZentrum
+771954,EndoProthetikZentrum
+771954,Brustkrebszentrum
+771954,Darmkrebszentrum
+771956,Beckenboden- und Kontinenzzentrum
+771956,EndoProthetikZentrum der Maximalversorgung
+771956,Onkologisches Zentrum
+771956,Darmkrebszentrum
+771956,Lungenkrebszentrum
+771956,Neuroonkologisches Krebszentrum
+771956,Prostatakrebszentrum
+771956,Harnblasenkrebszentrum
+771956,Nierenkrebszentrum
+771956,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+771956,Schlaganfall-Einheit (Stroke Unit)
+771961,EndoProthetikZentrum
+771962,EndoProthetikZentrum
+771962,Brustkrebszentrum
+771962,Schlaganfall-Einheit (Stroke Unit)
+771964,Beckenboden- und Kontinenzzentrum
+771965,EndoProthetikZentrum
+771967,Regionales Shuntzentrum
+771967,Gefäßzentrum
+771967,Onkologisches Zentrum
+771967,Brustkrebszentrum
+771967,Darmkrebszentrum
+771967,Zentrum für Hämatologische Neoplasien
+771967,Gynäkologisches Krebszentrum
+771967,Hautkrebszentrum
+771967,Kopf-Hals-Tumor Krebszentrum
+771967,Leberkrebszentrum
+771967,Magenkrebszentrum
+771967,Neuroonkologisches Krebszentrum
+771967,Pankreaskrebszentrum
+771967,Prostatakrebszentrum
+771967,Harnblasenkrebszentrum
+771967,Nierenkrebszentrum
+771967,Sarkomszentrum
+771967,Analkarzinomzentrum
+771967,Hodenkrebszentrum
+771967,Schlaganfall-Einheit (Stroke Unit)
+771970,EndoProthetikZentrum
+771971,Lungenkrebszentrum
+771973,EndoProthetikZentrum
+771973,Lungenkrebszentrum
+771973,Schlaganfall-Einheit (Stroke Unit)
+771974,Beckenboden- und Kontinenzzentrum
+771980,Gynäkologisches Krebszentrum
+771982,Darmkrebszentrum
+771982,Pankreaskrebszentrum
+771982,Schlaganfall-Einheit (Stroke Unit)
+771986,EndoProthetikZentrum
+771986,Gefäßzentrum
+771988,EndoProthetikZentrum
+771988,Brustkrebszentrum
+771988,Gynäkologisches Krebszentrum
+771991,Brustkrebszentrum
+771991,Darmkrebszentrum
+771991,Gynäkologisches Krebszentrum
+771991,Kopf-Hals-Tumor Krebszentrum
+771991,Schlaganfall-Einheit (Stroke Unit)
+771994,EndoProthetikZentrum der Maximalversorgung
+771997,Beckenboden- und Kontinenzzentrum
+771997,EndoProthetikZentrum
+771999,Lungenkrebszentrum
+772000,EndoProthetikZentrum
+772000,Gefäßzentrum
+772000,Onkologisches Zentrum
+772000,Darmkrebszentrum
+772000,Schlaganfall-Einheit (Stroke Unit)
+772003,Schlaganfall-Einheit (Stroke Unit)
+772006,EndoProthetikZentrum der Maximalversorgung
+772006,Gefäßzentrum
+772009,Brustkrebszentrum
+772009,Schlaganfall-Einheit (Stroke Unit)
+772016,EndoProthetikZentrum der Maximalversorgung
+772023,EndoProthetikZentrum der Maximalversorgung
+772028,Regionales Shuntzentrum
+772028,Brustkrebszentrum
+772028,Schlaganfall-Einheit (Stroke Unit)
+772030,EndoProthetikZentrum der Maximalversorgung
+772032,Shunt-Referenzzentrum
+772032,EndoProthetikZentrum der Maximalversorgung
+772033,Lungenkrebszentrum
+772040,EndoProthetikZentrum
+772041,Beckenboden- und Kontinenzzentrum
+772041,Onkologisches Zentrum
+772041,Brustkrebszentrum
+772041,Darmkrebszentrum
+772041,Zentrum für Hämatologische Neoplasien
+772041,Gynäkologisches Krebszentrum
+772041,Hautkrebszentrum
+772041,Kopf-Hals-Tumor Krebszentrum
+772041,Leberkrebszentrum
+772041,Lungenkrebszentrum
+772041,Magenkrebszentrum
+772041,Neuroonkologisches Krebszentrum
+772041,Pankreaskrebszentrum
+772041,Prostatakrebszentrum
+772041,Speiseröhrenkrebszentrum
+772041,Harnblasenkrebszentrum
+772041,Nierenkrebszentrum
+772041,Sarkomszentrum
+772041,Nephrologische Schwerpunktklinik
+772041,Schlaganfall-Einheit (Stroke Unit)
+772048,Onkologisches Zentrum
+772048,Brustkrebszentrum
+772048,Darmkrebszentrum
+772048,Zentrum für Hämatologische Neoplasien
+772048,Gynäkologisches Krebszentrum
+772048,Hautkrebszentrum
+772048,Kopf-Hals-Tumor Krebszentrum
+772048,Magenkrebszentrum
+772048,Pankreaskrebszentrum
+772048,Prostatakrebszentrum
+772048,Nierenkrebszentrum
+772048,Schlaganfall-Einheit (Stroke Unit)
+772049,EndoProthetikZentrum Schulterendoprothetik
+772051,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+772053,EndoProthetikZentrum der Maximalversorgung
+772053,Gefäßzentrum
+772053,Onkologisches Zentrum
+772053,Brustkrebszentrum
+772053,Darmkrebszentrum
+772053,Zentrum für Hämatologische Neoplasien
+772053,Gynäkologisches Krebszentrum
+772053,Kopf-Hals-Tumor Krebszentrum
+772053,Neuroonkologisches Krebszentrum
+772053,Pankreaskrebszentrum
+772053,Prostatakrebszentrum
+772053,Sarkomszentrum
+772053,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+772053,Schlaganfall-Einheit (Stroke Unit)
+772054,Hautkrebszentrum
+772061,EndoProthetikZentrum der Maximalversorgung
+772061,Gefäßzentrum
+772061,Darmkrebszentrum
+772061,Zentrum für Hämatologische Neoplasien
+772061,Gynäkologisches Krebszentrum
+772062,EndoProthetikZentrum
+772063,Brustkrebszentrum
+772066,Schlaganfall-Einheit (Stroke Unit)
+772067,EndoProthetikZentrum
+772067,Schlaganfall-Einheit (Stroke Unit)
+772071,EndoProthetikZentrum
+772071,Brustkrebszentrum
+772071,Darmkrebszentrum
+772071,Schlaganfall-Einheit (Stroke Unit)
+772073,Gefäßzentrum
+772073,Brustkrebszentrum
+772073,Darmkrebszentrum
+772073,Schlaganfall-Einheit (Stroke Unit)
+772075,EndoProthetikZentrum der Maximalversorgung
+772075,Darmkrebszentrum
+772079,EndoProthetikZentrum
+772079,Brustkrebszentrum
+772079,Gynäkologisches Krebszentrum
+772080,EndoProthetikZentrum
+772080,Darmkrebszentrum
+772080,Schlaganfall-Einheit (Stroke Unit)
+772083,EndoProthetikZentrum der Maximalversorgung
+772084,EndoProthetikZentrum
+772088,EndoProthetikZentrum
+772088,Darmkrebszentrum
+772088,Schlaganfall-Einheit (Stroke Unit)
+772089,Beckenboden- und Kontinenzzentrum
+772089,Darmkrebszentrum
+772089,Pankreaskrebszentrum
+772089,Prostatakrebszentrum
+772090,Darmkrebszentrum
+772091,EndoProthetikZentrum der Maximalversorgung
+772099,Onkologisches Zentrum
+772099,Darmkrebszentrum
+772099,Zentrum für Hämatologische Neoplasien
+772099,Gynäkologisches Krebszentrum
+772113,EndoProthetikZentrum
+772113,Schlaganfall-Einheit (Stroke Unit)
+772117,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772119,Schlaganfall-Einheit (Stroke Unit)
+772120,EndoProthetikZentrum
+772121,Onkologisches Zentrum
+772121,Brustkrebszentrum
+772121,Darmkrebszentrum
+772121,Gynäkologisches Krebszentrum
+772121,Neuroonkologisches Krebszentrum
+772121,Pankreaskrebszentrum
+772121,Prostatakrebszentrum
+772121,Harnblasenkrebszentrum
+772121,Nierenkrebszentrum
+772121,Schlaganfall-Einheit (Stroke Unit)
+772125,EndoProthetikZentrum
+772125,Darmkrebszentrum
+772127,Darmkrebszentrum
+772128,Beckenboden- und Kontinenzzentrum
+772128,EndoProthetikZentrum
+772133,Lungenkrebszentrum
+772133,Prostatakrebszentrum
+772139,EndoProthetikZentrum
+772141,EndoProthetikZentrum
+772143,Onkologisches Zentrum
+772143,Brustkrebszentrum
+772143,Darmkrebszentrum
+772143,Zentrum für Hämatologische Neoplasien
+772143,Gynäkologisches Krebszentrum
+772143,Hautkrebszentrum
+772143,Kopf-Hals-Tumor Krebszentrum
+772143,Prostatakrebszentrum
+772143,Nephrologische Schwerpunktklinik
+772143,Schlaganfall-Einheit (Stroke Unit)
+772145,Shunt-Referenzzentrum
+772145,EndoProthetikZentrum
+772145,Onkologisches Zentrum
+772145,Brustkrebszentrum
+772145,Darmkrebszentrum
+772145,Zentrum für Hämatologische Neoplasien
+772145,Gynäkologisches Krebszentrum
+772145,Neuroonkologisches Krebszentrum
+772145,Pankreaskrebszentrum
+772145,Prostatakrebszentrum
+772145,Nierenkrebszentrum
+772145,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+772145,Schlaganfall-Einheit (Stroke Unit)
+772148,Darmkrebszentrum
+772148,Schlaganfall-Einheit (Stroke Unit)
+772151,EndoProthetikZentrum
+772154,Brustkrebszentrum
+772170,EndoProthetikZentrum
+772170,Gefäßzentrum
+772170,Prostatakrebszentrum
+772170,Nierenkrebszentrum
+772171,EndoProthetikZentrum
+772171,Brustkrebszentrum
+772174,Schlaganfall-Einheit (Stroke Unit)
+772176,Beckenboden- und Kontinenzzentrum
+772176,Gefäßzentrum
+772176,Brustkrebszentrum
+772176,Darmkrebszentrum
+772176,Gynäkologisches Krebszentrum
+772176,Leberkrebszentrum
+772176,Pankreaskrebszentrum
+772176,Analkarzinomzentrum
+772176,Schlaganfall-Einheit (Stroke Unit)
+772177,EndoProthetikZentrum
+772178,Schlaganfall-Einheit (Stroke Unit)
+772187,Beckenboden- und Kontinenzzentrum
+772187,EndoProthetikZentrum
+772187,Gefäßzentrum
+772187,Brustkrebszentrum
+772187,Prostatakrebszentrum
+772188,Darmkrebszentrum
+772188,Gynäkologisches Krebszentrum
+772188,Pankreaskrebszentrum
+772189,EndoProthetikZentrum
+772191,EndoProthetikZentrum der Maximalversorgung
+772191,Darmkrebszentrum
+772191,Gynäkologisches Krebszentrum
+772191,Lungenkrebszentrum
+772191,Speiseröhrenkrebszentrum
+772193,EndoProthetikZentrum der Maximalversorgung
+772197,Schlaganfall-Einheit (Stroke Unit)
+772202,EndoProthetikZentrum
+772203,Schlaganfall-Einheit (Stroke Unit)
+772205,Darmkrebszentrum
+772207,Gefäßzentrum
+772207,Brustkrebszentrum
+772207,Gynäkologisches Krebszentrum
+772207,Schlaganfall-Einheit (Stroke Unit)
+772208,Onkologisches Zentrum
+772208,Brustkrebszentrum
+772208,Zentrum für Hämatologische Neoplasien
+772208,Gynäkologisches Krebszentrum
+772208,Kopf-Hals-Tumor Krebszentrum
+772209,Regionales Shuntzentrum
+772221,Beckenboden- und Kontinenzzentrum
+772221,EndoProthetikZentrum der Maximalversorgung
+772221,Onkologisches Zentrum
+772221,Brustkrebszentrum
+772221,Darmkrebszentrum
+772221,Gynäkologisches Krebszentrum
+772222,Shunt-Referenzzentrum
+772222,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772222,Gefäßzentrum
+772223,EndoProthetikZentrum
+772231,EndoProthetikZentrum der Maximalversorgung
+772234,EndoProthetikZentrum
+772234,Schlaganfall-Einheit (Stroke Unit)
+772237,EndoProthetikZentrum der Maximalversorgung
+772237,Darmkrebszentrum
+772239,EndoProthetikZentrum
+772241,Schlaganfall-Einheit (Stroke Unit)
+772246,Brustkrebszentrum
+772246,Darmkrebszentrum
+772246,Schlaganfall-Einheit (Stroke Unit)
+772247,Beckenboden- und Kontinenzzentrum
+772247,"EndoProthetikZentrum der Maximalversorgung Schulter-, Tumorendoprothetik und Oberes Sprunggelenk"
+772247,Onkologisches Zentrum
+772247,Brustkrebszentrum
+772247,Darmkrebszentrum
+772247,Zentrum für Hämatologische Neoplasien
+772247,Gynäkologisches Krebszentrum
+772247,Hautkrebszentrum
+772247,Kopf-Hals-Tumor Krebszentrum
+772247,Leberkrebszentrum
+772247,Lungenkrebszentrum
+772247,Neuroonkologisches Krebszentrum
+772247,Pankreaskrebszentrum
+772247,Prostatakrebszentrum
+772247,Speiseröhrenkrebszentrum
+772247,Harnblasenkrebszentrum
+772247,Nierenkrebszentrum
+772247,Hodenkrebszentrum
+772247,Schlaganfall-Einheit (Stroke Unit)
+772248,Lungenkrebszentrum
+772251,EndoProthetikZentrum
+772251,Darmkrebszentrum
+772251,Pankreaskrebszentrum
+772251,Prostatakrebszentrum
+772251,Harnblasenkrebszentrum
+772251,Nierenkrebszentrum
+772252,Beckenboden- und Kontinenzzentrum
+772252,Gynäkologisches Krebszentrum
+772256,Schlaganfall-Einheit (Stroke Unit)
+772259,EndoProthetikZentrum
+772265,EndoProthetikZentrum
+772266,EndoProthetikZentrum
+772269,EndoProthetikZentrum
+772271,Brustkrebszentrum
+772271,Schlaganfall-Einheit (Stroke Unit)
+772274,Onkologisches Zentrum
+772274,Brustkrebszentrum
+772274,Darmkrebszentrum
+772274,Zentrum für Hämatologische Neoplasien
+772274,Gynäkologisches Krebszentrum
+772274,Pankreaskrebszentrum
+772274,Prostatakrebszentrum
+772274,Nephrologische Schwerpunktklinik
+772274,Hodenkrebszentrum
+772274,Schlaganfall-Einheit (Stroke Unit)
+772276,EndoProthetikZentrum
+772280,Lungenkrebszentrum
+772283,EndoProthetikZentrum
+772283,Darmkrebszentrum
+772283,Gynäkologisches Krebszentrum
+772283,Hautkrebszentrum
+772283,Magenkrebszentrum
+772283,Neuroonkologisches Krebszentrum
+772283,Pankreaskrebszentrum
+772283,Speiseröhrenkrebszentrum
+772283,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+772283,Schlaganfall-Einheit (Stroke Unit)
+772295,EndoProthetikZentrum der Maximalversorgung
+772307,EndoProthetikZentrum
+772307,Schlaganfall-Einheit (Stroke Unit)
+772308,Darmkrebszentrum
+772308,Prostatakrebszentrum
+772308,Harnblasenkrebszentrum
+772308,Nierenkrebszentrum
+772308,Schlaganfall-Einheit (Stroke Unit)
+772311,EndoProthetikZentrum
+772311,Onkologisches Zentrum
+772311,Brustkrebszentrum
+772311,Darmkrebszentrum
+772311,Zentrum für Hämatologische Neoplasien
+772311,Gynäkologisches Krebszentrum
+772311,Lungenkrebszentrum
+772311,Pankreaskrebszentrum
+772311,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+772311,Schlaganfall-Einheit (Stroke Unit)
+772314,Onkologisches Zentrum
+772314,Darmkrebszentrum
+772314,Zentrum für Hämatologische Neoplasien
+772314,Gynäkologisches Krebszentrum
+772314,Pankreaskrebszentrum
+772322,Darmkrebszentrum
+772327,Schlaganfall-Einheit (Stroke Unit)
+772328,EndoProthetikZentrum
+772330,EndoProthetikZentrum Schulterendoprothetik
+772331,EndoProthetikZentrum der Maximalversorgung
+772333,EndoProthetikZentrum
+772333,Gefäßzentrum
+772333,Onkologisches Zentrum
+772333,Brustkrebszentrum
+772333,Darmkrebszentrum
+772333,Zentrum für Hämatologische Neoplasien
+772333,Pankreaskrebszentrum
+772333,Nierenkrebszentrum
+772333,Hodenkrebszentrum
+772333,Schlaganfall-Einheit (Stroke Unit)
+772341,EndoProthetikZentrum
+772347,Onkologisches Zentrum
+772347,Darmkrebszentrum
+772347,Gynäkologisches Krebszentrum
+772347,Kopf-Hals-Tumor Krebszentrum
+772347,Pankreaskrebszentrum
+772347,Prostatakrebszentrum
+772351,EndoProthetikZentrum
+772352,EndoProthetikZentrum
+772356,Onkologisches Zentrum
+772356,Brustkrebszentrum
+772356,Darmkrebszentrum
+772356,Gynäkologisches Krebszentrum
+772356,Lungenkrebszentrum
+772356,Prostatakrebszentrum
+772356,Nephrologische Schwerpunktklinik
+772356,Schlaganfall-Einheit (Stroke Unit)
+772358,Darmkrebszentrum
+772358,Prostatakrebszentrum
+772358,Harnblasenkrebszentrum
+772358,Nierenkrebszentrum
+772359,EndoProthetikZentrum
+772359,Onkologisches Zentrum
+772359,Brustkrebszentrum
+772359,Gynäkologisches Krebszentrum
+772359,Prostatakrebszentrum
+772361,Darmkrebszentrum
+772363,Shunt-Referenzzentrum
+772363,Darmkrebszentrum
+772363,Lungenkrebszentrum
+772363,Magenkrebszentrum
+772363,Neuroonkologisches Krebszentrum
+772363,Pankreaskrebszentrum
+772363,Prostatakrebszentrum
+772363,Harnblasenkrebszentrum
+772363,Nephrologische Schwerpunktklinik
+772363,Schlaganfall-Einheit (Stroke Unit)
+772365,EndoProthetikZentrum der Maximalversorgung
+772365,Gefäßzentrum
+772365,Darmkrebszentrum
+772365,Zentrum für Hämatologische Neoplasien
+772365,Hautkrebszentrum
+772365,Kopf-Hals-Tumor Krebszentrum
+772365,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+772365,Schlaganfall-Einheit (Stroke Unit)
+772368,EndoProthetikZentrum
+772368,Darmkrebszentrum
+772368,Schlaganfall-Einheit (Stroke Unit)
+772372,Beckenboden- und Kontinenzzentrum
+772372,Onkologisches Zentrum
+772372,Zentrum für Hämatologische Neoplasien
+772372,Gynäkologisches Krebszentrum
+772372,Prostatakrebszentrum
+772372,Harnblasenkrebszentrum
+772372,Nierenkrebszentrum
+772372,Nephrologische Schwerpunktklinik
+772375,EndoProthetikZentrum der Maximalversorgung
+772376,Lungenkrebszentrum
+772376,Prostatakrebszentrum
+772376,Harnblasenkrebszentrum
+772376,Nierenkrebszentrum
+772377,Brustkrebszentrum
+772378,Brustkrebszentrum
+772378,Schlaganfall-Einheit (Stroke Unit)
+772380,EndoProthetikZentrum der Maximalversorgung
+772380,Hautkrebszentrum
+772383,EndoProthetikZentrum der Maximalversorgung
+772383,Onkologisches Zentrum
+772383,Brustkrebszentrum
+772383,Darmkrebszentrum
+772383,Zentrum für Hämatologische Neoplasien
+772383,Prostatakrebszentrum
+772383,Nephrologische Schwerpunktklinik
+772383,Schlaganfall-Einheit (Stroke Unit)
+772384,Shunt-Referenzzentrum
+772384,EndoProthetikZentrum
+772384,Gefäßzentrum
+772384,Onkologisches Zentrum
+772384,Brustkrebszentrum
+772384,Darmkrebszentrum
+772384,Gynäkologisches Krebszentrum
+772384,Pankreaskrebszentrum
+772384,Prostatakrebszentrum
+772384,Nephrologische Schwerpunktklinik
+772386,EndoProthetikZentrum
+772386,Schlaganfall-Einheit (Stroke Unit)
+772387,EndoProthetikZentrum
+772387,Schlaganfall-Einheit (Stroke Unit)
+772389,Gefäßzentrum
+772389,Onkologisches Zentrum
+772389,Brustkrebszentrum
+772389,Darmkrebszentrum
+772389,Gynäkologisches Krebszentrum
+772389,Hautkrebszentrum
+772389,Kopf-Hals-Tumor Krebszentrum
+772389,Leberkrebszentrum
+772389,Neuroonkologisches Krebszentrum
+772389,Prostatakrebszentrum
+772389,Speiseröhrenkrebszentrum
+772389,Harnblasenkrebszentrum
+772389,Nierenkrebszentrum
+772389,Sarkomszentrum
+772389,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+772389,Schlaganfall-Einheit (Stroke Unit)
+772392,Brustkrebszentrum
+772392,Darmkrebszentrum
+772393,Schlaganfall-Einheit (Stroke Unit)
+772394,EndoProthetikZentrum
+772395,Schlaganfall-Einheit (Stroke Unit)
+772396,EndoProthetikZentrum der Maximalversorgung
+772396,Prostatakrebszentrum
+772397,EndoProthetikZentrum
+772400,Schlaganfall-Einheit (Stroke Unit)
+772402,EndoProthetikZentrum der Maximalversorgung
+772412,EndoProthetikZentrum
+772414,EndoProthetikZentrum
+772414,Onkologisches Zentrum
+772414,Brustkrebszentrum
+772414,Darmkrebszentrum
+772414,Gynäkologisches Krebszentrum
+772414,Neuroonkologisches Krebszentrum
+772414,Pankreaskrebszentrum
+772414,Prostatakrebszentrum
+772414,Schlaganfall-Einheit (Stroke Unit)
+772415,Schlaganfall-Einheit (Stroke Unit)
+772416,Shunt-Referenzzentrum
+772416,Beckenboden- und Kontinenzzentrum
+772417,Lungenkrebszentrum
+772418,EndoProthetikZentrum der Maximalversorgung
+772418,Onkologisches Zentrum
+772418,Brustkrebszentrum
+772418,Darmkrebszentrum
+772418,Pankreaskrebszentrum
+772418,Speiseröhrenkrebszentrum
+772425,Beckenboden- und Kontinenzzentrum
+772425,EndoProthetikZentrum der Maximalversorgung
+772426,EndoProthetikZentrum der Maximalversorgung
+772427,EndoProthetikZentrum
+772430,Schlaganfall-Einheit (Stroke Unit)
+772431,Lungenkrebszentrum
+772432,Beckenboden- und Kontinenzzentrum
+772432,EndoProthetikZentrum der Maximalversorgung
+772432,Onkologisches Zentrum
+772432,Zentrum für Hämatologische Neoplasien
+772432,Gynäkologisches Krebszentrum
+772432,Hautkrebszentrum
+772432,Kopf-Hals-Tumor Krebszentrum
+772432,Leberkrebszentrum
+772432,Lungenkrebszentrum
+772432,Magenkrebszentrum
+772432,Neuroonkologisches Krebszentrum
+772432,Prostatakrebszentrum
+772432,Speiseröhrenkrebszentrum
+772432,Nierenkrebszentrum
+772432,Sarkomszentrum
+772432,Schlaganfall-Einheit (Stroke Unit)
+772433,EndoProthetikZentrum
+772433,Brustkrebszentrum
+772434,Regionales Shuntzentrum
+772434,Beckenboden- und Kontinenzzentrum
+772434,Onkologisches Zentrum
+772434,Brustkrebszentrum
+772434,Darmkrebszentrum
+772434,Gynäkologisches Krebszentrum
+772436,EndoProthetikZentrum
+772437,EndoProthetikZentrum der Maximalversorgung
+772437,Brustkrebszentrum
+772437,Gynäkologisches Krebszentrum
+772437,Schlaganfall-Einheit (Stroke Unit)
+772438,Brustkrebszentrum
+772438,Darmkrebszentrum
+772441,EndoProthetikZentrum der Maximalversorgung
+772441,Schlaganfall-Einheit (Stroke Unit)
+772443,Brustkrebszentrum
+772448,EndoProthetikZentrum
+772448,Darmkrebszentrum
+772452,Schlaganfall-Einheit (Stroke Unit)
+772461,EndoProthetikZentrum
+772462,EndoProthetikZentrum
+772466,Gefäßzentrum
+772466,Onkologisches Zentrum
+772466,Brustkrebszentrum
+772466,Darmkrebszentrum
+772466,Pankreaskrebszentrum
+772466,Prostatakrebszentrum
+772466,Speiseröhrenkrebszentrum
+772466,Harnblasenkrebszentrum
+772466,Nierenkrebszentrum
+772466,Schlaganfall-Einheit (Stroke Unit)
+772471,Brustkrebszentrum
+772471,Darmkrebszentrum
+772471,Pankreaskrebszentrum
+772471,Schlaganfall-Einheit (Stroke Unit)
+772472,EndoProthetikZentrum
+772473,Gefäßzentrum
+772473,Hautkrebszentrum
+772473,Schlaganfall-Einheit (Stroke Unit)
+772474,EndoProthetikZentrum
+772474,Onkologisches Zentrum
+772474,Brustkrebszentrum
+772474,Darmkrebszentrum
+772474,Lungenkrebszentrum
+772474,Pankreaskrebszentrum
+772474,Nephrologische Schwerpunktabteilung
+772477,EndoProthetikZentrum
+772479,Regionales Shuntzentrum
+772482,EndoProthetikZentrum der Maximalversorgung
+772482,Brustkrebszentrum
+772482,Darmkrebszentrum
+772482,Pankreaskrebszentrum
+772482,Schlaganfall-Einheit (Stroke Unit)
+772483,EndoProthetikZentrum der Maximalversorgung
+772484,Schlaganfall-Einheit (Stroke Unit)
+772488,EndoProthetikZentrum
+772488,Prostatakrebszentrum
+772488,Harnblasenkrebszentrum
+772488,Nierenkrebszentrum
+772489,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772489,Schlaganfall-Einheit (Stroke Unit)
+772498,EndoProthetikZentrum
+772498,Prostatakrebszentrum
+772498,Schlaganfall-Einheit (Stroke Unit)
+772510,Onkologisches Zentrum
+772510,Brustkrebszentrum
+772510,Darmkrebszentrum
+772510,Gynäkologisches Krebszentrum
+772510,Pankreaskrebszentrum
+772510,Prostatakrebszentrum
+772510,Nierenkrebszentrum
+772510,Schlaganfall-Einheit (Stroke Unit)
+772512,Shunt-Referenzzentrum
+772512,Gefäßzentrum
+772512,Brustkrebszentrum
+772512,Darmkrebszentrum
+772512,Gynäkologisches Krebszentrum
+772530,EndoProthetikZentrum der Maximalversorgung
+772531,Schlaganfall-Einheit (Stroke Unit)
+772533,Brustkrebszentrum
+772533,Gynäkologisches Krebszentrum
+772533,Kopf-Hals-Tumor Krebszentrum
+772533,Schlaganfall-Einheit (Stroke Unit)
+772534,Regionales Shuntzentrum
+772534,EndoProthetikZentrum
+772534,Brustkrebszentrum
+772539,Darmkrebszentrum
+772539,Schlaganfall-Einheit (Stroke Unit)
+772540,Schlaganfall-Einheit (Stroke Unit)
+772544,EndoProthetikZentrum
+772546,Gefäßzentrum
+772546,Brustkrebszentrum
+772546,Darmkrebszentrum
+772548,EndoProthetikZentrum Schulterendoprothetik
+772548,Schlaganfall-Einheit (Stroke Unit)
+772549,Beckenboden- und Kontinenzzentrum
+772549,EndoProthetikZentrum
+772549,Brustkrebszentrum
+772549,Darmkrebszentrum
+772549,Pankreaskrebszentrum
+772549,Prostatakrebszentrum
+772549,Schlaganfall-Einheit (Stroke Unit)
+772550,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772554,EndoProthetikZentrum der Maximalversorgung
+772555,EndoProthetikZentrum
+772555,Gefäßzentrum
+772555,Darmkrebszentrum
+772556,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772557,EndoProthetikZentrum
+772557,Gefäßzentrum
+772557,Brustkrebszentrum
+772557,Darmkrebszentrum
+772558,EndoProthetikZentrum
+772558,Brustkrebszentrum
+772558,Darmkrebszentrum
+772558,Schlaganfall-Einheit (Stroke Unit)
+772561,EndoProthetikZentrum
+772561,Darmkrebszentrum
+772561,Zentrum für Hämatologische Neoplasien
+772563,Onkologisches Zentrum
+772563,Brustkrebszentrum
+772563,Darmkrebszentrum
+772563,Zentrum für Hämatologische Neoplasien
+772563,Hautkrebszentrum
+772563,Kopf-Hals-Tumor Krebszentrum
+772563,Lungenkrebszentrum
+772563,Neuroonkologisches Krebszentrum
+772563,Prostatakrebszentrum
+772563,Harnblasenkrebszentrum
+772563,Nierenkrebszentrum
+772563,Hodenkrebszentrum
+772563,Schlaganfall-Einheit (Stroke Unit)
+772565,Onkologisches Zentrum
+772565,Brustkrebszentrum
+772565,Darmkrebszentrum
+772565,Zentrum für Hämatologische Neoplasien
+772565,Gynäkologisches Krebszentrum
+772565,Hautkrebszentrum
+772565,Kopf-Hals-Tumor Krebszentrum
+772565,Neuroonkologisches Krebszentrum
+772565,Pankreaskrebszentrum
+772565,Harnblasenkrebszentrum
+772565,Nierenkrebszentrum
+772565,Schlaganfall-Einheit (Stroke Unit)
+772573,EndoProthetikZentrum
+772578,Beckenboden- und Kontinenzzentrum
+772578,EndoProthetikZentrum
+772578,Brustkrebszentrum
+772578,Darmkrebszentrum
+772578,Gynäkologisches Krebszentrum
+772578,Pankreaskrebszentrum
+772578,Prostatakrebszentrum
+772578,Schlaganfall-Einheit (Stroke Unit)
+772584,Onkologisches Zentrum
+772584,Brustkrebszentrum
+772584,Darmkrebszentrum
+772584,Zentrum für Hämatologische Neoplasien
+772584,Gynäkologisches Krebszentrum
+772584,Leberkrebszentrum
+772584,Pankreaskrebszentrum
+772584,Speiseröhrenkrebszentrum
+772584,Nephrologische Schwerpunktklinik
+772584,Schlaganfall-Einheit (Stroke Unit)
+772585,Brustkrebszentrum
+772589,EndoProthetikZentrum der Maximalversorgung
+772591,EndoProthetikZentrum der Maximalversorgung
+772597,Schlaganfall-Einheit (Stroke Unit)
+772604,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+772605,EndoProthetikZentrum
+772608,Brustkrebszentrum
+772608,Darmkrebszentrum
+772610,Brustkrebszentrum
+772610,Gynäkologisches Krebszentrum
+772610,Schlaganfall-Einheit (Stroke Unit)
+772621,EndoProthetikZentrum
+772621,Gefäßzentrum
+772621,Darmkrebszentrum
+772621,Gynäkologisches Krebszentrum
+772624,Brustkrebszentrum
+772624,Darmkrebszentrum
+772624,Gynäkologisches Krebszentrum
+772624,Schlaganfall-Einheit (Stroke Unit)
+772646,EndoProthetikZentrum
+772652,EndoProthetikZentrum
+772659,Beckenboden- und Kontinenzzentrum
+772659,EndoProthetikZentrum der Maximalversorgung
+772659,Prostatakrebszentrum
+772660,Shunt-Referenzzentrum
+772660,EndoProthetikZentrum der Maximalversorgung
+772660,Brustkrebszentrum
+772660,Darmkrebszentrum
+772660,Gynäkologisches Krebszentrum
+772660,Pankreaskrebszentrum
+772660,Speiseröhrenkrebszentrum
+772661,Schlaganfall-Einheit (Stroke Unit)
+772662,EndoProthetikZentrum
+772665,EndoProthetikZentrum
+772665,Gefäßzentrum
+772665,Brustkrebszentrum
+772665,Darmkrebszentrum
+772665,Gynäkologisches Krebszentrum
+772665,Schlaganfall-Einheit (Stroke Unit)
+772671,Gefäßzentrum
+772671,Brustkrebszentrum
+772671,Darmkrebszentrum
+772671,Pankreaskrebszentrum
+772671,Schlaganfall-Einheit (Stroke Unit)
+772672,EndoProthetikZentrum der Maximalversorgung
+772673,EndoProthetikZentrum
+772673,Brustkrebszentrum
+772673,Darmkrebszentrum
+772673,Gynäkologisches Krebszentrum
+772673,Schlaganfall-Einheit (Stroke Unit)
+772674,EndoProthetikZentrum der Maximalversorgung
+772675,Darmkrebszentrum
+772675,Gynäkologisches Krebszentrum
+772675,Schlaganfall-Einheit (Stroke Unit)
+772676,EndoProthetikZentrum
+772680,Schlaganfall-Einheit (Stroke Unit)
+772681,Hautkrebszentrum
+772681,Schlaganfall-Einheit (Stroke Unit)
+772684,Lungenkrebszentrum
+772685,EndoProthetikZentrum der Maximalversorgung
+772686,EndoProthetikZentrum
+772686,Lungenkrebszentrum
+772686,Prostatakrebszentrum
+772691,Onkologisches Zentrum
+772691,Brustkrebszentrum
+772691,Darmkrebszentrum
+772691,Zentrum für Hämatologische Neoplasien
+772691,Gynäkologisches Krebszentrum
+772691,Hautkrebszentrum
+772691,Lungenkrebszentrum
+772691,Pankreaskrebszentrum
+772691,Prostatakrebszentrum
+772691,Speiseröhrenkrebszentrum
+772691,Nierenkrebszentrum
+772691,Analkarzinomzentrum
+772691,Nephrologische Schwerpunktklinik
+772691,Schlaganfall-Einheit (Stroke Unit)
+772696,EndoProthetikZentrum
+772696,Onkologisches Zentrum
+772696,Brustkrebszentrum
+772696,Darmkrebszentrum
+772696,Prostatakrebszentrum
+772696,Nierenkrebszentrum
+772696,Hodenkrebszentrum
+772702,EndoProthetikZentrum der Maximalversorgung
+772704,EndoProthetikZentrum
+772705,Schlaganfall-Einheit (Stroke Unit)
+772706,EndoProthetikZentrum der Maximalversorgung
+772706,Brustkrebszentrum
+772706,Darmkrebszentrum
+772720,EndoProthetikZentrum der Maximalversorgung
+772721,Shunt-Referenzzentrum
+772721,Onkologisches Zentrum
+772721,Brustkrebszentrum
+772721,Darmkrebszentrum
+772721,Zentrum für Hämatologische Neoplasien
+772721,Gynäkologisches Krebszentrum
+772721,Lungenkrebszentrum
+772721,Pankreaskrebszentrum
+772721,Prostatakrebszentrum
+772721,Harnblasenkrebszentrum
+772721,Nierenkrebszentrum
+772721,Hodenkrebszentrum
+772724,Regionales Shuntzentrum
+772726,EndoProthetikZentrum
+772727,EndoProthetikZentrum
+772728,EndoProthetikZentrum
+772731,Brustkrebszentrum
+772731,Darmkrebszentrum
+772731,Pankreaskrebszentrum
+772733,EndoProthetikZentrum
+772733,Brustkrebszentrum
+772733,Darmkrebszentrum
+772733,Hautkrebszentrum
+772733,Pankreaskrebszentrum
+772733,Nephrologische Schwerpunktklinik
+772735,EndoProthetikZentrum
+772735,Brustkrebszentrum
+772735,Lungenkrebszentrum
+772735,Schlaganfall-Einheit (Stroke Unit)
+772736,Darmkrebszentrum
+772737,Brustkrebszentrum
+772737,Darmkrebszentrum
+772737,Gynäkologisches Krebszentrum
+772737,Pankreaskrebszentrum
+772737,Prostatakrebszentrum
+772737,Nierenkrebszentrum
+772740,Beckenboden- und Kontinenzzentrum
+772740,EndoProthetikZentrum
+772740,Onkologisches Zentrum
+772740,Brustkrebszentrum
+772740,Prostatakrebszentrum
+772740,Schlaganfall-Einheit (Stroke Unit)
+772741,EndoProthetikZentrum
+772744,Gefäßzentrum
+772744,Onkologisches Zentrum
+772744,Darmkrebszentrum
+772744,Zentrum für Hämatologische Neoplasien
+772744,Hautkrebszentrum
+772744,Pankreaskrebszentrum
+772744,Schlaganfall-Einheit (Stroke Unit)
+772754,Gefäßzentrum
+772754,Darmkrebszentrum
+772755,EndoProthetikZentrum der Maximalversorgung
+772760,Regionales Shuntzentrum
+772760,Onkologisches Zentrum
+772760,Brustkrebszentrum
+772760,Darmkrebszentrum
+772760,Zentrum für Hämatologische Neoplasien
+772760,Gynäkologisches Krebszentrum
+772760,Kopf-Hals-Tumor Krebszentrum
+772760,Neuroonkologisches Krebszentrum
+772760,Pankreaskrebszentrum
+772760,Speiseröhrenkrebszentrum
+772760,Nierenkrebszentrum
+772760,Nephrologische Schwerpunktklinik
+772760,Schlaganfall-Einheit (Stroke Unit)
+772766,EndoProthetikZentrum
+772766,Brustkrebszentrum
+772781,Darmkrebszentrum
+772781,Gynäkologisches Krebszentrum
+772782,Onkologisches Zentrum
+772782,Darmkrebszentrum
+772782,Gynäkologisches Krebszentrum
+772782,Hautkrebszentrum
+772782,Kopf-Hals-Tumor Krebszentrum
+772782,Lungenkrebszentrum
+772782,Neuroonkologisches Krebszentrum
+772782,Prostatakrebszentrum
+772782,Nierenkrebszentrum
+772782,Schlaganfall-Einheit (Stroke Unit)
+772783,Beckenboden- und Kontinenzzentrum
+772783,EndoProthetikZentrum
+772783,Onkologisches Zentrum
+772783,Darmkrebszentrum
+772783,Zentrum für Hämatologische Neoplasien
+772783,Kopf-Hals-Tumor Krebszentrum
+772783,Neuroonkologisches Krebszentrum
+772783,Pankreaskrebszentrum
+772783,Prostatakrebszentrum
+772783,Speiseröhrenkrebszentrum
+772783,Harnblasenkrebszentrum
+772783,Nierenkrebszentrum
+772783,Analkarzinomzentrum
+772783,Nephrologische Schwerpunktklinik
+772783,Schlaganfall-Einheit (Stroke Unit)
+772786,Beckenboden- und Kontinenzzentrum
+772786,Brustkrebszentrum
+772786,Gynäkologisches Krebszentrum
+772788,Brustkrebszentrum
+772788,Lungenkrebszentrum
+772789,Gefäßzentrum
+772789,Darmkrebszentrum
+772790,Schlaganfall-Einheit (Stroke Unit)
+772794,EndoProthetikZentrum
+772794,Gefäßzentrum
+772794,Onkologisches Zentrum
+772794,Brustkrebszentrum
+772794,Darmkrebszentrum
+772794,Zentrum für Hämatologische Neoplasien
+772794,Kopf-Hals-Tumor Krebszentrum
+772794,Leberkrebszentrum
+772794,Lungenkrebszentrum
+772794,Neuroonkologisches Krebszentrum
+772794,Pankreaskrebszentrum
+772794,Speiseröhrenkrebszentrum
+772795,EndoProthetikZentrum der Maximalversorgung
+772795,Darmkrebszentrum
+772796,Shunt-Referenzzentrum
+772796,EndoProthetikZentrum
+772796,Gefäßzentrum
+772796,Onkologisches Zentrum
+772796,Brustkrebszentrum
+772796,Darmkrebszentrum
+772796,Gynäkologisches Krebszentrum
+772796,Kopf-Hals-Tumor Krebszentrum
+772796,Pankreaskrebszentrum
+772796,Schlaganfall-Einheit (Stroke Unit)
+772798,EndoProthetikZentrum
+772800,EndoProthetikZentrum
+772801,Regionales Shuntzentrum
+772801,Onkologisches Zentrum
+772801,Brustkrebszentrum
+772801,Darmkrebszentrum
+772801,Zentrum für Hämatologische Neoplasien
+772801,Hautkrebszentrum
+772801,Kopf-Hals-Tumor Krebszentrum
+772801,Magenkrebszentrum
+772801,Pankreaskrebszentrum
+772801,Prostatakrebszentrum
+772801,Schlaganfall-Einheit (Stroke Unit)
+772804,Beckenboden- und Kontinenzzentrum
+772804,EndoProthetikZentrum
+772804,Schlaganfall-Einheit (Stroke Unit)
+772805,Schlaganfall-Einheit (Stroke Unit)
+772806,EndoProthetikZentrum
+772808,Schlaganfall-Einheit (Stroke Unit)
+772810,EndoProthetikZentrum
+772810,Brustkrebszentrum
+772810,Darmkrebszentrum
+772810,Zentrum für Hämatologische Neoplasien
+772810,Gynäkologisches Krebszentrum
+772810,Hautkrebszentrum
+772810,Pankreaskrebszentrum
+772810,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+772815,EndoProthetikZentrum
+772815,Brustkrebszentrum
+772817,EndoProthetikZentrum der Maximalversorgung
+772818,Brustkrebszentrum
+772818,Darmkrebszentrum
+772819,Shunt-Referenzzentrum
+772819,EndoProthetikZentrum der Maximalversorgung
+772819,Gefäßzentrum
+772819,Lungenkrebszentrum
+772819,Schlaganfall-Einheit (Stroke Unit)
+772820,EndoProthetikZentrum
+772821,EndoProthetikZentrum
+772821,Brustkrebszentrum
+772823,EndoProthetikZentrum
+772828,Schlaganfall-Einheit (Stroke Unit)
+772831,EndoProthetikZentrum der Maximalversorgung
+772831,Onkologisches Zentrum
+772831,Darmkrebszentrum
+772831,Gynäkologisches Krebszentrum
+772831,Kopf-Hals-Tumor Krebszentrum
+772831,Magenkrebszentrum
+772831,Pankreaskrebszentrum
+772831,Speiseröhrenkrebszentrum
+772832,EndoProthetikZentrum
+772832,Gefäßzentrum
+772832,Onkologisches Zentrum
+772832,Brustkrebszentrum
+772832,Darmkrebszentrum
+772832,Zentrum für Hämatologische Neoplasien
+772832,Gynäkologisches Krebszentrum
+772832,Pankreaskrebszentrum
+772832,Schlaganfall-Einheit (Stroke Unit)
+772833,EndoProthetikZentrum der Maximalversorgung
+772834,Regionales Shuntzentrum
+772834,EndoProthetikZentrum
+772834,Brustkrebszentrum
+772834,Darmkrebszentrum
+772834,Gynäkologisches Krebszentrum
+772834,Lungenkrebszentrum
+772834,Pankreaskrebszentrum
+772836,Brustkrebszentrum
+772836,Darmkrebszentrum
+772836,Gynäkologisches Krebszentrum
+772842,EndoProthetikZentrum der Maximalversorgung
+772842,Gefäßzentrum
+772842,Onkologisches Zentrum
+772842,Brustkrebszentrum
+772842,Darmkrebszentrum
+772842,Zentrum für Hämatologische Neoplasien
+772842,Gynäkologisches Krebszentrum
+772842,Hautkrebszentrum
+772842,Kopf-Hals-Tumor Krebszentrum
+772842,Leberkrebszentrum
+772842,Magenkrebszentrum
+772842,Neuroonkologisches Krebszentrum
+772842,Pankreaskrebszentrum
+772842,Prostatakrebszentrum
+772842,Speiseröhrenkrebszentrum
+772842,Schlaganfall-Einheit (Stroke Unit)
+772846,Beckenboden- und Kontinenzzentrum
+772846,EndoProthetikZentrum
+772846,Darmkrebszentrum
+772846,Gynäkologisches Krebszentrum
+772846,Lungenkrebszentrum
+772848,EndoProthetikZentrum
+772849,Onkologisches Zentrum
+772849,Brustkrebszentrum
+772849,Darmkrebszentrum
+772849,Gynäkologisches Krebszentrum
+772849,Magenkrebszentrum
+772849,Pankreaskrebszentrum
+772849,Nierenkrebszentrum
+772849,Schlaganfall-Einheit (Stroke Unit)
+772851,Brustkrebszentrum
+772851,Kopf-Hals-Tumor Krebszentrum
+772858,Onkologisches Zentrum
+772858,Brustkrebszentrum
+772858,Darmkrebszentrum
+772858,Gynäkologisches Krebszentrum
+772858,Hautkrebszentrum
+772858,Kopf-Hals-Tumor Krebszentrum
+772858,Leberkrebszentrum
+772858,Magenkrebszentrum
+772858,Neuroonkologisches Krebszentrum
+772858,Pankreaskrebszentrum
+772858,Prostatakrebszentrum
+772858,Harnblasenkrebszentrum
+772858,Nierenkrebszentrum
+772858,Schlaganfall-Einheit (Stroke Unit)
+772859,EndoProthetikZentrum der Maximalversorgung
+772859,Onkologisches Zentrum
+772859,Brustkrebszentrum
+772859,Darmkrebszentrum
+772859,Zentrum für Hämatologische Neoplasien
+772859,Gynäkologisches Krebszentrum
+772859,Schlaganfall-Einheit (Stroke Unit)
+772860,EndoProthetikZentrum
+772860,Brustkrebszentrum
+772862,EndoProthetikZentrum
+772864,Lungenkrebszentrum
+772866,Schlaganfall-Einheit (Stroke Unit)
+772871,EndoProthetikZentrum der Maximalversorgung
+772873,Onkologisches Zentrum
+772873,Darmkrebszentrum
+772873,Zentrum für Hämatologische Neoplasien
+772873,Lungenkrebszentrum
+772873,Neuroonkologisches Krebszentrum
+772874,Onkologisches Zentrum
+772874,Brustkrebszentrum
+772874,Darmkrebszentrum
+772874,Zentrum für Hämatologische Neoplasien
+772874,Gynäkologisches Krebszentrum
+772874,Kopf-Hals-Tumor Krebszentrum
+772874,Leberkrebszentrum
+772874,Neuroonkologisches Krebszentrum
+772874,Pankreaskrebszentrum
+772874,Prostatakrebszentrum
+772874,Speiseröhrenkrebszentrum
+772874,Nierenkrebszentrum
+772874,Sarkomszentrum
+772874,Schlaganfall-Einheit (Stroke Unit)
+772875,Hautkrebszentrum
+772880,EndoProthetikZentrum
+772883,EndoProthetikZentrum
+772884,Onkologisches Zentrum
+772884,Brustkrebszentrum
+772884,Darmkrebszentrum
+772884,Zentrum für Hämatologische Neoplasien
+772884,Kopf-Hals-Tumor Krebszentrum
+772884,Lungenkrebszentrum
+772884,Pankreaskrebszentrum
+772884,Prostatakrebszentrum
+772884,Nephrologische Schwerpunktklinik
+772884,Schlaganfall-Einheit (Stroke Unit)
+772893,Onkologisches Zentrum
+772893,Brustkrebszentrum
+772893,Darmkrebszentrum
+772893,Zentrum für Hämatologische Neoplasien
+772893,Magenkrebszentrum
+772893,Pankreaskrebszentrum
+772893,Schlaganfall-Einheit (Stroke Unit)
+772894,EndoProthetikZentrum Schulterendoprothetik
+772900,EndoProthetikZentrum
+772901,Gefäßzentrum
+772901,Lungenkrebszentrum
+772901,Schlaganfall-Einheit (Stroke Unit)
+772902,EndoProthetikZentrum der Maximalversorgung
+772902,Brustkrebszentrum
+772902,Darmkrebszentrum
+772902,Zentrum für Hämatologische Neoplasien
+772905,EndoProthetikZentrum der Maximalversorgung
+772905,Schlaganfall-Einheit (Stroke Unit)
+772910,EndoProthetikZentrum
+772912,Gefäßzentrum
+772912,Brustkrebszentrum
+772912,Gynäkologisches Krebszentrum
+772912,Schlaganfall-Einheit (Stroke Unit)
+772913,Schlaganfall-Einheit (Stroke Unit)
+772915,Kopf-Hals-Tumor Krebszentrum
+772915,Neuroonkologisches Krebszentrum
+772915,Schlaganfall-Einheit (Stroke Unit)
+772916,EndoProthetikZentrum der Maximalversorgung
+772916,Onkologisches Zentrum
+772916,Brustkrebszentrum
+772916,Darmkrebszentrum
+772916,Gynäkologisches Krebszentrum
+772916,Hautkrebszentrum
+772916,Magenkrebszentrum
+772916,Neuroonkologisches Krebszentrum
+772916,Pankreaskrebszentrum
+772916,Prostatakrebszentrum
+772916,Harnblasenkrebszentrum
+772916,Nierenkrebszentrum
+772916,Schlaganfall-Einheit (Stroke Unit)
+772918,EndoProthetikZentrum der Maximalversorgung
+772918,Onkologisches Zentrum
+772918,Brustkrebszentrum
+772918,Darmkrebszentrum
+772918,Zentrum für Hämatologische Neoplasien
+772918,Gynäkologisches Krebszentrum
+772918,Hautkrebszentrum
+772918,Kopf-Hals-Tumor Krebszentrum
+772918,Lungenkrebszentrum
+772918,Magenkrebszentrum
+772918,Neuroonkologisches Krebszentrum
+772918,Pankreaskrebszentrum
+772918,Prostatakrebszentrum
+772918,Speiseröhrenkrebszentrum
+772918,Harnblasenkrebszentrum
+772918,Nierenkrebszentrum
+772918,Sarkomszentrum
+772918,Schlaganfall-Einheit (Stroke Unit)
+772924,Schlaganfall-Einheit (Stroke Unit)
+772932,EndoProthetikZentrum
+772932,Zentrum für Hämatologische Neoplasien
+772932,Kopf-Hals-Tumor Krebszentrum
+772932,Neuroonkologisches Krebszentrum
+772932,Schlaganfall-Einheit (Stroke Unit)
+772936,Gynäkologisches Krebszentrum
+772936,Prostatakrebszentrum
+772936,Schlaganfall-Einheit (Stroke Unit)
+772939,EndoProthetikZentrum
+772940,Schlaganfall-Einheit (Stroke Unit)
+772941,Brustkrebszentrum
+772941,Darmkrebszentrum
+772941,Prostatakrebszentrum
+772950,EndoProthetikZentrum der Maximalversorgung
+772950,Gefäßzentrum
+772950,Schlaganfall-Einheit (Stroke Unit)
+772951,Schlaganfall-Einheit (Stroke Unit)
+772953,EndoProthetikZentrum der Maximalversorgung
+772953,Schlaganfall-Einheit (Stroke Unit)
+772955,Darmkrebszentrum
+772955,Lungenkrebszentrum
+772955,Pankreaskrebszentrum
+772957,Schlaganfall-Einheit (Stroke Unit)
+772972,EndoProthetikZentrum der Maximalversorgung
+772974,Schlaganfall-Einheit (Stroke Unit)
+772977,EndoProthetikZentrum der Maximalversorgung
+772977,Gefäßzentrum
+772977,Darmkrebszentrum
+772978,Hautkrebszentrum
+772983,Schlaganfall-Einheit (Stroke Unit)
+772984,EndoProthetikZentrum
+772987,EndoProthetikZentrum
+772987,Schlaganfall-Einheit (Stroke Unit)
+772988,Regionales Shuntzentrum
+772988,EndoProthetikZentrum
+772988,Gefäßzentrum
+772988,Onkologisches Zentrum
+772988,Brustkrebszentrum
+772988,Darmkrebszentrum
+772988,Zentrum für Hämatologische Neoplasien
+772988,Magenkrebszentrum
+772988,Pankreaskrebszentrum
+772988,Schlaganfall-Einheit (Stroke Unit)
+772989,EndoProthetikZentrum der Maximalversorgung
+772990,EndoProthetikZentrum
+772992,Lungenkrebszentrum
+772993,Beckenboden- und Kontinenzzentrum
+772994,EndoProthetikZentrum der Maximalversorgung
+772995,Onkologisches Zentrum
+772995,Brustkrebszentrum
+772995,Darmkrebszentrum
+772995,Zentrum für Hämatologische Neoplasien
+772995,Gynäkologisches Krebszentrum
+772995,Kopf-Hals-Tumor Krebszentrum
+772995,Lungenkrebszentrum
+772995,Neuroonkologisches Krebszentrum
+772995,Pankreaskrebszentrum
+772995,Prostatakrebszentrum
+772995,Schlaganfall-Einheit (Stroke Unit)
+772997,Shunt-Referenzzentrum
+772997,Onkologisches Zentrum
+772997,Brustkrebszentrum
+772997,Darmkrebszentrum
+772997,Zentrum für Hämatologische Neoplasien
+772997,Gynäkologisches Krebszentrum
+772997,Lungenkrebszentrum
+772997,Magenkrebszentrum
+772997,Neuroonkologisches Krebszentrum
+772997,Prostatakrebszentrum
+772997,Nephrologische Schwerpunktklinik
+772997,Schlaganfall-Einheit (Stroke Unit)
+772998,EndoProthetikZentrum
+772998,Brustkrebszentrum
+772998,Darmkrebszentrum
+772998,Gynäkologisches Krebszentrum
+772998,Schlaganfall-Einheit (Stroke Unit)
+773000,EndoProthetikZentrum
+773003,Schlaganfall-Einheit (Stroke Unit)
+773006,Brustkrebszentrum
+773009,Darmkrebszentrum
+773011,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+773017,Onkologisches Zentrum
+773017,Brustkrebszentrum
+773017,Darmkrebszentrum
+773017,Gynäkologisches Krebszentrum
+773017,Prostatakrebszentrum
+773017,Harnblasenkrebszentrum
+773017,Nierenkrebszentrum
+773017,Schlaganfall-Einheit (Stroke Unit)
+773027,Brustkrebszentrum
+773028,Beckenboden- und Kontinenzzentrum
+773028,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773028,Onkologisches Zentrum
+773028,Brustkrebszentrum
+773028,Darmkrebszentrum
+773028,Zentrum für Hämatologische Neoplasien
+773028,Gynäkologisches Krebszentrum
+773028,Pankreaskrebszentrum
+773028,Prostatakrebszentrum
+773028,Schlaganfall-Einheit (Stroke Unit)
+773031,Brustkrebszentrum
+773031,Darmkrebszentrum
+773031,Schlaganfall-Einheit (Stroke Unit)
+773032,Darmkrebszentrum
+773032,Magenkrebszentrum
+773032,Pankreaskrebszentrum
+773032,Speiseröhrenkrebszentrum
+773033,EndoProthetikZentrum der Maximalversorgung
+773033,Onkologisches Zentrum
+773033,Brustkrebszentrum
+773033,Zentrum für Hämatologische Neoplasien
+773033,Prostatakrebszentrum
+773033,Harnblasenkrebszentrum
+773033,Nierenkrebszentrum
+773034,EndoProthetikZentrum
+773050,EndoProthetikZentrum
+773050,Pankreaskrebszentrum
+773051,Darmkrebszentrum
+773051,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+773051,Schlaganfall-Einheit (Stroke Unit)
+773058,EndoProthetikZentrum
+773058,Schlaganfall-Einheit (Stroke Unit)
+773060,Hautkrebszentrum
+773062,EndoProthetikZentrum der Maximalversorgung
+773063,Brustkrebszentrum
+773065,EndoProthetikZentrum der Maximalversorgung
+773065,Brustkrebszentrum
+773065,Darmkrebszentrum
+773065,Pankreaskrebszentrum
+773075,Onkologisches Zentrum
+773075,Brustkrebszentrum
+773075,Darmkrebszentrum
+773075,Zentrum für Hämatologische Neoplasien
+773075,Gynäkologisches Krebszentrum
+773075,Kopf-Hals-Tumor Krebszentrum
+773075,Speiseröhrenkrebszentrum
+773075,Schlaganfall-Einheit (Stroke Unit)
+773078,Schlaganfall-Einheit (Stroke Unit)
+773081,Gefäßzentrum
+773081,Schlaganfall-Einheit (Stroke Unit)
+773084,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773084,Onkologisches Zentrum
+773084,Darmkrebszentrum
+773084,Zentrum für Hämatologische Neoplasien
+773084,Hautkrebszentrum
+773084,Kopf-Hals-Tumor Krebszentrum
+773084,Leberkrebszentrum
+773084,Pankreaskrebszentrum
+773084,Prostatakrebszentrum
+773085,EndoProthetikZentrum
+773086,Schlaganfall-Einheit (Stroke Unit)
+773088,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773088,Schlaganfall-Einheit (Stroke Unit)
+773091,Schlaganfall-Einheit (Stroke Unit)
+773094,Schlaganfall-Einheit (Stroke Unit)
+773095,EndoProthetikZentrum der Maximalversorgung
+773096,EndoProthetikZentrum
+773098,EndoProthetikZentrum
+773105,Lungenkrebszentrum
+773107,Brustkrebszentrum
+773108,Hautkrebszentrum
+773108,Kopf-Hals-Tumor Krebszentrum
+773109,Darmkrebszentrum
+773109,Lungenkrebszentrum
+773111,Brustkrebszentrum
+773115,Schlaganfall-Einheit (Stroke Unit)
+773119,Schlaganfall-Einheit (Stroke Unit)
+773125,Beckenboden- und Kontinenzzentrum
+773125,EndoProthetikZentrum
+773125,Onkologisches Zentrum
+773125,Brustkrebszentrum
+773125,Darmkrebszentrum
+773125,Zentrum für Hämatologische Neoplasien
+773125,Gynäkologisches Krebszentrum
+773125,Nierenkrebszentrum
+773126,EndoProthetikZentrum
+773126,Brustkrebszentrum
+773132,Onkologisches Zentrum
+773132,Brustkrebszentrum
+773132,Darmkrebszentrum
+773132,Zentrum für Hämatologische Neoplasien
+773132,Gynäkologisches Krebszentrum
+773132,Hautkrebszentrum
+773132,Kopf-Hals-Tumor Krebszentrum
+773132,Neuroonkologisches Krebszentrum
+773132,Pankreaskrebszentrum
+773132,Prostatakrebszentrum
+773132,Schlaganfall-Einheit (Stroke Unit)
+773137,EndoProthetikZentrum
+773137,Onkologisches Zentrum
+773137,Brustkrebszentrum
+773137,Darmkrebszentrum
+773137,Gynäkologisches Krebszentrum
+773137,Pankreaskrebszentrum
+773137,Prostatakrebszentrum
+773137,Schlaganfall-Einheit (Stroke Unit)
+773140,Brustkrebszentrum
+773140,Darmkrebszentrum
+773140,Pankreaskrebszentrum
+773140,Speiseröhrenkrebszentrum
+773152,Schlaganfall-Einheit (Stroke Unit)
+773155,Gefäßzentrum
+773164,Zentrum für Hämatologische Neoplasien
+773164,Gynäkologisches Krebszentrum
+773165,Lungenkrebszentrum
+773168,Brustkrebszentrum
+773168,Darmkrebszentrum
+773168,Gynäkologisches Krebszentrum
+773168,Lungenkrebszentrum
+773168,Magenkrebszentrum
+773168,Prostatakrebszentrum
+773169,Brustkrebszentrum
+773169,Darmkrebszentrum
+773169,Pankreaskrebszentrum
+773169,Schlaganfall-Einheit (Stroke Unit)
+773170,Beckenboden- und Kontinenzzentrum
+773170,Brustkrebszentrum
+773170,Gynäkologisches Krebszentrum
+773173,EndoProthetikZentrum der Maximalversorgung
+773174,EndoProthetikZentrum
+773174,Schlaganfall-Einheit (Stroke Unit)
+773176,EndoProthetikZentrum der Maximalversorgung
+773176,Schlaganfall-Einheit (Stroke Unit)
+773179,Shunt-Referenzzentrum
+773179,EndoProthetikZentrum
+773179,Gefäßzentrum
+773179,Darmkrebszentrum
+773179,Hautkrebszentrum
+773179,Lungenkrebszentrum
+773179,Prostatakrebszentrum
+773179,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+773179,Schlaganfall-Einheit (Stroke Unit)
+773181,EndoProthetikZentrum
+773181,Brustkrebszentrum
+773181,Zentrum für Hämatologische Neoplasien
+773181,Gynäkologisches Krebszentrum
+773181,Prostatakrebszentrum
+773182,EndoProthetikZentrum
+773183,Beckenboden- und Kontinenzzentrum
+773183,Gefäßzentrum
+773183,Onkologisches Zentrum
+773183,Darmkrebszentrum
+773183,Zentrum für Hämatologische Neoplasien
+773183,Gynäkologisches Krebszentrum
+773183,Hautkrebszentrum
+773183,Kopf-Hals-Tumor Krebszentrum
+773183,Lungenkrebszentrum
+773183,Magenkrebszentrum
+773183,Neuroonkologisches Krebszentrum
+773183,Pankreaskrebszentrum
+773183,Schlaganfall-Einheit (Stroke Unit)
+773184,EndoProthetikZentrum der Maximalversorgung
+773184,Darmkrebszentrum
+773184,Gynäkologisches Krebszentrum
+773184,Prostatakrebszentrum
+773184,Speiseröhrenkrebszentrum
+773184,Harnblasenkrebszentrum
+773184,Nierenkrebszentrum
+773184,Schlaganfall-Einheit (Stroke Unit)
+773186,Regionales Shuntzentrum
+773186,Gefäßzentrum
+773186,Darmkrebszentrum
+773186,Gynäkologisches Krebszentrum
+773186,Pankreaskrebszentrum
+773186,Nephrologische Schwerpunktabteilung
+773186,Schlaganfall-Einheit (Stroke Unit)
+773187,Gefäßzentrum
+773187,Hautkrebszentrum
+773187,Lungenkrebszentrum
+773187,Schlaganfall-Einheit (Stroke Unit)
+773196,EndoProthetikZentrum der Maximalversorgung
+773197,Darmkrebszentrum
+773197,Schlaganfall-Einheit (Stroke Unit)
+773198,Brustkrebszentrum
+773199,EndoProthetikZentrum der Maximalversorgung
+773199,Brustkrebszentrum
+773199,Prostatakrebszentrum
+773199,Nephrologische Schwerpunktklinik
+773199,Schlaganfall-Einheit (Stroke Unit)
+773200,EndoProthetikZentrum
+773200,Gynäkologisches Krebszentrum
+773201,Darmkrebszentrum
+773201,Schlaganfall-Einheit (Stroke Unit)
+773202,EndoProthetikZentrum der Maximalversorgung
+773203,Darmkrebszentrum
+773208,Schlaganfall-Einheit (Stroke Unit)
+773210,Regionales Shuntzentrum
+773210,EndoProthetikZentrum der Maximalversorgung
+773210,Schlaganfall-Einheit (Stroke Unit)
+773217,EndoProthetikZentrum
+773221,Schlaganfall-Einheit (Stroke Unit)
+773222,Schlaganfall-Einheit (Stroke Unit)
+773227,EndoProthetikZentrum der Maximalversorgung
+773227,Darmkrebszentrum
+773227,Schlaganfall-Einheit (Stroke Unit)
+773229,Schlaganfall-Einheit (Stroke Unit)
+773233,EndoProthetikZentrum der Maximalversorgung
+773233,Onkologisches Zentrum
+773233,Brustkrebszentrum
+773233,Darmkrebszentrum
+773233,Zentrum für Hämatologische Neoplasien
+773233,Gynäkologisches Krebszentrum
+773233,Pankreaskrebszentrum
+773233,Sarkomszentrum
+773233,Schlaganfall-Einheit (Stroke Unit)
+773235,EndoProthetikZentrum
+773235,Darmkrebszentrum
+773235,Schlaganfall-Einheit (Stroke Unit)
+773238,EndoProthetikZentrum der Maximalversorgung
+773244,Gefäßzentrum
+773244,Onkologisches Zentrum
+773244,Brustkrebszentrum
+773244,Darmkrebszentrum
+773244,Gynäkologisches Krebszentrum
+773244,Pankreaskrebszentrum
+773244,Prostatakrebszentrum
+773244,Harnblasenkrebszentrum
+773244,Nierenkrebszentrum
+773244,Schlaganfall-Einheit (Stroke Unit)
+773249,EndoProthetikZentrum
+773249,Onkologisches Zentrum
+773249,Brustkrebszentrum
+773249,Darmkrebszentrum
+773249,Zentrum für Hämatologische Neoplasien
+773249,Gynäkologisches Krebszentrum
+773249,Pankreaskrebszentrum
+773249,Prostatakrebszentrum
+773249,Harnblasenkrebszentrum
+773249,Nierenkrebszentrum
+773249,Hodenkrebszentrum
+773249,Schlaganfall-Einheit (Stroke Unit)
+773259,Schlaganfall-Einheit (Stroke Unit)
+773268,Schlaganfall-Einheit (Stroke Unit)
+773269,EndoProthetikZentrum
+773270,EndoProthetikZentrum
+773271,Brustkrebszentrum
+773271,Gynäkologisches Krebszentrum
+773271,Schlaganfall-Einheit (Stroke Unit)
+773273,Beckenboden- und Kontinenzzentrum
+773274,Beckenboden- und Kontinenzzentrum
+773279,Beckenboden- und Kontinenzzentrum
+773279,Zentrum für Hämatologische Neoplasien
+773279,Kopf-Hals-Tumor Krebszentrum
+773287,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773287,Brustkrebszentrum
+773287,Gynäkologisches Krebszentrum
+773287,Schlaganfall-Einheit (Stroke Unit)
+773289,EndoProthetikZentrum
+773289,Brustkrebszentrum
+773289,Darmkrebszentrum
+773289,Prostatakrebszentrum
+773290,EndoProthetikZentrum
+773291,EndoProthetikZentrum
+773298,Schlaganfall-Einheit (Stroke Unit)
+773299,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773303,EndoProthetikZentrum
+773303,Brustkrebszentrum
+773303,Darmkrebszentrum
+773303,Magenkrebszentrum
+773303,Schlaganfall-Einheit (Stroke Unit)
+773309,EndoProthetikZentrum
+773310,Brustkrebszentrum
+773318,Gefäßzentrum
+773321,EndoProthetikZentrum der Maximalversorgung Schulterendoprothetik
+773323,Schlaganfall-Einheit (Stroke Unit)
+773325,EndoProthetikZentrum
+773325,Schlaganfall-Einheit (Stroke Unit)
+773326,EndoProthetikZentrum der Maximalversorgung
+773326,Brustkrebszentrum
+773326,Schlaganfall-Einheit (Stroke Unit)
+773341,Prostatakrebszentrum
+773342,EndoProthetikZentrum
+773342,Schlaganfall-Einheit (Stroke Unit)
+773347,Brustkrebszentrum
+773347,Darmkrebszentrum
+773347,Pankreaskrebszentrum
+773357,Beckenboden- und Kontinenzzentrum
+773357,EndoProthetikZentrum
+773357,Brustkrebszentrum
+773357,Darmkrebszentrum
+773357,Prostatakrebszentrum
+773357,Schlaganfall-Einheit (Stroke Unit)
+773361,EndoProthetikZentrum
+773361,Brustkrebszentrum
+773371,Beckenboden- und Kontinenzzentrum
+773371,Onkologisches Zentrum
+773371,Brustkrebszentrum
+773371,Darmkrebszentrum
+773371,Zentrum für Hämatologische Neoplasien
+773371,Gynäkologisches Krebszentrum
+773371,Hautkrebszentrum
+773371,Kopf-Hals-Tumor Krebszentrum
+773371,Lungenkrebszentrum
+773371,Pankreaskrebszentrum
+773371,Prostatakrebszentrum
+773371,Nierenkrebszentrum
+773371,Schlaganfall-Einheit (Stroke Unit)
+773374,EndoProthetikZentrum
+773374,Schlaganfall-Einheit (Stroke Unit)
+773387,EndoProthetikZentrum
+773388,EndoProthetikZentrum
+773388,Schlaganfall-Einheit (Stroke Unit)
+773391,EndoProthetikZentrum
+773391,Lungenkrebszentrum
+773391,Prostatakrebszentrum
+773391,Harnblasenkrebszentrum
+773391,Nierenkrebszentrum
+773391,Schlaganfall-Einheit (Stroke Unit)
+773403,EndoProthetikZentrum
+773403,Brustkrebszentrum
+773403,Darmkrebszentrum
+773403,Gynäkologisches Krebszentrum
+773403,Magenkrebszentrum
+773403,Pankreaskrebszentrum
+773405,EndoProthetikZentrum
+773405,Schlaganfall-Einheit (Stroke Unit)
+773407,Schlaganfall-Einheit (Stroke Unit)
+773410,EndoProthetikZentrum der Maximalversorgung
+773410,Onkologisches Zentrum
+773410,Brustkrebszentrum
+773410,Darmkrebszentrum
+773410,Zentrum für Hämatologische Neoplasien
+773410,Gynäkologisches Krebszentrum
+773410,Hautkrebszentrum
+773410,Kopf-Hals-Tumor Krebszentrum
+773410,Leberkrebszentrum
+773410,Neuroonkologisches Krebszentrum
+773410,Pankreaskrebszentrum
+773410,Prostatakrebszentrum
+773410,Harnblasenkrebszentrum
+773410,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+773410,Schlaganfall-Einheit (Stroke Unit)
+773411,EndoProthetikZentrum
+773411,Onkologisches Zentrum
+773411,Darmkrebszentrum
+773411,Zentrum für Hämatologische Neoplasien
+773411,Gynäkologisches Krebszentrum
+773411,Hautkrebszentrum
+773411,Kopf-Hals-Tumor Krebszentrum
+773411,Lungenkrebszentrum
+773411,Magenkrebszentrum
+773411,Neuroonkologisches Krebszentrum
+773411,Pankreaskrebszentrum
+773411,Prostatakrebszentrum
+773411,Harnblasenkrebszentrum
+773411,Nierenkrebszentrum
+773411,Nephrologische Schwerpunktklinik
+773411,Hodenkrebszentrum
+773411,Schlaganfall-Einheit (Stroke Unit)
+773419,EndoProthetikZentrum
+773425,Schlaganfall-Einheit (Stroke Unit)
+773430,Beckenboden- und Kontinenzzentrum
+773430,Darmkrebszentrum
+773430,Zentrum für Hämatologische Neoplasien
+773430,Gynäkologisches Krebszentrum
+773430,Lungenkrebszentrum
+773437,Darmkrebszentrum
+773437,Gynäkologisches Krebszentrum
+773437,Pankreaskrebszentrum
+773438,EndoProthetikZentrum der Maximalversorgung
+773438,Darmkrebszentrum
+773438,Schlaganfall-Einheit (Stroke Unit)
+773443,EndoProthetikZentrum
+773444,EndoProthetikZentrum der Maximalversorgung
+773444,Onkologisches Zentrum
+773444,Brustkrebszentrum
+773444,Darmkrebszentrum
+773444,Zentrum für Hämatologische Neoplasien
+773444,Gynäkologisches Krebszentrum
+773444,Hautkrebszentrum
+773444,Kopf-Hals-Tumor Krebszentrum
+773444,Leberkrebszentrum
+773444,Magenkrebszentrum
+773444,Neuroonkologisches Krebszentrum
+773444,Pankreaskrebszentrum
+773444,Prostatakrebszentrum
+773444,Speiseröhrenkrebszentrum
+773444,Harnblasenkrebszentrum
+773444,Nierenkrebszentrum
+773444,Sarkomszentrum
+773444,Hodenkrebszentrum
+773444,Schlaganfall-Einheit (Stroke Unit)
+773446,EndoProthetikZentrum
+773446,Prostatakrebszentrum
+773446,Harnblasenkrebszentrum
+773446,Nierenkrebszentrum
+773446,Schlaganfall-Einheit (Stroke Unit)
+773447,Beckenboden- und Kontinenzzentrum
+773447,EndoProthetikZentrum
+773447,Onkologisches Zentrum
+773447,Brustkrebszentrum
+773447,Darmkrebszentrum
+773447,Zentrum für Hämatologische Neoplasien
+773447,Gynäkologisches Krebszentrum
+773447,Hautkrebszentrum
+773447,Kopf-Hals-Tumor Krebszentrum
+773447,Leberkrebszentrum
+773447,Lungenkrebszentrum
+773447,Neuroonkologisches Krebszentrum
+773447,Pankreaskrebszentrum
+773447,Prostatakrebszentrum
+773447,Speiseröhrenkrebszentrum
+773447,Schlaganfall-Einheit (Stroke Unit)
+773448,Gefäßzentrum
+773448,Onkologisches Zentrum
+773448,Brustkrebszentrum
+773448,Darmkrebszentrum
+773448,Zentrum für Hämatologische Neoplasien
+773448,Gynäkologisches Krebszentrum
+773448,Hautkrebszentrum
+773448,Kopf-Hals-Tumor Krebszentrum
+773448,Leberkrebszentrum
+773448,Lungenkrebszentrum
+773448,Neuroonkologisches Krebszentrum
+773448,Pankreaskrebszentrum
+773448,Prostatakrebszentrum
+773448,Speiseröhrenkrebszentrum
+773448,Schlaganfall-Einheit (Stroke Unit)
+773458,EndoProthetikZentrum
+773458,Schlaganfall-Einheit (Stroke Unit)
+773460,Brustkrebszentrum
+773460,Darmkrebszentrum
+773460,Gynäkologisches Krebszentrum
+773460,Schlaganfall-Einheit (Stroke Unit)
+773463,Kopf-Hals-Tumor Krebszentrum
+773463,Neuroonkologisches Krebszentrum
+773463,Schlaganfall-Einheit (Stroke Unit)
+773468,EndoProthetikZentrum
+773479,Schlaganfall-Einheit (Stroke Unit)
+773482,Brustkrebszentrum
+773487,EndoProthetikZentrum
+773490,Schlaganfall-Einheit (Stroke Unit)
+773491,Beckenboden- und Kontinenzzentrum
+773491,Onkologisches Zentrum
+773491,Brustkrebszentrum
+773491,Darmkrebszentrum
+773491,Zentrum für Hämatologische Neoplasien
+773491,Gynäkologisches Krebszentrum
+773491,Hautkrebszentrum
+773491,Kopf-Hals-Tumor Krebszentrum
+773491,Leberkrebszentrum
+773491,Lungenkrebszentrum
+773491,Magenkrebszentrum
+773491,Neuroonkologisches Krebszentrum
+773491,Pankreaskrebszentrum
+773491,Prostatakrebszentrum
+773491,Speiseröhrenkrebszentrum
+773491,Harnblasenkrebszentrum
+773491,Nierenkrebszentrum
+773491,Sarkomszentrum
+773491,"Nephrologische Schwerpunktklinik, Zentrum für Hypertonie, Zentrum für Nierentransplantation"
+773491,Hodenkrebszentrum
+773491,Schlaganfall-Einheit (Stroke Unit)
+773500,EndoProthetikZentrum
+773500,Schlaganfall-Einheit (Stroke Unit)
+773506,Beckenboden- und Kontinenzzentrum
+773513,EndoProthetikZentrum der Maximalversorgung
+773513,Onkologisches Zentrum
+773513,Brustkrebszentrum
+773513,Darmkrebszentrum
+773513,Zentrum für Hämatologische Neoplasien
+773513,Gynäkologisches Krebszentrum
+773513,Hautkrebszentrum
+773513,Kopf-Hals-Tumor Krebszentrum
+773513,Neuroonkologisches Krebszentrum
+773513,Pankreaskrebszentrum
+773513,Prostatakrebszentrum
+773513,Speiseröhrenkrebszentrum
+773513,Harnblasenkrebszentrum
+773513,Nierenkrebszentrum
+773513,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+773513,Hodenkrebszentrum
+773513,Schlaganfall-Einheit (Stroke Unit)
+773514,EndoProthetikZentrum
+773514,Gefäßzentrum
+773514,Onkologisches Zentrum
+773514,Brustkrebszentrum
+773514,Darmkrebszentrum
+773514,Zentrum für Hämatologische Neoplasien
+773514,Prostatakrebszentrum
+773514,Nierenkrebszentrum
+773514,Hodenkrebszentrum
+773514,Schlaganfall-Einheit (Stroke Unit)
+773516,EndoProthetikZentrum der Maximalversorgung
+773518,Gefäßzentrum
+773518,Brustkrebszentrum
+773518,Darmkrebszentrum
+773518,Pankreaskrebszentrum
+773519,Zentrum für Hämatologische Neoplasien
+773520,EndoProthetikZentrum
+773520,Brustkrebszentrum
+773531,EndoProthetikZentrum
+773536,Brustkrebszentrum
+773538,EndoProthetikZentrum
+773543,Brustkrebszentrum
+773548,EndoProthetikZentrum
+773551,Onkologisches Zentrum
+773551,Darmkrebszentrum
+773551,Gynäkologisches Krebszentrum
+773551,Pankreaskrebszentrum
+773559,EndoProthetikZentrum der Maximalversorgung
+773573,EndoProthetikZentrum der Maximalversorgung
+773574,Beckenboden- und Kontinenzzentrum
+773574,Onkologisches Zentrum
+773574,Brustkrebszentrum
+773574,Darmkrebszentrum
+773574,Zentrum für Hämatologische Neoplasien
+773574,Gynäkologisches Krebszentrum
+773574,Magenkrebszentrum
+773574,Pankreaskrebszentrum
+773574,Prostatakrebszentrum
+773574,Schlaganfall-Einheit (Stroke Unit)
+773583,EndoProthetikZentrum
+773585,Gynäkologisches Krebszentrum
+773586,Brustkrebszentrum
+773586,Darmkrebszentrum
+773586,Gynäkologisches Krebszentrum
+773586,Prostatakrebszentrum
+773586,Schlaganfall-Einheit (Stroke Unit)
+773589,EndoProthetikZentrum der Maximalversorgung
+773589,Onkologisches Zentrum
+773589,Brustkrebszentrum
+773589,Darmkrebszentrum
+773589,Zentrum für Hämatologische Neoplasien
+773589,Hautkrebszentrum
+773589,Kopf-Hals-Tumor Krebszentrum
+773589,Magenkrebszentrum
+773589,Neuroonkologisches Krebszentrum
+773589,Pankreaskrebszentrum
+773589,Prostatakrebszentrum
+773589,Harnblasenkrebszentrum
+773589,Nierenkrebszentrum
+773589,Nephrologische Schwerpunktklinik/Zentrum für Hypertonie
+773589,Schlaganfall-Einheit (Stroke Unit)
+773597,EndoProthetikZentrum der Maximalversorgung
+773598,EndoProthetikZentrum
+773608,Brustkrebszentrum
+773608,Darmkrebszentrum
+773608,Zentrum für Hämatologische Neoplasien
+773608,Gynäkologisches Krebszentrum
+773608,Hautkrebszentrum
+773608,Nephrologische Schwerpunktklinik
+773608,Schlaganfall-Einheit (Stroke Unit)
+773614,EndoProthetikZentrum
+773614,Darmkrebszentrum
+773614,Schlaganfall-Einheit (Stroke Unit)
+773617,EndoProthetikZentrum der Maximalversorgung
+773617,Brustkrebszentrum
+773617,Zentrum für Hämatologische Neoplasien
+773617,Prostatakrebszentrum
+773619,EndoProthetikZentrum
+773619,Brustkrebszentrum
+773620,EndoProthetikZentrum
+773641,EndoProthetikZentrum
+773641,Onkologisches Zentrum
+773641,Schlaganfall-Einheit (Stroke Unit)
+773642,Onkologisches Zentrum
+773642,Brustkrebszentrum
+773642,Darmkrebszentrum
+773642,Gynäkologisches Krebszentrum
+773642,Hautkrebszentrum
+773642,Kopf-Hals-Tumor Krebszentrum
+773642,Leberkrebszentrum
+773642,Magenkrebszentrum
+773642,Neuroonkologisches Krebszentrum
+773642,Pankreaskrebszentrum
+773642,Prostatakrebszentrum
+773642,Speiseröhrenkrebszentrum
+773642,Sarkomszentrum
+773642,"Schwerpunktklinik, Zentrum für Nierentransplantation"
+773642,Schlaganfall-Einheit (Stroke Unit)
+773646,EndoProthetikZentrum
+773650,Schlaganfall-Einheit (Stroke Unit)
+773657,EndoProthetikZentrum der Maximalversorgung
+773657,Gefäßzentrum
+773657,Onkologisches Zentrum
+773657,Brustkrebszentrum
+773657,Darmkrebszentrum
+773657,Zentrum für Hämatologische Neoplasien
+773657,Gynäkologisches Krebszentrum
+773657,Kopf-Hals-Tumor Krebszentrum
+773657,Lungenkrebszentrum
+773657,Neuroonkologisches Krebszentrum
+773657,Pankreaskrebszentrum
+773657,Prostatakrebszentrum
+773657,Schlaganfall-Einheit (Stroke Unit)
+773658,Hautkrebszentrum
+773659,EndoProthetikZentrum der Maximalversorgung
+773659,Onkologisches Zentrum
+773659,Darmkrebszentrum
+773659,Gynäkologisches Krebszentrum
+773659,Hautkrebszentrum
+773659,Kopf-Hals-Tumor Krebszentrum
+773659,Lungenkrebszentrum
+773659,Pankreaskrebszentrum
+773659,Speiseröhrenkrebszentrum
+773659,Nephrologische Schwerpunktklinik
+773659,Schlaganfall-Einheit (Stroke Unit)
+773660,Neuroonkologisches Krebszentrum
+773660,Prostatakrebszentrum
+773660,Harnblasenkrebszentrum
+773660,Nierenkrebszentrum
+773666,Brustkrebszentrum
+773666,Gynäkologisches Krebszentrum
+773667,"EndoProthetikZentrum der Maximalversorgung Schulter-, Tumorendoprothetik und Oberes Sprunggelenk"
+773667,Onkologisches Zentrum
+773667,Darmkrebszentrum
+773667,Zentrum für Hämatologische Neoplasien
+773667,Hautkrebszentrum
+773667,Kopf-Hals-Tumor Krebszentrum
+773667,Leberkrebszentrum
+773667,Neuroonkologisches Krebszentrum
+773667,Pankreaskrebszentrum
+773667,Prostatakrebszentrum
+773667,Speiseröhrenkrebszentrum
+773667,Nierenkrebszentrum
+773667,Schlaganfall-Einheit (Stroke Unit)
+773668,EndoProthetikZentrum
+773673,EndoProthetikZentrum
+773675,Onkologisches Zentrum
+773675,Brustkrebszentrum
+773675,Darmkrebszentrum
+773675,Zentrum für Hämatologische Neoplasien
+773675,Gynäkologisches Krebszentrum
+773675,Hautkrebszentrum
+773675,Kopf-Hals-Tumor Krebszentrum
+773675,Leberkrebszentrum
+773675,Pankreaskrebszentrum
+773675,Prostatakrebszentrum
+773675,Speiseröhrenkrebszentrum
+773675,Harnblasenkrebszentrum
+773675,Nierenkrebszentrum
+773675,Sarkomszentrum
+773675,Schlaganfall-Einheit (Stroke Unit)
+773680,Gefäßzentrum
+773680,Schlaganfall-Einheit (Stroke Unit)
+773685,Onkologisches Zentrum
+773685,Darmkrebszentrum
+773685,Zentrum für Hämatologische Neoplasien
+773685,Kopf-Hals-Tumor Krebszentrum
+773685,Lungenkrebszentrum
+773685,Neuroonkologisches Krebszentrum
+773685,Pankreaskrebszentrum
+773685,Prostatakrebszentrum
+773685,Speiseröhrenkrebszentrum
+773685,Harnblasenkrebszentrum
+773685,Nierenkrebszentrum
+773685,Hodenkrebszentrum
+773685,Schlaganfall-Einheit (Stroke Unit)
+773686,Onkologisches Zentrum
+773686,Darmkrebszentrum
+773686,Zentrum für Hämatologische Neoplasien
+773686,Gynäkologisches Krebszentrum
+773686,Kopf-Hals-Tumor Krebszentrum
+773686,Leberkrebszentrum
+773686,Lungenkrebszentrum
+773686,Magenkrebszentrum
+773686,Pankreaskrebszentrum
+773686,Speiseröhrenkrebszentrum
+773686,Sarkomszentrum
+773686,Schlaganfall-Einheit (Stroke Unit)
+773690,EndoProthetikZentrum der Maximalversorgung
+773690,Onkologisches Zentrum
+773690,Brustkrebszentrum
+773690,Darmkrebszentrum
+773690,Gynäkologisches Krebszentrum
+773690,Hautkrebszentrum
+773690,Lungenkrebszentrum
+773690,Magenkrebszentrum
+773690,Pankreaskrebszentrum
+773690,Prostatakrebszentrum
+773709,EndoProthetikZentrum der Maximalversorgung
+773712,Beckenboden- und Kontinenzzentrum
+773712,Brustkrebszentrum
+773712,Gynäkologisches Krebszentrum
+773712,Kopf-Hals-Tumor Krebszentrum
+773713,Onkologisches Zentrum
+773713,Darmkrebszentrum
+773713,Zentrum für Hämatologische Neoplasien
+773713,Hautkrebszentrum
+773713,Leberkrebszentrum
+773713,Neuroonkologisches Krebszentrum
+773713,Pankreaskrebszentrum
+773713,Prostatakrebszentrum
+773713,Speiseröhrenkrebszentrum
+773713,Harnblasenkrebszentrum
+773713,Nierenkrebszentrum
+773713,Sarkomszentrum
+773713,Nephrologische Schwerpunktklinik
+773720,EndoProthetikZentrum
+773721,Nephrologische Schwerpunktklinik
+773738,Schlaganfall-Einheit (Stroke Unit)
+773855,Brustkrebszentrum
+773855,Darmkrebszentrum
