@@ -4,9 +4,12 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
 
+# Define function to convert list to tuple for SQL query
+def query_tuple(list_):
+    return str(tuple(list_)).replace(',)', ')')
 
 # Define function to create hospitals map
-def create_hospital_map_new(df_hospitals, mapstyle):
+def create_hospital_map_new(df_hospitals, mapstyle, chart_colors):
     # define colorscales
     colorscales = ['Blugrn', 'Purp', 'Peach', 'Brwnyl']
 
@@ -15,6 +18,7 @@ def create_hospital_map_new(df_hospitals, mapstyle):
     # Create layers with hospitals
     k = 0
     for provider_type in df_hospitals['provider_type_code'].unique():
+        
         # Filter the dataframe for the current provider type
         df_hospitals_filtered = df_hospitals.loc[df_hospitals['provider_type_code'] == provider_type]
 
@@ -32,11 +36,8 @@ def create_hospital_map_new(df_hospitals, mapstyle):
             mode='markers',
             marker=go.scattermapbox.Marker(
                 size=normalized_sizes,  # Scaled size of the markers
-                color=df_hospitals_filtered['beds_number'],  # Column for color scale
-                colorscale=colorscales[k],  # Specify the color scale
-                cmin=min_beds,  # Set the minimum value for the colorscale
-                cmax=max_beds,  # Set the maximum value for the colorscale
-            ),
+                color=chart_colors[provider_type],  # Column for color
+                ),
             text=df_hospitals_filtered['name'],  # Hover text
             hoverinfo='text',
                 hovertemplate=(
@@ -67,7 +68,7 @@ def create_hospital_map_new(df_hospitals, mapstyle):
     return fig
 
 
-def create_places_map(df_places, mapstyle):
+def create_places_map(df_places, mapstyle, chart_colors):
 
     fig = go.Figure()
     # Create layer with places
@@ -104,7 +105,16 @@ def create_places_map(df_places, mapstyle):
     return fig
 
 
-
+def map_css():
+    return """
+    <style>
+    .stPlotlyChart {
+        border-radius: 15px;  /* Set your desired border-radius here */
+        overflow: hidden;      /* Ensure the border-radius is applied properly */
+        margin: 0px 0px 0px 0px;            /* Remove padding */
+    }
+    </style>
+    """
 
 
 # Define function to establish connection to database
