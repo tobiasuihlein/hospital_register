@@ -1,4 +1,4 @@
-hospital_id,treatment_count,department_id
+hospital_id,treatment_count,department_code
 771003,7598,0100
 771003,6347,1500
 771003,5825,2400

@@ -1,4 +1,4 @@
-department_id,department_name,parent_department_id,parent_department_name,lang
+department_code,department_name,parent_department_code,parent_department_name,language_code
 0100,Innere Medizin,0100,Innere Medizin,de
 0200,Geriatrie,0200,Geriatrie,de
 0300,Kardiologie,0300,Kardiologie,de

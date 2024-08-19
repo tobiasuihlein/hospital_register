@@ -7,7 +7,8 @@ CREATE DATABASE IF NOT EXISTS hospital_register
 USE hospital_register;
 
 CREATE TABLE languages(
-	lang CHAR(2) PRIMARY KEY
+	language_code CHAR(2) PRIMARY KEY,
+    language_name VARCHAR(50)
     );
 
 CREATE TABLE provider_type_codes(
@@ -17,23 +18,23 @@ CREATE TABLE provider_type_codes(
 CREATE TABLE provider_types_dict(
 	provider_type_code CHAR(1),
     provider_type_name VARCHAR(50),
-    lang CHAR(2),
+    language_code CHAR(2),
     FOREIGN KEY (provider_type_code) REFERENCES provider_type_codes(provider_type_code),
-    FOREIGN KEY (lang) REFERENCES languages(lang)
+    FOREIGN KEY (language_code) REFERENCES languages(language_code)
     );
 
-CREATE TABLE department_ids(
-	department_id CHAR(4) PRIMARY KEY
+CREATE TABLE department_codes(
+	department_code CHAR(4) PRIMARY KEY
 	);
 
 CREATE TABLE departments_dict(
-	department_id CHAR(4),
-    parent_department_id CHAR(4),
+	department_code CHAR(4),
+    parent_department_code CHAR(4),
     department_name VARCHAR(255),
     parent_department_name VARCHAR(255),
-    lang CHAR(2),
-    FOREIGN KEY (department_id) REFERENCES department_ids(department_id),
-    FOREIGN KEY (lang) REFERENCES languages(lang)
+    language_code CHAR(2),
+    FOREIGN KEY (department_code) REFERENCES department_codes(department_code),
+    FOREIGN KEY (language_code) REFERENCES languages(language_code)
     );
     
 CREATE TABLE treatment_codes(
@@ -43,9 +44,9 @@ CREATE TABLE treatment_codes(
 CREATE TABLE treatments_dict(
 	treatment_code VARCHAR(7),
     treatment_name VARCHAR(255),
-    lang CHAR(2),
+    language_code CHAR(2),
     FOREIGN KEY (treatment_code) REFERENCES treatment_codes(treatment_code),
-    FOREIGN KEY (lang) REFERENCES languages(lang)
+    FOREIGN KEY (language_code) REFERENCES languages(language_code)
     );
 
 CREATE TABLE federal_states(
@@ -57,9 +58,9 @@ CREATE TABLE federal_states(
 CREATE TABLE federal_states_dict(
 	federal_state_code CHAR(2),
     federal_state_name VARCHAR(255),
-    lang CHAR(2),
+    language_code CHAR(2),
     FOREIGN KEY (federal_state_code) REFERENCES federal_states(federal_state_code),
-    FOREIGN KEY (lang) REFERENCES languages(lang)
+    FOREIGN KEY (language_code) REFERENCES languages(language_code)
 	);
 
 CREATE TABLE hospital_locations(
@@ -79,10 +80,10 @@ CREATE TABLE hospital_locations(
     
 CREATE TABLE hospital_departments(
 	hospital_id CHAR(6),
-    department_id CHAR(4),
+    department_code CHAR(4),
     treatment_count INT,
     FOREIGN KEY (hospital_id) REFERENCES hospital_locations(hospital_id),
-    FOREIGN KEY (department_id) REFERENCES department_ids(department_id)
+    FOREIGN KEY (department_code) REFERENCES department_codes(department_code)
     );
   
 CREATE TABLE hospital_details(
@@ -93,6 +94,7 @@ CREATE TABLE hospital_details(
     provider_type_code CHAR(1),
     bed_count INT,
     semi_residential_count INT,
+    total_stations_count INT,
     has_emergency_service BOOLEAN,
     emergency_service_level INT,
     FOREIGN KEY (hospital_id) REFERENCES hospital_locations(hospital_id),
@@ -107,12 +109,12 @@ CREATE TABLE hospital_treatments(
     FOREIGN KEY (treatment_code) REFERENCES treatment_codes(treatment_code)
 	);
 
-CREATE TABLE hospital_certifiactes(
+CREATE TABLE hospital_certificates(
 	hospital_id CHAR(6),
     certificate VARCHAR(255),
-    lang CHAR(2),
+    language_code CHAR(2),
     FOREIGN KEY (hospital_id) REFERENCES hospital_locations(hospital_id),
-    FOREIGN KEY (lang) REFERENCES languages(lang)
+    FOREIGN KEY (language_code) REFERENCES languages(language_code)
     );
 
 CREATE TABLE places(
