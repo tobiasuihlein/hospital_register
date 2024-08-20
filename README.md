@@ -5,16 +5,19 @@
 This project aims to analyze and visualize data about hospitals in Germany as provided by the German Governments' *Klinikatlas* website to identify possible differences between the provider types public, private and non-profit.
 The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
 
-Techniques used in this project include
+**Techniques used in this project**
 * Web Scraping & API Requests
 * Data Cleaning, Wrangling and Aggregation in Python
 * Setting up, Designing and Populating a multi-language Database in MySQL
-* Performing Exploratory Data Analysis
+* Performing Exploratory Data Analysis using SQL queries
 * Creating an interactive Streamlit app
+<br>
+
+**Demo of the Web App**:
 
 Overview Page           |  Hospital Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="500" />
+<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
 
 ## Data Collection
 
