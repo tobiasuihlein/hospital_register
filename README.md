@@ -58,13 +58,11 @@ While conducting the web scraping, the rules of the robots.txt of the website we
 <img src="resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
 
 ## Database Design
-In order to organize the data, I created a local database using MySQL. The databse is designed in way, such that it can be used for multi-language applications.
-The core element of the database is the hospital locations table providing the hospital id as the primary key.
+To organize the data, I created a local MySQL database. The database is designed to support multi-language applications. The core element is the hospital locations table, which serves the hospital id as the primary key.
 
-All other tables containing information about individual hospitals, i.e. tables for specific treatments, departments, certificates and other details, refer to this table.
-The information in these tables that are linked directly to the hospital locations table is stored by codes, such that it is completely language-agnostic.
-In order to make sense of the coding, dictionaries are used. These can be filled with as many translations as desired.
-The information containing tables are linked to the dictionaries via code list tables containing the codes as primary keys.
+All other tables containing information about individual hospitals, such as treatments, departments, certificates, and other details, reference via hospital id to this primary table.
+The linked information in these tables is stored using codes to ensure language-independence. To interpret the codes, dictionary tables are utilized, which can accommodate any number of translations.
+The information-containing tables are then linked to the dictionaries via code list tables, where the codes act as the primary keys.
 
 <img src="resources/db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
 
