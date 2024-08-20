@@ -17,6 +17,7 @@ This project aims to analyze and visualize data about hospitals in Germany to un
 ## Database Design
 
 <img src="db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
+<img src="resources/plotly_charts/hospital_size_dist_by_provider_types.png">
 
 
 ## Data Analysis and Visualization
