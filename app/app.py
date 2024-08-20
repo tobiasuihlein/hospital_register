@@ -32,9 +32,15 @@ cont = {
 
 
 chart_colors = {
-    'O': '#636EFA', # public
-    'P': '#00CC96', # private
-    'F': '#FFA15A' # non-profit
+    'O': '#636EFA', # public (blue)
+    'P': '#00CC96', # private (green)
+    'F': '#FFA15A', # non-profit (orange)
+    'darkgray': '#7F7F7F',
+    'lightgray': '#e0e0e0',
+    'red': '#EF553B',
+    'purple': '#AB63FA',
+    'yellow': '#FECB52',
+
 }
 
 lang = 'en'
@@ -108,13 +114,76 @@ if selected == 'Overview':
     fig_emergency = create_fig_emergency(engine, chart_colors)
     fig_size_distribution = create_fig_size_distribution(engine, chart_colors)
 
-
-
-
-
-
-
     ### Text and Chart Display
+
+
+    # Execute the SQL query
+    query = """
+    SELECT hl.federal_state_code, hd.provider_type_code, SUM(hd.bed_count)/fs.population*1000 AS beds_per_1000_capita
+        FROM hospital_details AS hd
+        INNER JOIN hospital_locations AS hl ON hl.hospital_id = hd.hospital_id
+        INNER JOIN federal_states AS fs ON fs.federal_state_code = hl.federal_state_code
+        GROUP BY hl.federal_state_code, hd.provider_type_code;
+    """
+    df_beds_per_1000_capita = pd.read_sql(query, engine)
+
+    # Calculate the total bed count for each federal state
+    df_total = df_beds_per_1000_capita.groupby('federal_state_code').agg({'beds_per_1000_capita': 'sum'}).reset_index()
+
+    # Merge the total bed count with the original dataframe
+    df_beds_per_1000_capita = pd.merge(df_beds_per_1000_capita, df_total, on='federal_state_code', suffixes=('', '_total'))
+
+    # Sort the dataframe by total bed count
+    df_beds_per_1000_capita = df_beds_per_1000_capita.sort_values(by='beds_per_1000_capita_total', ascending=False)
+    df_total['beds_per_1000_capita'] = df_total['beds_per_1000_capita'].round(1)
+
+    # Create the Plotly figure
+    fig = go.Figure()
+
+    # Add traces for each provider type
+    for provider_type in df_beds_per_1000_capita['provider_type_code'].unique():
+        provider_data = df_beds_per_1000_capita[df_beds_per_1000_capita['provider_type_code'] == provider_type]
+        fig.add_trace(go.Bar(
+            y=provider_data['federal_state_code'],  # y-axis as federal states
+            x=provider_data['beds_per_1000_capita'],       # x-axis as sum of bed count
+            orientation='h',                        # horizontal bars
+            name=provider_type,                     # name of the trace
+            marker_color=chart_colors[provider_type], # Use the colors from chart_colors dictionary
+            text=provider_data['beds_per_1000_capita'],    # Add the beds_per_1000_capita as text inside the bars
+            textposition='inside',                  # Position the text inside the bars
+        ))
+
+    # Add annotations for the total bed count next to each bar
+    annotations = []
+    for index, row in df_total.iterrows():
+        annotations.append(dict(
+            x=row['beds_per_1000_capita'],
+            y=row['federal_state_code'],
+            text=f"Total: {row['beds_per_1000_capita']}",
+            xanchor='left',
+            yanchor='middle',
+            showarrow=False,
+            font=dict(size=12)
+        ))
+
+    # Update layout
+    fig.update_layout(
+        title='Bed Count Distribution by Federal State and Provider Type',
+        xaxis_title='Sum of Bed Count',
+        yaxis_title='Federal State',
+        barmode='stack',  # Stack the bars
+        showlegend=True,  # Show the legend
+        height=800,       # Adjust height as needed
+        annotations=annotations  # Add the annotations to the layout
+    )
+
+    # Display the chart
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
+
+
 
     # Introduction
     st.markdown(f"""
@@ -548,7 +617,6 @@ if selected == 'Lab':
 
 
 
-
 # HOSPITAL MAP PAGE
 if selected == cont[lang]['menu_hospital_map']:
 
@@ -618,6 +686,8 @@ if selected == cont[lang]['menu_hospital_map']:
                         </p>
                         """, unsafe_allow_html=True)
             st.plotly_chart(fig_hospitals, use_container_width=True)
+
+
 
 
 # PLACES MAP PAGE

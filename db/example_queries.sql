@@ -74,3 +74,9 @@ SELECT name, hd.provider_type_code, hd.bed_count AS beds_number, latitude, longi
 	AND hd.bed_count <= 1000
 	AND hd.provider_type_code IN ('O','P')
     AND hd.has_emergency_service = True;
+    
+    
+SELECT hl.federal_state_code, hd.provider_type_code, SUM(hd.bed_count) AS sum_bed_count, COUNT(hd.hospital_id) AS count_hospital_id
+	FROM hospital_details AS hd
+    INNER JOIN hospital_locations AS hl ON hl.hospital_id = hd.hospital_id
+    GROUP BY hl.federal_state_code, hd.provider_type_code;
