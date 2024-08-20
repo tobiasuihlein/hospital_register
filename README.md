@@ -76,7 +76,9 @@ The information containing tables are linked to the dictionaries via code list t
 - **Focus**: The analysis highlights comparisons between different types of hospital providers (public, private, non-profit).
 - **Visualizations**: Charts and graphs are used to provide insights and facilitate a better understanding of the data.
 
-<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="600" />
+
+<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Hospital Size Distribution by Provider Types" width="400" />
+
 
 ## Future Work
 
