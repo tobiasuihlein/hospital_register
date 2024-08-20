@@ -16,7 +16,7 @@ This project aims to analyze and visualize data about hospitals in Germany to un
 
 ## Database Design
 
-<img src="db/eer_model.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="1400" />
+<img src="db/eer_model.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="2000" />
 
 
 ## Data Analysis and Visualization
