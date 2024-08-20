@@ -91,8 +91,8 @@ if ms.themes["refreshed"] == False:
 # Create a menu to navigate between the pages
 selected = option_menu(
 menu_title=None,
-options = ['Overview', 'Lab', cont[lang]['menu_hospital_map'], cont[lang]['menu_places_map']],
-icons = ["house", "lab", "map", "map"],
+options = ['Overview', cont[lang]['menu_hospital_map']],
+icons = ["house", "map"],
 menu_icon = "cast",
 orientation = "horizontal")
 
@@ -101,178 +101,51 @@ orientation = "horizontal")
 if selected == 'Overview':
 
     # Get Data and create charts
-
     engine = establish_connection_to_database()
-
-    # Number of Hospitals per Provider Type
-    query1 = """
-    SELECT pt.provider_type_name, pt.provider_type_code, COUNT(hd.hospital_id) AS num_hospitals
-    FROM hospital_details hd
-    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
-    WHERE pt.language_code = 'en'
-    GROUP BY pt.provider_type_name, pt.provider_type_code;
-    """
-    df_hospitals = pd.read_sql(query1, engine)
-    fig1 = px.bar(df_hospitals, x='provider_type_name', y='num_hospitals', color='provider_type_code', 
-                color_discrete_map=chart_colors)
-    fig1.update_layout(xaxis_title='', yaxis_title='', showlegend=False,
-                       title={'text': 'Number of Hospitals', 'x': 0.6, 'xanchor': 'center'})
-    
-
-    # Number of Treatments per Provider Type
-    query2 = """
-    SELECT pt.provider_type_name, pt.provider_type_code, SUM(ht.treatment_count) AS num_treatments
-    FROM hospital_treatments ht
-    INNER JOIN hospital_details hd ON ht.hospital_id = hd.hospital_id
-    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
-    WHERE pt.language_code = 'en'
-    GROUP BY pt.provider_type_name, pt.provider_type_code;
-    """
-    df_treatments = pd.read_sql(query2, engine)
-    fig2 = px.bar(df_treatments, x='provider_type_name', y='num_treatments', color='provider_type_code', 
-                color_discrete_map=chart_colors)
-    fig2.update_layout(xaxis_title='', yaxis_title='', showlegend=False,
-                       title={'text': 'Number of Treatments', 'x': 0.6, 'xanchor': 'center'})
-
-    
-    # Hospital size distribution per Provider Type
-    query = """
-        SELECT hd.hospital_id, hd.bed_count, hd.provider_type_code, pt.provider_type_name
-        FROM hospital_details AS hd
-        INNER JOIN provider_types_dict AS pt ON hd.provider_type_code = pt.provider_type_code
-        WHERE pt.language_code = 'en';
-        """
-    engine = establish_connection_to_database()
-    df_hospital_size = pd.read_sql(query, engine)
-    
-    colors_hospital_size = [chart_colors[provider_type] for provider_type in df_hospital_size['provider_type_code']]
-
-    # Create a horizontal violin plot
-    fig_hospital_size = go.Figure()
-
-    # Loop through each provider type and add a violin trace
-    for provider_type in df_hospital_size['provider_type_code'].unique():
-        fig_hospital_size.add_trace(go.Violin(
-            x=df_hospital_size[df_hospital_size['provider_type_code'] == provider_type]['bed_count'],
-            y=df_hospital_size[df_hospital_size['provider_type_code'] == provider_type]['provider_type_name'],
-            box_visible=True,
-            line_color=chart_colors[provider_type],
-            name=provider_type,
-            fillcolor=chart_colors[provider_type],
-            hoverinfo='x',  # Display x values on hover
-            orientation='h'  # Make the violin plot horizontal
-        ))
-
-    # Update the layout
-    fig_hospital_size.update_layout(
-        xaxis_title='Number of Beds',
-        yaxis_title='',
-        title={'text': 'Distribution of Hospital Sizes', 'x': 0.5, 'xanchor': 'center', 'y': 0.95},
-        showlegend=False,
-        height=500,
-    )
+    fig_nursing = create_fig_nursing(engine, chart_colors)
+    fig_hospital_numbers = create_fig_hospital_numbers(engine, chart_colors)
+    fig_treatment_numbers = create_fig_treatment_numbers(engine, chart_colors)
+    fig_emergency = create_fig_emergency(engine, chart_colors)
+    fig_size_distribution = create_fig_size_distribution(engine, chart_colors)
 
 
-    # 5. Distribution of Hospitals with Emergency Services by Provider Type
-    query5 = """
-    SELECT pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service, COUNT(hd.hospital_id) AS num_hospitals
-    FROM hospital_details hd
-    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
-    WHERE pt.language_code = 'en'
-    GROUP BY pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service;
-    """
-
-    df_emergency = pd.read_sql(query5, engine)
-
-    # Calculate percentage for stacked percentage bar chart
-    df_emergency_total = df_emergency.groupby(['provider_type_name', 'provider_type_code'])['num_hospitals'].sum().reset_index(name='total_hospitals')
-    df_emergency = df_emergency.merge(df_emergency_total, on=['provider_type_name', 'provider_type_code'])
-    df_emergency['percentage'] = df_emergency['num_hospitals'] / df_emergency['total_hospitals'] * 100
-
-    # Fix: Apply the correct color based on provider type and emergency service status
-    def get_color(row):
-        base_color = chart_colors[row['provider_type_code']]
-        opacity = 1 if row['has_emergency_service'] else 0.5
-        r, g, b = tuple(int(base_color[i:i+2], 16) for i in (1, 3, 5))
-        return f'rgba({r}, {g}, {b}, {opacity})'
-
-    df_emergency['color'] = df_emergency.apply(get_color, axis=1)
-
-    fig5 = go.Figure()
-
-    # Add bars for each provider type with appropriate color
-    for provider_type in df_emergency['provider_type_code'].unique():
-        provider_data = df_emergency[df_emergency['provider_type_code'] == provider_type]
-        fig5.add_trace(go.Bar(
-            x=provider_data['percentage'],
-            y=provider_data['provider_type_name'],
-            orientation='h',
-            text=provider_data.apply(lambda row: f'{row["percentage"]:.0f}%' if row['has_emergency_service'] else '', axis=1),
-            textposition='inside',  # Place the text inside the bar
-            texttemplate='%{text}', # Ensures the text is formatted as expected
-            marker_color=provider_data['color'],
-            name=provider_type
-        ))
-
-    fig5.update_layout(
-        xaxis_title='',
-        yaxis_title='',
-        barmode='stack',
-        showlegend=False,
-        title={
-            'text': 'Hospitals with Emergency Service',
-            'x': 0.55,
-            'y': 0.95,
-            'xanchor': 'center'
-        },
-        bargap=0.4,  # Adjust the gap between bars
-    )
 
 
-    # 6. Average Number of Treatments for Different Treatment Names by Provider Type
-    query6 = """
-    SELECT td.treatment_name, pt.provider_type_name, pt.provider_type_code, AVG(ht.treatment_count) AS avg_treatment_count
-    FROM hospital_treatments ht
-    INNER JOIN treatments_dict td ON ht.treatment_code = td.treatment_code
-    INNER JOIN hospital_details hd ON ht.hospital_id = hd.hospital_id
-    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
-    WHERE td.language_code = 'en' AND pt.language_code = 'en'
-    GROUP BY td.treatment_name, pt.provider_type_name, pt.provider_type_code;
-    """
-    df_avg_treatments_names = pd.read_sql(query6, engine)
-    fig6 = px.bar(df_avg_treatments_names, x='avg_treatment_count', y='treatment_name', color='provider_type_code', 
-                color_discrete_map=chart_colors, barmode='group', orientation='h')
-    fig6.update_layout(title='Average Number of Treatments for Different Treatment Names by Provider Type', 
-                    xaxis_title='Average Treatment Count', yaxis_title='', showlegend=False, height=1200)
 
 
-    # Text and Chart Display
 
-    st.markdown("""
+    ### Text and Chart Display
+
+    # Introduction
+    st.markdown(f"""
                 <h4>Introduction</h4>
                 <p>
-                In Germany exist three different types of hospitals: public, private and non-profit.
+                In Germany exist three different types of hospitals: <span style='color: {chart_colors['O']}'>⬤</span> {cont[lang]['public']}, <span style='color: {chart_colors['P']}'>⬤</span> {cont[lang]['private']} and <span style='color: {chart_colors['F']}'>⬤</span> {cont[lang]['non_profit']}.                
                 The following analysis provides an overview of various hospital characteristics by provider type.
                 </p>
                 """, unsafe_allow_html=True)
     
+
+    # Number of Hospitals and Treatments
     st.markdown("""
-            <h4>Number of hospitals and treatments</h4>
+            <h4>Number of Hospitals and Treatments</h4>
             <p>
             Regarding the total number of hospitals of the different types, non-profit and public are the most common, while to number of private hospitals is about 20 percent lower.
             The total number of treatments is higher for public than for non-profit hospitals, private hospitals have the lowest total number of treatments.
             </p>
             """, unsafe_allow_html=True)
-
+    
     with st.container():
         col1, col2 = st.columns([1, 1])
         with col1:
-            fig1.update_layout(margin=dict(l=20, r=20, t=60, b=0))
-            st.plotly_chart(fig1)
+            fig_hospital_numbers.update_layout(margin=dict(l=20, r=20, t=60, b=0))
+            st.plotly_chart(fig_hospital_numbers)
         with col2:
-            fig2.update_layout(margin=dict(l=20, r=20, t=60, b=0))
-            st.plotly_chart(fig2)
+            fig_treatment_numbers.update_layout(margin=dict(l=20, r=20, t=60, b=0))
+            st.plotly_chart(fig_treatment_numbers)
 
+
+    # Hospital Size
     st.markdown("""
         <h4>Hospital Size</h4>
         <p>
@@ -281,9 +154,11 @@ if selected == 'Overview':
         </p>
         """, unsafe_allow_html=True)
 
-    fig_hospital_size.update_layout(margin=dict(l=20, r=20, t=60, b=0))
-    st.plotly_chart(fig_hospital_size, use_container_width=True)
+    fig_size_distribution.update_layout(margin=dict(l=20, r=20, t=60, b=0))
+    st.plotly_chart(fig_size_distribution, use_container_width=True)
 
+
+    # Emergency Services
     st.markdown("""
         <h4>Emergency Services</h4>
         <p>The availability of emergency service is very different between the provider types.
@@ -291,10 +166,77 @@ if selected == 'Overview':
         </p>
         """, unsafe_allow_html=True)
 
-    fig5.update_layout(margin=dict(l=20, r=20, t=40, b=0))
-    st.plotly_chart(fig5)
+    fig_emergency.update_layout(margin=dict(l=20, r=20, t=40, b=0))
+    st.plotly_chart(fig_emergency, use_container_width=True)
 
-    st.plotly_chart(fig6)
+
+    # Nursing Staff
+    st.markdown("""
+        <h4>Nursing Staff</h4>
+        <p>In general most hospitals have a patient to nursing staff ratio (short: nursing quotient) of 30 to 70.
+        For public hospitals the variation of the nursing quotient is smaller than for the other provider types.
+        The distribution of the nursing quotient of private hospitals is wider than for the other provider types, i.e there is a higher share of hospitals with relatively lower and higher nursing quotients.
+        </p>
+        """, unsafe_allow_html=True)  
+    
+    fig_nursing.update_layout(margin=dict(l=20, r=20, t=60, b=0))
+    st.plotly_chart(fig_nursing, use_container_width=True)
+
+    
+    # Top Treatments
+    st.markdown(f"""
+                <h4>Top Treatments</h4>
+                <p>The registered top treatmets for all provider types are Childbirth and Pneumonia.
+                For private and non-profit hospitals knee and hip replacement are also among the top treatments, but not for public hospitals.
+                <br><br>
+                </p>
+                """, unsafe_allow_html=True)
+    
+    query= """
+    SELECT ht.treatment_code, hd.provider_type_code, td.treatment_name, SUM(ht.treatment_count) AS sum_treatment_count
+	FROM hospital_treatments AS ht
+    INNER JOIN hospital_details AS hd ON hd.hospital_id = ht.hospital_id
+    INNER JOIN treatments_dict as td ON td.treatment_code = ht.treatment_code
+    WHERE td.language_code = 'en'
+    GROUP BY ht.treatment_code, hd.provider_type_code, td.treatment_name;
+    """
+
+    engine = establish_connection_to_database()
+
+    df_top_treatments = pd.read_sql(query, engine)
+    df_top_treatments_public = df_top_treatments.sort_values(by=['provider_type_code', 'sum_treatment_count'], ascending=True)
+    df_top_treatments_public = df_top_treatments_public[df_top_treatments_public['provider_type_code'] == 'O'].tail(5)
+    df_top_treatments_private = df_top_treatments.sort_values(by=['provider_type_code', 'sum_treatment_count'], ascending=True)
+    df_top_treatments_private = df_top_treatments_private[df_top_treatments_private['provider_type_code'] == 'P'].tail(5)
+    df_top_treatments_non_profit = df_top_treatments.sort_values(by=['provider_type_code', 'sum_treatment_count'], ascending=True)
+    df_top_treatments_non_profit = df_top_treatments_non_profit[df_top_treatments_non_profit['provider_type_code'] == 'F'].tail(5)
+
+    # Create a horizontal bar charts for each provider type
+    
+    fig_list = []
+    for df in [df_top_treatments_public, df_top_treatments_private, df_top_treatments_non_profit]:
+        fig = go.Figure()
+        fig = px.bar(df, x='sum_treatment_count', y='treatment_name', color='provider_type_code', color_discrete_map=chart_colors, orientation='h', height=150)
+        fig.update_layout(
+        xaxis_title='',
+        yaxis_title='',
+        title={'text': '', 'x': 0.5, 'xanchor': 'center'},
+        showlegend=False,
+        margin=dict(l=20, r=20, t=0, b=0)
+    )
+        fig_list.append(fig)
+
+    for fig in fig_list:
+       st.plotly_chart(fig, use_container_width=True)
+
+    st.markdown(f"""
+        <p style='text-align: center; padding: 10'>
+            <span style='color: {chart_colors['O']}'>⬤</span> {cont[lang]['public']}
+            <span style='color: {chart_colors['P']}'>&nbsp;&nbsp;&nbsp;&nbsp;⬤</span> {cont[lang]['private']}
+            <span style='color: {chart_colors['F']}'>&nbsp;&nbsp;&nbsp;&nbsp;⬤</span> {cont[lang]['non_profit']}
+        </p>
+        """, unsafe_allow_html=True)
+
 
 # HOME PAGE
 if selected == 'Lab':
@@ -634,6 +576,7 @@ if selected == cont[lang]['menu_hospital_map']:
         provider_type_F = st.checkbox(provider_type_labels[2], value=True)
         if provider_type_F:
             provider_types.append('F')
+
 
     # Get hospitals data
     if len(provider_types) != 0 and min_hospital_beds < max_hospital_beds:

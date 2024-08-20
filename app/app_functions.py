@@ -1,7 +1,9 @@
 import plotly.graph_objects as go
+import plotly.express as px
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
+import pandas as pd
 
 
 # Define function to convert list to tuple for SQL query
@@ -131,3 +133,180 @@ def establish_connection_to_database():
     engine = create_engine(f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}')
 
     return engine
+
+
+# CHARTS
+
+def create_fig_nursing(engine, chart_colors):
+    # Nursing quotient vs. total stations
+    query = """
+        SELECT hd.hospital_id, hd.nursing_quotient, hd.total_stations_count, hd.provider_type_code, pt.provider_type_name
+        FROM hospital_details AS hd
+        JOIN provider_types_dict AS pt ON hd.provider_type_code = pt.provider_type_code
+        WHERE pt.language_code = 'en';
+        """
+    df_nursing = pd.read_sql(query, engine)
+
+    # Create a horizontal violin plot
+    fig_nursing = go.Figure()
+
+    # Loop through each provider type and add a violin trace
+    for provider_type in df_nursing['provider_type_code'].unique():
+        fig_nursing.add_trace(go.Violin(
+            x=df_nursing[df_nursing['provider_type_code'] == provider_type]['nursing_quotient'],
+            y=df_nursing[df_nursing['provider_type_code'] == provider_type]['provider_type_name'],
+            box_visible=True,
+            line_color=chart_colors[provider_type],
+            name=provider_type,
+            fillcolor=chart_colors[provider_type],
+            hoverinfo='x',  # Display x values on hover
+            orientation='h'  # Make the violin plot horizontal
+        ))
+
+    # Update the layout
+    fig_nursing.update_layout(
+        xaxis_title='',
+        yaxis_title='',
+        title={'text': 'Patient to Nursing Staff Ratio', 'x': 0.55, 'xanchor': 'center', 'y': 0.95},
+        showlegend=False,
+        height=500,
+        xaxis_range=[10, 90]
+    )
+
+    return fig_nursing
+
+
+def create_fig_hospital_numbers(engine, chart_colors):
+    # Number of Hospitals per Provider Type
+    query = """
+    SELECT pt.provider_type_name, pt.provider_type_code, COUNT(hd.hospital_id) AS num_hospitals
+    FROM hospital_details hd
+    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
+    WHERE pt.language_code = 'en'
+    GROUP BY pt.provider_type_name, pt.provider_type_code;
+    """
+    df_hospitals = pd.read_sql(query, engine)
+    fig = px.bar(df_hospitals, x='provider_type_name', y='num_hospitals', color='provider_type_code', 
+                color_discrete_map=chart_colors)
+    fig.update_layout(xaxis_title='', yaxis_title='', showlegend=False,
+                       title={'text': 'Number of Hospitals', 'x': 0.6, 'xanchor': 'center'})
+    
+    return fig
+
+
+def create_fig_treatment_numbers(engine, chart_colors):
+    # Number of Treatments per Provider Type
+    query = """
+    SELECT pt.provider_type_name, pt.provider_type_code, SUM(ht.treatment_count) AS num_treatments
+    FROM hospital_treatments ht
+    INNER JOIN hospital_details hd ON ht.hospital_id = hd.hospital_id
+    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
+    WHERE pt.language_code = 'en'
+    GROUP BY pt.provider_type_name, pt.provider_type_code;
+    """
+    df_treatments = pd.read_sql(query, engine)
+    fig = px.bar(df_treatments, x='provider_type_name', y='num_treatments', color='provider_type_code', 
+                color_discrete_map=chart_colors)
+    fig.update_layout(xaxis_title='', yaxis_title='', showlegend=False,
+                       title={'text': 'Number of Treatments', 'x': 0.6, 'xanchor': 'center'})
+    
+    return fig
+
+
+def create_fig_emergency(engine, chart_colors):
+    # Distribution of Hospitals with Emergency Services by Provider Type
+    query5 = """
+    SELECT pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service, COUNT(hd.hospital_id) AS num_hospitals
+    FROM hospital_details hd
+    INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
+    WHERE pt.language_code = 'en'
+    GROUP BY pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service;
+    """
+
+    df_emergency = pd.read_sql(query5, engine)
+
+    # Calculate percentage for stacked percentage bar chart
+    df_emergency_total = df_emergency.groupby(['provider_type_name', 'provider_type_code'])['num_hospitals'].sum().reset_index(name='total_hospitals')
+    df_emergency = df_emergency.merge(df_emergency_total, on=['provider_type_name', 'provider_type_code'])
+    df_emergency['percentage'] = df_emergency['num_hospitals'] / df_emergency['total_hospitals'] * 100
+
+    # Fix: Apply the correct color based on provider type and emergency service status
+    def get_color(row):
+        base_color = chart_colors[row['provider_type_code']]
+        opacity = 1 if row['has_emergency_service'] else 0
+        r, g, b = tuple(int(base_color[i:i+2], 16) for i in (1, 3, 5))
+        return f'rgba({r}, {g}, {b}, {opacity})'
+
+    df_emergency['color'] = df_emergency.apply(get_color, axis=1)
+
+    fig = go.Figure()
+
+    # Add bars for each provider type with appropriate color
+    for provider_type in df_emergency['provider_type_code'].unique():
+        provider_data = df_emergency[df_emergency['provider_type_code'] == provider_type]
+        fig.add_trace(go.Bar(
+            x=provider_data['percentage'],
+            y=provider_data['provider_type_name'],
+            orientation='h',
+            text=provider_data.apply(lambda row: f'{row["percentage"]:.0f}%' if row['has_emergency_service'] else '', axis=1),
+            textposition='inside',  # Place the text inside the bar
+            texttemplate='%{text}', # Ensures the text is formatted as expected
+            marker_color=provider_data['color'],
+            name=provider_type
+        ))
+
+    fig.update_layout(
+        xaxis_title='',
+        yaxis_title='',
+        barmode='stack',
+        showlegend=False,
+        title={
+            'text': 'Hospitals with Emergency Service',
+            'x': 0.55,
+            'y': 0.95,
+            'xanchor': 'center'
+        },
+        bargap=0.4,  # Adjust the gap between bars
+    )
+
+    return fig
+
+
+
+def create_fig_size_distribution(engine, chart_colors):
+    # Hospital size distribution per Provider Type
+    query = """
+        SELECT hd.hospital_id, hd.bed_count, hd.provider_type_code, pt.provider_type_name
+        FROM hospital_details AS hd
+        INNER JOIN provider_types_dict AS pt ON hd.provider_type_code = pt.provider_type_code
+        WHERE pt.language_code = 'en';
+        """
+    engine = establish_connection_to_database()
+    df_hospital_size = pd.read_sql(query, engine)
+
+    # Create a horizontal violin plot
+    fig_hospital_size = go.Figure()
+
+    # Loop through each provider type and add a violin trace
+    for provider_type in df_hospital_size['provider_type_code'].unique():
+        fig_hospital_size.add_trace(go.Violin(
+            x=df_hospital_size[df_hospital_size['provider_type_code'] == provider_type]['bed_count'],
+            y=df_hospital_size[df_hospital_size['provider_type_code'] == provider_type]['provider_type_name'],
+            box_visible=True,
+            line_color=chart_colors[provider_type],
+            name=provider_type,
+            fillcolor=chart_colors[provider_type],
+            hoverinfo='x',  # Display x values on hover
+            orientation='h'  # Make the violin plot horizontal
+        ))
+
+    # Update the layout
+    fig_hospital_size.update_layout(
+        xaxis_title='Number of Beds',
+        yaxis_title='',
+        title={'text': 'Distribution of Hospital Sizes', 'x': 0.5, 'xanchor': 'center', 'y': 0.95},
+        showlegend=False,
+        height=500,
+    )
+
+    return fig_hospital_size

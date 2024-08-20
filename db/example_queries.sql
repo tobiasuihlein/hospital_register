@@ -46,6 +46,22 @@ SELECT ht.treatment_code, td.treatment_name, hd.provider_type_code, ht.treatment
     INNER JOIN treatments_dict AS td ON td.treatment_code = ht.treatment_code
     INNER JOIN total_count_per_treatment AS tcpt ON tcpt.treatment_code = ht.treatment_code
     WHERE td.language_code = 'en' AND ht.treatment_count > 0;
+    
+    
+SELECT ht.treatment_code, hd.provider_type_code, td.treatment_name, SUM(ht.treatment_count) sum_treatment_count, SUM(hd.total_treatments) AS sum_total_treatments, AVG(ht.treatment_count/total_treatments*100) AS avg_treatment_count_share
+	FROM hospital_treatments AS ht
+    INNER JOIN hospital_details AS hd ON hd.hospital_id = ht.hospital_id
+    INNER JOIN treatments_dict AS td ON td.treatment_code = ht.treatment_code
+    WHERE td.language_code = 'en' AND ht.treatment_count > 0
+    GROUP BY ht.treatment_code, hd.provider_type_code, td.treatment_name;
         
 
-
+SELECT hd.provider_type_code, hd.nursing_quotient, hd.total_stations_count
+	FROM hospital_details AS hd;
+    
+SELECT ht.treatment_code, hd.provider_type_code, td.treatment_name, SUM(ht.treatment_count) AS sum_treatment_count
+	FROM hospital_treatments AS ht
+    INNER JOIN hospital_details AS hd ON hd.hospital_id = ht.hospital_id
+    INNER JOIN treatments_dict as td ON td.treatment_code = ht.treatment_code
+    WHERE td.language_code = 'en'
+    GROUP BY ht.treatment_code, hd.provider_type_code, td.treatment_name;
