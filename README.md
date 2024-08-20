@@ -1,4 +1,4 @@
-# Hospital Data Analytics Project
+# Hospital Register Project
 
 ## Overview
 
