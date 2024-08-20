@@ -15,16 +15,24 @@ The information about the treatment codes is taken from [VDEK](https://www.vdek.
 **Web Scraping Klinikatlas**
 
 Klinikatlas provides various data about hospitals in Germany, of which the following were gathered via web scraping:
-- provider type
-- number of beds
-- number of semi-residential stations
-- total number of treatments
-- nursing quotient and nursing count
-- emergency service level
-- number of specific selected treatments
-- number of treatments in a specific department
-- certificates
+- Provider type
+- Number of beds
+- Number of semi-residential stations
+- Total number of treatments
+- Nursing quotient and nursing count
+- Emergency service level
+- Number of specific selected treatments
+- Number of treatments in a specific department
+- Certificates
 
+The list of all hospitals including the following information was retrieved via API requests:
+- Name of the hospital
+- Address
+- Phone number and mail
+- Latitude and Longitude
+- Link
+
+While conducting the web scraping, the rules of the robots.txt of the website were respected.
 
 ## Data Processing
 
