@@ -53,7 +53,7 @@ The core element of the database is the hospital locations table providing the h
 
 All other tables containing information about individual hospitals, i.e. tables for specific treatments, departments, certificates and other details, refer to this table.
 The information in these tables that are linked directly to the hospital locations table is stored by codes, such that it is completely language-agnostic.
-In order to make senes of the coding, dictionaries are used. These can be filled with as many translations as whished.
+In order to make sense of the coding, dictionaries are used. These can be filled with as many translations as desired.
 The information containing tables are linked to the dictionaries via code list tables containing the codes as primary keys.
 
 <img src="db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
