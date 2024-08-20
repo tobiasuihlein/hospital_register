@@ -12,6 +12,15 @@ In addition, population and area data for the federal states was downloaded from
 In order to map places in Germany to the federal states, data from [opendatasoft](https://public.opendatasoft.com/explore/) was used.
 The information about the treatment codes is taken from [VDEK](https://www.vdek.com/vertragspartner/Krankenhaeuser/Datenaustausch/technische_anlagen_2023/_jcr_content/par/download_487520998).
 
+**Klinikatlas API requests**
+
+The list of all hospitals including the following information was retrieved via API requests:
+- Name of the hospital
+- Address
+- Phone number and mail
+- Latitude and Longitude
+- Link
+
 **Web Scraping Klinikatlas**
 
 Klinikatlas provides various data about hospitals in Germany, of which the following were gathered via web scraping:
@@ -25,14 +34,7 @@ Klinikatlas provides various data about hospitals in Germany, of which the follo
 - Number of treatments in a specific department
 - Certificates
 
-The list of all hospitals including the following information was retrieved via API requests:
-- Name of the hospital
-- Address
-- Phone number and mail
-- Latitude and Longitude
-- Link
-
-While conducting the web scraping, the rules of the robots.txt of the website were respected.
+While conducting the web scraping, the rules of the robots.txt of the website were respected
 
 ## Data Processing
 
