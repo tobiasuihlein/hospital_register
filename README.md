@@ -17,7 +17,7 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 
 Overview Page           |  Hospital Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
+<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.gif?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
 
 ## Data Collection
 
@@ -66,7 +66,7 @@ The information in these tables that are linked directly to the hospital locatio
 In order to make sense of the coding, dictionaries are used. These can be filled with as many translations as desired.
 The information containing tables are linked to the dictionaries via code list tables containing the codes as primary keys.
 
-<img src="db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
+<img src="resources/db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
 
 ## Data Analysis and Visualization
 
