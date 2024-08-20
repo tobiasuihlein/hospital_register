@@ -65,3 +65,12 @@ SELECT ht.treatment_code, hd.provider_type_code, td.treatment_name, SUM(ht.treat
     INNER JOIN treatments_dict as td ON td.treatment_code = ht.treatment_code
     WHERE td.language_code = 'en'
     GROUP BY ht.treatment_code, hd.provider_type_code, td.treatment_name;
+
+
+SELECT name, hd.provider_type_code, hd.bed_count AS beds_number, latitude, longitude, has_emergency_service
+	FROM hospital_locations AS hl
+	JOIN hospital_details AS hd ON hl.hospital_id = hd.hospital_id
+	WHERE hd.bed_count >= 10
+	AND hd.bed_count <= 1000
+	AND hd.provider_type_code IN ('O','P')
+    AND hd.has_emergency_service = True;
