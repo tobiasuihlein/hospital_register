@@ -17,7 +17,7 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 
 Overview Page           |  Hospital Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.gif?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
+<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
 
 ## Data Collection
 
