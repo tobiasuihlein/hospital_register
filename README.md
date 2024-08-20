@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to analyze and visualize data about hospitals in Germany as provided by [Klinikatlas](https://bundes-klinik-atlas.de) to identify possible differences between the provider types public, private and non-profit.
+This project aims to analyze and visualize data about hospitals in Germany as provided by the German Governments' *Klinikatlas* website to identify possible differences between the provider types public, private and non-profit.
 The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
 
 Techniques used in this project include
