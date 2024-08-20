@@ -3,7 +3,13 @@
 ## Overview
 
 This project aims to analyze and visualize data about hospitals in Germany as provided by [Klinikatlas](https://bundes-klinik-atlas.de) to understand the differences between the provider types public, private and non-profit.
-Techniques used in this project include API requests, web scraping, data cleaning and aggregation in Python, setting up, designing and populating a multi-language database in MySQL, creating a (yet to be deployed) web app using Streamlit.
+Techniques used in this project include
+* API Requests
+* Web Scraping
+* Data Cleaning, Wrangling and Aggregation in Python
+* Setting up, Designing and Populating a multi-language Database in MySQL
+* Performing Exploratory Data Analysis
+* Creating an interactive Streamlit app
 
 Overview Page           |  Hospital Map with Filter Options
 :-------------------------:|:-------------------------:
