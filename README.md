@@ -50,6 +50,7 @@ While conducting the web scraping, the rules of the robots.txt of the website we
 ## Database Design
 In order to organize the data, I created a local database using MySQL. The databse is designed in way, such that it can be used for multi-language applications.
 The core element of the database is the hospital locations table providing the hospital id as the primary key.
+
 All other tables containing information about individual hospitals, i.e. tables for specific treatments, departments, certificates and other details, refer to this table.
 The information in these tables that are linked directly to the hospital locations table is stored by codes, such that it is completely language-agnostic.
 In order to make senes of the coding, dictionaries are used. These can be filled with as many translations as whished.
