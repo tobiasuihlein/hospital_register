@@ -14,6 +14,11 @@ This project aims to analyze and visualize data about hospitals in Germany to un
 - **Cleaning and Organization**: Data was processed and cleaned using Pandas to ensure accuracy and consistency.
 - **Database**: The cleaned data was then imported into a MySQL database, created using MySQL Workbench, to facilitate efficient querying and analysis.
 
+## Database Design
+
+<img src="db/eer_model.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="2000" />
+
+
 ## Data Analysis and Visualization
 
 - **Streamlit App**: An interactive web application was developed using Streamlit to present the data and analysis.
