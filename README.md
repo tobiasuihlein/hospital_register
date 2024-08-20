@@ -6,8 +6,7 @@ This project aims to analyze and visualize data about hospitals in Germany as pr
 The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
 
 Techniques used in this project include
-* API Requests
-* Web Scraping
+* Web Scraping & API Requests
 * Data Cleaning, Wrangling and Aggregation in Python
 * Setting up, Designing and Populating a multi-language Database in MySQL
 * Performing Exploratory Data Analysis
