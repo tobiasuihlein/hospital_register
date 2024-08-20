@@ -3,16 +3,27 @@
 ## Overview
 
 This project aims to analyze and visualize data about hospitals in Germany as provided by [Klinikatlas](https://bundes-klinik-atlas.de) to understand the differences between the provider types public, private and non-profit.
-Techniques used in this project include API requests, web scraping, data cleaning and aggregation in python, setting up, designing and populating a database in MySQL, creating a (yet to be deployed) web app using Streamlit.
+Techniques used in this project include API requests, web scraping, data cleaning and aggregation in Python, setting up, designing and populating a multi-language database in MySQL, creating a (yet to be deployed) web app using Streamlit.
 
 ## Data Collection
 
-Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraris, such as BeautifulSoup and requests, for both API interactions and web scraping.
+Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraries, such as BeautifulSoup and requests, for both API interactions and web scraping.
 In addition, population and area data for the federal states was downloaded from the German authorities [Statistikportal](https://www.statistikportal.de/de/bevoelkerung/flaeche-und-bevoelkerung) website.
 In order to map places in Germany to the federal states, data from [opendatasoft](https://public.opendatasoft.com/explore/) was used.
 The information about the treatment codes is taken from [VDEK](https://www.vdek.com/vertragspartner/Krankenhaeuser/Datenaustausch/technische_anlagen_2023/_jcr_content/par/download_487520998).
 
 **Web Scraping Klinikatlas**
+
+Klinikatlas provides various data about hospitals in Germany, of which the following were gathered via web scraping:
+- provider type
+- number of beds
+- number of semi-residential stations
+- total number of treatments
+- nursing quotient and nursing count
+- emergency service level
+- number of specific selected treatments
+- number of treatments in a specific department
+- certificates
 
 
 ## Data Processing
