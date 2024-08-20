@@ -2,8 +2,22 @@
 
 ## Overview
 
-This project aims to analyze and visualize data about hospitals in Germany as provided by [Klinikatlas](https://bundes-klinik-atlas.de) to understand the differences between the provider types public, private and non-profit.
-Techniques used in this project include API requests, web scraping, data cleaning and aggregation in Python, setting up, designing and populating a multi-language database in MySQL, creating a (yet to be deployed) web app using Streamlit.
+This project aims to analyze and visualize data about hospitals in Germany as provided by the German Governments' *Klinikatlas* website to identify possible differences between the provider types public, private and non-profit.
+The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
+
+**Techniques used in this project**
+* Web Scraping & API Requests
+* Data Cleaning, Wrangling and Aggregation in Python
+* Setting up, Designing and Populating a multi-language Database in MySQL
+* Performing Exploratory Data Analysis using SQL queries
+* Creating an interactive Streamlit app
+<br>
+
+**Demo of the Web App**:
+
+Overview Page           |  Hospital Map with Filter Options
+:-------------------------:|:-------------------------:
+<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
 
 ## Data Collection
 
@@ -45,6 +59,12 @@ While conducting the web scraping, the rules of the robots.txt of the website we
 
 ## Database Design
 In order to organize the data, I created a local database using MySQL. The databse is designed in way, such that it can be used for multi-language applications.
+The core element of the database is the hospital locations table providing the hospital id as the primary key.
+
+All other tables containing information about individual hospitals, i.e. tables for specific treatments, departments, certificates and other details, refer to this table.
+The information in these tables that are linked directly to the hospital locations table is stored by codes, such that it is completely language-agnostic.
+In order to make sense of the coding, dictionaries are used. These can be filled with as many translations as desired.
+The information containing tables are linked to the dictionaries via code list tables containing the codes as primary keys.
 
 <img src="db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
 
