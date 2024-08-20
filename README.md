@@ -2,12 +2,18 @@
 
 ## Overview
 
-This project aims to analyze and visualize data about hospitals in Germany to understand the differences between various provider types (public, private, non-profit). The data was gathered using a combination of API calls and web scraping from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de).
+This project aims to analyze and visualize data about hospitals in Germany as provided by [Klinikatlas](https://bundes-klinik-atlas.de) to understand the differences between the provider types public, private and non-profit.
+Techniques used in this project include API requests, web scraping, data cleaning and aggregation in python, setting up, designing and populating a database in MySQL, creating a (yet to be deployed) web app using Streamlit.
 
 ## Data Collection
 
-- **Sources**: Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python for both API interactions and web scraping.
-- **Tools**: Python libraries for web scraping (e.g., BeautifulSoup, requests) and API interaction.
+Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraris, such as BeautifulSoup and requests, for both API interactions and web scraping.
+In addition, population and area data for the federal states was downloaded from the German authorities [Statistikportal](https://www.statistikportal.de/de/bevoelkerung/flaeche-und-bevoelkerung) website.
+In order to map places in Germany to the federal states, data from [opendatasoft](https://public.opendatasoft.com/explore/) was used.
+The information about the treatment codes is taken from [VDEK](https://www.vdek.com/vertragspartner/Krankenhaeuser/Datenaustausch/technische_anlagen_2023/_jcr_content/par/download_487520998).
+
+**Web Scraping Klinikatlas**
+
 
 ## Data Processing
 
@@ -15,6 +21,7 @@ This project aims to analyze and visualize data about hospitals in Germany to un
 - **Database**: The cleaned data was then imported into a MySQL database, created using MySQL Workbench, to facilitate efficient querying and analysis.
 
 ## Database Design
+In order to organize the data, I created a local database using MySQL. The databse is designed in way, such that it can be used for multi-language applications.
 
 <img src="db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
 
