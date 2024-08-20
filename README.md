@@ -41,6 +41,8 @@ While conducting the web scraping, the rules of the robots.txt of the website we
 - **Cleaning and Organization**: Data was processed and cleaned using Pandas to ensure accuracy and consistency.
 - **Database**: The cleaned data was then imported into a MySQL database, created using MySQL Workbench, to facilitate efficient querying and analysis.
 
+<img src="resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
+
 ## Database Design
 In order to organize the data, I created a local database using MySQL. The databse is designed in way, such that it can be used for multi-language applications.
 
@@ -54,7 +56,7 @@ In order to organize the data, I created a local database using MySQL. The datab
 - **Focus**: The analysis highlights comparisons between different types of hospital providers (public, private, non-profit).
 - **Visualizations**: Charts and graphs are used to provide insights and facilitate a better understanding of the data.
 
-<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="600">
+<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="600" />
 
 ## Future Work
 
