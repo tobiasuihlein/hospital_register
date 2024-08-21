@@ -48,12 +48,11 @@ Klinikatlas provides various data about hospitals in Germany, of which the follo
 - Number of treatments in a specific department
 - Certificates
 
-While conducting the web scraping, the rules of the robots.txt of the website were respected
-
 ## Data Processing
 
-- **Cleaning and Organization**: Data was processed and cleaned using Pandas to ensure accuracy and consistency.
-- **Database**: The cleaned data was then imported into a MySQL database, created using MySQL Workbench, to facilitate efficient querying and analysis.
+The data retrieved via API requests and web scraping is cleaned, aggregated and manipulated using Pandas.
+As an example, hospital departments were encoded to ensure consistency and provide the possibilty for multi-language applications.
+In the final step of data wrangling, the data was brought to CSV files corresponding to the tables to be used in the database.
 
 <img src="resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
 
