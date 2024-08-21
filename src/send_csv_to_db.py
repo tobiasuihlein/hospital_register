@@ -1,3 +1,5 @@
+# This script sends the data from the csv files to the database
+
 print("Loading libraries")
 import pandas as pd
 import mysql.connector

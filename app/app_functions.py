@@ -1,3 +1,8 @@
+# Description:
+# This file contains the functions used in the app.py file to connect to the database and to create the visualizations and maps.
+
+
+# Import necessary libraries
 import plotly.graph_objects as go
 import plotly.express as px
 import os
@@ -6,15 +11,70 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 
+### DATABASE ###
+
+# Define function to establish connection to database
+def establish_connection_to_database():
+    """
+    Summary:
+        This function establishes a connection to the database
+
+    Arguments:
+        None
+
+    Returns:
+        engine: SQLAlchemy engine object
+    """
+
+    # Load the password for the databse connection
+    load_dotenv()
+    DB_PW = os.getenv('DB_PW')
+
+    # Define the connection parameters
+    username = 'root'
+    password = DB_PW
+    host = 'localhost'
+    port = '3306'
+    database = 'hospital_register'
+
+    # Create the connection
+    engine = create_engine(f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}')
+
+    return engine
+
 # Define function to convert list to tuple for SQL query
 def query_tuple(list_):
+    """
+    Summary:
+        This function converts a list to a tuple for a SQL query
+
+    Arguments:
+        list_ (list): list to be converted to tuple
+
+    Returns:
+        str: tuple as a string
+    """
     return str(tuple(list_)).replace(',)', ')')
+
+
+### MAPS ###
 
 # Define function to create hospitals map
 def create_hospital_map_new(df_hospitals, mapstyle, chart_colors):
-    # define colorscales
-    colorscales = ['Blugrn', 'Purp', 'Peach', 'Brwnyl']
+    """
+    Summary:
+        This function creates a map with hospitals
 
+    Arguments:
+        df_hospitals (DataFrame): DataFrame with hospital data
+        mapstyle (str): Map style (such as 'carto-positron')
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the map
+    """
+
+    # Initialize the figure
     fig = go.Figure()
 
     # Create layers with hospitals
@@ -54,7 +114,6 @@ def create_hospital_map_new(df_hospitals, mapstyle, chart_colors):
         fig.add_trace(layer)
         k += 1
 
-
     # Update the layout
     fig.update_layout(
         mapbox=dict(
@@ -71,6 +130,9 @@ def create_hospital_map_new(df_hospitals, mapstyle, chart_colors):
 
 
 def create_places_map(df_places, mapstyle, chart_colors):
+    """
+    Under Construction
+    """
 
     fig = go.Figure()
     # Create layer with places
@@ -108,6 +170,10 @@ def create_places_map(df_places, mapstyle, chart_colors):
 
 
 def map_css():
+    """
+    Summary:
+        This function returns the CSS for the map
+    """
     return """
     <style>
     .stPlotlyChart {
@@ -119,26 +185,22 @@ def map_css():
     """
 
 
-# Define function to establish connection to database
-def establish_connection_to_database():
-    load_dotenv()
-    DB_PW = os.getenv('DB_PW')
-
-    username = 'root'
-    password = DB_PW
-    host = 'localhost'
-    port = '3306'
-    database = 'hospital_register'
-
-    engine = create_engine(f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}')
-
-    return engine
-
-
-# CHARTS
+### CHARTS ###
 
 def create_fig_nursing(engine, chart_colors):
-    # Nursing quotient vs. total stations
+    """
+    Summary:
+        This function creates a horizontal violin plot showing the nursing quotient for different provider types
+
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the horizontal violin plot
+    """
+
+    # Write the SQL query and read the data from the database
     query = """
         SELECT hd.hospital_id, hd.nursing_quotient, hd.total_stations_count, hd.provider_type_code, pt.provider_type_name
         FROM hospital_details AS hd
@@ -177,7 +239,19 @@ def create_fig_nursing(engine, chart_colors):
 
 
 def create_fig_hospital_numbers(engine, chart_colors):
-    # Number of Hospitals per Provider Type
+    """
+    Summary:
+        This function creates a bar chart showing the number of hospitals for each provider type
+    
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the bar chart
+    """
+
+    # Write the SQL query and read the data from the database
     query = """
     SELECT pt.provider_type_name, pt.provider_type_code, COUNT(hd.hospital_id) AS num_hospitals
     FROM hospital_details hd
@@ -195,7 +269,19 @@ def create_fig_hospital_numbers(engine, chart_colors):
 
 
 def create_fig_treatment_numbers(engine, chart_colors):
-    # Number of Treatments per Provider Type
+    """
+    Summary:
+        This function creates a bar chart showing the number of treatments for each provider type
+
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the bar chart
+    """
+
+    # Write the SQL query and read the data from the database
     query = """
     SELECT pt.provider_type_name, pt.provider_type_code, SUM(ht.treatment_count) AS num_treatments
     FROM hospital_treatments ht
@@ -214,8 +300,20 @@ def create_fig_treatment_numbers(engine, chart_colors):
 
 
 def create_fig_emergency(engine, chart_colors):
-    # Distribution of Hospitals with Emergency Services by Provider Type
-    query5 = """
+    """
+    Summary:
+        This function creates a stacked percentage bar chart showing the distribution of hospitals with emergency services by provider type
+
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the stacked percentage bar chart
+    """
+
+    # Write the SQL query
+    query = """
     SELECT pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service, COUNT(hd.hospital_id) AS num_hospitals
     FROM hospital_details hd
     INNER JOIN provider_types_dict pt ON hd.provider_type_code = pt.provider_type_code
@@ -223,14 +321,15 @@ def create_fig_emergency(engine, chart_colors):
     GROUP BY pt.provider_type_name, pt.provider_type_code, hd.has_emergency_service;
     """
 
-    df_emergency = pd.read_sql(query5, engine)
+    # Read the data from the database
+    df_emergency = pd.read_sql(query, engine)
 
     # Calculate percentage for stacked percentage bar chart
     df_emergency_total = df_emergency.groupby(['provider_type_name', 'provider_type_code'])['num_hospitals'].sum().reset_index(name='total_hospitals')
     df_emergency = df_emergency.merge(df_emergency_total, on=['provider_type_name', 'provider_type_code'])
     df_emergency['percentage'] = df_emergency['num_hospitals'] / df_emergency['total_hospitals'] * 100
 
-    # Fix: Apply the correct color based on provider type and emergency service status
+    # Apply color based on provider type
     def get_color(row):
         base_color = chart_colors[row['provider_type_code']]
         opacity = 1 if row['has_emergency_service'] else 0.2
@@ -255,6 +354,7 @@ def create_fig_emergency(engine, chart_colors):
             name=provider_type
         ))
 
+    # Update the layout
     fig.update_layout(
         xaxis_title='',
         yaxis_title='',
@@ -276,14 +376,28 @@ def create_fig_emergency(engine, chart_colors):
 
 
 def create_fig_size_distribution(engine, chart_colors):
-    # Hospital size distribution per Provider Type
+    """
+    Summary:
+        This function creates a horizontal violin plot showing the distribution of hospital sizes by provider type
+    
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+    
+    Returns:
+        Figure: Plotly figure with the horizontal violin plot
+    """
+    
+    # Write the SQL query and read the data from the database
     query = """
-        SELECT hd.hospital_id, hd.bed_count, hd.provider_type_code, pt.provider_type_name
+        SELECT hd.bed_count,
+               hd.provider_type_code,
+               pt.provider_type_name
         FROM hospital_details AS hd
-        INNER JOIN provider_types_dict AS pt ON hd.provider_type_code = pt.provider_type_code
+        INNER JOIN provider_types_dict AS pt
+            ON hd.provider_type_code = pt.provider_type_code
         WHERE pt.language_code = 'en';
         """
-    engine = establish_connection_to_database()
     df_hospital_size = pd.read_sql(query, engine)
 
     # Create a horizontal violin plot
@@ -315,6 +429,19 @@ def create_fig_size_distribution(engine, chart_colors):
 
 
 def create_fig_beds_per_capita_states(engine, chart_colors):
+    """
+    Summary:
+        This function creates a horizontal stacked bar chart showing the number of beds per 1000 capita for each provider type and federal state
+
+    Arguments:
+        engine (sqlalchemy.engine.base.Engine): SQLAlchemy engine object
+        chart_colors (dict): Dictionary with colors for each provider type
+
+    Returns:
+        Figure: Plotly figure with the horizontal stacked bar chart
+    """
+
+    # Write the SQL query and read the data from the database
     query = """
     SELECT hl.federal_state_code, fsd.federal_state_name, hd.provider_type_code, SUM(hd.bed_count)/fs.population*1000 AS beds_per_1000_capita
         FROM hospital_details AS hd

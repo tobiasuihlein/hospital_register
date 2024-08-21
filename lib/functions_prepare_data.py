@@ -1,6 +1,15 @@
 
 def get_certificate_translation_mapping():
-    """translated with ChatGPT"""
+    """
+    Summary:
+        Get dictionary to translate hospital certificates from German to English
+
+    Arguments:
+        None
+    
+    Returns:
+        certificate_translation_mapping (dict): dictionary with German and English translations
+    """
     certificate_translation_mapping = {
         "Schlaganfall-Einheit (Stroke Unit)": "Stroke Unit",
         "Darmkrebszentrum": "Colorectal Cancer Center",
@@ -43,7 +52,16 @@ def get_certificate_translation_mapping():
 
 
 def get_department_translation_mapping():
-    """translated with ChatGPT"""
+    """
+    Summary:
+        Get dictionary to translate hospital departments from German to English
+
+    Arguments:
+        None
+    
+    Returns:
+        department_translation_mapping (dict): dictionary with German and English translations
+    """
     department_translation_mapping = {
         "Innere Medizin": "Internal Medicine",
         "Herzchirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung)": "Cardiac Surgery/Intensive Care Medicine (§ 13 Abs. 2 Sentence 3 2nd Clause BPflV as of 12/31/2003)",
@@ -200,6 +218,16 @@ def get_department_translation_mapping():
 
 
 def get_treatment_translation_list():
+    """
+    Summary:
+        Get list of treatments in English
+
+    Arguments:
+        None
+    
+    Returns:
+        treatment_translation_list (list): list with English translations
+    """
     treatment_translation_list = [
     "Surgical Heart Valve Replacement",
     "Minimally Invasive Heart Valve Replacement",
@@ -229,6 +257,17 @@ def get_treatment_translation_list():
 
 
 def get_federal_states_translation_list():
+    """
+    Summary:
+        Get list of German federal states in English
+
+    Arguments:
+        None
+
+    Returns:
+        federal_states_translation_list (list): list with English translations
+    """
+
     federal_states_translation_list = [
     "Baden-Württemberg",
     "Bavaria",
