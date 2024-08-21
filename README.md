@@ -73,11 +73,15 @@ The created charts are then displayed in a Streamlit web application, which is y
 For now, in the analysis, I focused on comparisons between the different types of hospital providers.
 The figures below show some examples of the charts.
 
-It can be seen that private hospitals tend to be smaller in size compared to public and non-profit ones.
+**Hospital Size Distribution and Nursing Quotient**
+The charts show that private hospitals tend to be smaller in size compared to public and non-profit ones.
 Regarding the number of patients per nursing staff, private hospitals show a distribution of wider spread, i.e. there are hospitals with a significantly smaller, but also ones with a larger ratio.
 
 <img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Nursing Quotient Distribution by Provider Types" width="400" />
 
+**Number of Hospitals per Capita**
+
+...
 
 ## Future Work
 
