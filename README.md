@@ -77,7 +77,7 @@ While the state with the lowest has only 3.6 hospitals per 1000 inhabitantes, th
 Also the states differ significantly in their shares of different provider types.
 While some states have only very minor number of or even no private hospitals at all, for others private hospitals make up to half of the total number.
 
-<img src="resources/plotly_charts/hospital_beds_per_1000_capita_by_provider_types.png" title="Hospital Beds per 1000 Capita by Provider Types" width="600" />
+<img src="resources/plotly_charts/hospital_beds_per_1000_capita_by_provider_type.png" title="Hospital Beds per 1000 Capita by Provider Types" width="600" />
 
 ## Future Work
 
