@@ -1,7 +1,5 @@
 # Hospital Register Project
 
-## Overview
-
 This project aims to analyze and visualize data about hospitals in Germany as provided by the German Governments' *Klinikatlas* website to identify possible differences between the provider types public, private and non-profit.
 The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
 
@@ -56,7 +54,7 @@ In the final step of data wrangling, the data was brought to CSV files correspon
 <img src="resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
 
 ## Database Design
-To organize the data, I created a local MySQL database. The database is designed to support multi-language applications. The core element is the hospital locations table, which serves the hospital id as the primary key.
+To organize the data, I created a local MySQL database. The database is designed to support **multi-language** applications. The core element is the hospital locations table, which serves the hospital id as the primary key.
 
 All other tables containing information about individual hospitals, such as treatments, departments, certificates, and other details, reference via hospital id to this primary table.
 The linked information in these tables is stored using codes to ensure language-independence. To interpret the codes, dictionary tables are utilized, which can accommodate any number of translations.
