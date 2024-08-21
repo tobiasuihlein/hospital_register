@@ -33,7 +33,6 @@ The list of all hospitals including the following information was retrieved via 
 - Address
 - Phone number and mail
 - Latitude and Longitude
-- Link
 
 **Web Scraping Klinikatlas**
 
@@ -67,20 +66,23 @@ The information-containing tables are then linked to the dictionaries via code l
 
 ## Data Analysis and Visualization
 
-**Streamlit App**: An interactive web application was developed using Streamlit to present the data and analysis. The app is still work in progress and not yet deployed.
+For the analysis, SQL queries were used to retrieve specific data from the database.
+With a Python script, this data is then brought into Pandas dataframes and visualized using the Plotly library.
+The created charts are then displayed in a Streamlit web application, which is yet to be deployed together with the database.
 
+For now, in the analysis, I focused on comparisons between the different types of hospital providers.
+The figures below show some examples of the charts.
 
-- **Focus**: The analysis highlights comparisons between different types of hospital providers (public, private, non-profit).
-- **Visualizations**: Charts and graphs are used to provide insights and facilitate a better understanding of the data.
+It can be seen that private hospitals tend to be smaller in size compared to public and non-profit ones.
+Regarding the number of patients per nursing staff, private hospitals show a distribution of wider spread, i.e. there are hospitals with a significantly smaller, but also ones with a larger ratio.
 
-
-<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Hospital Size Distribution by Provider Types" width="400" />
+<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Nursing Quotient Distribution by Provider Types" width="400" />
 
 
 ## Future Work
 
-- Conduct further data analysis (e.g. specialization of hospitals)
+- Conduct further data analysis (e.g. specialization of hospitals, performance differences in the federal states)
 - Add more filters to the hospital map (e.g. for certain treatments, certificates and departments)
-- Identify places in Germany where the next hospital is more than x driving minutes away and create a map to display the results
+- Identify places in Germany where the next hospital is more than a defined number of driving minutes away and create a map to display the results
 - Host the database on a server and deploy the streamlit app
-- Create an API to retrieve data from the database and host it on a server
+- Create an API to provide data requests for the public from the database and host it on a server
