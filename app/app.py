@@ -134,7 +134,7 @@ if selected == 'Overview':
     df_beds_per_1000_capita = pd.merge(df_beds_per_1000_capita, df_total, on='federal_state_code', suffixes=('', '_total'))
 
     # Sort the dataframe by total bed count
-    df_beds_per_1000_capita = df_beds_per_1000_capita.sort_values(by='beds_per_1000_capita_total', ascending=False)
+    df_beds_per_1000_capita = df_beds_per_1000_capita.sort_values(by='beds_per_1000_capita_total', ascending=True)
     df_total['beds_per_1000_capita'] = df_total['beds_per_1000_capita'].round(1)
 
     # Create the Plotly figure
