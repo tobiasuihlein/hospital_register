@@ -113,77 +113,10 @@ if selected == 'Overview':
     fig_treatment_numbers = create_fig_treatment_numbers(engine, chart_colors)
     fig_emergency = create_fig_emergency(engine, chart_colors)
     fig_size_distribution = create_fig_size_distribution(engine, chart_colors)
+    fig_beds_per_capita_states = create_fig_beds_per_capita_states(engine, chart_colors)
+
 
     ### Text and Chart Display
-
-
-    # Execute the SQL query
-    query = """
-    SELECT hl.federal_state_code, hd.provider_type_code, SUM(hd.bed_count)/fs.population*1000 AS beds_per_1000_capita
-        FROM hospital_details AS hd
-        INNER JOIN hospital_locations AS hl ON hl.hospital_id = hd.hospital_id
-        INNER JOIN federal_states AS fs ON fs.federal_state_code = hl.federal_state_code
-        GROUP BY hl.federal_state_code, hd.provider_type_code;
-    """
-    df_beds_per_1000_capita = pd.read_sql(query, engine)
-
-    # Calculate the total bed count for each federal state
-    df_total = df_beds_per_1000_capita.groupby('federal_state_code').agg({'beds_per_1000_capita': 'sum'}).reset_index()
-
-    # Merge the total bed count with the original dataframe
-    df_beds_per_1000_capita = pd.merge(df_beds_per_1000_capita, df_total, on='federal_state_code', suffixes=('', '_total'))
-
-    # Sort the dataframe by total bed count
-    df_beds_per_1000_capita = df_beds_per_1000_capita.sort_values(by='beds_per_1000_capita_total', ascending=True)
-    df_total['beds_per_1000_capita'] = df_total['beds_per_1000_capita'].round(1)
-
-    # Create the Plotly figure
-    fig = go.Figure()
-
-    # Add traces for each provider type
-    for provider_type in df_beds_per_1000_capita['provider_type_code'].unique():
-        provider_data = df_beds_per_1000_capita[df_beds_per_1000_capita['provider_type_code'] == provider_type]
-        fig.add_trace(go.Bar(
-            y=provider_data['federal_state_code'],  # y-axis as federal states
-            x=provider_data['beds_per_1000_capita'],       # x-axis as sum of bed count
-            orientation='h',                        # horizontal bars
-            name=provider_type,                     # name of the trace
-            marker_color=chart_colors[provider_type], # Use the colors from chart_colors dictionary
-            text=provider_data['beds_per_1000_capita'],    # Add the beds_per_1000_capita as text inside the bars
-            textposition='inside',                  # Position the text inside the bars
-        ))
-
-    # Add annotations for the total bed count next to each bar
-    annotations = []
-    for index, row in df_total.iterrows():
-        annotations.append(dict(
-            x=row['beds_per_1000_capita'],
-            y=row['federal_state_code'],
-            text=f"Total: {row['beds_per_1000_capita']}",
-            xanchor='left',
-            yanchor='middle',
-            showarrow=False,
-            font=dict(size=12)
-        ))
-
-    # Update layout
-    fig.update_layout(
-        title='Bed Count Distribution by Federal State and Provider Type',
-        xaxis_title='Sum of Bed Count',
-        yaxis_title='Federal State',
-        barmode='stack',  # Stack the bars
-        showlegend=True,  # Show the legend
-        height=800,       # Adjust height as needed
-        annotations=annotations  # Add the annotations to the layout
-    )
-
-    # Display the chart
-    st.plotly_chart(fig, use_container_width=True)
-
-
-
-
-
 
     # Introduction
     st.markdown(f"""
@@ -235,14 +168,14 @@ if selected == 'Overview':
         </p>
         """, unsafe_allow_html=True)
 
-    fig_emergency.update_layout(margin=dict(l=20, r=20, t=40, b=0))
+    fig_emergency.update_layout(margin=dict(l=20, r=20, t=40, b=20))
     st.plotly_chart(fig_emergency, use_container_width=True)
 
 
     # Nursing Staff
     st.markdown("""
         <h4>Nursing Staff</h4>
-        <p>In general most hospitals have a patient to nursing staff ratio (short: nursing quotient) of 30 to 70.
+        <p>In general most hospitals have a patient to nursing staff ratio (nursing quotient) of 30 to 70.
         For public hospitals the variation of the nursing quotient is smaller than for the other provider types.
         The distribution of the nursing quotient of private hospitals is wider than for the other provider types, i.e there is a higher share of hospitals with relatively lower and higher nursing quotients.
         </p>
@@ -279,8 +212,6 @@ if selected == 'Overview':
     df_top_treatments_private = df_top_treatments_private[df_top_treatments_private['provider_type_code'] == 'P'].tail(5)
     df_top_treatments_non_profit = df_top_treatments.sort_values(by=['provider_type_code', 'sum_treatment_count'], ascending=True)
     df_top_treatments_non_profit = df_top_treatments_non_profit[df_top_treatments_non_profit['provider_type_code'] == 'F'].tail(5)
-
-    # Create a horizontal bar charts for each provider type
     
     fig_list = []
     for df in [df_top_treatments_public, df_top_treatments_private, df_top_treatments_non_profit]:
@@ -299,7 +230,7 @@ if selected == 'Overview':
        st.plotly_chart(fig, use_container_width=True)
 
     st.markdown(f"""
-        <p style='text-align: center; padding: 10'>
+        <p style='text-align: center; padding: 0px 0 20px 0'>
             <span style='color: {chart_colors['O']}'>⬤</span> {cont[lang]['public']}
             <span style='color: {chart_colors['P']}'>&nbsp;&nbsp;&nbsp;&nbsp;⬤</span> {cont[lang]['private']}
             <span style='color: {chart_colors['F']}'>&nbsp;&nbsp;&nbsp;&nbsp;⬤</span> {cont[lang]['non_profit']}
@@ -307,7 +238,24 @@ if selected == 'Overview':
         """, unsafe_allow_html=True)
 
 
-# HOME PAGE
+    # Beds per Capita
+    st.markdown("""
+        <h4>Beds per Capita</h4>
+        <p>
+        The number of beds per capita varies between the states.
+        The states with the highest number of beds per capita are Thuringia, Saarland, Bremen and Hamburg with 5.6 to 5.8 beds per 1000 inhabitants.
+        Baden-Württemberg as the state with the lowest number of beds per capita has 3.6 beds per 1000 inhabitants.
+        In the different states also different provider types are more common.
+        While Saarland, for example has no private hospitals, in Hamburg the share of private hospitals is the highest among the provider types.
+        </p>
+        """, unsafe_allow_html=True)
+
+    fig_beds_per_capita_states.update_layout(margin=dict(l=20, r=20, t=60, b=0))
+    st.plotly_chart(fig_beds_per_capita_states, use_container_width=True)
+
+
+
+# LAB PAGE
 if selected == 'Lab':
 
 

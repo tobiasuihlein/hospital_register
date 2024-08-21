@@ -233,7 +233,7 @@ def create_fig_emergency(engine, chart_colors):
     # Fix: Apply the correct color based on provider type and emergency service status
     def get_color(row):
         base_color = chart_colors[row['provider_type_code']]
-        opacity = 1 if row['has_emergency_service'] else 0
+        opacity = 1 if row['has_emergency_service'] else 0.2
         r, g, b = tuple(int(base_color[i:i+2], 16) for i in (1, 3, 5))
         return f'rgba({r}, {g}, {b}, {opacity})'
 
@@ -266,8 +266,10 @@ def create_fig_emergency(engine, chart_colors):
             'y': 0.95,
             'xanchor': 'center'
         },
-        bargap=0.4,  # Adjust the gap between bars
+        bargap=0.2,  # Adjust the gap between bars
+        height=250,  # Adjust the height as needed
     )
+    fig.update_xaxes(visible=False)
 
     return fig
 
@@ -310,3 +312,70 @@ def create_fig_size_distribution(engine, chart_colors):
     )
 
     return fig_hospital_size
+
+
+def create_fig_beds_per_capita_states(engine, chart_colors):
+    query = """
+    SELECT hl.federal_state_code, fsd.federal_state_name, hd.provider_type_code, SUM(hd.bed_count)/fs.population*1000 AS beds_per_1000_capita
+        FROM hospital_details AS hd
+        INNER JOIN hospital_locations AS hl ON hl.hospital_id = hd.hospital_id
+        INNER JOIN federal_states AS fs ON fs.federal_state_code = hl.federal_state_code
+        INNER JOIN federal_states_dict AS fsd ON fsd.federal_state_code = fs.federal_state_code
+        WHERE fsd.language_code = 'en'
+        GROUP BY hl.federal_state_code, fsd.federal_state_name, hd.provider_type_code;
+    """
+    df_beds_per_1000_capita = pd.read_sql(query, engine)
+
+    # Calculate the total bed count for each federal state
+    df_total = df_beds_per_1000_capita.groupby('federal_state_name').agg({'beds_per_1000_capita': 'sum'}).reset_index()
+
+    # Merge the total bed count with the original dataframe
+    df_beds_per_1000_capita = pd.merge(df_beds_per_1000_capita, df_total, on='federal_state_name', suffixes=('', '_total'))
+
+    # Sort the dataframe by total bed count
+    df_beds_per_1000_capita = df_beds_per_1000_capita.sort_values(by='beds_per_1000_capita_total', ascending=True)
+    df_total['beds_per_1000_capita'] = df_total['beds_per_1000_capita'].round(1)
+
+    # Create the Plotly figure
+    fig = go.Figure()
+
+    # Add traces for each provider type
+    for provider_type in df_beds_per_1000_capita['provider_type_code'].unique():
+        provider_data = df_beds_per_1000_capita[df_beds_per_1000_capita['provider_type_code'] == provider_type]
+        fig.add_trace(go.Bar(
+            y=provider_data['federal_state_name'],  # y-axis as federal states
+            x=provider_data['beds_per_1000_capita'],       # x-axis as sum of bed count
+            orientation='h',                        # horizontal bars
+            name=provider_type,                     # name of the trace
+            marker_color=chart_colors[provider_type], # Use the colors from chart_colors dictionary
+            #text=provider_data['beds_per_1000_capita'],    # Add the beds_per_1000_capita as text inside the bars
+            #textposition='inside',                  # Position the text inside the bars
+        ))
+
+    # Add annotations for the total bed count next to each bar
+    annotations = []
+    for index, row in df_total.iterrows():
+        annotations.append(dict(
+            x=row['beds_per_1000_capita'],
+            y=row['federal_state_name'],
+            text=f"{row['beds_per_1000_capita']}",
+            xanchor='left',
+            yanchor='middle',
+            showarrow=False,
+            font=dict(size=12)
+        ))
+
+    # Update layout
+    fig.update_layout(
+        title={'text': 'Hospital Beds per 1000 Capita', 'x': 0.5, 'xanchor': 'center', 'y':0.95},
+        xaxis_title='',
+        yaxis_title='',
+        barmode='stack',  # Stack the bars
+        showlegend=False,  # Show the legend
+        height=600,       # Adjust height as needed
+        annotations=annotations  # Add the annotations to the layout
+    )
+
+    fig.update_xaxes(visible=False)
+
+    return fig
