@@ -86,3 +86,7 @@ While some states have only very minor number of or even no private hospitals at
 - Identify places in Germany where the next hospital is more than a defined number of driving minutes away and create a map to display the results
 - Host the database on a server and deploy the streamlit app
 - Create an API to provide data requests for the public from the database and host it on a server
+
+## Links
+
+[Presentation Slides](https://slides.com/d/jMVsFKI/live)
