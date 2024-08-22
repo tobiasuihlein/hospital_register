@@ -89,4 +89,5 @@ While some states have only very minor number of or even no private hospitals at
 
 ## Links
 
-[Presentation Slides](https://slides.com/d/jMVsFKI/live)
+[Presentation Slides](https://slides.com/d/jMVsFKI/live) <br>
+[Bundes-Klinik-Atlas](https://bundes-klinik-atlas.de)
