@@ -11,9 +11,9 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 * Creating an interactive Streamlit app
 
 ### Demo of the Web App
-Overview Page           |  Hospital Map with Filter Options
+Data Visuals Page           |  Hospital Search Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="data_processing/resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="data_processing/resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
+<img src="resources/images/app_demo/django_app_data.png?raw=true" alt="Demo image of the django web app" title="Data Charts Web App Demo" width="400" /> | <img src="resources/images/app_demo/django_app_search.png?raw=true" alt="Demo image of the django web app" title="Search Web App Demo" width="520" />
 
 ## Data Collection
 Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraries, such as BeautifulSoup and requests, for both API interactions and web scraping.
