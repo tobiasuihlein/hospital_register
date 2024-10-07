@@ -13,7 +13,7 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 ### Demo of the Web App
 Data Visuals Page           |  Hospital Search Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="resources/images/app_demo/django_app_data.png?raw=true" alt="Demo image of the django web app" title="Data Charts Web App Demo" width="400" /> | <img src="resources/images/app_demo/django_app_search.png?raw=true" alt="Demo image of the django web app" title="Search Web App Demo" width="520" />
+<img src="resources/images/app_demo/django_app_data_2.png?raw=true" alt="Demo image of the django web app" title="Data Charts Web App Demo" width="400" /> | <img src="resources/images/app_demo/django_app_search.png?raw=true" alt="Demo image of the django web app" title="Search Web App Demo" width="520" />
 
 ## Data Collection
 Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraries, such as BeautifulSoup and requests, for both API interactions and web scraping.
