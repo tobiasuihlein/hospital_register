@@ -8,7 +8,7 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 * Data Cleaning, Wrangling and Aggregation in Python
 * Setting up, Designing and Populating a multi-language Database in MySQL
 * Performing Exploratory Data Analysis using SQL queries
-* Creating an interactive Streamlit app
+* Creating an interactive Web app using Django
 
 ### Demo of the Web App
 Data Visuals Page           |  Hospital Search Map with Filter Options
@@ -59,7 +59,7 @@ The information-containing tables are then linked to the dictionaries via code l
 ## Data Analysis and Visualization
 For the analysis, SQL queries were used to retrieve specific data from the database.
 With a Python script, this data is then brought into Pandas dataframes and visualized using the Plotly library.
-The created charts are then displayed in a Streamlit web application, which is yet to be deployed together with the database.
+The created charts are then displayed in a Django web application, which is yet to be deployed together with the database.
 
 For now, in the analysis, I focused on comparisons between the different types of hospital providers.
 The figures below show some examples of the charts.
@@ -84,7 +84,6 @@ While some states have only very minor number of or even no private hospitals at
 - Conduct further data analysis (e.g. specialization of hospitals, performance differences in the federal states)
 - Add more filters to the hospital map (e.g. for certain treatments, certificates and departments)
 - Identify places in Germany where the next hospital is more than a defined number of driving minutes away and create a map to display the results
-- Host the database on a server and deploy the streamlit app
 - Create an API to provide data requests for the public from the database and host it on a server
 
 ## Links
