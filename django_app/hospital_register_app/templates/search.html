@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="{% static 'js/hospitals.js' %}" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+{% endblock %}
+
+{% block title %}
+    Map
+{% endblock %}
+
+{% block content %}
+
+    <div class="md:mx-16 lg:mx-24">
+
+        <div class="flex sm:mt-1">
+
+            <div id="map" class="h-[480px] w-[100%] z-0 rounded-l-lg shadow-md"></div>
+
+            <div class="flex justify-center z-0 w-[320px]">
+                <div class="z-50 w-full rounded-r-lg shadow-md flex justify-between bg-gray-100 shadow">
+                    <div class="w-full px-4 sm:px-6 lg:px-8">
+                        <div class="flex h-auto items-center justify-between">
+                            <div class="flex items-center">
+                                <div class="py-4">
+                                    <p class="text-sm py-2 w-28">Filter options:</p>
+                                    <div>
+                                        <input type="text" class="w-32 text-filter" id="filter-name" placeholder="Hospital Name" onkeyup="filterHospitals()">
+                                        <input type="text" class="w-32 text-filter" id="filter-city" placeholder="City" onkeyup="filterHospitals()">
+                                        <input type="text" class="w-32 text-filter" id="filter-zip" placeholder="Postal Code" onkeyup="filterHospitals()">
+                                    </div>
+                                    <div class="mt-5 ml-1">
+                                        <div class="flex mt-2">
+                                            <input type="checkbox" id="filter-public" class="checkbox-filter" checked style="vertical-align: middle; position: relative; top: -1px; accent-color: white" onclick="filterHospitals()">
+                                            <label for="filter-public" class="ml-1 text-xs rounded-xl text-white" style="background-color: #636EFA"> &thinsp; Public &thinsp; </label>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <input type="checkbox" id="filter-private" class="checkbox-filter" checked style="vertical-align: middle; position: relative; top: -1px; accent-color: white" onclick="filterHospitals()">
+                                            <label for="filter-private" class="ml-1 text-xs rounded-xl text-white" style="background-color: #00CC96"> &thinsp; Private &thinsp; </label>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <input type="checkbox" id="filter-non-profit" class="checkbox-filter" checked style="vertical-align: middle; position: relative; top: -1px; accent-color: white" onclick="filterHospitals()">
+                                            <label for="filter-non-profit" class="ml-1 text-xs rounded-xl text-white" style="background-color: #FFA15A"> &thinsp; Non-profit &thinsp; </label>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 ml-1">
+                                        <div class="flex mt-1">
+                                            <input type="checkbox" id="filter-emergency-service" class="checkbox-filter" checked style="vertical-align: middle; position: relative; top: -1px; accent-color: white" onclick="filterHospitals()">
+                                            <label for="filter-emergency-service" class="text-sm ml-1"> <abbr title="Has Emergency Service"><span class="material-symbols-outlined text-xl" style="vertical-align: middle; position: relative; top: -1px; color: #ef553b">local_hospital</span></abbr></label>
+                                            <input type="checkbox" id="filter-no-emergency-service" class="checkbox-filter ml-3" checked style="vertical-align: middle; position: relative; top: -1px; accent-color: white" onclick="filterHospitals()">
+                                            <label for="filter-no-emergency-service" class="text-sm ml-1"> <span class="material-symbols-outlined text-xl text-neutral-300 icon-strikethrough" style="vertical-align: middle; position: relative; top: -1px;">local_hospital</span> </label>
+                                        </div>
+                                    </div>
+                                    <div class="text-sm mt-5 ml-1 w-32">
+                                        <div class="mb-2">
+                                            <span class="border bg-white border-gray-600 rounded-xl text-sm">&thinsp; <span class="material-symbols-outlined text-base" style="vertical-align: middle; position: relative; top: -1px">hotel</span> <span id="min-bed-count">0</span> &ndash; <span id="max-bed-count">2000</span> &thinsp; </span>
+                                        </div>
+                                        <div class="ml-4" id="bed-count-slider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <table class="table-fixed" id="hospital-table">
+            <thead>
+                <tr>
+                    <th class="bg-gray-100">Hospital</th>
+                    <th class="bg-gray-100 w-[180px]">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data is inserted here by hospital.js-->
+            </tbody>
+        </table>
+
+        <div class="flex justify-center">
+            <div id="pagination-controls" class="text-center">
+                <button onclick="prevPage()" id="prev-button" disabled><span style="display: inline-block; transform: rotate(180deg)" class="text-gray-600">&#10140;</span></button>
+                <span id="page-info" class="text-sm"></span>
+                <button onclick="nextPage()" id="next-button"><span class="text-gray-600">&#10140;</span></button>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
+

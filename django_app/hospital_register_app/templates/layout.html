@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            Default Title
+        {% endblock %}
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}" defer></script>
+    {% block extra_head %}
+    {% endblock %}
+</head>
+
+<body>
+
+    <div class="min-h-full">
+
+        <nav class="sticky top-0 z-50 bg-gray-100 shadow">
+            <div class="py-1 px-2 sm:px-20 md:px-40 lg:px-80 xl:px-100 flex justify-between">
+                <a href="/" class="rounded-full px-3 py-3 text-xl font-bold text-gray-700 hover:bg-gray-800 hover:text-white icon_wrapper {% if request.path == '/' %} bg-gray-200 {% endif %}"><span class="material-symbols-outlined">home</span></a>
+                <a href="/charts" class="rounded-full px-3 py-3 text-xl font-bold text-gray-700 hover:bg-gray-800 hover:text-white icon_wrapper {% if request.path == '/charts/' %} bg-gray-200 {% endif %}"><span class="material-symbols-outlined">bar_chart</span></a>
+                <a href="/search" class="rounded-full px-3 py-3 text-xl font-bold text-gray-700 hover:bg-gray-800 hover:text-white icon_wrapper {% if request.path == '/search/' %} bg-gray-200 {% endif %}"><span class="material-symbols-outlined">search</span></a>
+                <a href="/data" class="rounded-full px-3 py-3 text-xl font-bold text-gray-700 hover:bg-gray-800 hover:text-white icon_wrapper {% if request.path == '/data/' %} bg-gray-200 {% endif %}"><span class="material-symbols-outlined">database</span></a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </main>
+
+        <footer class="bg-gray-700">
+            <div class="py-6 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-center">
+                    <div class="text-gray-300">
+                        <p>Data sourced from <a lass="text-white" href="https://bundes-klinik-atlas.de" target="_blank" rel="noopener norefferer">Bunds-Klinik-Atlas</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html> 
