@@ -6,38 +6,34 @@
 {% endblock %}
 
 {% block content %}
-    <div class="mx-32">
+    <div class="mx-4 md:mx-44">
 
-        <div class="flex justify-center">
-            <h1 class="text-5xl font-bold mt-16">Data Charts</h1>
-        </div>
-
-        <h4 class="font-bold text-2xl mb-2 mt-20">Introduction</h4>
-        <p class="mb-4 text-lg leading-relaxed">
+        <h4 class="font-bold text-xl mb-2 mt-5">Introduction</h4>
+        <p class="mb-4 text-md leading-relaxed">
             In Germany exist three different types of hospitals:
             <span style='color: #636EFA'>⬤</span> public, <span style='color: #00CC96'>⬤</span> private and <span style='color: #FFA15A'>⬤</span> non-profit.                
             The following analysis provides an overview of various hospital characteristics by provider type.
         </p>
 
-        <h4 class="font-bold text-2xl mb-2 mt-4">Number of Hospitals and Treatments</h4>
-        <p class="mb-4 text-lg leading-relaxed">
+        <h4 class="font-bold text-xl mb-2 mt-4">Number of Hospitals and Treatments</h4>
+        <p class="mb-4 text-md leading-relaxed">
             Regarding the total number of hospitals of the different types, non-profit and public are the most common, while to number of private hospitals is about 20 percent lower.
             The total number of treatments is higher for public than for non-profit hospitals, private hospitals have the lowest total number of treatments.
         </p>
 
         <div class="flex flex-wrap justify-between space-x-5 my-5 mt-7">
             <div class="flex-1 max-w-[48%]">
-                <h2 class="text-lg font-bold text-center mb-2 mt-2">Number of Treatments</h2>
+                <h2 class="text-md font-bold text-center mb-2 mt-2">Number of Treatments</h2>
                 <iframe class="h-[320px]" src="{% static 'img/charts/number_of_hospitals_per_provider_type.html' %}"></iframe>
             </div>
             <div class="flex-1 max-w-[48%]">
-                <h2 class="text-lg font-bold text-center mb-2 mt-2">Number of Treatments</h2>
+                <h2 class="text-md font-bold text-center mb-2 mt-2">Number of Treatments</h2>
                 <iframe class="h-[320px]" src="{% static 'img/charts/number_of_treatments_per_provider_type.html' %}"></iframe>
             </div>
         </div>
 
-        <h4 class="font-bold text-2xl mb-2 mt-4">Nursing Staff Count</h4>
-        <p class="mb-4 text-lg leading-relaxed">
+        <h4 class="font-bold text-xl mb-2 mt-4">Nursing Staff Count</h4>
+        <p class="mb-4 text-md leading-relaxed">
             In general most hospitals have a patient to nursing staff ratio (nursing quotient) of 30 to 70.
             For public hospitals the variation of the nursing quotient is smaller than for the other provider types.
             The distribution of the nursing quotient of private hospitals is wider than for the other provider types, i.e there is a higher share of hospitals with relatively lower and higher nursing quotients.
@@ -45,7 +41,7 @@
 
         <div class="flex flex-wrap justify-between space-x-5 my-5 mt-7">
             <div class="flex-1 max-w-[98%]">
-                <h2 class="text-lg font-bold text-center mb-2 mt-2">Patient to Nursing Staff Ratio</h2>
+                <h2 class="text-md font-bold text-center mb-2 mt-2">Patient to Nursing Staff Ratio</h2>
                 <iframe class="h-[520px]" src="{% static 'img/charts/nursing_quotient_distribution_per_provider_type.html' %}"></iframe>
             </div>
         </div>
