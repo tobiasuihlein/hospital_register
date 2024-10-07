@@ -13,7 +13,7 @@ The project was conducted in the context of the Ironhack Data Analytics Bootcamp
 ### Demo of the Web App
 Overview Page           |  Hospital Map with Filter Options
 :-------------------------:|:-------------------------:
-<img src="resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
+<img src="data_processing/resources/app_demo/app_demo_overview.png?raw=true" alt="Demo of the web app" title="Overview Web App Demp" width="400" />  |  <img src="data_processing/resources/app_demo/app_demo_map.png?raw=true" alt="Demo of the web app" title="Hospital Map Web App Demp" width="550" />
 
 ## Data Collection
 Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraries, such as BeautifulSoup and requests, for both API interactions and web scraping.
@@ -45,7 +45,7 @@ The data retrieved via API requests and web scraping is cleaned, aggregated and 
 As an example, hospital departments were encoded to ensure consistency and provide the possibilty for multi-language applications.
 In the final step of data wrangling, the data was brought to CSV files corresponding to the tables to be used in the database.
 
-<img src="resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
+<img src="data_processing/resources/data_processing_sketch/workflow_sketch.svg?raw=true" alt="Sketch of the data processing workflow" title="Workflow Sketch" width="800" />
 
 ## Database Design
 To organize the data, I created a local MySQL database. The database is designed to support **multi-language** applications. The core element is the hospital locations table, which serves the hospital id as the primary key.
@@ -54,7 +54,7 @@ All other tables containing information about individual hospitals, such as trea
 The linked information in these tables is stored using codes to ensure language-independence. To interpret the codes, dictionary tables are utilized, which can accommodate any number of translations.
 The information-containing tables are then linked to the dictionaries via code list tables, where the codes act as the primary keys.
 
-<img src="resources/db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
+<img src="data_processing/resources/db/erd.svg?raw=true" alt="Image of the Entity Relationship Diagram (ERD)" title="ERD Model" width="800" />
 
 ## Data Analysis and Visualization
 For the analysis, SQL queries were used to retrieve specific data from the database.
@@ -68,7 +68,7 @@ The figures below show some examples of the charts.
 The charts show that private hospitals tend to be smaller in size compared to public and non-profit ones.
 Regarding the number of patients per nursing staff, private hospitals show a distribution of wider spread, i.e. there are hospitals with a significantly smaller, but also ones with a larger ratio.
 
-<img src="resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Nursing Quotient Distribution by Provider Types" width="400" />
+<img src="data_processing/resources/plotly_charts/hospital_size_dist_by_provider_types_2.png" title="Hospital Size Distribution by Provider Types" width="400" />   <img src="data_processing/resources/plotly_charts/nursing_quotient_by_provider_type.png" title="Nursing Quotient Distribution by Provider Types" width="400" />
 
 ### Number of Hospitals per Capita
 Among the federal states, the number of hospitals per capita shows a wide spread.
@@ -77,7 +77,7 @@ While the state with the lowest has only 3.6 hospitals per 1000 inhabitantes, th
 Also the states differ significantly in their shares of different provider types.
 While some states have only very minor number of or even no private hospitals at all, for others private hospitals make up to half of the total number.
 
-<img src="resources/plotly_charts/hospital_beds_per_1000_capita_by_provider_type.png" title="Hospital Beds per 1000 Capita by Provider Types" width="600" />
+<img src="data_processing/resources/plotly_charts/hospital_beds_per_1000_capita_by_provider_type.png" title="Hospital Beds per 1000 Capita by Provider Types" width="600" />
 
 ## Future Work
 
