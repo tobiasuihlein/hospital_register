@@ -1,0 +1,85 @@
+:root {
+    --color-one: #636EFA;
+    --color-two: #00CC96;
+    --color-three: #FFA15A;
+}
+
+.bg-color-one {
+    background-color: var(--color-one);
+}
+
+.bg-color-two {
+    background-color: var(--color-two);
+}
+
+.bg-color-three {
+    background-color: var(--color-three);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.icon_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Make it a circle */
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.name-col {
+    white-space: nowrap;          /* Prevents text from wrapping */
+    overflow: hidden;             /* Hides any overflow text */
+    text-overflow: ellipsis;      /* Adds ellipsis (...) for overflowing text */}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    text-align: left;
+    font-size: small;
+}
+
+
+.text-filter {
+    width: 100%;
+    padding: 4px 6px;
+    margin: 3px 0;
+    font-size: small;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.icon-strikethrough {
+    position: relative;
+    display: inline-block;
+  }
+  
+.icon-strikethrough::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 48%;
+    right: 0;
+    border-top: 2px solid rgb(212 212 212); /* Adjust color and thickness as needed */
+    transform: rotate(-45deg);
+  }

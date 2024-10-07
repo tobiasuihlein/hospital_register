@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'django_internal_db',
         'USER': config('DB_USER'),             # Your MySQL username
         'PASSWORD': config('DB_PW'),     # Your MySQL password
-        'HOST': 'localhost',          # The host where MySQL server is running
+        'HOST': 'db',          # The host where MySQL server is running
         'PORT': '3306',               # The port MySQL is listening on
     },
     'hospital_register_db': {
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': config('DB_NAME'),         # The name of the database created in MySQL
         'USER': config('DB_USER'),             # Your MySQL username
         'PASSWORD': config('DB_PW'),     # Your MySQL password
-        'HOST': 'localhost',          # The host where MySQL server is running
+        'HOST': 'db',          # The host where MySQL server is running
         'PORT': '3306',               # The port MySQL is listening on
     }
 }
@@ -139,9 +139,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Directory where Django will look for static files during development
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+# Directory where static files will be collected in production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Directory for collected static files
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
