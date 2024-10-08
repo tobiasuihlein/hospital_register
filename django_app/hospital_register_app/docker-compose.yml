@@ -3,7 +3,7 @@ services:
     build: .
     #command: python manage.py runserver 0.0.0.0:8000
     #command: sh -c "python wait_for_db.py && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
-    command:  sh -c "python wait_for_db.py && gunicorn --bind 0.0.0.0:8000 hospital_register_app.wsgi:application"
+    command: sh -c "python wait_for_db.py && python manage.py migrate --database=default && python manage.py migrate --database=hospital_register_db && gunicorn --bind 0.0.0.0:8000 hospital_register_app.wsgi:application"
     volumes:
       - .:/app
     ports:
@@ -27,7 +27,7 @@ services:
     expose:
       - "3306"
     volumes:
-      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql  # Script to initialize database
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/01-init.sql  # Script to initialize databases
     networks:
       - mynetwork
     healthcheck:

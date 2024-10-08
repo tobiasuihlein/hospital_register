@@ -18,7 +18,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'department_codes',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -31,7 +30,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'departments_dict',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -43,7 +41,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'federal_states',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -54,7 +51,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'federal_states_dict',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -65,7 +61,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'hospital_certificates',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -76,7 +71,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'hospital_departments',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -94,7 +88,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'hospital_details',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -113,7 +106,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'hospital_locations',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -124,7 +116,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'hospital_treatments',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -135,7 +126,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'languages',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -151,7 +141,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'places',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -161,7 +150,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'provider_type_codes',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -172,7 +160,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'provider_types_dict',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -182,7 +169,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'treatment_codes',
-                'managed': False,
             },
         ),
         migrations.CreateModel(
@@ -193,7 +179,6 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'treatments_dict',
-                'managed': False,
             },
         ),
     ]

@@ -3,7 +3,6 @@
 #   * Rearrange models' order
 #   * Make sure each model has one field with primary_key=True
 #   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
-#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
@@ -12,7 +11,6 @@ class DepartmentCodes(models.Model):
     department_code = models.CharField(primary_key=True, max_length=4)
 
     class Meta:
-        managed = False
         db_table = 'department_codes'
         app_label = 'api'
 
@@ -25,7 +23,6 @@ class DepartmentsDict(models.Model):
     language_code = models.ForeignKey('Languages', models.DO_NOTHING, db_column='language_code', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'departments_dict'
         app_label = 'api'
         unique_together = (('department_code', 'language_code'),)
@@ -37,7 +34,6 @@ class FederalStates(models.Model):
     population = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'federal_states'
         app_label = 'api'
 
@@ -48,7 +44,6 @@ class FederalStatesDict(models.Model):
     language_code = models.ForeignKey('Languages', models.DO_NOTHING, db_column='language_code', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'federal_states_dict'
         app_label = 'api'
         unique_together = (('federal_state_code', 'language_code'),)
@@ -60,7 +55,6 @@ class HospitalCertificates(models.Model):
     language_code = models.ForeignKey('Languages', models.DO_NOTHING, db_column='language_code', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'hospital_certificates'
         app_label = 'api'
         unique_together = (('hospital', 'certificate', 'language_code'),)
@@ -72,14 +66,13 @@ class HospitalDepartments(models.Model):
     treatment_count = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'hospital_departments'
         app_label = 'api'
         unique_together = (('hospital', 'department_code'),)
 
 
 class HospitalDetails(models.Model):
-    hospital = models.OneToOneField('HospitalLocations', models.DO_NOTHING, blank=True, primary_key=True)
+    hospital = models.OneToOneField('HospitalLocations', models.DO_NOTHING, blank=True, primary_key=True, default='123456')
     total_treatments = models.IntegerField(blank=True, null=True)
     nursing_quotient = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)
     nursing_count = models.IntegerField(blank=True, null=True)
@@ -91,7 +84,6 @@ class HospitalDetails(models.Model):
     emergency_service_level = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'hospital_details'
         app_label = 'api'
 
@@ -110,7 +102,6 @@ class HospitalLocations(models.Model):
     link = models.CharField(max_length=255, blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'hospital_locations'
         app_label = 'api'
 
@@ -121,7 +112,6 @@ class HospitalTreatments(models.Model):
     treatment_count = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'hospital_treatments'
         app_label = 'api'
         unique_together = (('hospital', 'treatment_code'),)
@@ -132,7 +122,6 @@ class Languages(models.Model):
     language_name = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'languages'
         app_label = 'api'
 
@@ -147,7 +136,6 @@ class Places(models.Model):
     longitude = models.DecimalField(max_digits=9, decimal_places=6, blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'places'
         app_label = 'api'
         unique_together = (('name', 'city_district', 'rural_district', 'zip', 'federal_state_code'),)
@@ -157,7 +145,6 @@ class ProviderTypeCodes(models.Model):
     provider_type_code = models.CharField(primary_key=True, max_length=1)
 
     class Meta:
-        managed = False
         db_table = 'provider_type_codes'
         app_label = 'api'
 
@@ -168,7 +155,6 @@ class ProviderTypesDict(models.Model):
     language_code = models.ForeignKey(Languages, models.DO_NOTHING, db_column='language_code', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'provider_types_dict'
         app_label = 'api'
         unique_together = (('provider_type_code', 'language_code'),)
@@ -178,7 +164,6 @@ class TreatmentCodes(models.Model):
     treatment_code = models.CharField(primary_key=True, max_length=7)
 
     class Meta:
-        managed = False
         db_table = 'treatment_codes'
         app_label = 'api'
 
@@ -189,7 +174,6 @@ class TreatmentsDict(models.Model):
     language_code = models.ForeignKey(Languages, models.DO_NOTHING, db_column='language_code', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'treatments_dict'
         app_label = 'api'
         unique_together = (('treatment_code', 'language_code'),)
