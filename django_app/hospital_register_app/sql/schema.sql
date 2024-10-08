@@ -1,10 +1,10 @@
-DROP DATABASE IF EXISTS hospital_register;
+DROP DATABASE IF EXISTS hospital_register_db;
 
-CREATE DATABASE IF NOT EXISTS hospital_register
+CREATE DATABASE IF NOT EXISTS hospital_register_db
 	CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE hospital_register;
+USE hospital_register_db;
 
 CREATE TABLE languages(
 	language_code CHAR(2) PRIMARY KEY,

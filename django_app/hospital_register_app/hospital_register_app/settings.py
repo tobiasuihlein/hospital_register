@@ -22,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-%4iy*vqpa8(rt^hkchgq^zvwpxis(_+e+a7fp4p=2=^!jh339s'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # Allow framing from the same origin
 X_FRAME_OPTIONS = 'SAMEORIGIN'
@@ -100,14 +100,6 @@ DATABASES = {
     }
 }
 
-# Debugging output
-print("Database settings:")
-print(f"NAME: {os.environ.get('DB_NAME')}")
-print(f"USER: {os.environ.get('DB_USER')}")
-print(f"PASSWORD: {'*' * len(os.environ.get('DB_PW', ''))}")
-print(f"HOST: db")
-print(f"PORT: 3306")
-
 DATABASE_ROUTERS = ['api.db_router.HospitalRegisterRouter']
 
 
@@ -145,7 +137,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Directory where Django will look for static files during development
 STATICFILES_DIRS = [

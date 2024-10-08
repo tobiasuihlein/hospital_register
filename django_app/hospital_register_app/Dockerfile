@@ -19,7 +19,8 @@ RUN pip install --upgrade pip
 COPY requirements.txt /hospital_register_app//requirements.txt
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir gunicorn -v
 
 # Copy the current project files to the container
 COPY . /hospital_register_app
