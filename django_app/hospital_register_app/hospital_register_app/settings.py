@@ -100,6 +100,14 @@ DATABASES = {
     }
 }
 
+# Debugging output
+print("Database settings:")
+print(f"NAME: {os.environ.get('DB_NAME')}")
+print(f"USER: {os.environ.get('DB_USER')}")
+print(f"PASSWORD: {'*' * len(os.environ.get('DB_PW', ''))}")
+print(f"HOST: db")
+print(f"PORT: 3306")
+
 DATABASE_ROUTERS = ['api.db_router.HospitalRegisterRouter']
 
 

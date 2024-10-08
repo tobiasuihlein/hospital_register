@@ -2,22 +2,19 @@ services:
   web:
     build: .
     #command: python manage.py runserver 0.0.0.0:8000
-    command: ["./wait-for-it.sh", "db:3306", "--", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+    command: sh -c "python wait_for_db.py && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
     ports:
       - "8000:8000"
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     env_file:
       - .env
     networks:
       - mynetwork
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
+  
 
   db:
     image: mysql:8.0
@@ -26,12 +23,17 @@ services:
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PW}
       MYSQL_DATABASE: ${DB_NAME}
-    ports:
-      - "3307:3306"
+    expose:
+      - "3306"
     volumes:
       - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql  # Script to initialize database
     networks:
       - mynetwork
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u$$MYSQL_USER", "-p$$MYSQL_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 
   nginx:
