@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hospital_register_app',
     'api.apps.ApiConfig',
     'rest_framework',
 ]
@@ -139,13 +140,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Directory where static files will be collected in production
+STATIC_ROOT = '/app/staticfiles' # Directory for collected static files
+
 # Directory where Django will look for static files during development
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-
-# Directory where static files will be collected in production
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Directory for collected static files
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

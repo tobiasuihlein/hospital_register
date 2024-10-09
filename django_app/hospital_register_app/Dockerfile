@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Set the working directory in the container
-WORKDIR /hospital_register_app
+WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -16,14 +16,14 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --upgrade pip
 
 # Copy the requirements.txt from the current directory
-COPY requirements.txt /hospital_register_app//requirements.txt
+COPY requirements.txt /app/requirements.txt
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt && \
     pip install --no-cache-dir gunicorn -v
 
 # Copy the current project files to the container
-COPY . /hospital_register_app
+COPY . /app
 
 # Collect static files
 RUN python manage.py collectstatic --noinput
