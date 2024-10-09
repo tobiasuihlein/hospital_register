@@ -99,6 +99,9 @@ DATABASES = {
         'PASSWORD': config('DB_PW'),     # Your MySQL password
         'HOST': 'db',          # The host where MySQL server is running
         'PORT': '3306',               # The port MySQL is listening on
+        'OPTIONS': {
+            'charset': 'utf8',
+        },
     }
 }
 
@@ -138,6 +141,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+
+# Serve static files in production directly (due to occuring 404 errors)
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_URL = '/static/'
 

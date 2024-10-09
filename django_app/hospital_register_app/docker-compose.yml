@@ -6,9 +6,9 @@ services:
     volumes:
       - .:/app
       - static_volume:/app/staticfiles
-    command: sh -c "python wait_for_db.py && python manage.py migrate --database=default && python manage.py migrate --database=hospital_register_db && gunicorn --bind 0.0.0.0:8000 hospital_register_app.wsgi:application"
-    ports:
-      - "8000:8000"
+    command: sh -c "python wait_for_db.py && python manage.py makemigrations && python manage.py migrate --database=default && python manage.py migrate --database=hospital_register_db && gunicorn --bind 0.0.0.0:8000 hospital_register_app.wsgi:application"
+    #ports:
+    #  - "8000:8000"
     env_file:
       - .env
     depends_on:
@@ -29,6 +29,7 @@ services:
       - "3306"
     volumes:
       - ./sql/init.sql:/docker-entrypoint-initdb.d/01-init.sql  # Script to initialize databases
+      - ./sql/populate.sql:/tmp/populate.sql  # Script to populate database
     networks:
       - mynetwork
     healthcheck:
@@ -44,6 +45,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/.htpasswd:/etc/nginx/.htpasswd
       - static_volume:/staticfiles
     depends_on:
       - web
@@ -51,7 +53,6 @@ services:
       - mynetwork
 
 volumes:
-  mysql_data:
   static_volume:
 
 networks:

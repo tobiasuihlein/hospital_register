@@ -12,11 +12,18 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     && rm -rf /var/lib/apt/lists/*  # Clean up to reduce image size
 
+# Install Apache2-utils for htpasswd
+RUN apt-get update && apt-get install -y apache2-utils
+
 # Upgrade pip to the latest version
 RUN pip install --upgrade pip
 
 # Copy the requirements.txt from the current directory
 COPY requirements.txt /app/requirements.txt
+
+# Copy the Nginx configuration file and .htpasswd file
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/.htpasswd /etc/nginx/.htpasswd
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt && \
