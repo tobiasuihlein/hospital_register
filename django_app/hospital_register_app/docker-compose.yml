@@ -9,6 +9,8 @@ services:
     command: sh -c "python wait_for_db.py && python manage.py makemigrations && python manage.py migrate --database=default && python manage.py migrate --database=hospital_register_db && gunicorn --bind 0.0.0.0:8000 hospital_register_app.wsgi:application"
     #ports:
     #  - "8000:8000"
+    expose:
+      - "8000"
     env_file:
       - .env
     depends_on:
@@ -29,7 +31,7 @@ services:
       - "3306"
     volumes:
       - ./sql/init.sql:/docker-entrypoint-initdb.d/01-init.sql  # Script to initialize databases
-      - ./sql/populate.sql:/tmp/populate.sql  # Script to populate database
+      - ./sql/populate_details_and_locations.sql:/tmp/populate_details_and_locations.sql  # Scripts to populate database
     networks:
       - mynetwork
     healthcheck:
