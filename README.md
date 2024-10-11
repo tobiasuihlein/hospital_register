@@ -1,21 +1,20 @@
 # Hospital Register Project
-This project aims to analyze and visualize data about hospitals in Germany as provided by the German governments' *Klinikatlas* website to identify possible differences between the provider types public, private and non-profit.
-
-The project was conducted in the context of the Ironhack Data Analytics Bootcamp I attended from June to August 2024.
+This project aims to analyze and visualize data about hospitals in Germany as provided by the German governments' *Klinikatlas* website. It is a continuation of my final project for the Ironhack Data Analytics Bootcamp.
 
 ### Techniques used in this project
 * Web Scraping & API Requests
 * Data Cleaning, Wrangling and Aggregation in Python
 * Setting up, Designing and Populating a multi-language Database in MySQL
 * Performing Exploratory Data Analysis using SQL queries
-* Creating an interactive Web app using Django
+* Creating an interactive Web App using Django
+* Deploying the Web App on local Server using Docker
 
 ### Demo of the Web App
+A MVP Version of the Web App can be found [here](https://hospital.hermiantor.eu/) (ask me for credentials).
+
 Data Visuals Page           |  Hospital Search Map with Filter Options
 :-------------------------:|:-------------------------:
 <img src="resources/images/app_demo/django_app_data_2.png?raw=true" alt="Demo image of the django web app" title="Data Charts Web App Demo" width="400" /> | <img src="resources/images/app_demo/django_app_search.png?raw=true" alt="Demo image of the django web app" title="Search Web App Demo" width="520" />
-
-(yet to be deployed)
 
 ## Data Collection
 Data was collected from [bundes-klinik-atlas.de](https://bundes-klinik-atlas.de) using Python with various libraries, such as BeautifulSoup and requests, for both API interactions and web scraping.
@@ -83,12 +82,12 @@ While some states have only very minor number of or even no private hospitals at
 
 ## Future Work
 
-- Conduct further data analysis (e.g. specialization of hospitals, performance differences in the federal states)
-- Add more filters to the hospital map (e.g. for certain treatments, certificates and departments)
-- Identify places in Germany where the next hospital is more than a defined number of driving minutes away and create a map to display the results
-- Deploy the Django web app
+- Conduct further data analysis (e.g. specialization of hospitals)
+- Add more filters to the hospital map (e.g. for certain treatments or certificates)
+- Create feature finding the nearest hospital for given coordinates
 
 ## Links
 
 [Presentation Slides](https://slides.com/d/jMVsFKI/live) <br>
-[Bundes-Klinik-Atlas](https://bundes-klinik-atlas.de)
+[Bundes-Klinik-Atlas](https://bundes-klinik-atlas.de) <br>
+[Web App MVP](https://hospital.hermiantor.eu)
